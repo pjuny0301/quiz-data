@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "source": "bulk-quiz-manager",
+  "exportedAt": "2026-04-18T19:12:10.349Z",
+  "title": "Day 1",
+  "questions": [
+    {
+      "id": "q-1",
+      "type": "short",
+      "questionText": "안녕",
+      "options": [
+        {
+          "text": "안녕",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-2",
+      "type": "blank",
+      "questionText": "안녕",
+      "options": [
+        {
+          "text": "안녕",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-3",
+      "type": "short",
+      "questionText": "안녕",
+      "options": [
+        {
+          "text": "안녕",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-4",
+      "type": "short",
+      "questionText": "안녕",
+      "options": [
+        {
+          "text": "안녕",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-5",
+      "type": "short",
+      "questionText": "안녕",
+      "options": [
+        {
+          "text": "안녕",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "text": "안녕",
+      "images": [],
+      "answer": "안녕",
+      "distractors": [],
+      "quizType": "basic",
+      "html": "<div>안녕</div>"
+    },
+    {
+      "id": 2,
+      "text": "안녕",
+      "images": [],
+      "answer": "안녕",
+      "distractors": [],
+      "quizType": "blank",
+      "type": "blank",
+      "html": "<div>안녕</div><div>"
+    },
+    {
+      "id": 3,
+      "text": "안녕",
+      "images": [],
+      "answer": "안녕",
+      "distractors": [],
+      "quizType": "basic",
+      "html": "<div>안녕</div>"
+    },
+    {
+      "id": 4,
+      "text": "안녕",
+      "images": [],
+      "answer": "안녕",
+      "distractors": [],
+      "quizType": "basic",
+      "html": "<div>안녕</div>"
+    },
+    {
+      "id": 5,
+      "text": "안녕",
+      "images": [],
+      "answer": "안녕",
+      "distractors": [],
+      "quizType": "basic",
+      "html": "<div>안녕</div>"
+    }
+  ]
+}
