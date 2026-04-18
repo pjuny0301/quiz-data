@@ -6,10 +6,22 @@
       "type": "short",
       "questionText": "소프트웨어 프로젝트 관리의 정의로 가장 적절한 것은?",
       "options": [
-        { "text": "개발자 또는 개발 팀이 프로젝트 목표를 효율적이고 효과적으로 달성하는 데 필요한 내적 환경 요소들을 준비하고 유지하는 활동", "isCorrect": true },
-        { "text": "고객의 요구사항을 수집·분석하여 명세서로 문서화하는 활동", "isCorrect": false },
-        { "text": "소스코드의 결함을 찾아 제거하고 품질을 향상시키는 기술적 활동", "isCorrect": false },
-        { "text": "소프트웨어 아키텍처를 설계하고 모듈 간 인터페이스를 정의하는 활동", "isCorrect": false }
+        {
+          "text": "개발자 또는 개발 팀이 프로젝트 목표를 효율적이고 효과적으로 달성하는 데 필요한 내적 환경 요소들을 준비하고 유지하는 활동",
+          "isCorrect": true
+        },
+        {
+          "text": "고객의 요구사항을 수집·분석하여 명세서로 문서화하는 활동",
+          "isCorrect": false
+        },
+        {
+          "text": "소스코드의 결함을 찾아 제거하고 품질을 향상시키는 기술적 활동",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 아키텍처를 설계하고 모듈 간 인터페이스를 정의하는 활동",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -17,22 +29,45 @@
       "type": "short",
       "questionText": "소프트웨어 프로젝트 관리 단계를 순서대로 올바르게 나열한 것은?",
       "options": [
-        { "text": "계획 수립 → 자원 획득 → 실행 → 모니터링", "isCorrect": true },
-        { "text": "자원 획득 → 계획 수립 → 모니터링 → 실행", "isCorrect": false },
-        { "text": "실행 → 계획 수립 → 자원 획득 → 모니터링", "isCorrect": false },
-        { "text": "계획 수립 → 실행 → 자원 획득 → 모니터링", "isCorrect": false }
+        {
+          "text": "계획 수립 → 자원 획득 → 실행 → 모니터링",
+          "isCorrect": true
+        },
+        {
+          "text": "자원 획득 → 계획 수립 → 모니터링 → 실행",
+          "isCorrect": false
+        },
+        {
+          "text": "실행 → 계획 수립 → 자원 획득 → 모니터링",
+          "isCorrect": false
+        },
+        {
+          "text": "계획 수립 → 실행 → 자원 획득 → 모니터링",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-03",
       "type": "long",
-      "questionText": "프로젝트 관리 4단계 중 '모니터링' 단계에서 수행하는 핵심 활동으로 가장 적절한 것은?",
-      "longText": "한 기업의 PM이 현재 개발 중인 프로젝트의 진행 상황을 점검하고 있다. 그는 사전에 정의된 기준선과 비교하여 작업의 진척 정도를 확인하고, 계획과 실제 수행 결과 사이에 나타난 차이에 대한 대책을 강구하고 있다.",
+      "longText": "한 기업의 PM이 현재 개발 중인 프로젝트의 진행 상황을 점검하고 있다. 그는 사전에 정의된 기준선과 비교하여 작업의 진척 정도를 확인하고, 계획과 실제 수행 결과 사이에 나타난 차이에 대한 대책을 강구하고 있다.\n\n프로젝트 관리 4단계 중 '모니터링' 단계에서 수행하는 핵심 활동으로 가장 적절한 것은?",
       "options": [
-        { "text": "정의된 베이스라인에 근거하여 개발 활동의 진척도를 관리하고 품질을 점검하며, 계획과의 편차를 해결하는 대책을 강구한다", "isCorrect": true },
-        { "text": "소프트웨어 개발의 목적·자원·정보 흐름·산출물 등을 정의하고 문서화한다", "isCorrect": false },
-        { "text": "예측된 장비·시설을 확보하고 팀을 구성하여 프로젝트 수행 여건을 마련한다", "isCorrect": false },
-        { "text": "프로젝트 수행 계획서에 정의된 일정에 따라 실제 소프트웨어 개발 활동을 수행한다", "isCorrect": false }
+        {
+          "text": "정의된 베이스라인에 근거하여 개발 활동의 진척도를 관리하고 품질을 점검하며, 계획과의 편차를 해결하는 대책을 강구한다",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발의 목적·자원·정보 흐름·산출물 등을 정의하고 문서화한다",
+          "isCorrect": false
+        },
+        {
+          "text": "예측된 장비·시설을 확보하고 팀을 구성하여 프로젝트 수행 여건을 마련한다",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 수행 계획서에 정의된 일정에 따라 실제 소프트웨어 개발 활동을 수행한다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -40,22 +75,45 @@
       "type": "short",
       "questionText": "소프트웨어 프로젝트에서 '베이스라인(Baseline)'의 의미로 가장 정확한 것은?",
       "options": [
-        { "text": "변경이 발생했을 때 모든 관련자의 합의를 거쳐 반영할 변경사항을 확정한 다음 후속 작업을 수행하기 위한 출발점", "isCorrect": true },
-        { "text": "프로젝트 초기에 설정한 최소 개발 범위로, 변경 없이 그대로 유지되는 고정된 기준", "isCorrect": false },
-        { "text": "개발자 개인이 일일 작업 목표로 삼는 코드 라인 수", "isCorrect": false },
-        { "text": "테스트 단계에서 결함을 판정하기 위한 성능 임계치", "isCorrect": false }
+        {
+          "text": "변경이 발생했을 때 모든 관련자의 합의를 거쳐 반영할 변경사항을 확정한 다음 후속 작업을 수행하기 위한 출발점",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 초기에 설정한 최소 개발 범위로, 변경 없이 그대로 유지되는 고정된 기준",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자 개인이 일일 작업 목표로 삼는 코드 라인 수",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트 단계에서 결함을 판정하기 위한 성능 임계치",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-05",
       "type": "long",
-      "questionText": "다음 상황에서 설정되는 베이스라인의 종류로 가장 적절한 것은?",
-      "longText": "A팀은 사용자 요구사항 분석을 마치고 요구사항 명세서(SRS)와 각 요구사항-분석 세부 내용 간 추적 관계를 정의한 추적성 매트릭스를 작성했다. 이 산출물을 기준으로 설계 단계를 시작하려고 한다.",
+      "longText": "A팀은 사용자 요구사항 분석을 마치고 요구사항 명세서(SRS)와 각 요구사항-분석 세부 내용 간 추적 관계를 정의한 추적성 매트릭스를 작성했다. 이 산출물을 기준으로 설계 단계를 시작하려고 한다.\n\n다음 상황에서 설정되는 베이스라인의 종류로 가장 적절한 것은?",
       "options": [
-        { "text": "기능 베이스라인(Functional Baseline)", "isCorrect": true },
-        { "text": "요구사항 베이스라인(Requirement Baseline)", "isCorrect": false },
-        { "text": "제품 베이스라인(Product Baseline)", "isCorrect": false },
-        { "text": "배포 베이스라인(Deployment Baseline)", "isCorrect": false }
+        {
+          "text": "기능 베이스라인(Functional Baseline)",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항 베이스라인(Requirement Baseline)",
+          "isCorrect": false
+        },
+        {
+          "text": "제품 베이스라인(Product Baseline)",
+          "isCorrect": false
+        },
+        {
+          "text": "배포 베이스라인(Deployment Baseline)",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -63,10 +121,22 @@
       "type": "short",
       "questionText": "제품 베이스라인(Product Baseline)의 설정 시점과 포함 범위로 옳은 것은?",
       "options": [
-        { "text": "소프트웨어 개발을 완료한 후에 설정되며, 개발 과정의 모든 산출물(코드 포함)이 기준선에 포함된다", "isCorrect": true },
-        { "text": "요구사항 수집 단계 후에 설정되며, 요구사항 정의서만 포함된다", "isCorrect": false },
-        { "text": "설계 착수 시점에 설정되며, SRS와 추적성 매트릭스만 포함된다", "isCorrect": false },
-        { "text": "시스템 배포 이후에 설정되며, 운영 매뉴얼만 포함된다", "isCorrect": false }
+        {
+          "text": "소프트웨어 개발을 완료한 후에 설정되며, 개발 과정의 모든 산출물(코드 포함)이 기준선에 포함된다",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항 수집 단계 후에 설정되며, 요구사항 정의서만 포함된다",
+          "isCorrect": false
+        },
+        {
+          "text": "설계 착수 시점에 설정되며, SRS와 추적성 매트릭스만 포함된다",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 배포 이후에 설정되며, 운영 매뉴얼만 포함된다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -74,22 +144,45 @@
       "type": "short",
       "questionText": "작업 분할도(WBS, Work Breakdown Structure)의 정의로 가장 적절한 것은?",
       "options": [
-        { "text": "프로젝트의 전체 목표를 중간의 세부 목표들로 쪼개어 나타낸 작업 목록을 트리 형태로 표현한 것", "isCorrect": true },
-        { "text": "태스크 간의 의존성 관계와 임계 경로를 표현한 네트워크 다이어그램", "isCorrect": false },
-        { "text": "태스크의 시작일과 종료일을 바(Bar) 형태로 표현한 일정표", "isCorrect": false },
-        { "text": "프로젝트 리스크를 치명도와 발생 빈도로 분류한 양식", "isCorrect": false }
+        {
+          "text": "프로젝트의 전체 목표를 중간의 세부 목표들로 쪼개어 나타낸 작업 목록을 트리 형태로 표현한 것",
+          "isCorrect": true
+        },
+        {
+          "text": "태스크 간의 의존성 관계와 임계 경로를 표현한 네트워크 다이어그램",
+          "isCorrect": false
+        },
+        {
+          "text": "태스크의 시작일과 종료일을 바(Bar) 형태로 표현한 일정표",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 리스크를 치명도와 발생 빈도로 분류한 양식",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-08",
       "type": "long",
-      "questionText": "WBS를 작성할 때 '태스크(Task)'를 분할하는 기준으로 가장 적절한 것은?",
-      "longText": "신입 PM이 WBS 초안을 작성하며 작업을 어느 수준까지 쪼개야 할지 고민하고 있다. 어떤 항목은 여전히 여러 담당자가 얽혀 있고 소요 시간도 가늠이 안 된다.",
+      "longText": "신입 PM이 WBS 초안을 작성하며 작업을 어느 수준까지 쪼개야 할지 고민하고 있다. 어떤 항목은 여전히 여러 담당자가 얽혀 있고 소요 시간도 가늠이 안 된다.\n\nWBS를 작성할 때 '태스크(Task)'를 분할하는 기준으로 가장 적절한 것은?",
       "options": [
-        { "text": "추정 가능한 양의 작업이고, 독립적으로 수행할 수 있다고 판단될 때까지 분할한다", "isCorrect": true },
-        { "text": "모든 태스크가 동일한 소요 시간을 가지도록 균등 분할한다", "isCorrect": false },
-        { "text": "코드 작성과 직접 관련된 작업만 식별하고 문서화·리뷰는 제외한다", "isCorrect": false },
-        { "text": "프로젝트 관리자 한 명이 혼자 처리할 수 있는 크기까지만 분할한다", "isCorrect": false }
+        {
+          "text": "추정 가능한 양의 작업이고, 독립적으로 수행할 수 있다고 판단될 때까지 분할한다",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 태스크가 동일한 소요 시간을 가지도록 균등 분할한다",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 작성과 직접 관련된 작업만 식별하고 문서화·리뷰는 제외한다",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리자 한 명이 혼자 처리할 수 있는 크기까지만 분할한다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -97,10 +190,22 @@
       "type": "short",
       "questionText": "간트 차트(Gantt Chart)의 주된 특징으로 가장 옳은 것은?",
       "options": [
-        { "text": "태스크를 바(Bar) 형태로 표시하고 바의 길이에 비례하여 소요 시간을 나타내는 일정 표현 기법이다", "isCorrect": true },
-        { "text": "태스크 간 의존성 관계와 임계 경로를 원과 화살표로 표현하는 네트워크 차트이다", "isCorrect": false },
-        { "text": "소프트웨어 기능의 양과 복잡도를 기준으로 개발 비용을 산정하는 기법이다", "isCorrect": false },
-        { "text": "리스크의 치명도와 발생 빈도를 매트릭스로 표현하는 리스크 관리 양식이다", "isCorrect": false }
+        {
+          "text": "태스크를 바(Bar) 형태로 표시하고 바의 길이에 비례하여 소요 시간을 나타내는 일정 표현 기법이다",
+          "isCorrect": true
+        },
+        {
+          "text": "태스크 간 의존성 관계와 임계 경로를 원과 화살표로 표현하는 네트워크 차트이다",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 기능의 양과 복잡도를 기준으로 개발 비용을 산정하는 기법이다",
+          "isCorrect": false
+        },
+        {
+          "text": "리스크의 치명도와 발생 빈도를 매트릭스로 표현하는 리스크 관리 양식이다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -108,22 +213,45 @@
       "type": "short",
       "questionText": "PERT 차트에서 '임계 경로(Critical Path)'의 정의로 옳은 것은?",
       "options": [
-        { "text": "시작에서 종료까지의 여러 경로 중 태스크 수행 일수의 합이 가장 많은 경로", "isCorrect": true },
-        { "text": "가장 적은 수의 태스크로 구성된 최단 경로", "isCorrect": false },
-        { "text": "비용이 가장 많이 드는 태스크로 구성된 경로", "isCorrect": false },
-        { "text": "가장 많은 인원이 투입되는 태스크가 포함된 경로", "isCorrect": false }
+        {
+          "text": "시작에서 종료까지의 여러 경로 중 태스크 수행 일수의 합이 가장 많은 경로",
+          "isCorrect": true
+        },
+        {
+          "text": "가장 적은 수의 태스크로 구성된 최단 경로",
+          "isCorrect": false
+        },
+        {
+          "text": "비용이 가장 많이 드는 태스크로 구성된 경로",
+          "isCorrect": false
+        },
+        {
+          "text": "가장 많은 인원이 투입되는 태스크가 포함된 경로",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-11",
       "type": "long",
-      "questionText": "간트 차트와 PERT 차트의 차이에 대한 설명으로 가장 정확한 것은?",
-      "longText": "팀장이 일정 계획 자료를 검토하며 두 가지 기법을 비교하고 있다. 하나는 태스크 기간을 직관적으로 볼 수 있고, 다른 하나는 태스크 간 선·후 관계와 핵심 경로를 파악하기 좋다.",
+      "longText": "팀장이 일정 계획 자료를 검토하며 두 가지 기법을 비교하고 있다. 하나는 태스크 기간을 직관적으로 볼 수 있고, 다른 하나는 태스크 간 선·후 관계와 핵심 경로를 파악하기 좋다.\n\n간트 차트와 PERT 차트의 차이에 대한 설명으로 가장 정확한 것은?",
       "options": [
-        { "text": "간트 차트는 바의 길이로 소요 시간을 직관적으로 보여주고, PERT 차트는 태스크 간 의존성과 임계 경로를 식별·관리하는 데 강점이 있다", "isCorrect": true },
-        { "text": "간트 차트는 태스크 간 의존성을 화살표로 표현하고, PERT 차트는 바의 길이로 소요 시간을 표현한다", "isCorrect": false },
-        { "text": "두 기법 모두 비용 산정을 주 목적으로 하며, 일정 표현은 보조 기능이다", "isCorrect": false },
-        { "text": "간트 차트는 네트워크 다이어그램이고, PERT 차트는 막대 그래프 형태이다", "isCorrect": false }
+        {
+          "text": "간트 차트는 바의 길이로 소요 시간을 직관적으로 보여주고, PERT 차트는 태스크 간 의존성과 임계 경로를 식별·관리하는 데 강점이 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "간트 차트는 태스크 간 의존성을 화살표로 표현하고, PERT 차트는 바의 길이로 소요 시간을 표현한다",
+          "isCorrect": false
+        },
+        {
+          "text": "두 기법 모두 비용 산정을 주 목적으로 하며, 일정 표현은 보조 기능이다",
+          "isCorrect": false
+        },
+        {
+          "text": "간트 차트는 네트워크 다이어그램이고, PERT 차트는 막대 그래프 형태이다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -131,22 +259,45 @@
       "type": "short",
       "questionText": "COCOMO 모델의 비용 산정 방식으로 가장 적절한 것은?",
       "options": [
-        { "text": "KDSI(Kilo Delivered Source Instructions)를 기반으로 개발 소프트웨어의 복잡도에 근거하여 개발 기간과 인원을 산정한다", "isCorrect": true },
-        { "text": "전문가 다수가 익명 피드백을 주고받으며 합의에 이르는 방식으로 규모를 산정한다", "isCorrect": false },
-        { "text": "소프트웨어가 제공하는 기능의 양과 복잡도만을 유일한 기준으로 평가한다", "isCorrect": false },
-        { "text": "조직에 가용한 예산과 인력에 맞춰 일정이 자동으로 확장된다는 원리로 산정한다", "isCorrect": false }
+        {
+          "text": "KDSI(Kilo Delivered Source Instructions)를 기반으로 개발 소프트웨어의 복잡도에 근거하여 개발 기간과 인원을 산정한다",
+          "isCorrect": true
+        },
+        {
+          "text": "전문가 다수가 익명 피드백을 주고받으며 합의에 이르는 방식으로 규모를 산정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어가 제공하는 기능의 양과 복잡도만을 유일한 기준으로 평가한다",
+          "isCorrect": false
+        },
+        {
+          "text": "조직에 가용한 예산과 인력에 맞춰 일정이 자동으로 확장된다는 원리로 산정한다",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-13",
       "type": "long",
-      "questionText": "COCOMO 모델의 개발 모드 중 Embedded에 대한 설명으로 가장 적절한 것은?",
-      "longText": "표 5-1에 따르면 세 가지 개발 모드(Organic, Semidetached, Embedded)가 제시되며, 각 모드에 따라 PM 산정식의 지수가 달라진다. Embedded는 PM = 3.6(KDSI)^1.20, TDEV = 2.5(PMDEV)^0.32로 정의된다.",
+      "longText": "표 5-1에 따르면 세 가지 개발 모드(Organic, Semidetached, Embedded)가 제시되며, 각 모드에 따라 PM 산정식의 지수가 달라진다. Embedded는 PM = 3.6(KDSI)^1.20, TDEV = 2.5(PMDEV)^0.32로 정의된다.\n\nCOCOMO 모델의 개발 모드 중 Embedded에 대한 설명으로 가장 적절한 것은?",
       "options": [
-        { "text": "세 개발 모드 중 KDSI에 대한 지수가 가장 커서, 규모가 커질수록 소요 노력이 가장 가파르게 증가하는 모드이다", "isCorrect": true },
-        { "text": "세 개발 모드 중 KDSI에 대한 지수가 가장 작아 규모 증가에 따른 노력 증가가 가장 완만하다", "isCorrect": false },
-        { "text": "KDSI와 무관하게 고정된 인월(PM)을 사용하는 모드이다", "isCorrect": false },
-        { "text": "TDEV가 PMDEV와 무관하게 항상 일정한 모드이다", "isCorrect": false }
+        {
+          "text": "세 개발 모드 중 KDSI에 대한 지수가 가장 커서, 규모가 커질수록 소요 노력이 가장 가파르게 증가하는 모드이다",
+          "isCorrect": true
+        },
+        {
+          "text": "세 개발 모드 중 KDSI에 대한 지수가 가장 작아 규모 증가에 따른 노력 증가가 가장 완만하다",
+          "isCorrect": false
+        },
+        {
+          "text": "KDSI와 무관하게 고정된 인월(PM)을 사용하는 모드이다",
+          "isCorrect": false
+        },
+        {
+          "text": "TDEV가 PMDEV와 무관하게 항상 일정한 모드이다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -154,22 +305,45 @@
       "type": "short",
       "questionText": "전문가 판단(Wide Band Delphi) 기법의 핵심 특징으로 가장 적절한 것은?",
       "options": [
-        { "text": "다수의 전문가가 개별 산정 → 익명 취합·피드백 → 재논의·합의를 반복하여 규모를 결정한다", "isCorrect": true },
-        { "text": "한 명의 수석 엔지니어가 단독으로 규모를 결정한다", "isCorrect": false },
-        { "text": "KDSI를 직접 측정하여 공식에 대입해 규모를 산출한다", "isCorrect": false },
-        { "text": "조직의 가용 예산을 기준으로 자동 산정한다", "isCorrect": false }
+        {
+          "text": "다수의 전문가가 개별 산정 → 익명 취합·피드백 → 재논의·합의를 반복하여 규모를 결정한다",
+          "isCorrect": true
+        },
+        {
+          "text": "한 명의 수석 엔지니어가 단독으로 규모를 결정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "KDSI를 직접 측정하여 공식에 대입해 규모를 산출한다",
+          "isCorrect": false
+        },
+        {
+          "text": "조직의 가용 예산을 기준으로 자동 산정한다",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-15",
       "type": "long",
-      "questionText": "파킨슨의 법칙(Parkinson's Law)이 소프트웨어 비용 산정에 주는 함의로 가장 적절한 것은?",
-      "longText": "한 조직에서 아무리 정교한 방법으로 개발 규모를 산정해도, 최종 일정은 결국 조직에 확보된 인력과 예산에 맞춰 진행되는 경향이 반복적으로 관찰된다.",
+      "longText": "한 조직에서 아무리 정교한 방법으로 개발 규모를 산정해도, 최종 일정은 결국 조직에 확보된 인력과 예산에 맞춰 진행되는 경향이 반복적으로 관찰된다.\n\n파킨슨의 법칙(Parkinson's Law)이 소프트웨어 비용 산정에 주는 함의로 가장 적절한 것은?",
       "options": [
-        { "text": "'일은 그것을 완수하는 데 할당된 시간만큼 늘어난다'는 원리로, 개발 비용·일정은 결국 조직의 가용 예산과 인력에 의존하여 결정된다", "isCorrect": true },
-        { "text": "기능의 양과 복잡도만 정확히 측정하면 일정과 비용은 완벽히 예측 가능하다는 원리이다", "isCorrect": false },
-        { "text": "프로젝트 후반에 인력을 추가하면 일정이 단축된다는 실증적 법칙이다", "isCorrect": false },
-        { "text": "KDSI가 두 배가 되면 비용도 정확히 두 배가 된다는 선형 비례 법칙이다", "isCorrect": false }
+        {
+          "text": "'일은 그것을 완수하는 데 할당된 시간만큼 늘어난다'는 원리로, 개발 비용·일정은 결국 조직의 가용 예산과 인력에 의존하여 결정된다",
+          "isCorrect": true
+        },
+        {
+          "text": "기능의 양과 복잡도만 정확히 측정하면 일정과 비용은 완벽히 예측 가능하다는 원리이다",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 후반에 인력을 추가하면 일정이 단축된다는 실증적 법칙이다",
+          "isCorrect": false
+        },
+        {
+          "text": "KDSI가 두 배가 되면 비용도 정확히 두 배가 된다는 선형 비례 법칙이다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -177,22 +351,45 @@
       "type": "short",
       "questionText": "기능 점수 산정법(Function Points)의 기본 아이디어로 가장 적절한 것은?",
       "options": [
-        { "text": "소프트웨어 시스템이 제공하는 기능의 필요 정도와 그 복잡도를 기준으로 규모를 평가한다", "isCorrect": true },
-        { "text": "배포된 소스 코드 라인 수(KDSI)만을 기준으로 규모를 평가한다", "isCorrect": false },
-        { "text": "개발 인력의 숙련도만을 기준으로 규모를 평가한다", "isCorrect": false },
-        { "text": "조직이 보유한 하드웨어 자원의 양을 기준으로 규모를 평가한다", "isCorrect": false }
+        {
+          "text": "소프트웨어 시스템이 제공하는 기능의 필요 정도와 그 복잡도를 기준으로 규모를 평가한다",
+          "isCorrect": true
+        },
+        {
+          "text": "배포된 소스 코드 라인 수(KDSI)만을 기준으로 규모를 평가한다",
+          "isCorrect": false
+        },
+        {
+          "text": "개발 인력의 숙련도만을 기준으로 규모를 평가한다",
+          "isCorrect": false
+        },
+        {
+          "text": "조직이 보유한 하드웨어 자원의 양을 기준으로 규모를 평가한다",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-17",
       "type": "long",
-      "questionText": "다음 프로젝트 리스크 처리 양식에서 '완화 계획'과 '대안'의 관계로 가장 적절한 해석은?",
-      "longText": "리스크 '팀원 이탈(이직)'의 치명도는 High, 발생 빈도는 Mid이며, 완화 계획은 '작업 부하 경감', 대안은 '다중 역할 부여', 담당자는 '잡스'로 기록되어 있다.",
+      "longText": "리스크 '팀원 이탈(이직)'의 치명도는 High, 발생 빈도는 Mid이며, 완화 계획은 '작업 부하 경감', 대안은 '다중 역할 부여', 담당자는 '잡스'로 기록되어 있다.\n\n다음 프로젝트 리스크 처리 양식에서 '완화 계획'과 '대안'의 관계로 가장 적절한 해석은?",
       "options": [
-        { "text": "완화 계획은 리스크 발생 확률·영향을 낮추기 위한 사전 조치이고, 대안은 리스크가 실제 발생했을 때 대응하기 위한 후속 조치이다", "isCorrect": true },
-        { "text": "완화 계획과 대안은 동일한 의미로, 양식을 풍부하게 보이기 위해 중복 기재된 항목이다", "isCorrect": false },
-        { "text": "완화 계획은 경영진이 수립하고, 대안은 담당자가 임의로 정하는 별개 절차이다", "isCorrect": false },
-        { "text": "완화 계획은 리스크 종료 후 보고용 기록이고, 대안은 차기 프로젝트에서만 사용된다", "isCorrect": false }
+        {
+          "text": "완화 계획은 리스크 발생 확률·영향을 낮추기 위한 사전 조치이고, 대안은 리스크가 실제 발생했을 때 대응하기 위한 후속 조치이다",
+          "isCorrect": true
+        },
+        {
+          "text": "완화 계획과 대안은 동일한 의미로, 양식을 풍부하게 보이기 위해 중복 기재된 항목이다",
+          "isCorrect": false
+        },
+        {
+          "text": "완화 계획은 경영진이 수립하고, 대안은 담당자가 임의로 정하는 별개 절차이다",
+          "isCorrect": false
+        },
+        {
+          "text": "완화 계획은 리스크 종료 후 보고용 기록이고, 대안은 차기 프로젝트에서만 사용된다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -200,10 +397,22 @@
       "type": "short",
       "questionText": "프로젝트 리더(PL)의 역할로 가장 적절한 것은?",
       "options": [
-        { "text": "설계·구현 등에 대한 전반적 무결성 검증, 팀 간 기술적 조율, 일정 조정·모니터링, 프로젝트 문서 작성 및 통합", "isCorrect": true },
-        { "text": "베이스라인 산출물 관리와 변경 요청 처리를 담당한다", "isCorrect": false },
-        { "text": "비즈니스 그룹과의 의사소통을 전담한다", "isCorrect": false },
-        { "text": "산출물의 오류 확인과 결함 검출을 위한 리뷰·테스트를 계획·추진한다", "isCorrect": false }
+        {
+          "text": "설계·구현 등에 대한 전반적 무결성 검증, 팀 간 기술적 조율, 일정 조정·모니터링, 프로젝트 문서 작성 및 통합",
+          "isCorrect": true
+        },
+        {
+          "text": "베이스라인 산출물 관리와 변경 요청 처리를 담당한다",
+          "isCorrect": false
+        },
+        {
+          "text": "비즈니스 그룹과의 의사소통을 전담한다",
+          "isCorrect": false
+        },
+        {
+          "text": "산출물의 오류 확인과 결함 검출을 위한 리뷰·테스트를 계획·추진한다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -211,34 +420,68 @@
       "type": "short",
       "questionText": "형상 관리자(CM)의 주된 역할로 옳은 것은?",
       "options": [
-        { "text": "개발 과정에서 베이스라인 산출물 관리와 변경 요청 처리를 담당한다", "isCorrect": true },
-        { "text": "프로젝트 전반 관리 활동과 중요 이슈 해결을 담당한다", "isCorrect": false },
-        { "text": "분석·설계·코딩 등 개발 실무를 직접 수행한다", "isCorrect": false },
-        { "text": "비즈니스 그룹과의 의사소통 채널 역할을 한다", "isCorrect": false }
+        {
+          "text": "개발 과정에서 베이스라인 산출물 관리와 변경 요청 처리를 담당한다",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 전반 관리 활동과 중요 이슈 해결을 담당한다",
+          "isCorrect": false
+        },
+        {
+          "text": "분석·설계·코딩 등 개발 실무를 직접 수행한다",
+          "isCorrect": false
+        },
+        {
+          "text": "비즈니스 그룹과의 의사소통 채널 역할을 한다",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-20",
       "type": "long",
-      "questionText": "다음 상황에 가장 적합한 프로젝트 팀 구조는?",
-      "longText": "작은 규모의 컴파일러 개발 프로젝트로, 수행해야 할 작업 목록이 단순하고 충분히 이해된 상태이다. 유능한 리더가 한 명 있으며, 의사소통은 단순하고 빠른 문제 해결이 우선이다.",
+      "longText": "작은 규모의 컴파일러 개발 프로젝트로, 수행해야 할 작업 목록이 단순하고 충분히 이해된 상태이다. 유능한 리더가 한 명 있으며, 의사소통은 단순하고 빠른 문제 해결이 우선이다.\n\n다음 상황에 가장 적합한 프로젝트 팀 구조는?",
       "options": [
-        { "text": "중앙집중형 팀 구조", "isCorrect": true },
-        { "text": "분산형 팀 구조", "isCorrect": false },
-        { "text": "하이브리드(계층형) 팀 구조", "isCorrect": false },
-        { "text": "리어종 그룹 중심 구조", "isCorrect": false }
+        {
+          "text": "중앙집중형 팀 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "분산형 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "하이브리드(계층형) 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "리어종 그룹 중심 구조",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-21",
       "type": "long",
-      "questionText": "분산형 팀 구조의 특징과 적용 상황으로 가장 적절한 것은?",
-      "longText": "혁신적 신기술 R&D 프로젝트처럼 해결 방안이 불분명하고, 팀 구성원 간 합의와 다양한 아이디어 수렴이 중요한 상황을 가정한다.",
+      "longText": "혁신적 신기술 R&D 프로젝트처럼 해결 방안이 불분명하고, 팀 구성원 간 합의와 다양한 아이디어 수렴이 중요한 상황을 가정한다.\n\n분산형 팀 구조의 특징과 적용 상황으로 가장 적절한 것은?",
       "options": [
-        { "text": "주요 의사결정이 팀 구성원의 합의로 이루어지는 민주주의적 구조로, 복잡한 문제 해결에 적합하지만 의사소통 패턴이 복잡해 대규모 인력에는 부적합할 수 있다", "isCorrect": true },
-        { "text": "한 명의 리더에게 의사결정을 집중시켜 빠른 문제 해결에 최적화된 구조이다", "isCorrect": false },
-        { "text": "PM이 팀 리더들과만 직접 소통하고 팀 내부는 독립 운영되는 계층형 구조이다", "isCorrect": false },
-        { "text": "PMO가 전사 차원에서 모든 프로젝트 결정을 통제하는 구조이다", "isCorrect": false }
+        {
+          "text": "주요 의사결정이 팀 구성원의 합의로 이루어지는 민주주의적 구조로, 복잡한 문제 해결에 적합하지만 의사소통 패턴이 복잡해 대규모 인력에는 부적합할 수 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "한 명의 리더에게 의사결정을 집중시켜 빠른 문제 해결에 최적화된 구조이다",
+          "isCorrect": false
+        },
+        {
+          "text": "PM이 팀 리더들과만 직접 소통하고 팀 내부는 독립 운영되는 계층형 구조이다",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO가 전사 차원에서 모든 프로젝트 결정을 통제하는 구조이다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -246,10 +489,22 @@
       "type": "short",
       "questionText": "하이브리드(계층형) 팀 구조의 핵심 특징으로 가장 옳은 것은?",
       "options": [
-        { "text": "PM과 각 팀 리더 사이는 중앙집중형으로, 팀 내부 운영은 분산형으로 통합한 계층형 구조이다", "isCorrect": true },
-        { "text": "모든 구성원이 완전히 대등하게 의사결정에 참여하는 단일 레이어 구조이다", "isCorrect": false },
-        { "text": "PM 한 명이 모든 개별 개발자에게 직접 지시하는 순수 중앙집중 구조이다", "isCorrect": false },
-        { "text": "팀 리더 없이 PM과 PMO만으로 운영되는 2계층 구조이다", "isCorrect": false }
+        {
+          "text": "PM과 각 팀 리더 사이는 중앙집중형으로, 팀 내부 운영은 분산형으로 통합한 계층형 구조이다",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 구성원이 완전히 대등하게 의사결정에 참여하는 단일 레이어 구조이다",
+          "isCorrect": false
+        },
+        {
+          "text": "PM 한 명이 모든 개별 개발자에게 직접 지시하는 순수 중앙집중 구조이다",
+          "isCorrect": false
+        },
+        {
+          "text": "팀 리더 없이 PM과 PMO만으로 운영되는 2계층 구조이다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -257,10 +512,22 @@
       "type": "short",
       "questionText": "PMO(Project Management Office)의 역할로 가장 적절한 것은?",
       "options": [
-        { "text": "전사 차원에서 프로젝트 생성, 진행 모니터링, 리스크 해결 지원을 수행하며 다수 프로젝트의 포트폴리오를 관리하고 단위 PM을 지원·통제한다", "isCorrect": true },
-        { "text": "단위 프로젝트 하나에만 소속되어 그 프로젝트의 코드 품질만 관리한다", "isCorrect": false },
-        { "text": "비즈니스 그룹과 개발 팀 사이의 요구사항 번역만 전담한다", "isCorrect": false },
-        { "text": "개별 개발자의 채용과 평가만 담당한다", "isCorrect": false }
+        {
+          "text": "전사 차원에서 프로젝트 생성, 진행 모니터링, 리스크 해결 지원을 수행하며 다수 프로젝트의 포트폴리오를 관리하고 단위 PM을 지원·통제한다",
+          "isCorrect": true
+        },
+        {
+          "text": "단위 프로젝트 하나에만 소속되어 그 프로젝트의 코드 품질만 관리한다",
+          "isCorrect": false
+        },
+        {
+          "text": "비즈니스 그룹과 개발 팀 사이의 요구사항 번역만 전담한다",
+          "isCorrect": false
+        },
+        {
+          "text": "개별 개발자의 채용과 평가만 담당한다",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -268,10 +535,22 @@
       "type": "short",
       "questionText": "프로젝트 관리 계획서 작성 시 '문서의 목적' 항목에 기술해야 하는 내용은?",
       "options": [
-        { "text": "해당 문서가 왜, 어떠한 목적으로 작성되며, 어떠한 내용을 포함하는지", "isCorrect": true },
-        { "text": "프로젝트에 투입되는 개별 개발자의 연봉 정보", "isCorrect": false },
-        { "text": "경쟁사 제품의 기능 비교표", "isCorrect": false },
-        { "text": "소스 코드의 상세 알고리즘 설명", "isCorrect": false }
+        {
+          "text": "해당 문서가 왜, 어떠한 목적으로 작성되며, 어떠한 내용을 포함하는지",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트에 투입되는 개별 개발자의 연봉 정보",
+          "isCorrect": false
+        },
+        {
+          "text": "경쟁사 제품의 기능 비교표",
+          "isCorrect": false
+        },
+        {
+          "text": "소스 코드의 상세 알고리즘 설명",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -279,10 +558,22 @@
       "type": "short",
       "questionText": "프로젝트 관리 계획서의 '품질 관리 계획' 영역(5장)에 포함되는 항목으로 가장 적절한 것은?",
       "options": [
-        { "text": "품질 목표, 검토 방법 및 주기, 품질 관리 적용 기법(리뷰·인스펙션·테스트), 리스크 관리", "isCorrect": true },
-        { "text": "요구되는 소프트웨어/하드웨어 스펙과 개발 공간", "isCorrect": false },
-        { "text": "버전 관리, 형상 관리, 기술 관리", "isCorrect": false },
-        { "text": "프로세스 모델, WBS, 소요 자원, 간트 차트", "isCorrect": false }
+        {
+          "text": "품질 목표, 검토 방법 및 주기, 품질 관리 적용 기법(리뷰·인스펙션·테스트), 리스크 관리",
+          "isCorrect": true
+        },
+        {
+          "text": "요구되는 소프트웨어/하드웨어 스펙과 개발 공간",
+          "isCorrect": false
+        },
+        {
+          "text": "버전 관리, 형상 관리, 기술 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 모델, WBS, 소요 자원, 간트 차트",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -290,22 +581,45 @@
       "type": "short",
       "questionText": "프로젝트 관리 도구의 '배포 기능'에 해당하는 항목으로 옳은 것은?",
       "options": [
-        { "text": "산출물 저장, Check-in/Check-out, 검색 기능 제공", "isCorrect": true },
-        { "text": "팀 구성, WBS 생성, 태스크 할당, 일정계획 생성, 마일스톤 정의", "isCorrect": false },
-        { "text": "태스크 수행 완료·진도 정보 입력, 이슈 제기", "isCorrect": false },
-        { "text": "협업 목표 설정, 협업 공간 생성, 상호 의사소통, 자료 공유", "isCorrect": false }
+        {
+          "text": "산출물 저장, Check-in/Check-out, 검색 기능 제공",
+          "isCorrect": true
+        },
+        {
+          "text": "팀 구성, WBS 생성, 태스크 할당, 일정계획 생성, 마일스톤 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "태스크 수행 완료·진도 정보 입력, 이슈 제기",
+          "isCorrect": false
+        },
+        {
+          "text": "협업 목표 설정, 협업 공간 생성, 상호 의사소통, 자료 공유",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-27",
       "type": "long",
-      "questionText": "다음 중 PMO 도구의 '프로젝트 범위 관리 기능'에 해당하는 활동으로 가장 적절한 것은?",
-      "longText": "PMO가 여러 단위 프로젝트를 모니터링하며 한 프로젝트의 산출물이 원래 정의된 범위와 맞는지 비교·분석하고, 중복 업무 여부를 확인하여 조정·통제하고 있다. 또한 WBS 결과로 범위 타당성을 검토한다.",
+      "longText": "PMO가 여러 단위 프로젝트를 모니터링하며 한 프로젝트의 산출물이 원래 정의된 범위와 맞는지 비교·분석하고, 중복 업무 여부를 확인하여 조정·통제하고 있다. 또한 WBS 결과로 범위 타당성을 검토한다.\n\n다음 중 PMO 도구의 '프로젝트 범위 관리 기능'에 해당하는 활동으로 가장 적절한 것은?",
       "options": [
-        { "text": "정의된 범위 대비 수행 결과 비교·분석, 수행 범위 중복성 확인·조정·통제, WBS 기반 범위 타당성 검토, 수행 결과 확인·검증 및 변경 내역 관리", "isCorrect": true },
-        { "text": "Feasibility 분석, 계획 대비 실적 모니터링, 단위 프로젝트 요청 수렴·대응", "isCorrect": false },
-        { "text": "산출물별 적정성 및 산출물 간 일관성 평가, 가이드라인·방법론·표준 준수성 평가", "isCorrect": false },
-        { "text": "투입 인력 현황 관리, 변화 인력 영향도 검토, 자원 운영 적정성 검토", "isCorrect": false }
+        {
+          "text": "정의된 범위 대비 수행 결과 비교·분석, 수행 범위 중복성 확인·조정·통제, WBS 기반 범위 타당성 검토, 수행 결과 확인·검증 및 변경 내역 관리",
+          "isCorrect": true
+        },
+        {
+          "text": "Feasibility 분석, 계획 대비 실적 모니터링, 단위 프로젝트 요청 수렴·대응",
+          "isCorrect": false
+        },
+        {
+          "text": "산출물별 적정성 및 산출물 간 일관성 평가, 가이드라인·방법론·표준 준수성 평가",
+          "isCorrect": false
+        },
+        {
+          "text": "투입 인력 현황 관리, 변화 인력 영향도 검토, 자원 운영 적정성 검토",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -313,34 +627,68 @@
       "type": "short",
       "questionText": "엔지니어링 도구의 범주에 해당하는 것으로 가장 적절한 것은?",
       "options": [
-        { "text": "UML 기반 객체지향 분석·설계 도구, 코딩 도구, 테스트 도구, 형상 관리용 Git 등", "isCorrect": true },
-        { "text": "전사 프로젝트 포트폴리오 모니터링 대시보드", "isCorrect": false },
-        { "text": "WBS 기반 일정 보고서 자동 생성 엔진", "isCorrect": false },
-        { "text": "이해관계자 의사소통 경로 및 회의록 관리 플랫폼", "isCorrect": false }
+        {
+          "text": "UML 기반 객체지향 분석·설계 도구, 코딩 도구, 테스트 도구, 형상 관리용 Git 등",
+          "isCorrect": true
+        },
+        {
+          "text": "전사 프로젝트 포트폴리오 모니터링 대시보드",
+          "isCorrect": false
+        },
+        {
+          "text": "WBS 기반 일정 보고서 자동 생성 엔진",
+          "isCorrect": false
+        },
+        {
+          "text": "이해관계자 의사소통 경로 및 회의록 관리 플랫폼",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-29",
       "type": "long",
-      "questionText": "소프트웨어 프로젝트가 실패하는 원인에 대한 설명 중 가장 적절하지 않은 것은?",
-      "longText": "Standish Group의 2015년 조사 결과, 부정확한 요구사항·사용자 환경 이해 부족·프로젝트 관리 기술 부족·부족한 자원·높은 사용자 기대치 등이 주요 실패 원인으로 보고되었다.",
+      "longText": "Standish Group의 2015년 조사 결과, 부정확한 요구사항·사용자 환경 이해 부족·프로젝트 관리 기술 부족·부족한 자원·높은 사용자 기대치 등이 주요 실패 원인으로 보고되었다.\n\n소프트웨어 프로젝트가 실패하는 원인에 대한 설명 중 가장 적절하지 않은 것은?",
       "options": [
-        { "text": "개발자 개인의 코딩 기술 부족이 전체 원인 중 가장 큰 비중을 차지하므로, 관리 기법보다 개인 교육에 집중해야 한다", "isCorrect": true },
-        { "text": "부정확한 요구사항과 사용자 환경 이해 부족이 실패의 주요 원인 중 상위에 위치한다", "isCorrect": false },
-        { "text": "프로젝트 관리 기술 부족은 실패의 주요 원인 중 하나로 보고되었다", "isCorrect": false },
-        { "text": "소프트웨어는 변경이 자유롭다는 잘못된 인식, 공학 기법 적용 회피 등도 실패 요인으로 작용한다", "isCorrect": false }
+        {
+          "text": "개발자 개인의 코딩 기술 부족이 전체 원인 중 가장 큰 비중을 차지하므로, 관리 기법보다 개인 교육에 집중해야 한다",
+          "isCorrect": true
+        },
+        {
+          "text": "부정확한 요구사항과 사용자 환경 이해 부족이 실패의 주요 원인 중 상위에 위치한다",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기술 부족은 실패의 주요 원인 중 하나로 보고되었다",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어는 변경이 자유롭다는 잘못된 인식, 공학 기법 적용 회피 등도 실패 요인으로 작용한다",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "pm-30",
       "type": "long",
-      "questionText": "다음 PERT/CPM 계산 시나리오에서 빈칸에 들어갈 값으로 옳은 것은?",
-      "longText": "한 프로젝트의 임계 경로상의 작업 일수 합이 45일이다. 태스크 F에서 종료(Z)까지 가는 경로에서 F 이후 남은 작업은 각 5일, 15일, 7일이다. F의 Latest Start Date를 구하시오.",
+      "longText": "한 프로젝트의 임계 경로상의 작업 일수 합이 45일이다. 태스크 F에서 종료(Z)까지 가는 경로에서 F 이후 남은 작업은 각 5일, 15일, 7일이다. F의 Latest Start Date를 구하시오.\n\n다음 PERT/CPM 계산 시나리오에서 빈칸에 들어갈 값으로 옳은 것은?",
       "options": [
-        { "text": "18일 (45 - (5+15+7) = 18)", "isCorrect": true },
-        { "text": "27일 (5+15+7 = 27)", "isCorrect": false },
-        { "text": "45일 (임계 경로 전체 기간 그대로)", "isCorrect": false },
-        { "text": "10일 (45 - 5×7)", "isCorrect": false }
+        {
+          "text": "18일 (45 - (5+15+7) = 18)",
+          "isCorrect": true
+        },
+        {
+          "text": "27일 (5+15+7 = 27)",
+          "isCorrect": false
+        },
+        {
+          "text": "45일 (임계 경로 전체 기간 그대로)",
+          "isCorrect": false
+        },
+        {
+          "text": "10일 (45 - 5×7)",
+          "isCorrect": false
+        }
       ]
     }
   ]
