@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "bulk-quiz-manager",
-  "exportedAt": "2026-04-18T19:12:10.349Z",
+  "exportedAt": "2026-04-18T19:13:13.989Z",
   "title": "Day 1",
   "questions": [
     {
@@ -105,7 +105,7 @@
       "answer": "안녕",
       "distractors": [],
       "quizType": "basic",
-      "html": "<div>안녕</div>"
+      "html": "<div>안녕</div></div>"
     }
   ]
 }
