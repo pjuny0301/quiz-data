@@ -6,98 +6,206 @@
       "type": "short",
       "questionText": "IEEE(1990)가 정의한 소프트웨어 품질의 의미로 가장 적절한 것은?",
       "options": [
-        { "text": "시스템·구성 요소·프로세스에 명시된 요구사항을 충족시키는 정도이며, 고객·사용자의 요구 및 기대를 충족시키는 정도까지 포함한다.", "isCorrect": true },
-        { "text": "개발자가 코드에 투입한 노력과 시간에 비례하여 결정되는 산출물의 완성도이다.", "isCorrect": false },
-        { "text": "소프트웨어를 실행했을 때 하드웨어 자원을 얼마나 적게 사용하는지를 나타내는 지표이다.", "isCorrect": false },
-        { "text": "제품 출시 후 시장 점유율과 매출 성장률로 환산되는 상업적 성공 지표이다.", "isCorrect": false }
+        {
+          "text": "시스템·구성 요소·프로세스에 명시된 요구사항을 충족시키는 정도이며, 고객·사용자의 요구 및 기대를 충족시키는 정도까지 포함한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자가 코드에 투입한 노력과 시간에 비례하여 결정되는 산출물의 완성도이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어를 실행했을 때 하드웨어 자원을 얼마나 적게 사용하는지를 나타내는 지표이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "제품 출시 후 시장 점유율과 매출 성장률로 환산되는 상업적 성공 지표이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-02",
       "type": "long",
-      "questionText": "어떤 기업 임원이 '우리 소프트웨어는 100점 만점에 95점짜리 품질'이라고 단정적으로 말했다. 강의에서 제시한 소프트웨어 품질의 특징에 비추어 볼 때, 이 주장의 문제점으로 가장 타당한 것은?",
       "options": [
-        { "text": "품질은 스테이크홀더와 다차원적 관점을 고려해야 하며, 특정 제품의 품질을 절대적 점수로 평가할 수 없다는 특성에 어긋난다.", "isCorrect": true },
-        { "text": "품질은 오직 개발자의 능력으로만 결정되므로 점수 자체가 무의미하다.", "isCorrect": false },
-        { "text": "100점 만점 척도는 하드웨어에만 적용되고 소프트웨어에는 적용할 수 없는 규정 때문이다.", "isCorrect": false },
-        { "text": "소프트웨어 품질은 개발 완료 직후에만 측정 가능해 임원이 측정 시점을 놓쳤기 때문이다.", "isCorrect": false }
-      ]
+        {
+          "text": "품질은 스테이크홀더와 다차원적 관점을 고려해야 하며, 특정 제품의 품질을 절대적 점수로 평가할 수 없다는 특성에 어긋난다.",
+          "isCorrect": true
+        },
+        {
+          "text": "품질은 오직 개발자의 능력으로만 결정되므로 점수 자체가 무의미하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "100점 만점 척도는 하드웨어에만 적용되고 소프트웨어에는 적용할 수 없는 규정 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질은 개발 완료 직후에만 측정 가능해 임원이 측정 시점을 놓쳤기 때문이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "어떤 기업 임원이 '우리 소프트웨어는 100점 만점에 95점짜리 품질'이라고 단정적으로 말했다. 강의에서 제시한 소프트웨어 품질의 특징에 비추어 볼 때, 이 주장의 문제점으로 가장 타당한 것은?"
     },
     {
       "id": "quality-03",
       "type": "short",
       "questionText": "정확성(Correctness)의 의미로 가장 적절한 것은?",
       "options": [
-        { "text": "주어진 명세서의 내용을 하나씩 테스트하여 원하는 결과를 생성하는지 여부로 판단하는 외적 품질 요소이다.", "isCorrect": true },
-        { "text": "명세에 정의되지 않은 예외 상황에서도 소프트웨어가 합리적으로 동작하는 정도이다.", "isCorrect": false },
-        { "text": "소프트웨어 실행 시 사용되는 메모리와 CPU 자원의 효율성을 의미한다.", "isCorrect": false },
-        { "text": "고장 발생 빈도수와 치명도로 판단하는 품질 요소이다.", "isCorrect": false }
+        {
+          "text": "주어진 명세서의 내용을 하나씩 테스트하여 원하는 결과를 생성하는지 여부로 판단하는 외적 품질 요소이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "명세에 정의되지 않은 예외 상황에서도 소프트웨어가 합리적으로 동작하는 정도이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 실행 시 사용되는 메모리와 CPU 자원의 효율성을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "고장 발생 빈도수와 치명도로 판단하는 품질 요소이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-04",
       "type": "long",
-      "questionText": "사용자 요구사항이 총 50개인 프로그램 P를 테스트했더니 그중 5개 기능이 명세대로 동작하지 않았다. 강의에서 제시한 Correctness(P) = 1 - (A/B) 공식에 따른 정확성 값은?",
       "options": [
-        { "text": "0.9 (= 1 - 5/50). A는 명세대로 동작하지 못한 기능 수(5), B는 전체 요구사항 수(50)이다.", "isCorrect": true },
-        { "text": "0.1 (= 5/50). 실패한 기능 비율을 그대로 정확성으로 계산한다.", "isCorrect": false },
-        { "text": "0.95 (= 1 - 5/100). 정확성은 항상 100 기준으로 정규화하여 계산한다.", "isCorrect": false },
-        { "text": "45 (= 50 - 5). 정확성은 정상 동작한 기능의 절대 개수로 표현한다.", "isCorrect": false }
-      ]
+        {
+          "text": "0.9 (= 1 - 5/50). A는 명세대로 동작하지 못한 기능 수(5), B는 전체 요구사항 수(50)이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "0.1 (= 5/50). 실패한 기능 비율을 그대로 정확성으로 계산한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "0.95 (= 1 - 5/100). 정확성은 항상 100 기준으로 정규화하여 계산한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "45 (= 50 - 5). 정확성은 정상 동작한 기능의 절대 개수로 표현한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "사용자 요구사항이 총 50개인 프로그램 P를 테스트했더니 그중 5개 기능이 명세대로 동작하지 않았다. 강의에서 제시한 Correctness(P) = 1 - (A/B) 공식에 따른 정확성 값은?"
     },
     {
       "id": "quality-05",
       "type": "short",
       "questionText": "신뢰성(Reliability)을 측정하기 위한 대표 지표인 MTBF의 의미는?",
       "options": [
-        { "text": "Mean Time Between Failure, 즉 고장과 고장 사이의 평균 시간으로, 값이 클수록 오래 고장 없이 동작한다.", "isCorrect": true },
-        { "text": "Mean Time Before Feature, 즉 기능 추가 사이의 평균 시간으로 개발 주기를 나타낸다.", "isCorrect": false },
-        { "text": "Maximum Time Between Fix, 즉 장애 발생 후 허용되는 최대 수리 시간의 상한이다.", "isCorrect": false },
-        { "text": "Mean Time Being Functional, 즉 프로그램이 메모리에 상주한 평균 시간이다.", "isCorrect": false }
+        {
+          "text": "Mean Time Between Failure, 즉 고장과 고장 사이의 평균 시간으로, 값이 클수록 오래 고장 없이 동작한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mean Time Before Feature, 즉 기능 추가 사이의 평균 시간으로 개발 주기를 나타낸다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Maximum Time Between Fix, 즉 장애 발생 후 허용되는 최대 수리 시간의 상한이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mean Time Being Functional, 즉 프로그램이 메모리에 상주한 평균 시간이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-06",
       "type": "long",
-      "questionText": "항공기 제어 소프트웨어가 명세서에 적혀 있지 않은 극한 기상 조건에서도 추락 없이 합리적으로 동작하도록 설계하는 것은 어떤 품질 요소를 강화하는 활동인가?",
       "options": [
-        { "text": "견고성(Robustness). 명세에 정의하지 않은 조건·환경에서도 소프트웨어가 합리적으로 동작해야 함을 의미하며, 안전 임무 시스템에서 특히 중요하다.", "isCorrect": true },
-        { "text": "정확성(Correctness). 명세에 없는 조건까지 모두 명세에 포함해 일일이 테스트하는 활동이다.", "isCorrect": false },
-        { "text": "성능(Performance). 극한 조건에서 실행 속도를 높여 추락을 방지하는 효율성 활동이다.", "isCorrect": false },
-        { "text": "재사용성(Reusability). 기존 제어 컴포넌트를 재활용하여 위험 상황에 대처하는 활동이다.", "isCorrect": false }
-      ]
+        {
+          "text": "견고성(Robustness). 명세에 정의하지 않은 조건·환경에서도 소프트웨어가 합리적으로 동작해야 함을 의미하며, 안전 임무 시스템에서 특히 중요하다.",
+          "isCorrect": true
+        },
+        {
+          "text": "정확성(Correctness). 명세에 없는 조건까지 모두 명세에 포함해 일일이 테스트하는 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "성능(Performance). 극한 조건에서 실행 속도를 높여 추락을 방지하는 효율성 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "재사용성(Reusability). 기존 제어 컴포넌트를 재활용하여 위험 상황에 대처하는 활동이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "항공기 제어 소프트웨어가 명세서에 적혀 있지 않은 극한 기상 조건에서도 추락 없이 합리적으로 동작하도록 설계하는 것은 어떤 품질 요소를 강화하는 활동인가?"
     },
     {
       "id": "quality-07",
       "type": "short",
       "questionText": "강의에서 성능(Performance)과 동의어로 설명된 외적 품질 속성은?",
       "options": [
-        { "text": "효율성(Efficiency). 메모리 양(Byte), 총 실행 시간(msec) 등이 척도로 사용된다.", "isCorrect": true },
-        { "text": "견고성(Robustness). 정의되지 않은 환경에서의 동작 능력이다.", "isCorrect": false },
-        { "text": "가용성(Availability). 정상 사용 가능 시간과 관련된 속성이다.", "isCorrect": false },
-        { "text": "이식성(Portability). 다양한 플랫폼 지원 능력이다.", "isCorrect": false }
+        {
+          "text": "효율성(Efficiency). 메모리 양(Byte), 총 실행 시간(msec) 등이 척도로 사용된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "견고성(Robustness). 정의되지 않은 환경에서의 동작 능력이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "가용성(Availability). 정상 사용 가능 시간과 관련된 속성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "이식성(Portability). 다양한 플랫폼 지원 능력이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-08",
       "type": "long",
-      "questionText": "어느 SaaS 서비스가 연간 총 운영 시간 중 정상 사용 가능한 시간 비율이 99.99%라고 홍보한다. 이는 어떤 품질 요소를 강조하는가?",
       "options": [
-        { "text": "가용성(Availability). 사용자가 정상적으로 사용 가능한 시간(Usable Time)을 전체 운영 시간(Operation Time)으로 나눈 값이 클수록 가용성이 높다.", "isCorrect": true },
-        { "text": "신뢰성(Reliability). 고장 빈도수와 치명도로 측정되므로 운영 시간 비율과는 무관하다.", "isCorrect": false },
-        { "text": "무결성(Integrity). 데이터 접근 제한 능력을 비율로 환산한 지표이다.", "isCorrect": false },
-        { "text": "정확성(Correctness). 명세 대비 동작하지 않은 기능 비율의 역수이다.", "isCorrect": false }
-      ]
+        {
+          "text": "가용성(Availability). 사용자가 정상적으로 사용 가능한 시간(Usable Time)을 전체 운영 시간(Operation Time)으로 나눈 값이 클수록 가용성이 높다.",
+          "isCorrect": true
+        },
+        {
+          "text": "신뢰성(Reliability). 고장 빈도수와 치명도로 측정되므로 운영 시간 비율과는 무관하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "무결성(Integrity). 데이터 접근 제한 능력을 비율로 환산한 지표이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "정확성(Correctness). 명세 대비 동작하지 않은 기능 비율의 역수이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "어느 SaaS 서비스가 연간 총 운영 시간 중 정상 사용 가능한 시간 비율이 99.99%라고 홍보한다. 이는 어떤 품질 요소를 강조하는가?"
     },
     {
       "id": "quality-09",
       "type": "short",
       "questionText": "신뢰성(Reliability)과 가용성(Availability)의 차이로 가장 적절한 것은?",
       "options": [
-        { "text": "신뢰성은 고장 발생 빈도와 치명도(예: MTBF)로 측정되고, 가용성은 정상 사용 가능 시간을 전체 운영 시간으로 나눈 비율로 측정된다.", "isCorrect": true },
-        { "text": "신뢰성은 내적 품질이고, 가용성은 프로세스 품질에 속한다.", "isCorrect": false },
-        { "text": "신뢰성은 사용자의 편의성 지원 기능 개수로 측정되고, 가용성은 고장 빈도로 측정된다.", "isCorrect": false },
-        { "text": "두 용어는 동의어로, 측정 방식도 동일하다.", "isCorrect": false }
+        {
+          "text": "신뢰성은 고장 발생 빈도와 치명도(예: MTBF)로 측정되고, 가용성은 정상 사용 가능 시간을 전체 운영 시간으로 나눈 비율로 측정된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "신뢰성은 내적 품질이고, 가용성은 프로세스 품질에 속한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "신뢰성은 사용자의 편의성 지원 기능 개수로 측정되고, 가용성은 고장 빈도로 측정된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "두 용어는 동의어로, 측정 방식도 동일하다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -105,32 +213,68 @@
       "type": "short",
       "questionText": "사용자 친숙성(User Friendliness)을 측정하는 예시로 강의에서 제시된 것은?",
       "options": [
-        { "text": "도움말 말풍선, 스크롤 바, 핫 키(Hot Key) 등 편의성 지원 기능의 개수로 측정한다.", "isCorrect": true },
-        { "text": "소프트웨어의 평균 고장 간격(MTBF) 시간으로 측정한다.", "isCorrect": false },
-        { "text": "재사용된 코드 라인 수를 전체 라인 수로 나눈 비율로 측정한다.", "isCorrect": false },
-        { "text": "정형 검증 도구가 통과시킨 속성의 개수로 측정한다.", "isCorrect": false }
+        {
+          "text": "도움말 말풍선, 스크롤 바, 핫 키(Hot Key) 등 편의성 지원 기능의 개수로 측정한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어의 평균 고장 간격(MTBF) 시간으로 측정한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "재사용된 코드 라인 수를 전체 라인 수로 나눈 비율로 측정한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "정형 검증 도구가 통과시킨 속성의 개수로 측정한다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-11",
       "type": "long",
-      "questionText": "보안성(Security)과 안정성(Safety)은 모두 '안전'과 관련되지만 관점이 다르다. 두 요소의 구분으로 가장 적절한 것은?",
       "options": [
-        { "text": "보안성은 외부의 악의적 공격·해커 위협을 막아내는 능력이며, 안정성은 위험으로부터 자유로운 상태로 안전 요구사항 반영 여부를 보장하는 것이다.", "isCorrect": true },
-        { "text": "보안성은 물리적 하드웨어 보호이고, 안정성은 소프트웨어 코드의 무결성 보호이다.", "isCorrect": false },
-        { "text": "보안성은 사용자 친숙성의 하위 속성이고, 안정성은 성능의 하위 속성이다.", "isCorrect": false },
-        { "text": "두 요소 모두 같은 의미이며, 용어만 다르게 쓰인다.", "isCorrect": false }
-      ]
+        {
+          "text": "보안성은 외부의 악의적 공격·해커 위협을 막아내는 능력이며, 안정성은 위험으로부터 자유로운 상태로 안전 요구사항 반영 여부를 보장하는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "보안성은 물리적 하드웨어 보호이고, 안정성은 소프트웨어 코드의 무결성 보호이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "보안성은 사용자 친숙성의 하위 속성이고, 안정성은 성능의 하위 속성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "두 요소 모두 같은 의미이며, 용어만 다르게 쓰인다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "보안성(Security)과 안정성(Safety)은 모두 '안전'과 관련되지만 관점이 다르다. 두 요소의 구분으로 가장 적절한 것은?"
     },
     {
       "id": "quality-12",
       "type": "short",
       "questionText": "무결성(Integrity)이 보장하려는 것은 무엇인가?",
       "options": [
-        { "text": "프로그램이나 데이터에 대한 불법 사용·잘못된 접근 방지, 적절한 접근 보장, 권한 없는 사용자 접근 제한, 의도하지 않은 데이터 변경 방지이다.", "isCorrect": true },
-        { "text": "소프트웨어 실행 속도와 응답 시간을 일정 수준 이하로 유지하는 것이다.", "isCorrect": false },
-        { "text": "소프트웨어가 다양한 HW/SW 플랫폼에서 실행되도록 보장하는 것이다.", "isCorrect": false },
-        { "text": "고장 발생 시 평균 복구 시간을 짧게 유지하는 것이다.", "isCorrect": false }
+        {
+          "text": "프로그램이나 데이터에 대한 불법 사용·잘못된 접근 방지, 적절한 접근 보장, 권한 없는 사용자 접근 제한, 의도하지 않은 데이터 변경 방지이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 실행 속도와 응답 시간을 일정 수준 이하로 유지하는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어가 다양한 HW/SW 플랫폼에서 실행되도록 보장하는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "고장 발생 시 평균 복구 시간을 짧게 유지하는 것이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -138,43 +282,91 @@
       "type": "short",
       "questionText": "검증 가능성(Verifiability)을 평가하는 두 가지 대표적인 방법은?",
       "options": [
-        { "text": "정형 검증(Formal Verification)과 테스트. 형식 언어 기반 증명·시뮬레이션과 테스트 데이터를 통한 실행 확인을 함께 활용한다.", "isCorrect": true },
-        { "text": "코드 리뷰와 사용자 만족도 설문조사. 정성적 피드백만으로 내적 품질을 판단한다.", "isCorrect": false },
-        { "text": "페어 프로그래밍과 회귀 테스트. 협업 과정의 산출물로만 검증한다.", "isCorrect": false },
-        { "text": "하드웨어 시뮬레이션과 UI 프로토타이핑. 외적 환경만 확인한다.", "isCorrect": false }
+        {
+          "text": "정형 검증(Formal Verification)과 테스트. 형식 언어 기반 증명·시뮬레이션과 테스트 데이터를 통한 실행 확인을 함께 활용한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "코드 리뷰와 사용자 만족도 설문조사. 정성적 피드백만으로 내적 품질을 판단한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "페어 프로그래밍과 회귀 테스트. 협업 과정의 산출물로만 검증한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "하드웨어 시뮬레이션과 UI 프로토타이핑. 외적 환경만 확인한다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-14",
       "type": "long",
-      "questionText": "개발된 은행 앱을 사용하는 도중 발생한 이자 계산 오류를 수정하는 활동은 유지보수(Maintenance) 네 종류 중 어디에 해당하는가?",
       "options": [
-        { "text": "수정 유지보수(Corrective Maintenance). 사용 중 발생한 오류(결함)를 수정하기 위한 활동이다.", "isCorrect": true },
-        { "text": "적응 유지보수(Adaptive Maintenance). 운영 조건 변화에 맞추기 위한 활동이다.", "isCorrect": false },
-        { "text": "완전 유지보수(Perfective Maintenance). 가독성·이해성 향상을 위한 재구조화 활동이다.", "isCorrect": false },
-        { "text": "예방 유지보수(Preventive Maintenance). 장래 문제를 막기 위한 점검 활동이다.", "isCorrect": false }
-      ]
+        {
+          "text": "수정 유지보수(Corrective Maintenance). 사용 중 발생한 오류(결함)를 수정하기 위한 활동이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "적응 유지보수(Adaptive Maintenance). 운영 조건 변화에 맞추기 위한 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "완전 유지보수(Perfective Maintenance). 가독성·이해성 향상을 위한 재구조화 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "예방 유지보수(Preventive Maintenance). 장래 문제를 막기 위한 점검 활동이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "개발된 은행 앱을 사용하는 도중 발생한 이자 계산 오류를 수정하는 활동은 유지보수(Maintenance) 네 종류 중 어디에 해당하는가?"
     },
     {
       "id": "quality-15",
       "type": "long",
-      "questionText": "운영체제가 업그레이드되어 기존 소프트웨어를 새 OS에서도 동작하도록 수정하는 활동은 어떤 유지보수에 해당하는가?",
       "options": [
-        { "text": "적응 유지보수(Adaptive Maintenance). 소프트웨어 운영 조건 변화를 수용하는 유지보수 활동이다.", "isCorrect": true },
-        { "text": "수정 유지보수(Corrective Maintenance). 오류 수정이 주 목적인 활동이다.", "isCorrect": false },
-        { "text": "완전 유지보수(Perfective Maintenance). 재구조화를 통해 이해성을 높이는 활동이다.", "isCorrect": false },
-        { "text": "예방 유지보수(Preventive Maintenance). 향후 오류를 막기 위한 테스트·점검 활동이다.", "isCorrect": false }
-      ]
+        {
+          "text": "적응 유지보수(Adaptive Maintenance). 소프트웨어 운영 조건 변화를 수용하는 유지보수 활동이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "수정 유지보수(Corrective Maintenance). 오류 수정이 주 목적인 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "완전 유지보수(Perfective Maintenance). 재구조화를 통해 이해성을 높이는 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "예방 유지보수(Preventive Maintenance). 향후 오류를 막기 위한 테스트·점검 활동이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "운영체제가 업그레이드되어 기존 소프트웨어를 새 OS에서도 동작하도록 수정하는 활동은 어떤 유지보수에 해당하는가?"
     },
     {
       "id": "quality-16",
       "type": "short",
       "questionText": "완전 유지보수(Perfective Maintenance)의 목적으로 가장 적절한 것은?",
       "options": [
-        { "text": "사용 중인 소프트웨어의 가독성·이해성을 높이는 재구조화를 수행하여 장기적 품질을 개선하는 것이다.", "isCorrect": true },
-        { "text": "사용 중 발생한 결함을 즉시 고쳐 정상 동작을 회복시키는 것이다.", "isCorrect": false },
-        { "text": "새로운 OS나 DB 등 운영 환경 변화에 소프트웨어를 적응시키는 것이다.", "isCorrect": false },
-        { "text": "임무·안전 중심 소프트웨어의 정확한 동작 여부를 사전 테스트·점검하는 것이다.", "isCorrect": false }
+        {
+          "text": "사용 중인 소프트웨어의 가독성·이해성을 높이는 재구조화를 수행하여 장기적 품질을 개선하는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "사용 중 발생한 결함을 즉시 고쳐 정상 동작을 회복시키는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "새로운 OS나 DB 등 운영 환경 변화에 소프트웨어를 적응시키는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "임무·안전 중심 소프트웨어의 정확한 동작 여부를 사전 테스트·점검하는 것이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -182,10 +374,22 @@
       "type": "short",
       "questionText": "재사용성(Reusability)을 계산하는 Reusability(P) = LOC(R)/LOC(S) 공식의 분자 LOC(R)이 의미하는 것은?",
       "options": [
-        { "text": "재사용에 의해 개발된 부분의 양(라인 수)이다. 분모 LOC(S)는 전체 개발된 산출물의 양이다.", "isCorrect": true },
-        { "text": "시스템 전체 요구사항의 총 개수이다.", "isCorrect": false },
-        { "text": "리팩토링 과정에서 삭제된 코드 라인 수이다.", "isCorrect": false },
-        { "text": "테스트를 통해 검증된 기능 개수이다.", "isCorrect": false }
+        {
+          "text": "재사용에 의해 개발된 부분의 양(라인 수)이다. 분모 LOC(S)는 전체 개발된 산출물의 양이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "시스템 전체 요구사항의 총 개수이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "리팩토링 과정에서 삭제된 코드 라인 수이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 통해 검증된 기능 개수이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -193,10 +397,22 @@
       "type": "short",
       "questionText": "이식성(Portability)의 핵심 판단 기준은?",
       "options": [
-        { "text": "얼마나 다양한 하드웨어 플랫폼과 다양한 버전의 소프트웨어 플랫폼을 지원하는가이다.", "isCorrect": true },
-        { "text": "얼마나 다양한 사용자 계층(연령·직업)이 사용 가능한가이다.", "isCorrect": false },
-        { "text": "얼마나 많은 기능을 하나의 패키지에 탑재했는가이다.", "isCorrect": false },
-        { "text": "얼마나 낮은 비용으로 배포가 가능한가이다.", "isCorrect": false }
+        {
+          "text": "얼마나 다양한 하드웨어 플랫폼과 다양한 버전의 소프트웨어 플랫폼을 지원하는가이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "얼마나 다양한 사용자 계층(연령·직업)이 사용 가능한가이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "얼마나 많은 기능을 하나의 패키지에 탑재했는가이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "얼마나 낮은 비용으로 배포가 가능한가이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -204,10 +420,22 @@
       "type": "short",
       "questionText": "상호 운용성(Interoperability)의 의미로 가장 적절한 것은?",
       "options": [
-        { "text": "서로 다른 소프트웨어들이 협업을 수행할 수 있는 능력으로, IoT 기반 스마트 시티의 인터페이스 표준화가 대표적 예이다.", "isCorrect": true },
-        { "text": "동일한 소프트웨어를 여러 사용자가 동시에 사용할 수 있는 능력이다.", "isCorrect": false },
-        { "text": "소프트웨어가 여러 버전을 동시에 유지·관리할 수 있는 능력이다.", "isCorrect": false },
-        { "text": "사용자가 인터페이스를 마음대로 커스터마이즈할 수 있는 능력이다.", "isCorrect": false }
+        {
+          "text": "서로 다른 소프트웨어들이 협업을 수행할 수 있는 능력으로, IoT 기반 스마트 시티의 인터페이스 표준화가 대표적 예이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "동일한 소프트웨어를 여러 사용자가 동시에 사용할 수 있는 능력이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어가 여러 버전을 동시에 유지·관리할 수 있는 능력이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자가 인터페이스를 마음대로 커스터마이즈할 수 있는 능력이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -215,43 +443,91 @@
       "type": "short",
       "questionText": "적시성(Timeliness)이 요구하는 소프트웨어 개발 활동은?",
       "options": [
-        { "text": "면밀한 스케줄 생성, 적절한 작업량 산정, 마일스톤 정의를 통해 소프트웨어를 적시에 사용자·시장에 제공하는 것이다.", "isCorrect": true },
-        { "text": "코드의 실행 속도를 빠르게 하여 응답 지연을 줄이는 것이다.", "isCorrect": false },
-        { "text": "결함을 발견하는 즉시 핫픽스를 배포하는 긴급 대응 프로세스를 만드는 것이다.", "isCorrect": false },
-        { "text": "기능을 최대한 줄여 출시 시점을 앞당기는 것이다.", "isCorrect": false }
+        {
+          "text": "면밀한 스케줄 생성, 적절한 작업량 산정, 마일스톤 정의를 통해 소프트웨어를 적시에 사용자·시장에 제공하는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "코드의 실행 속도를 빠르게 하여 응답 지연을 줄이는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "결함을 발견하는 즉시 핫픽스를 배포하는 긴급 대응 프로세스를 만드는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "기능을 최대한 줄여 출시 시점을 앞당기는 것이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-21",
       "type": "long",
-      "questionText": "가시성(Visibility)을 확보한 프로젝트가 얻을 수 있는 효과로 가장 적절한 것은?",
       "options": [
-        { "text": "산출물 리뷰 결과·품질 정보와 요구사항 명세서·설계서 등을 체계적으로 유지·관리함으로써, 프로젝트 진척 의사결정과 일정 조정이 가능해진다.", "isCorrect": true },
-        { "text": "UI가 화려해져 사용자 만족도가 상승한다.", "isCorrect": false },
-        { "text": "프로그램이 여러 플랫폼에서 동일하게 보이도록 렌더링이 통일된다.", "isCorrect": false },
-        { "text": "자동으로 테스트 커버리지가 100%에 도달한다.", "isCorrect": false }
-      ]
+        {
+          "text": "산출물 리뷰 결과·품질 정보와 요구사항 명세서·설계서 등을 체계적으로 유지·관리함으로써, 프로젝트 진척 의사결정과 일정 조정이 가능해진다.",
+          "isCorrect": true
+        },
+        {
+          "text": "UI가 화려해져 사용자 만족도가 상승한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "프로그램이 여러 플랫폼에서 동일하게 보이도록 렌더링이 통일된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "자동으로 테스트 커버리지가 100%에 도달한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "가시성(Visibility)을 확보한 프로젝트가 얻을 수 있는 효과로 가장 적절한 것은?"
     },
     {
       "id": "quality-22",
       "type": "long",
-      "questionText": "강의의 품질 아이스버그 모델에서 '감춰진 증상'에 해당하는 내적 품질에 가장 가까운 요소는?",
       "options": [
-        { "text": "결합력(Coupling), 가시성, 유지보수성, 재사용성, 코딩 규칙 등 개발자 관점의 내적 속성이다.", "isCorrect": true },
-        { "text": "정확성, 신뢰성, 효율성, 상호 운영성 등 사용자에게 직접 보이는 외적 속성이다.", "isCorrect": false },
-        { "text": "프로세스 모델 적합성, 도구 적합성 등 프로세스 품질 속성이다.", "isCorrect": false },
-        { "text": "공정성, 투명성 등 인공지능 고유의 품질 속성이다.", "isCorrect": false }
-      ]
+        {
+          "text": "결합력(Coupling), 가시성, 유지보수성, 재사용성, 코딩 규칙 등 개발자 관점의 내적 속성이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "정확성, 신뢰성, 효율성, 상호 운영성 등 사용자에게 직접 보이는 외적 속성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 모델 적합성, 도구 적합성 등 프로세스 품질 속성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "공정성, 투명성 등 인공지능 고유의 품질 속성이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "강의의 품질 아이스버그 모델에서 '감춰진 증상'에 해당하는 내적 품질에 가장 가까운 요소는?"
     },
     {
       "id": "quality-23",
       "type": "short",
       "questionText": "프로세스 품질 요소에 해당하지 않는 것은?",
       "options": [
-        { "text": "신뢰성(Reliability). 이는 제품(외적) 품질 요소에 해당한다.", "isCorrect": true },
-        { "text": "프로세스 모델 적합성. 적용한 프로세스 모델이 적절한가를 본다.", "isCorrect": false },
-        { "text": "도구 적합성. CASE 툴이 개발 환경에 맞는지 본다.", "isCorrect": false },
-        { "text": "표준 준수성. 선택한 표준을 준수하여 프로젝트가 진행되는지 본다.", "isCorrect": false }
+        {
+          "text": "신뢰성(Reliability). 이는 제품(외적) 품질 요소에 해당한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "프로세스 모델 적합성. 적용한 프로세스 모델이 적절한가를 본다.",
+          "isCorrect": false
+        },
+        {
+          "text": "도구 적합성. CASE 툴이 개발 환경에 맞는지 본다.",
+          "isCorrect": false
+        },
+        {
+          "text": "표준 준수성. 선택한 표준을 준수하여 프로젝트가 진행되는지 본다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -259,54 +535,114 @@
       "type": "short",
       "questionText": "스테이크홀더 관점에서 유지보수자(Maintainer)가 가장 중요하게 여기는 기대치로 가장 적절한 것은?",
       "options": [
-        { "text": "소스 코드 이해 용이성, 표준 코딩 스타일 준수, 변경 영향의 국소화, 테스트 용이성, 일관성 있는 문서화이다.", "isCorrect": true },
-        { "text": "적은 비용 개발, 다른 응용으로의 재사용, 비즈니스 이익 극대화이다.", "isCorrect": false },
-        { "text": "기능 정확 동작, 고장 없음, 사용 용이성, 구매 비용 절감이다.", "isCorrect": false },
-        { "text": "네트워크 응답 속도, GPU 자원 효율, 확장성이다.", "isCorrect": false }
+        {
+          "text": "소스 코드 이해 용이성, 표준 코딩 스타일 준수, 변경 영향의 국소화, 테스트 용이성, 일관성 있는 문서화이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "적은 비용 개발, 다른 응용으로의 재사용, 비즈니스 이익 극대화이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 정확 동작, 고장 없음, 사용 용이성, 구매 비용 절감이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "네트워크 응답 속도, GPU 자원 효율, 확장성이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-25",
       "type": "long",
-      "questionText": "'적은 비용으로 개발되기를 원하고, 이미 개발한 컴포넌트가 다른 응용에서도 재사용되기를 원한다'는 기대치에 가장 부합하는 스테이크홀더는?",
       "options": [
-        { "text": "스폰서(Sponsor). 낮은 비용·적용성(Adaptability)·재사용성·비용 효율성을 중시한다.", "isCorrect": true },
-        { "text": "사용자(User). 정확성·신뢰성·사용성·낮은 비용을 중시한다.", "isCorrect": false },
-        { "text": "유지보수자(Maintainer). 가독성·코딩 표준 준수성·문서화를 중시한다.", "isCorrect": false },
-        { "text": "규제 기관(Regulator). 법적 준수성만을 중시한다.", "isCorrect": false }
-      ]
+        {
+          "text": "스폰서(Sponsor). 낮은 비용·적용성(Adaptability)·재사용성·비용 효율성을 중시한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "사용자(User). 정확성·신뢰성·사용성·낮은 비용을 중시한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "유지보수자(Maintainer). 가독성·코딩 표준 준수성·문서화를 중시한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "규제 기관(Regulator). 법적 준수성만을 중시한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "'적은 비용으로 개발되기를 원하고, 이미 개발한 컴포넌트가 다른 응용에서도 재사용되기를 원한다'는 기대치에 가장 부합하는 스테이크홀더는?"
     },
     {
       "id": "quality-26",
       "type": "short",
       "questionText": "전통 소프트웨어와 비교할 때 인공지능(기계학습 기반) 소프트웨어의 차별적 특성으로 가장 적절한 것은?",
       "options": [
-        { "text": "학습 모델의 입력-결과 관계는 입력 데이터의 일부에만 정의되며, 알고리즘보다 학습·테스트 데이터가 더 중요하게 고려된다.", "isCorrect": true },
-        { "text": "캡슐화·모듈화 같은 전통 SE 원칙을 그대로 적용하기가 전통 SW보다 훨씬 쉽다.", "isCorrect": false },
-        { "text": "동일 입력에 대해 항상 동일한 결과만을 보장해야 한다.", "isCorrect": false },
-        { "text": "개발·통합 방식이 표준화되어 한 가지 절차로만 진행된다.", "isCorrect": false }
+        {
+          "text": "학습 모델의 입력-결과 관계는 입력 데이터의 일부에만 정의되며, 알고리즘보다 학습·테스트 데이터가 더 중요하게 고려된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "캡슐화·모듈화 같은 전통 SE 원칙을 그대로 적용하기가 전통 SW보다 훨씬 쉽다.",
+          "isCorrect": false
+        },
+        {
+          "text": "동일 입력에 대해 항상 동일한 결과만을 보장해야 한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "개발·통합 방식이 표준화되어 한 가지 절차로만 진행된다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-27",
       "type": "long",
-      "questionText": "AI 채용 시스템이 특정 성별에 편향된 결과를 반복적으로 내놓는다면, 어떤 AI 품질 특성이 가장 크게 위반된 것인가?",
       "options": [
-        { "text": "다양성(Diversity)·공정성(Fairness)·사회적 웰빙(Well-being). 학습 모델·의사결정 정책이 특정 요소에 편중된 출력을 내면 안 된다.", "isCorrect": true },
-        { "text": "기술적 견고성(Robustness). 유해 입력 대처 능력이 부족한 경우에 해당한다.", "isCorrect": false },
-        { "text": "성능 효율성(Performance Efficiency). 응답 시간·자원 사용률 측면의 문제이다.", "isCorrect": false },
-        { "text": "이식성(Portability). 플랫폼 간 이동 문제에 해당한다.", "isCorrect": false }
-      ]
+        {
+          "text": "다양성(Diversity)·공정성(Fairness)·사회적 웰빙(Well-being). 학습 모델·의사결정 정책이 특정 요소에 편중된 출력을 내면 안 된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "기술적 견고성(Robustness). 유해 입력 대처 능력이 부족한 경우에 해당한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "성능 효율성(Performance Efficiency). 응답 시간·자원 사용률 측면의 문제이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "이식성(Portability). 플랫폼 간 이동 문제에 해당한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "AI 채용 시스템이 특정 성별에 편향된 결과를 반복적으로 내놓는다면, 어떤 AI 품질 특성이 가장 크게 위반된 것인가?"
     },
     {
       "id": "quality-28",
       "type": "short",
       "questionText": "AI 시스템에서 '투명성(Transparency)과 책임(Accountability)'이 특별히 강조되는 이유는?",
       "options": [
-        { "text": "기계학습 기반 시스템은 동일 입력에 다른 결과를 낼 수 있고 출력이 시간에 따라 변할 수 있어, 해석 가능성·설명 가능성이 중요하기 때문이다.", "isCorrect": true },
-        { "text": "모든 AI 시스템이 오픈소스여야 한다는 법적 의무 때문이다.", "isCorrect": false },
-        { "text": "GPU 자원 소모량을 사용자에게 공개해야 하기 때문이다.", "isCorrect": false },
-        { "text": "AI 시스템은 항상 결정론적이어야 하며, 결과의 변화 가능성을 숨겨야 하기 때문이다.", "isCorrect": false }
+        {
+          "text": "기계학습 기반 시스템은 동일 입력에 다른 결과를 낼 수 있고 출력이 시간에 따라 변할 수 있어, 해석 가능성·설명 가능성이 중요하기 때문이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 AI 시스템이 오픈소스여야 한다는 법적 의무 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "GPU 자원 소모량을 사용자에게 공개해야 하기 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "AI 시스템은 항상 결정론적이어야 하며, 결과의 변화 가능성을 숨겨야 하기 때문이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -314,32 +650,68 @@
       "type": "short",
       "questionText": "ML 시스템 품질 관점 중 '데이터 품질'에 해당하는 속성으로 가장 적절한 것은?",
       "options": [
-        { "text": "데이터의 정확성·편향성·최신성 등이며, 'Garbage-In-Garbage-Out' 원칙이 강조된다.", "isCorrect": true },
-        { "text": "학습된 모델의 추론 정확도·정밀도·재현율이다.", "isCorrect": false },
-        { "text": "모델 성능 저하 모니터링과 편향 통제 로직의 견고성이다.", "isCorrect": false },
-        { "text": "GPU·메모리 등 인프라의 자원 소모량이다.", "isCorrect": false }
+        {
+          "text": "데이터의 정확성·편향성·최신성 등이며, 'Garbage-In-Garbage-Out' 원칙이 강조된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "학습된 모델의 추론 정확도·정밀도·재현율이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "모델 성능 저하 모니터링과 편향 통제 로직의 견고성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "GPU·메모리 등 인프라의 자원 소모량이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-30",
       "type": "long",
-      "questionText": "표 2-2(모델 관점의 품질 요소)에서 '훈련된 모델의 내용을 사람이 해석할 수 있는가'에 해당하는 품질 속성은?",
       "options": [
-        { "text": "해석능력(Interpretability). 훈련된 모델이 왜 그 결과를 냈는지 사람이 설명·이해할 수 있는 능력이다.", "isCorrect": true },
-        { "text": "공정성(Fairness). 모델 출력이 공정한 결정을 제시하는가의 문제이다.", "isCorrect": false },
-        { "text": "안정성(Stability). 서로 다른 데이터에 대해 반복적 결과를 생성하는 능력이다.", "isCorrect": false },
-        { "text": "견고성(Robustness). 누락·오류 데이터를 잘 처리하는 능력이다.", "isCorrect": false }
-      ]
+        {
+          "text": "해석능력(Interpretability). 훈련된 모델이 왜 그 결과를 냈는지 사람이 설명·이해할 수 있는 능력이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "공정성(Fairness). 모델 출력이 공정한 결정을 제시하는가의 문제이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "안정성(Stability). 서로 다른 데이터에 대해 반복적 결과를 생성하는 능력이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "견고성(Robustness). 누락·오류 데이터를 잘 처리하는 능력이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "표 2-2(모델 관점의 품질 요소)에서 '훈련된 모델의 내용을 사람이 해석할 수 있는가'에 해당하는 품질 속성은?"
     },
     {
       "id": "quality-31",
       "type": "short",
       "questionText": "표 2-3(데이터 관점)에서 '훈련 데이터와 테스트 데이터가 상호 독립적인가'를 묻는 품질 속성은?",
       "options": [
-        { "text": "독립성(Independence). 훈련·테스트 세트가 섞이면 평가가 왜곡되므로 상호 독립이 요구된다.", "isCorrect": true },
-        { "text": "대표성(Representativeness). 데이터가 모집단을 대표하는지 묻는다.", "isCorrect": false },
-        { "text": "일관성(Consistency). 서로 다른 데이터셋의 형식·표본 추출 일관성을 묻는다.", "isCorrect": false },
-        { "text": "유통성(Currentness). 데이터가 최신 내용을 포함하는지 묻는다.", "isCorrect": false }
+        {
+          "text": "독립성(Independence). 훈련·테스트 세트가 섞이면 평가가 왜곡되므로 상호 독립이 요구된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "대표성(Representativeness). 데이터가 모집단을 대표하는지 묻는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "일관성(Consistency). 서로 다른 데이터셋의 형식·표본 추출 일관성을 묻는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "유통성(Currentness). 데이터가 최신 내용을 포함하는지 묻는다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -347,142 +719,298 @@
       "type": "short",
       "questionText": "McCall 품질 모델(FCM)에서 'Factor / Criteria / Metric'이 각각 가리키는 것은?",
       "options": [
-        { "text": "Factor는 사용자에게 보이는 외적 특성(품질요소), Criteria는 개발자에게 보이는 내적 특성(평가기준), Metric은 이를 측정하는 기본 단위·방법이다.", "isCorrect": true },
-        { "text": "Factor는 프로세스, Criteria는 도구, Metric은 사용자 만족도를 의미한다.", "isCorrect": false },
-        { "text": "Factor는 비용, Criteria는 일정, Metric은 인력 수를 의미한다.", "isCorrect": false },
-        { "text": "Factor는 코드 복잡도, Criteria는 테스트 커버리지, Metric은 결함 개수이다.", "isCorrect": false }
+        {
+          "text": "Factor는 사용자에게 보이는 외적 특성(품질요소), Criteria는 개발자에게 보이는 내적 특성(평가기준), Metric은 이를 측정하는 기본 단위·방법이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Factor는 프로세스, Criteria는 도구, Metric은 사용자 만족도를 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Factor는 비용, Criteria는 일정, Metric은 인력 수를 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Factor는 코드 복잡도, Criteria는 테스트 커버리지, Metric은 결함 개수이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-33",
       "type": "long",
-      "questionText": "McCall의 Factor 분류에서 '이식성(Portability), 재사용성(Reusability), 상호 운용성(Interoperability)'이 속하는 관점은?",
       "options": [
-        { "text": "제품 전환(Product Transition) 관점. 환경 변화 대응 능력과 관련된 품질이다.", "isCorrect": true },
-        { "text": "제품 운영(Product Operation) 관점. 사용자가 직접 느끼는 품질이다.", "isCorrect": false },
-        { "text": "제품 개선(Product Revision) 관점. 유지보수 관련 품질이다.", "isCorrect": false },
-        { "text": "프로세스(Process) 관점. 개발 프로세스의 품질이다.", "isCorrect": false }
-      ]
+        {
+          "text": "제품 전환(Product Transition) 관점. 환경 변화 대응 능력과 관련된 품질이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "제품 운영(Product Operation) 관점. 사용자가 직접 느끼는 품질이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "제품 개선(Product Revision) 관점. 유지보수 관련 품질이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스(Process) 관점. 개발 프로세스의 품질이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "McCall의 Factor 분류에서 '이식성(Portability), 재사용성(Reusability), 상호 운용성(Interoperability)'이 속하는 관점은?"
     },
     {
       "id": "quality-34",
       "type": "short",
       "questionText": "HP의 FURPS 모델에서 'S'가 나타내는 품질 속성은?",
       "options": [
-        { "text": "Supportability(지원성). 유지보수·확장 용이성, 확장·적용·수정 관련 요소를 포함한다.", "isCorrect": true },
-        { "text": "Security(보안성). 외부 공격 방어 능력을 의미한다.", "isCorrect": false },
-        { "text": "Scalability(확장성). 트래픽 증가 대응 능력만을 의미한다.", "isCorrect": false },
-        { "text": "Stability(안정성). 반복 실행 시 동일 결과 보장을 의미한다.", "isCorrect": false }
+        {
+          "text": "Supportability(지원성). 유지보수·확장 용이성, 확장·적용·수정 관련 요소를 포함한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Security(보안성). 외부 공격 방어 능력을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Scalability(확장성). 트래픽 증가 대응 능력만을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Stability(안정성). 반복 실행 시 동일 결과 보장을 의미한다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-35",
       "type": "long",
-      "questionText": "FURPS에서 Functionality(F)가 포함하는 하위 요소로 강의에서 제시된 것은?",
       "options": [
-        { "text": "기능(Feature Set), 일반성(Generality), 보안성(Security)이다. '시스템이 무엇을 하는가'를 다룬다.", "isCorrect": true },
-        { "text": "처리 속도·응답 시간·자원 사용률이다. 이는 Performance(P)에 속한다.", "isCorrect": false },
-        { "text": "미적 구성·일관성·문서화이다. 이는 Usability(U)에 속한다.", "isCorrect": false },
-        { "text": "확장·적용·수정이다. 이는 Supportability(S)에 속한다.", "isCorrect": false }
-      ]
+        {
+          "text": "기능(Feature Set), 일반성(Generality), 보안성(Security)이다. '시스템이 무엇을 하는가'를 다룬다.",
+          "isCorrect": true
+        },
+        {
+          "text": "처리 속도·응답 시간·자원 사용률이다. 이는 Performance(P)에 속한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "미적 구성·일관성·문서화이다. 이는 Usability(U)에 속한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "확장·적용·수정이다. 이는 Supportability(S)에 속한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "FURPS에서 Functionality(F)가 포함하는 하위 요소로 강의에서 제시된 것은?"
     },
     {
       "id": "quality-36",
       "type": "short",
       "questionText": "ISO/IEC 9126:2001에서 정의한 6개 상위 품질 특성에 해당하지 않는 것은?",
       "options": [
-        { "text": "호환성(Compatibility). 이는 ISO 9126이 아닌 ISO 25010에서 추가된 특성이다.", "isCorrect": true },
-        { "text": "기능성(Functionality).", "isCorrect": false },
-        { "text": "신뢰성(Reliability).", "isCorrect": false },
-        { "text": "유지보수성(Maintainability).", "isCorrect": false }
+        {
+          "text": "호환성(Compatibility). 이는 ISO 9126이 아닌 ISO 25010에서 추가된 특성이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "기능성(Functionality).",
+          "isCorrect": false
+        },
+        {
+          "text": "신뢰성(Reliability).",
+          "isCorrect": false
+        },
+        {
+          "text": "유지보수성(Maintainability).",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-37",
       "type": "long",
-      "questionText": "ISO/IEC 25010(SQuaRE)이 이전 표준인 ISO/IEC 9126 대비 확장한 핵심 변화로 가장 적절한 것은?",
       "options": [
-        { "text": "상위 품질 특성이 6개에서 8개로 확장되어 호환성(Compatibility)과 보안성(Security)이 독립된 특성으로 분리·추가되었다.", "isCorrect": true },
-        { "text": "상위 품질 특성이 6개에서 3개로 축소되어 기능·신뢰·효율만 남았다.", "isCorrect": false },
-        { "text": "소프트웨어 대신 하드웨어 품질만 다루는 표준으로 변경되었다.", "isCorrect": false },
-        { "text": "오픈소스 프로젝트 전용 표준으로 적용 범위가 축소되었다.", "isCorrect": false }
-      ]
+        {
+          "text": "상위 품질 특성이 6개에서 8개로 확장되어 호환성(Compatibility)과 보안성(Security)이 독립된 특성으로 분리·추가되었다.",
+          "isCorrect": true
+        },
+        {
+          "text": "상위 품질 특성이 6개에서 3개로 축소되어 기능·신뢰·효율만 남았다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 대신 하드웨어 품질만 다루는 표준으로 변경되었다.",
+          "isCorrect": false
+        },
+        {
+          "text": "오픈소스 프로젝트 전용 표준으로 적용 범위가 축소되었다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "ISO/IEC 25010(SQuaRE)이 이전 표준인 ISO/IEC 9126 대비 확장한 핵심 변화로 가장 적절한 것은?"
     },
     {
       "id": "quality-38",
       "type": "short",
       "questionText": "ISO/IEC 25010에서 '성능 효율성(Performance Efficiency)'의 하위 속성으로 강의에 제시된 것은?",
       "options": [
-        { "text": "시간 효율성(Time behaviour)·자원 활용성(Resource utilization)·준수성(Compliance)이다.", "isCorrect": true },
-        { "text": "가용성·결함 허용성·회복성이다. 이는 신뢰성의 하위 속성이다.", "isCorrect": false },
-        { "text": "적절성·정확성·준수성이다. 이는 기능적 적합성의 하위 속성이다.", "isCorrect": false },
-        { "text": "대체성·공존성·상호 운용성이다. 이는 호환성의 하위 속성이다.", "isCorrect": false }
+        {
+          "text": "시간 효율성(Time behaviour)·자원 활용성(Resource utilization)·준수성(Compliance)이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "가용성·결함 허용성·회복성이다. 이는 신뢰성의 하위 속성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "적절성·정확성·준수성이다. 이는 기능적 적합성의 하위 속성이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "대체성·공존성·상호 운용성이다. 이는 호환성의 하위 속성이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-39",
       "type": "long",
-      "questionText": "검증(Verification)과 유효성 확인(Validation)의 관계를 강의의 IEEE 정의와 연결할 때 옳은 것은?",
       "options": [
-        { "text": "Verification은 '명시된 요구사항(명세)을 충족하는가'(제대로 만들었는가)에 해당하고, Validation은 '고객·사용자의 요구·기대를 충족하는가'(올바른 것을 만들었는가)에 해당한다.", "isCorrect": true },
-        { "text": "Verification은 사용자 만족도 조사이고, Validation은 단위 테스트이다.", "isCorrect": false },
-        { "text": "Verification과 Validation은 동의어이며 교차 사용해도 무방하다.", "isCorrect": false },
-        { "text": "Verification은 출시 후 운영 단계에서만 수행하고, Validation은 설계 단계에서만 수행한다.", "isCorrect": false }
-      ]
+        {
+          "text": "Verification은 '명시된 요구사항(명세)을 충족하는가'(제대로 만들었는가)에 해당하고, Validation은 '고객·사용자의 요구·기대를 충족하는가'(올바른 것을 만들었는가)에 해당한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Verification은 사용자 만족도 조사이고, Validation은 단위 테스트이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Verification과 Validation은 동의어이며 교차 사용해도 무방하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Verification은 출시 후 운영 단계에서만 수행하고, Validation은 설계 단계에서만 수행한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "검증(Verification)과 유효성 확인(Validation)의 관계를 강의의 IEEE 정의와 연결할 때 옳은 것은?"
     },
     {
       "id": "quality-40",
       "type": "long",
-      "questionText": "강의의 '결함 수정 비용 그래프'에서 요구사항 단계 결함을 1.00으로 놓을 때, 출시(Field use) 단계에서 발견된 결함 수정 비용이 60~130배까지 커지는 현상이 시사하는 바는?",
       "options": [
-        { "text": "SQA 활동은 초기 단계(요구사항·설계)에서 결함을 잡는 것이 비용·효과가 크다는 점을 보여 준다.", "isCorrect": true },
-        { "text": "결함은 오직 출시 후에만 발견 가능하므로 초기 품질 활동은 무의미하다는 뜻이다.", "isCorrect": false },
-        { "text": "로그 스케일이므로 실제 비용 차이는 거의 없다는 의미이다.", "isCorrect": false },
-        { "text": "시스템 테스트 단계에서 결함을 찾는 것이 가장 저렴하다는 의미이다.", "isCorrect": false }
-      ]
+        {
+          "text": "SQA 활동은 초기 단계(요구사항·설계)에서 결함을 잡는 것이 비용·효과가 크다는 점을 보여 준다.",
+          "isCorrect": true
+        },
+        {
+          "text": "결함은 오직 출시 후에만 발견 가능하므로 초기 품질 활동은 무의미하다는 뜻이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "로그 스케일이므로 실제 비용 차이는 거의 없다는 의미이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 테스트 단계에서 결함을 찾는 것이 가장 저렴하다는 의미이다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "강의의 '결함 수정 비용 그래프'에서 요구사항 단계 결함을 1.00으로 놓을 때, 출시(Field use) 단계에서 발견된 결함 수정 비용이 60~130배까지 커지는 현상이 시사하는 바는?"
     },
     {
       "id": "quality-41",
       "type": "short",
       "questionText": "강의에서 제시한 User Satisfaction 방정식에 해당하지 않는 항목은?",
       "options": [
-        { "text": "Marketing Success(시장 점유율). User Satisfaction 공식에는 포함되지 않는다.", "isCorrect": true },
-        { "text": "Compliant Product(공학 측면).", "isCorrect": false },
-        { "text": "Delivery within budget and schedule(관리 측면).", "isCorrect": false },
-        { "text": "Good Quality(품질 측면).", "isCorrect": false }
+        {
+          "text": "Marketing Success(시장 점유율). User Satisfaction 공식에는 포함되지 않는다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Compliant Product(공학 측면).",
+          "isCorrect": false
+        },
+        {
+          "text": "Delivery within budget and schedule(관리 측면).",
+          "isCorrect": false
+        },
+        {
+          "text": "Good Quality(품질 측면).",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": "quality-42",
       "type": "long",
-      "questionText": "정량적 품질 관리 프로세스에서 '어떤 품질 요소를 어느 단계·대상물에 어떤 방식으로 정량화할지'를 결정하고 품질 측정 계획서를 작성하는 단계는?",
       "options": [
-        { "text": "척도 조정 단계. 프로젝트 특성과 요구를 바탕으로 적용 품질 요소를 확정하고 정량화 방법을 정의한다.", "isCorrect": true },
-        { "text": "준비 단계. 품질 관리 활동의 공식화와 팀·환경 구축을 담당한다.", "isCorrect": false },
-        { "text": "측정 단계. 이미 정의된 계획에 따라 데이터를 수집·분석한다.", "isCorrect": false },
-        { "text": "평가 단계. 측정 결과의 타당성 점검과 품질 수준 평가를 담당한다.", "isCorrect": false }
-      ]
+        {
+          "text": "척도 조정 단계. 프로젝트 특성과 요구를 바탕으로 적용 품질 요소를 확정하고 정량화 방법을 정의한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "준비 단계. 품질 관리 활동의 공식화와 팀·환경 구축을 담당한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "측정 단계. 이미 정의된 계획에 따라 데이터를 수집·분석한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "평가 단계. 측정 결과의 타당성 점검과 품질 수준 평가를 담당한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "정량적 품질 관리 프로세스에서 '어떤 품질 요소를 어느 단계·대상물에 어떤 방식으로 정량화할지'를 결정하고 품질 측정 계획서를 작성하는 단계는?"
     },
     {
       "id": "quality-43",
       "type": "long",
-      "questionText": "정량적 품질 관리의 '평가 단계'에서 수행하는 활동으로 가장 적절한 것은?",
       "options": [
-        { "text": "측정된 품질 요소의 타당성 점검, 유사 프로젝트나 조직 품질 척도와의 비교를 통한 품질 수준 평가, 데이터 수집 시점·변조 여부 점검, 조직 프로젝트 데이터베이스에 저장을 수행한다.", "isCorrect": true },
-        { "text": "품질 관리 담당자를 지정하고 적용 표준·도구·환경을 구축한다.", "isCorrect": false },
-        { "text": "적용할 품질 요소를 확정하고 정량화 방법을 정의한다.", "isCorrect": false },
-        { "text": "소프트웨어 코드를 직접 리팩토링하여 결함을 제거한다.", "isCorrect": false }
-      ]
+        {
+          "text": "측정된 품질 요소의 타당성 점검, 유사 프로젝트나 조직 품질 척도와의 비교를 통한 품질 수준 평가, 데이터 수집 시점·변조 여부 점검, 조직 프로젝트 데이터베이스에 저장을 수행한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "품질 관리 담당자를 지정하고 적용 표준·도구·환경을 구축한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "적용할 품질 요소를 확정하고 정량화 방법을 정의한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 코드를 직접 리팩토링하여 결함을 제거한다.",
+          "isCorrect": false
+        }
+      ],
+      "longText": "정량적 품질 관리의 '평가 단계'에서 수행하는 활동으로 가장 적절한 것은?"
     },
     {
       "id": "quality-44",
       "type": "short",
       "questionText": "정량적 품질 관리의 '관리 단계'가 갖는 특징은?",
       "options": [
-        { "text": "단위 프로젝트가 아닌 조직 차원의 품질·기술 관리 프로세스로, 표준 선택·양식·가이드라인·교육 등을 통해 전사 품질 활동을 지원한다.", "isCorrect": true },
-        { "text": "개별 프로젝트에서 수집한 원시 데이터를 직접 정량화하는 단계이다.", "isCorrect": false },
-        { "text": "새 척도를 발굴하고 즉시 현장에 적용하는 실험 단계이다.", "isCorrect": false },
-        { "text": "품질 측정 결과를 유사 프로젝트와 비교 평가하는 단계이다.", "isCorrect": false }
+        {
+          "text": "단위 프로젝트가 아닌 조직 차원의 품질·기술 관리 프로세스로, 표준 선택·양식·가이드라인·교육 등을 통해 전사 품질 활동을 지원한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개별 프로젝트에서 수집한 원시 데이터를 직접 정량화하는 단계이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "새 척도를 발굴하고 즉시 현장에 적용하는 실험 단계이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "품질 측정 결과를 유사 프로젝트와 비교 평가하는 단계이다.",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -490,10 +1018,22 @@
       "type": "short",
       "questionText": "[실습 2-2]에서 새로운 품질 요소를 개발하기 위한 방법으로 소개된 프레임워크는?",
       "options": [
-        { "text": "GQM(Goal-Question-Metric). 목표를 세우고 그 목표를 확인할 질문을 정의한 뒤, 질문에 답할 측정 지표를 설계하는 방법이다.", "isCorrect": true },
-        { "text": "SWOT 분석. 내부 강·약점과 외부 기회·위협을 분석하는 경영 프레임워크이다.", "isCorrect": false },
-        { "text": "PERT/CPM. 일정 관리용 네트워크 기법이다.", "isCorrect": false },
-        { "text": "Kano 모델. 고객 만족도 분류 모델로 측정 지표 설계 프레임워크는 아니다.", "isCorrect": false }
+        {
+          "text": "GQM(Goal-Question-Metric). 목표를 세우고 그 목표를 확인할 질문을 정의한 뒤, 질문에 답할 측정 지표를 설계하는 방법이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "SWOT 분석. 내부 강·약점과 외부 기회·위협을 분석하는 경영 프레임워크이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "PERT/CPM. 일정 관리용 네트워크 기법이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kano 모델. 고객 만족도 분류 모델로 측정 지표 설계 프레임워크는 아니다.",
+          "isCorrect": false
+        }
       ]
     }
   ]
