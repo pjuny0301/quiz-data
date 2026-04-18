@@ -437,6 +437,1869 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "pm-auto-001",
+      "type": "short",
+      "questionText": "학습목표에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        },
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-002",
+      "type": "short",
+      "questionText": "01 프로젝트 관리 필요성에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-003",
+      "type": "answer",
+      "questionText": "소프트웨어 개발 프로젝트가 실패하는 이유에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 개발 프로젝트가 실패하는 이유",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "위험 관리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-004",
+      "type": "short",
+      "questionText": "프로젝트 관리의 정의에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": true
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-005",
+      "type": "short",
+      "questionText": "프로젝트 관리 단계에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-006",
+      "type": "answer",
+      "questionText": "일정 관리 기법에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-007",
+      "type": "short",
+      "questionText": "실습 : 작업 분할도, 예시에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 조직",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-008",
+      "type": "short",
+      "questionText": "비용 관리 기법에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "Creation and maintenance of an internal environment in an",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-009",
+      "type": "answer",
+      "questionText": "위험 관리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "위험 관리",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "계획서 작성 시 유의 사항",
+          "isCorrect": false
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-010",
+      "type": "short",
+      "questionText": "프로젝트 조직에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "위험 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 조직",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트에서 관리의 의미와 필요성을 이해한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-011",
+      "type": "short",
+      "questionText": "프로젝트 팀 구조에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "부족한 소프트웨어 마인드",
+          "isCorrect": false
+        },
+        {
+          "text": "작업 분할도(WBS Work Breakdown Structure)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-012",
+      "type": "answer",
+      "questionText": "전사적 운영 조직에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 진척도 체크",
+          "isCorrect": false
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": true
+        },
+        {
+          "text": "1. 프로젝트 관리 및 지원 (Management & Support)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-013",
+      "type": "short",
+      "questionText": "계획서 작성 시 유의 사항에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "계획서 작성 시 유의 사항",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항의 복잡도, 개발자 규모 및 기술 수준, 팀 구성 형태, 개발 중에 발생",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-014",
+      "type": "short",
+      "questionText": "프로젝트 관리 기능에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "02 프로젝트 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발 단계와 프로젝트 베이스라인",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-015",
+      "type": "answer",
+      "questionText": "PMO 도구에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "Creation and maintenance of an internal environment in an",
+          "isCorrect": false
+        },
+        {
+          "text": "작업 분할도",
+          "isCorrect": false
+        },
+        {
+          "text": "전문가 판단(Wide Band Delphi)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-016",
+      "type": "short",
+      "questionText": "엔지니어링 도구에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계1 : 계획 수립",
+          "isCorrect": false
+        },
+        {
+          "text": "칸트 차트(Gantt Chart)",
+          "isCorrect": false
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항의 빈번한 변경, 프로젝트 팀원의 부적절성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-017",
+      "type": "short",
+      "questionText": "요약 정리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트에서 관리의 의미와 필요성을 이해한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "베이스라인 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "퍼트 차트(PERT Chart)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-018",
+      "type": "answer",
+      "questionText": "학습목표에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "부족한 소프트웨어 마인드",
+          "isCorrect": false
+        },
+        {
+          "text": "작업 분할도(WBS Work Breakdown Structure)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트에서 관리의 의미와 필요성을 이해한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "COCOMO/COCOMO II(Constructive Cost Model)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-019",
+      "type": "short",
+      "questionText": "01 프로젝트 관리 필요성에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "02 프로젝트 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 진척도 체크",
+          "isCorrect": false
+        },
+        {
+          "text": "1. 프로젝트 관리 및 지원 (Management & Support)",
+          "isCorrect": false
+        },
+        {
+          "text": "파킨슨의 법칙(Parkinson's Law)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-020",
+      "type": "short",
+      "questionText": "소프트웨어 개발 프로젝트가 실패하는 이유에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "요구사항의 복잡도, 개발자 규모 및 기술 수준, 팀 구성 형태, 개발 중에 발생",
+          "isCorrect": false
+        },
+        {
+          "text": "퍼트 차트(PERT Chart)",
+          "isCorrect": false
+        },
+        {
+          "text": "부족한 소프트웨어 마인드",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 구성원의 역할",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-021",
+      "type": "answer",
+      "questionText": "프로젝트 관리의 정의에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Creation and maintenance of an internal environment in an",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발 단계와 프로젝트 베이스라인",
+          "isCorrect": false
+        },
+        {
+          "text": "COCOMO/COCOMO II(Constructive Cost Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "하이브리드 팀 구조",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-022",
+      "type": "short",
+      "questionText": "프로젝트 관리 단계에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "작업 분할도",
+          "isCorrect": false
+        },
+        {
+          "text": "전문가 판단(Wide Band Delphi)",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 진척도 체크",
+          "isCorrect": true
+        },
+        {
+          "text": "문서의 목적",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-023",
+      "type": "short",
+      "questionText": "일정 관리 기법에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "요구사항의 복잡도, 개발자 규모 및 기술 수준, 팀 구성 형태, 개발 중에 발생",
+          "isCorrect": true
+        },
+        {
+          "text": "칸트 차트(Gantt Chart)",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항의 빈번한 변경, 프로젝트 팀원의 부적절성",
+          "isCorrect": false
+        },
+        {
+          "text": "보고서 생성 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-024",
+      "type": "answer",
+      "questionText": "실습 : 작업 분할도, 예시에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "퍼트 차트(PERT Chart)",
+          "isCorrect": false
+        },
+        {
+          "text": "중앙집중형 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "1. 프로젝트 관리 및 지원 (Management & Support)",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 및 진도 관리 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-025",
+      "type": "short",
+      "questionText": "비용 관리 기법에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "COCOMO/COCOMO II(Constructive Cost Model)",
+          "isCorrect": true
+        },
+        {
+          "text": "품질 관리 팀",
+          "isCorrect": false
+        },
+        {
+          "text": "성과 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-026",
+      "type": "short",
+      "questionText": "위험 관리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "파킨슨의 법칙(Parkinson's Law)",
+          "isCorrect": false
+        },
+        {
+          "text": "팀 구성, WBS 생성, 태스크 할당, 일정계획 생성, 마일스톤 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항의 빈번한 변경, 프로젝트 팀원의 부적절성",
+          "isCorrect": true
+        },
+        {
+          "text": "성공적인 프로젝트 수행을 위해 가장 중요한 요소?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-027",
+      "type": "answer",
+      "questionText": "프로젝트 조직에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "프로젝트 구성원의 역할",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 통합 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-028",
+      "type": "short",
+      "questionText": "프로젝트 팀 구조에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "하이브리드 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "이슈 및 위험 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "중앙집중형 팀 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-029",
+      "type": "short",
+      "questionText": "전사적 운영 조직에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "품질 관리 팀",
+          "isCorrect": true
+        },
+        {
+          "text": "문서의 목적",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어의 분석·설계·코딩·테스트를 지원하는 데 사용되는 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-030",
+      "type": "answer",
+      "questionText": "계획서 작성 시 유의 사항에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "보고서 생성 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "문서의 목적",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-031",
+      "type": "short",
+      "questionText": "프로젝트 관리 기능에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "팀 구성, WBS 생성, 태스크 할당, 일정계획 생성, 마일스톤 정의",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 및 진도 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트가 실패하는 이유",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-032",
+      "type": "short",
+      "questionText": "PMO 도구에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "성과 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 통합 관리 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-033",
+      "type": "answer",
+      "questionText": "엔지니어링 도구에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어의 분석·설계·코딩·테스트를 지원하는 데 사용되는 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "성공적인 프로젝트 수행을 위해 가장 중요한 요소?",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 조직",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-034",
+      "type": "short",
+      "questionText": "요약 정리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "성공적인 프로젝트 수행을 위해 가장 중요한 요소?",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-035",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 개발 프로젝트에서 관리의 의미와 필요성을 이해한다.",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-036",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 02 프로젝트 관리 기법",
+      "options": [
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": true
+        },
+        {
+          "text": "위험 관리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-037",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 부족한 소프트웨어 마인드",
+      "options": [
+        {
+          "text": "소프트웨어 개발 프로젝트가 실패하는 이유",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-038",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Creation and maintenance of an internal environment in an",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": true
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-039",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트 진척도 체크",
+      "options": [
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": true
+        },
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-040",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 단계1 : 계획 수립",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 조직",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": true
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-041",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 요구사항의 복잡도, 개발자 규모 및 기술 수준, 팀 구성 형태, 개발 중에 발생",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-042",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 베이스라인 관리",
+      "options": [
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "계획서 작성 시 유의 사항",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-043",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 개발 단계와 프로젝트 베이스라인",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "위험 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 요소에 대한 관리 방법을 학습한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-044",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 작업 분할도(WBS Work Breakdown Structure)",
+      "options": [
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어는 하드웨어와 달리 물리적으로 존재하지 않기 때문에 언제든 변경 가능하다?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-045",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 작업 분할도",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "계획과의 편차를 해결하는 대책 강구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-046",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 1. 프로젝트 관리 및 지원 (Management & Support)",
+      "options": [
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": true
+        },
+        {
+          "text": "가능한 리스크 정도 등을 고려하여 계획",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-047",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 칸트 차트(Gantt Chart)",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "03 프로젝트 조직",
+          "isCorrect": false
+        },
+        {
+          "text": "형상관리를 위한 베이스라인 설정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-048",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 퍼트 차트(PERT Chart)",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "enterprise where individuals, working together in groups, can",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "1.1 프로젝트 기획: 일정 계획 수립, 리스크 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-049",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? COCOMO/COCOMO II(Constructive Cost Model)",
+      "options": [
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "계획 수립",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트에서 수행 되어야 하는 태스크 간의 의존성 관계를 표현하는 차트",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-050",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 전문가 판단(Wide Band Delphi)",
+      "options": [
+        {
+          "text": "프로젝트 요소에 대한 관리 방법을 학습한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 베이스라인Requirement Baseline: 요구사항을 수집하고 프로젝트 계획을 수립한",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "KDSI(Kilo Delivered Source Instructions)를 기반으로 비용 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-051",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파킨슨의 법칙(Parkinson's Law)",
+      "options": [
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어는 하드웨어와 달리 물리적으로 존재하지 않기 때문에 언제든 변경 가능하다?",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트의 전체 목표를 중간의 세부 목표들로 쪼개어 나타낸 작업 목록",
+          "isCorrect": false
+        },
+        {
+          "text": "다수의 전문가가 모여 소프트웨어의 요구사항을 기준으로 소프트웨어 크기를 예상",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-052",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 요구사항의 빈번한 변경, 프로젝트 팀원의 부적절성",
+      "options": [
+        {
+          "text": "계획과의 편차를 해결하는 대책 강구",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트의 스케줄링, 예산 산정, 자원 계획을 수립하기 위해 사용하는 일정 표현 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "위험 관리",
+          "isCorrect": true
+        },
+        {
+          "text": "재작업, 의사소통의 증가와 같은 문제 유발",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-053",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트 구성원의 역할",
+      "options": [
+        {
+          "text": "프로젝트 조직",
+          "isCorrect": true
+        },
+        {
+          "text": "가능한 리스크 정도 등을 고려하여 계획",
+          "isCorrect": false
+        },
+        {
+          "text": "태스크 A, B와 D는 병행으로 수행 가능, 태스크 C는 반드시 A가 종료되어야 수행",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트에서 수행해야 할 작업 목록이 단순하거나 충분히 이해된 경우에 적합",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-054",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 중앙집중형 팀 구조",
+      "options": [
+        {
+          "text": "형상관리를 위한 베이스라인 설정",
+          "isCorrect": false
+        },
+        {
+          "text": "Effort Multiplier",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 수행 과정에서 산출물에 대한 리뷰, 인스펙션, 테스트 등과 같은 활동 지원",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-055",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 하이브리드 팀 구조",
+      "options": [
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "1.1 프로젝트 기획: 일정 계획 수립, 리스크 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 비용이나 필요한 인력 수는 소프트웨어의 복잡도 및 기능 수와 관련 있지",
+          "isCorrect": false
+        },
+        {
+          "text": "진도 관리 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-056",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 품질 관리 팀",
+      "options": [
+        {
+          "text": "프로젝트에서 수행 되어야 하는 태스크 간의 의존성 관계를 표현하는 차트",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리자(PM) : 프로젝트 전반에 걸친 관리 활동과 중요 이슈 해결",
+          "isCorrect": false
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 진행의 적정성을 검토하기 위한 Feasibility 분석이 제공",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-057",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 문서의 목적",
+      "options": [
+        {
+          "text": "계획서 작성 시 유의 사항",
+          "isCorrect": true
+        },
+        {
+          "text": "KDSI(Kilo Delivered Source Instructions)를 기반으로 비용 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "중앙집중형 팀 구조와 분산형 팀 구조를 통합한 계층형 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "전사 차원에서 이슈 및 위험 관리 체계 정의 및 공지",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-058",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 팀 구성, WBS 생성, 태스크 할당, 일정계획 생성, 마일스톤 정의",
+      "options": [
+        {
+          "text": "다수의 전문가가 모여 소프트웨어의 요구사항을 기준으로 소프트웨어 크기를 예상",
+          "isCorrect": false
+        },
+        {
+          "text": "해당 문서가 왜, 어떠한 목적으로 작성되며,",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "UML 기반의 객체지향 분석 및 설계 도구, 코딩 도구, 테스트 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-059",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 보고서 생성 기능",
+      "options": [
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "재작업, 의사소통의 증가와 같은 문제 유발",
+          "isCorrect": false
+        },
+        {
+          "text": "팀원을 위한 태스크 목록, 작업 일정 보고서 생성",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-060",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트 통합 관리 기능",
+      "options": [
+        {
+          "text": "프로젝트에서 수행해야 할 작업 목록이 단순하거나 충분히 이해된 경우에 적합",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 일정 계획의 조정 및 계획 대비 진도 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트가 실패하는 이유",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-061",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 일정 및 진도 관리 기능",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 수행 과정에서 산출물에 대한 리뷰, 인스펙션, 테스트 등과 같은 활동 지원",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트에서 발생하는 성과를 관리·활용하기 위한 계획 수립",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-062",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 이슈 및 위험 관리 기능",
+      "options": [
+        {
+          "text": "진도 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-063",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 성과 관리 기능",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 진행의 적정성을 검토하기 위한 Feasibility 분석이 제공",
+          "isCorrect": false
+        },
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-064",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어의 분석·설계·코딩·테스트를 지원하는 데 사용되는 도구",
+      "options": [
+        {
+          "text": "전사 차원에서 이슈 및 위험 관리 체계 정의 및 공지",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": true
+        },
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-065",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 성공적인 프로젝트 수행을 위해 가장 중요한 요소?",
+      "options": [
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        },
+        {
+          "text": "UML 기반의 객체지향 분석 및 설계 도구, 코딩 도구, 테스트 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발의 목적, 필요한 자원, 정보의 흐름, 소요 인력, 산출물 등을 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-066",
+      "type": "answer",
+      "questionText": "단계1에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "계획 수립",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-067",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트 요소에 대한 관리 방법을 학습한다.",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트가 실패하는 이유",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-068",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 03 프로젝트 조직",
+      "options": [
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "01 프로젝트 관리 필요성",
+          "isCorrect": true
+        },
+        {
+          "text": "위험 관리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-069",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어는 하드웨어와 달리 물리적으로 존재하지 않기 때문에 언제든 변경 가능하다?",
+      "options": [
+        {
+          "text": "소프트웨어 개발 프로젝트가 실패하는 이유",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-070",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? enterprise where individuals, working together in groups, can",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리의 정의",
+          "isCorrect": true
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-071",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 계획과의 편차를 해결하는 대책 강구",
+      "options": [
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": true
+        },
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-072",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 가능한 리스크 정도 등을 고려하여 계획",
+      "options": [
+        {
+          "text": "프로젝트 조직",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "04 프로젝트 관리 계획서",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-073",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 요구사항 베이스라인Requirement Baseline: 요구사항을 수집하고 프로젝트 계획을 수립한",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-074",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 형상관리를 위한 베이스라인 설정",
+      "options": [
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": false
+        },
+        {
+          "text": "계획서 작성 시 유의 사항",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-075",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트의 전체 목표를 중간의 세부 목표들로 쪼개어 나타낸 작업 목록",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "위험 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 계획서의 구성 항목이 무엇인지 알아본다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-076",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 1.1 프로젝트 기획: 일정 계획 수립, 리스크 식별",
+      "options": [
+        {
+          "text": "프로젝트 팀 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 작업 분할도, 예시",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 공학기술의 활용 미흡",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-077",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트의 스케줄링, 예산 산정, 자원 계획을 수립하기 위해 사용하는 일정 표현 기법",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "전사적 운영 조직",
+          "isCorrect": false
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 1: 계획 수립",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-078",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트에서 수행 되어야 하는 태스크 간의 의존성 관계를 표현하는 차트",
+      "options": [
+        {
+          "text": "프로젝트 관리 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 입력 사항 : 어떤 프로세스 모델을 선정하였는가",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-079",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 태스크 A, B와 D는 병행으로 수행 가능, 태스크 C는 반드시 A가 종료되어야 수행",
+      "options": [
+        {
+          "text": "일정 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "04 프로젝트 관리 계획서",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로젝트 개발 단계",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-080",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? KDSI(Kilo Delivered Source Instructions)를 기반으로 비용 산정",
+      "options": [
+        {
+          "text": "PMO 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "perform efficiently and effectively toward the attainment of group",
+          "isCorrect": false
+        },
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "일정 계획 수립, 리스크 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-auto-081",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Effort Multiplier",
+      "options": [
+        {
+          "text": "비용 관리 기법",
+          "isCorrect": true
+        },
+        {
+          "text": "엔지니어링 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "원은 태스크를, 화살표는 태스크 간의 의존성을 표현",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

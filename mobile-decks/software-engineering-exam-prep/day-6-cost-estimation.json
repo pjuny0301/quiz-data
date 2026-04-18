@@ -438,6 +438,1869 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "fp-auto-001",
+      "type": "short",
+      "questionText": "학습목표에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        },
+        {
+          "text": "01 기능 점수 개요",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-002",
+      "type": "short",
+      "questionText": "01 기능 점수 개요에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기능 점수 구성 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "01 기능 점수 개요",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-003",
+      "type": "answer",
+      "questionText": "소프트웨어 비용과 기능 점수에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 비용과 기능 점수",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 1: 기능 점수 산정 유형(Type) 결정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-004",
+      "type": "short",
+      "questionText": "기능 점수 구성 요소에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 4: 처리 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 구성 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-005",
+      "type": "short",
+      "questionText": "단계 1: 기능 점수 산정 유형(Type) 결정에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 1: 기능 점수 산정 유형(Type) 결정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-006",
+      "type": "answer",
+      "questionText": "단계 2: 범위 및 경계(Boundary) 선정에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-007",
+      "type": "short",
+      "questionText": "단계 3: 데이터 기능 산출 및 복잡도 식별에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-008",
+      "type": "short",
+      "questionText": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 7: 최종 기능 점수 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-009",
+      "type": "answer",
+      "questionText": "단계 4: 처리 기능 산출 및 복잡도 식별에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 4: 처리 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-010",
+      "type": "short",
+      "questionText": "단계 5: 예비 기능 점수 산정에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-011",
+      "type": "short",
+      "questionText": "단계 6: 조정 인자 값 산출에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "실습 : 조정 인자 값 산출을 위한 시스템 특성 평가하기",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수의 탄생 배경을 이해하고, 그 의미를 알아본다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-012",
+      "type": "answer",
+      "questionText": "실습 : 조정 인자 값 산출을 위한 시스템 특성 평가하기에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 산정 절차",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 조정 인자 값 산출을 위한 시스템 특성 평가하기",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-013",
+      "type": "short",
+      "questionText": "단계 7: 최종 기능 점수 산출에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 7: 최종 기능 점수 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-014",
+      "type": "short",
+      "questionText": "간이법 산정 절차에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 산정 절차",
+          "isCorrect": true
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-015",
+      "type": "answer",
+      "questionText": "간이법 단계별 산정에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 7: 최종 기능 점수 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "참고 : 방식별 간이법의 평균 복잡도 가중치",
+          "isCorrect": false
+        },
+        {
+          "text": "02 기능 점수 산정 절차",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-016",
+      "type": "short",
+      "questionText": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 시스템 : (측정기준: 입력, 출력, 데이터처리)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-017",
+      "type": "short",
+      "questionText": "참고 : 방식별 간이법의 평균 복잡도 가중치에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "참고 : 방식별 간이법의 평균 복잡도 가중치",
+          "isCorrect": true
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 타입을 구분하는 유형",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-018",
+      "type": "answer",
+      "questionText": "기능 점수와 프로그래밍 언어에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수의 탄생 배경을 이해하고, 그 의미를 알아본다.",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수 산정을 설명하기 위한 예제 시스템",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-019",
+      "type": "short",
+      "questionText": "기능 점수와 품질 척도에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": false
+        },
+        {
+          "text": "과거의 소프트웨어 비용 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "[표6-2] 고객 계좌 관리 시스템의 데이터 기능 산정을 위한 자료 구성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-020",
+      "type": "short",
+      "questionText": "요약 정리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 기능(Data Function)의 기능점수",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        },
+        {
+          "text": "신용등급(Credit Grade) : 4개의 데이터 항목",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-021",
+      "type": "answer",
+      "questionText": "학습목표에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "기능 점수의 탄생 배경을 이해하고, 그 의미를 알아본다.",
+          "isCorrect": true
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 산출 범위, 소프트웨어 획득 방식, 대상 시스템의 세부 내용을 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "처리 기능 : 응용 소프트웨어가 데이터를 처리하여 사용자에게 제공하는 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-022",
+      "type": "short",
+      "questionText": "01 기능 점수 개요에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "내부논리 파일(ILF)와 외부 인터페이스 파일(EIF) 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "3~4단계를 거쳐 모든 데이터 기능과 처리 기능에 대한 복잡도가 산정되면,",
+          "isCorrect": false
+        },
+        {
+          "text": "02 기능 점수 산정 절차",
+          "isCorrect": true
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-023",
+      "type": "short",
+      "questionText": "소프트웨어 비용과 기능 점수에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "과거의 소프트웨어 비용 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 시스템 : (측정기준: 입력, 출력, 데이터처리)",
+          "isCorrect": false
+        },
+        {
+          "text": "[표6-2] 고객 계좌 관리 시스템의 데이터 기능 산정을 위한 자료 구성",
+          "isCorrect": false
+        },
+        {
+          "text": "처리 기능점수 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-024",
+      "type": "answer",
+      "questionText": "기능 점수 구성 요소에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "프로젝트 타입을 구분하는 유형",
+          "isCorrect": false
+        },
+        {
+          "text": "ILF에 해당되는 고객 컴포넌트의 데이터 (DET) 항목 수 : 13",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 시스템 : (측정기준: 입력, 출력, 데이터처리)",
+          "isCorrect": true
+        },
+        {
+          "text": "조정 인자 값 산출 과정 : 운영적·환경적 특성을 지원하는 분석",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-025",
+      "type": "short",
+      "questionText": "단계 1: 기능 점수 산정 유형(Type) 결정에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "프로젝트 타입을 구분하는 유형",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수 산정을 설명하기 위한 예제 시스템",
+          "isCorrect": false
+        },
+        {
+          "text": "RET: Record Element Type",
+          "isCorrect": false
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-026",
+      "type": "short",
+      "questionText": "단계 2: 범위 및 경계(Boundary) 선정에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "[표6-2] 고객 계좌 관리 시스템의 데이터 기능 산정을 위한 자료 구성",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 기능점수 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 산출 범위, 소프트웨어 획득 방식, 대상 시스템의 세부 내용을 정의",
+          "isCorrect": true
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-027",
+      "type": "answer",
+      "questionText": "단계 3: 데이터 기능 산출 및 복잡도 식별에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "내부논리 파일(ILF)와 외부 인터페이스 파일(EIF) 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "신용등급(Credit Grade) : 4개의 데이터 항목",
+          "isCorrect": false
+        },
+        {
+          "text": "가중치 매트릭스를 이용한 ILE와 EIF의 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-028",
+      "type": "short",
+      "questionText": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "영향도(Degree of Influence) 결정 : 각 인자에 대해 1~5까지의 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "14개의 시스템 특성에 대하여 영향도가 결정되면 각 영향도의 합(TDI, Total",
+          "isCorrect": false
+        },
+        {
+          "text": "처리 기능 : 응용 소프트웨어가 데이터를 처리하여 사용자에게 제공하는 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수 산정: 간이법의 평균 복잡도 가중치 사용",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-029",
+      "type": "short",
+      "questionText": "단계 4: 처리 기능 산출 및 복잡도 식별에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "RET: Record Element Type",
+          "isCorrect": true
+        },
+        {
+          "text": "3~4단계를 거쳐 모든 데이터 기능과 처리 기능에 대한 복잡도가 산정되면,",
+          "isCorrect": false
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "앞 단계에서 결정된 VAF 값을 예비 기능 점수에 곱해주는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-030",
+      "type": "answer",
+      "questionText": "단계 5: 예비 기능 점수 산정에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "처리 기능점수 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "3~4단계를 거쳐 모든 데이터 기능과 처리 기능에 대한 복잡도가 산정되면,",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 1, 2 : 산정 유형Type 및 적용 범위Boundary 선정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-031",
+      "type": "short",
+      "questionText": "단계 6: 조정 인자 값 산출에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "조정 인자 값 산출 과정 : 운영적·환경적 특성을 지원하는 분석",
+          "isCorrect": true
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 기능과 처리 기능의 카운트(예)",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 분석 기법 적용 시 이점",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-032",
+      "type": "short",
+      "questionText": "실습 : 조정 인자 값 산출을 위한 시스템 특성 평가하기에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "최종기능점수: (4x7.5) + (1x5.4) + ((3+3+3)x4.0) + (4x5.2) + (4x3.9) = 107.8",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 특성 항목 제공하는 시스템 특성 영향도 비고",
+          "isCorrect": true
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-033",
+      "type": "answer",
+      "questionText": "단계 7: 최종 기능 점수 산출에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "앞 단계에서 결정된 VAF 값을 예비 기능 점수에 곱해주는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 산정 : 개발 비용관점에서 산정하는 것이 아니라 사용자가 수행하",
+          "isCorrect": false
+        },
+        {
+          "text": "국제 기능 점수 사용자 그룹(IFPUG, International Function Point Users",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-034",
+      "type": "short",
+      "questionText": "간이법 산정 절차에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "각 인자별 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 4: 처리 기능(Transaction Function) 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 산정 : 개발 비용관점에서 산정하는 것이 아니라 사용자가 수행하",
+          "isCorrect": true
+        },
+        {
+          "text": "생산성(Productivity) 척도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-035",
+      "type": "short",
+      "questionText": "간이법 단계별 산정에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "단계 1, 2 : 산정 유형Type 및 적용 범위Boundary 선정",
+          "isCorrect": true
+        },
+        {
+          "text": "14개의 시스템 특성에 대하여 영향도가 결정되면 각 영향도의 합(TDI, Total",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 산정: 간이법의 평균 복잡도 가중치 사용",
+          "isCorrect": false
+        },
+        {
+          "text": "기능점수 (Function Points)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-036",
+      "type": "answer",
+      "questionText": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "앞 단계에서 결정된 VAF 값을 예비 기능 점수에 곱해주는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법에서 사용하는 평균 복잡도 가중치는 여러가지가 있다",
+          "isCorrect": false
+        },
+        {
+          "text": "최종기능점수: (4x7.5) + (1x5.4) + ((3+3+3)x4.0) + (4x5.2) + (4x3.9) = 107.8",
+          "isCorrect": true
+        },
+        {
+          "text": "01 기능 점수 개요",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-037",
+      "type": "short",
+      "questionText": "참고 : 방식별 간이법의 평균 복잡도 가중치에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "간이법에서 사용하는 평균 복잡도 가중치는 여러가지가 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 1, 2 : 산정 유형Type 및 적용 범위Boundary 선정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능점수 1포인트당 얼마의 LOC로 고려될 수 있는가?",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 구성 요소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-038",
+      "type": "short",
+      "questionText": "기능 점수와 프로그래밍 언어에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "데이터 기능과 처리 기능의 카운트(예)",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 분석 기법 적용 시 이점",
+          "isCorrect": false
+        },
+        {
+          "text": "국제 기능 점수 사용자 그룹(IFPUG, International Function Point Users",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 1: 기능 점수 산정 유형(Type) 결정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-039",
+      "type": "answer",
+      "questionText": "기능 점수와 품질 척도에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "생산성(Productivity) 척도",
+          "isCorrect": true
+        },
+        {
+          "text": "최종기능점수: (4x7.5) + (1x5.4) + ((3+3+3)x4.0) + (4x5.2) + (4x3.9) = 107.8",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-040",
+      "type": "short",
+      "questionText": "요약 정리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "국제 기능 점수 사용자 그룹(IFPUG, International Function Point Users",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 비용과 기능 점수",
+          "isCorrect": false
+        },
+        {
+          "text": "기능점수 (Function Points)",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-041",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능 점수의 탄생 배경을 이해하고, 그 의미를 알아본다.",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        },
+        {
+          "text": "생산성(Productivity) 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 구성 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-042",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 02 기능 점수 산정 절차",
+      "options": [
+        {
+          "text": "기능점수 (Function Points)",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": false
+        },
+        {
+          "text": "01 기능 점수 개요",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-043",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 과거의 소프트웨어 비용 산정",
+      "options": [
+        {
+          "text": "소프트웨어 비용과 기능 점수",
+          "isCorrect": true
+        },
+        {
+          "text": "01 기능 점수 개요",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-044",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 시스템 : (측정기준: 입력, 출력, 데이터처리)",
+      "options": [
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 구성 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-045",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 데이터 기능(Data Function)의 기능점수",
+      "options": [
+        {
+          "text": "기능 점수 구성 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 1: 기능 점수 산정 유형(Type) 결정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-046",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트 타입을 구분하는 유형",
+      "options": [
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 4: 처리 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 1: 기능 점수 산정 유형(Type) 결정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-047",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능 점수 산출 범위, 소프트웨어 획득 방식, 대상 시스템의 세부 내용을 정의",
+      "options": [
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-048",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능 점수 산정을 설명하기 위한 예제 시스템",
+      "options": [
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 2: 범위 및 경계(Boundary) 선정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-049",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 내부논리 파일(ILF)와 외부 인터페이스 파일(EIF) 식별",
+      "options": [
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-050",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? [표6-2] 고객 계좌 관리 시스템의 데이터 기능 산정을 위한 자료 구성",
+      "options": [
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 7: 최종 기능 점수 산출",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-051",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 신용등급(Credit Grade) : 4개의 데이터 항목",
+      "options": [
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-052",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ILF에 해당되는 고객 컴포넌트의 데이터 (DET) 항목 수 : 13",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-053",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 처리 기능 : 응용 소프트웨어가 데이터를 처리하여 사용자에게 제공하는 기능",
+      "options": [
+        {
+          "text": "단계 4: 처리 기능 (Transaction) 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 조정 인자 값 산출을 위한 시스템 특성 평가하기",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-054",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? RET: Record Element Type",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 산정 절차",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 4: 처리 기능 산출 및 복잡도 식별",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-055",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 3~4단계를 거쳐 모든 데이터 기능과 처리 기능에 대한 복잡도가 산정되면,",
+      "options": [
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-056",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 데이터 기능점수 산출",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-057",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 처리 기능점수 산출",
+      "options": [
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 7: 최종 기능 점수 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "참고 : 방식별 간이법의 평균 복잡도 가중치",
+          "isCorrect": false
+        },
+        {
+          "text": "03 정규법과 간이법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-058",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 가중치 매트릭스를 이용한 ILE와 EIF의 예비 기능 점수 산정",
+      "options": [
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 5: 예비 기능 점수 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "(측정기준: 입력, 출력, 데이터처리)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-059",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 조정 인자 값 산출 과정 : 운영적·환경적 특성을 지원하는 분석",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "개발 프로젝트: 스크래치부터 시작하여 소프트웨어를 개발하는 경우",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-060",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 영향도(Degree of Influence) 결정 : 각 인자에 대해 1~5까지의 스케일 값",
+      "options": [
+        {
+          "text": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정",
+          "isCorrect": false
+        },
+        {
+          "text": "정규법에 의한 기능 점수 산정 절차를 이해한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "내부논리 파일 : 응용 소프트웨어 범위 내에서 유지되어야 하는 파일 또는",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-061",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 각 인자별 스케일 값",
+      "options": [
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": false
+        },
+        {
+          "text": "LOC(Lines Of Codes)로 소프트웨어의 규모 파악",
+          "isCorrect": false
+        },
+        {
+          "text": "RET: Record Element Type",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-062",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 14개의 시스템 특성에 대하여 영향도가 결정되면 각 영향도의 합(TDI, Total",
+      "options": [
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "내부 데이터 파일 (Internal Logical File) (ILF)",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 6: 조정 인자 값 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "레코드 타입의 파일 (RET) 이 2개(Individual과 Corporation)이므로 Low 수",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-063",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 시스템 특성 항목 제공하는 시스템 특성 영향도 비고",
+      "options": [
+        {
+          "text": "실습 : 조정 인자 값 산출을 위한 시스템 특성 평가하기",
+          "isCorrect": true
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "위 세가지 사항의 선택 항목",
+          "isCorrect": false
+        },
+        {
+          "text": "Record Element Type",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-064",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 앞 단계에서 결정된 VAF 값을 예비 기능 점수에 곱해주는 것",
+      "options": [
+        {
+          "text": "03 정규법과 간이법",
+          "isCorrect": false
+        },
+        {
+          "text": "RET: Record Element Type",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 7: 최종 기능 점수 산출",
+          "isCorrect": true
+        },
+        {
+          "text": "데이터기능점수",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-065",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능 점수 산정 : 개발 비용관점에서 산정하는 것이 아니라 사용자가 수행하",
+      "options": [
+        {
+          "text": "간이법 산정 절차",
+          "isCorrect": true
+        },
+        {
+          "text": "(측정기준: 입력, 출력, 데이터처리)",
+          "isCorrect": false
+        },
+        {
+          "text": "4개의 데이터 항목",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 기능 총 26점(=7*3+5)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-066",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 단계 1, 2 : 산정 유형Type 및 적용 범위Boundary 선정",
+      "options": [
+        {
+          "text": "개발 프로젝트: 스크래치부터 시작하여 소프트웨어를 개발하는 경우",
+          "isCorrect": false
+        },
+        {
+          "text": "응용 소프트웨어가 데이터를 처리하여 사용자에게 제공하는 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "각 인자에 대해 1~5까지의 스케일 값",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-067",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 단계 4: 처리 기능(Transaction Function) 식별",
+      "options": [
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "내부논리 파일 : 응용 소프트웨어 범위 내에서 유지되어야 하는 파일 또는",
+          "isCorrect": false
+        },
+        {
+          "text": "각 복잡도에 대한 가중치 값을 결정하여 곱해 줌.",
+          "isCorrect": false
+        },
+        {
+          "text": "처리율 : 기능 수행의 처리 성능에 대한 최고치 요구 없음(0),",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-068",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 데이터 기능과 처리 기능의 카운트(예)",
+      "options": [
+        {
+          "text": "RET: Record Element Type",
+          "isCorrect": false
+        },
+        {
+          "text": "Transaction",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "복잡한 처리 : {민감한 처리 및 보안 처리, 과도한 논리 연산, 방대한 수학 함수 호출, 많은 예",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-069",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능 점수 산정: 간이법의 평균 복잡도 가중치 사용",
+      "options": [
+        {
+          "text": "간이법 단계별 산정",
+          "isCorrect": true
+        },
+        {
+          "text": "레코드 타입의 파일 (RET) 이 2개(Individual과 Corporation)이므로 Low 수",
+          "isCorrect": false
+        },
+        {
+          "text": "운영적·환경적 특성을 지원하는 분석",
+          "isCorrect": false
+        },
+        {
+          "text": "변경 지원 : 특별한 요구사항 없음(0),",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-070",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 최종기능점수: (4x7.5) + (1x5.4) + ((3+3+3)x4.0) + (4x5.2) + (4x3.9) = 107.8",
+      "options": [
+        {
+          "text": "Record Element Type",
+          "isCorrect": false
+        },
+        {
+          "text": "분산 데이터 처리 : 시스템 간에 전송이 없음(0), 처리를 위한 데이터 가공(1),",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 간이법에 의한 데이터 및 처리 기능 카운트, 점수산정",
+          "isCorrect": true
+        },
+        {
+          "text": "1. 데이터 통신 고객 정보 조회 및 계좌 조회가 네트워크를 통해 수행됨 3 온라인 서비스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-071",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 간이법에서 사용하는 평균 복잡도 가중치는 여러가지가 있다",
+      "options": [
+        {
+          "text": "참고 : 방식별 간이법의 평균 복잡도 가중치",
+          "isCorrect": true
+        },
+        {
+          "text": "데이터기능점수",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 효율성 : {메뉴 전개 방식, 온라인 도움말, 자동 커서 이동, 스크롤링, 원격 인쇄, 함수",
+          "isCorrect": false
+        },
+        {
+          "text": "개발 비용관점에서 산정하는 것이 아니라 사용자가 수행하",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-072",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 국제 기능 점수 사용자 그룹(IFPUG, International Function Point Users",
+      "options": [
+        {
+          "text": "데이터 기능 총 26점(=7*3+5)",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 용이성 : {효율적인 설치, 백업, 복구 및 사용자 간섭 필요, 효율적이나 사용자 간섭 불",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": true
+        },
+        {
+          "text": "처리 기능(Transaction Function) 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-073",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능점수 1포인트당 얼마의 LOC로 고려될 수 있는가?",
+      "options": [
+        {
+          "text": "기능 점수와 프로그래밍 언어",
+          "isCorrect": true
+        },
+        {
+          "text": "각 인자에 대해 1~5까지의 스케일 값",
+          "isCorrect": false
+        },
+        {
+          "text": "Degree of Influence)을 구한 후에 다음 공식에 따라 조정 인자 값 VAF 산출",
+          "isCorrect": false
+        },
+        {
+          "text": "(4x7.5) + (1x5.4) + ((3+3+3)x4.0) + (4x5.2) + (4x3.9) = 107.8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-074",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 생산성(Productivity) 척도",
+      "options": [
+        {
+          "text": "처리율 : 기능 수행의 처리 성능에 대한 최고치 요구 없음(0),",
+          "isCorrect": false
+        },
+        {
+          "text": "고객 계좌 관리 시스템의 경우 예비 기능 점수 값 : 101점",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": true
+        },
+        {
+          "text": "Group) : 기능 점수와 프로그래밍 언어별 LOC에 대한 매핑 테이블 제공",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-075",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능 점수 분석 기법 적용 시 이점",
+      "options": [
+        {
+          "text": "기능 점수와 품질 척도",
+          "isCorrect": true
+        },
+        {
+          "text": "복잡한 처리 : {민감한 처리 및 보안 처리, 과도한 논리 연산, 방대한 수학 함수 호출, 많은 예",
+          "isCorrect": false
+        },
+        {
+          "text": "산정 유형Type 및 적용 범위Boundary 선정",
+          "isCorrect": false
+        },
+        {
+          "text": "결함의 밀도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-076",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 기능점수 (Function Points)",
+      "options": [
+        {
+          "text": "변경 지원 : 특별한 요구사항 없음(0),",
+          "isCorrect": false
+        },
+        {
+          "text": "간이법의 평균 복잡도 가중치 사용",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        },
+        {
+          "text": "LOC 기반 비용 산정의 문제점을 완화하기 위한 기능 중심의 비용 산정 기법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-077",
+      "type": "short",
+      "questionText": "소프트웨어 시스템에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "(측정기준: 입력, 출력, 데이터처리)",
+          "isCorrect": true
+        },
+        {
+          "text": "1. 데이터 통신 고객 정보 조회 및 계좌 조회가 네트워크를 통해 수행됨 3 온라인 서비스",
+          "isCorrect": false
+        },
+        {
+          "text": "방식별 간이법의 평균 복잡도 가중치",
+          "isCorrect": false
+        },
+        {
+          "text": "01 기능 점수 개요",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-078",
+      "type": "answer",
+      "questionText": "신용등급(Credit Grade)에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "개발 비용관점에서 산정하는 것이 아니라 사용자가 수행하",
+          "isCorrect": false
+        },
+        {
+          "text": "객체지향언어(C++, JAVA) : 53LOC",
+          "isCorrect": false
+        },
+        {
+          "text": "4개의 데이터 항목",
+          "isCorrect": true
+        },
+        {
+          "text": "처리 기능(Transaction Function) + 데이터 기능(Data Function)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-079",
+      "type": "short",
+      "questionText": "처리 기능에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "응용 소프트웨어가 데이터를 처리하여 사용자에게 제공하는 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "처리 기능(Transaction Function) 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 분석 과정을 통해 요구사항을 더욱 명확하게 이해할 수 있으며 이 값을 이용하여",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 1: 기능 점수 산정 유형(Type) 결정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-080",
+      "type": "short",
+      "questionText": "RET에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "(4x7.5) + (1x5.4) + ((3+3+3)x4.0) + (4x5.2) + (4x3.9) = 107.8",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "Record Element Type",
+          "isCorrect": true
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-auto-081",
+      "type": "short",
+      "questionText": "조정 인자 값 산출 과정에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "운영적·환경적 특성을 지원하는 분석",
+          "isCorrect": true
+        },
+        {
+          "text": "Group) : 기능 점수와 프로그래밍 언어별 LOC에 대한 매핑 테이블 제공",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 비용과 기능 점수",
+          "isCorrect": false
+        },
+        {
+          "text": "단계 3: 데이터 기능 산출 및 복잡도 식별",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

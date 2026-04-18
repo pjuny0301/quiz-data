@@ -415,6 +415,1892 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "quality-auto-001",
+      "type": "short",
+      "questionText": "학습목표에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-002",
+      "type": "answer",
+      "questionText": "01 소프트웨어 품질의 중요성에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-003",
+      "type": "short",
+      "questionText": "소프트웨어 품질에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-004",
+      "type": "short",
+      "questionText": "소프트웨어 품질의 중요성에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": true
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "HP의 FURPS 모델",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-005",
+      "type": "answer",
+      "questionText": "소프트웨어 스테이크 홀더에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 25010 품질 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-006",
+      "type": "short",
+      "questionText": "소프트웨어 외적 품질 요소에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "왜 소프트웨어 품질관리가 필요한가?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-007",
+      "type": "short",
+      "questionText": "소프트웨어 내적 품질 요소에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 vs. 인공지능 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-008",
+      "type": "answer",
+      "questionText": "프로세스 품질에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 품질",
+          "isCorrect": true
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 9126 품질 모델",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-009",
+      "type": "short",
+      "questionText": "전통적인 소프트웨어 vs. 인공지능 소프트웨어에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "Quality (품질)",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 vs. 인공지능 소프트웨어",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-010",
+      "type": "short",
+      "questionText": "인공지능 소프트웨어의 품질 특성에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "프로세스 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": true
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-011",
+      "type": "answer",
+      "questionText": "시스템 관점별 품질 요소에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "HP의 FURPS 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-012",
+      "type": "short",
+      "questionText": "McCall의 FCM 모델에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "ISO 25010 품질 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-013",
+      "type": "short",
+      "questionText": "HP의 FURPS 모델에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "왜 소프트웨어 품질관리가 필요한가?",
+          "isCorrect": false
+        },
+        {
+          "text": "02 소프트웨어 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "HP의 FURPS 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-014",
+      "type": "answer",
+      "questionText": "ISO 9126 품질 모델에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 9126 품질 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 특징",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-015",
+      "type": "short",
+      "questionText": "ISO 25010 품질 모델에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "ISO 9126 품질 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 25010 품질 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-016",
+      "type": "short",
+      "questionText": "Quality (품질)에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어의 품질에 대한 의미를 정확히 이해한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Quality (품질)",
+          "isCorrect": true
+        },
+        {
+          "text": "사용자가 만족하는 품질의 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "검증 가능성(Verifiability)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-017",
+      "type": "answer",
+      "questionText": "왜 소프트웨어 품질관리가 필요한가?에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "어떤 스마트폰을 선택할 것인가?",
+          "isCorrect": false
+        },
+        {
+          "text": "스테이크홀더별 관심사(표 2-1)",
+          "isCorrect": false
+        },
+        {
+          "text": "왜 소프트웨어 품질관리가 필요한가?",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-018",
+      "type": "short",
+      "questionText": "정량적 품질 개선에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 품질의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": true
+        },
+        {
+          "text": "견고성(Robustness)",
+          "isCorrect": false
+        },
+        {
+          "text": "적시성(Timeliness)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-019",
+      "type": "short",
+      "questionText": "요약 정리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 품질 요소는 매우 다양",
+          "isCorrect": false
+        },
+        {
+          "text": "보안성(Security)",
+          "isCorrect": false
+        },
+        {
+          "text": "학습 모델의 입력과 결과 사이의 관계는 입력 데이터의 일부에 대해서만 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-020",
+      "type": "answer",
+      "questionText": "학습목표에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "02 소프트웨어 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어의 품질에 대한 의미를 정확히 이해한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 스테이크홀더의 세 역할",
+          "isCorrect": false
+        },
+        {
+          "text": "유지보수성(Maintainability)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-021",
+      "type": "short",
+      "questionText": "01 소프트웨어 품질의 중요성에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 품질의 특징",
+          "isCorrect": false
+        },
+        {
+          "text": "정확성(Correctness)",
+          "isCorrect": false
+        },
+        {
+          "text": "생산성(Productivity)",
+          "isCorrect": false
+        },
+        {
+          "text": "02 소프트웨어 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-022",
+      "type": "short",
+      "questionText": "소프트웨어 품질에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 품질의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "어떤 스마트폰을 선택할 것인가?",
+          "isCorrect": true
+        },
+        {
+          "text": "사용자 친숙성(User Friendliness)",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 모델 적합성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-023",
+      "type": "answer",
+      "questionText": "소프트웨어 품질의 중요성에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "사용자가 만족하는 품질의 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "검증 가능성(Verifiability)",
+          "isCorrect": false
+        },
+        {
+          "text": "투명성Transparency과 책임Accountability",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질 요소는 매우 다양",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-024",
+      "type": "short",
+      "questionText": "소프트웨어 스테이크 홀더에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "스테이크홀더별 관심사(표 2-1)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크홀더의 세 역할",
+          "isCorrect": true
+        },
+        {
+          "text": "재사용성(Reusability)",
+          "isCorrect": false
+        },
+        {
+          "text": "법적Legal·윤리적Ethical 측면",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-025",
+      "type": "short",
+      "questionText": "소프트웨어 외적 품질 요소에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "견고성(Robustness)",
+          "isCorrect": false
+        },
+        {
+          "text": "적시성(Timeliness)",
+          "isCorrect": false
+        },
+        {
+          "text": "관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "정확성(Correctness)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-026",
+      "type": "answer",
+      "questionText": "소프트웨어 내적 품질 요소에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "보안성(Security)",
+          "isCorrect": false
+        },
+        {
+          "text": "검증 가능성(Verifiability)",
+          "isCorrect": true
+        },
+        {
+          "text": "학습 모델의 입력과 결과 사이의 관계는 입력 데이터의 일부에 대해서만 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 Factor Model Tree",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-027",
+      "type": "short",
+      "questionText": "프로세스 품질에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "유지보수성(Maintainability)",
+          "isCorrect": false
+        },
+        {
+          "text": "보안Security과 안전성Safety",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO/IEC 9126: 2001, Software Engineering – Product Quality",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 모델 적합성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-028",
+      "type": "short",
+      "questionText": "전통적인 소프트웨어 vs. 인공지능 소프트웨어에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "생산성(Productivity)",
+          "isCorrect": false
+        },
+        {
+          "text": "학습 모델의 입력과 결과 사이의 관계는 입력 데이터의 일부에 대해서만 정의",
+          "isCorrect": true
+        },
+        {
+          "text": "ML 시스템의 구성 관점",
+          "isCorrect": false
+        },
+        {
+          "text": "User Satisfaction",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-029",
+      "type": "answer",
+      "questionText": "인공지능 소프트웨어의 품질 특성에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "프로세스 모델 적합성",
+          "isCorrect": false
+        },
+        {
+          "text": "FCM의 기본 개념",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 과정에서 적용하는 정량적 품질 관리 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "투명성Transparency과 책임Accountability",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-030",
+      "type": "short",
+      "questionText": "시스템 관점별 품질 요소에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "투명성Transparency과 책임Accountability",
+          "isCorrect": false
+        },
+        {
+          "text": "ML 시스템의 구성 관점",
+          "isCorrect": true
+        },
+        {
+          "text": "FURPS의 구성 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "품질 측정 계획서를 바탕으로 별도의 업무 부담 없이 프로젝트 데이터를 수집하고,",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-031",
+      "type": "short",
+      "questionText": "McCall의 FCM 모델에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "법적Legal·윤리적Ethical 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO/IEC 25010: 2011, Systems and software engineering-Systems and",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨 품질이란",
+          "isCorrect": false
+        },
+        {
+          "text": "FCM의 기본 개념",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-032",
+      "type": "answer",
+      "questionText": "HP의 FURPS 모델에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "FURPS의 구성 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "cost to find",
+          "isCorrect": false
+        },
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-033",
+      "type": "short",
+      "questionText": "ISO 9126 품질 모델에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "McCall의 Factor Model Tree",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 혹은 소프트웨어 개발 조직 전체 차원에서 품질 관리 활동이 이루어진다는 것을",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO/IEC 9126: 2001, Software Engineering – Product Quality",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-034",
+      "type": "short",
+      "questionText": "ISO 25010 품질 모델에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "ISO/IEC 9126: 2001, Software Engineering – Product Quality",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO/IEC 25010: 2011, Systems and software engineering-Systems and",
+          "isCorrect": true
+        },
+        {
+          "text": "단위 프로젝트의 품질 관리 활동이라기보다 조직 차원에서 수행하는 품질 관리 및 기술 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-035",
+      "type": "answer",
+      "questionText": "Quality (품질)에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "User Satisfaction",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-036",
+      "type": "short",
+      "questionText": "왜 소프트웨어 품질관리가 필요한가?에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 개발 과정에서 적용하는 정량적 품질 관리 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "cost to find",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-037",
+      "type": "short",
+      "questionText": "정량적 품질 개선에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "품질 측정 계획서를 바탕으로 별도의 업무 부담 없이 프로젝트 데이터를 수집하고,",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 과정에서 적용하는 정량적 품질 관리 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-038",
+      "type": "answer",
+      "questionText": "요약 정리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨 품질이란",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 vs. 인공지능 소프트웨어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-039",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어의 품질에 대한 의미를 정확히 이해한다.",
+      "options": [
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-040",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 02 소프트웨어 품질 요소",
+      "options": [
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-041",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 어떤 스마트폰을 선택할 것인가?",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-042",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 품질의 특징",
+      "options": [
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-043",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 품질의 정의",
+      "options": [
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-044",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 품질 요소는 매우 다양",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-045",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 사용자가 만족하는 품질의 소프트웨어",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 vs. 인공지능 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-046",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 스테이크홀더의 세 역할",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": true
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 9126 품질 모델",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-047",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 스테이크홀더별 관심사(표 2-1)",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "Quality (품질)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 스테이크 홀더",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-048",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 정확성(Correctness)",
+      "options": [
+        {
+          "text": "프로세스 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-049",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 견고성(Robustness)",
+      "options": [
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "HP의 FURPS 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-050",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 사용자 친숙성(User Friendliness)",
+      "options": [
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "ISO 25010 품질 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-051",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 보안성(Security)",
+      "options": [
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "왜 소프트웨어 품질관리가 필요한가?",
+          "isCorrect": false
+        },
+        {
+          "text": "03 인공지능 소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-052",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 검증 가능성(Verifiability)",
+      "options": [
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어는 물리적으로 존재하지 않아 품질을 눈으로 확인하기 어렵다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-053",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 유지보수성(Maintainability)",
+      "options": [
+        {
+          "text": "ISO 9126 품질 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "ISOInternational Standards Organization의 정의(1999)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-054",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 재사용성(Reusability)",
+      "options": [
+        {
+          "text": "Quality (품질)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 품질을 결정하는 요소는 무엇이 있는지 알아본다.",
+          "isCorrect": false
+        },
+        {
+          "text": "품질 좋은 소프트웨어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-055",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 생산성(Productivity)",
+      "options": [
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "선택의 기준은 무엇인가?",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자가 제시한 요구사항 명세에 정의하지 않은 조건이나 환경에서도 소프트웨어가",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-056",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 적시성(Timeliness)",
+      "options": [
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "미 국방부Department of Defense(1985)",
+          "isCorrect": false
+        },
+        {
+          "text": "외부의 악의적인 공격이나 해커(Hacker)의 위협을 소프트웨어가 막아낼 수 있도록 구현하여",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-057",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로세스 모델 적합성",
+      "options": [
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "이 모든 요소를 모두 만족시키지 못하기 때문에 대상 소프트웨어의 특성을",
+          "isCorrect": false
+        },
+        {
+          "text": "수정 유지보수(Corrective Maintenance)",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 품질",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-058",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 학습 모델의 입력과 결과 사이의 관계는 입력 데이터의 일부에 대해서만 정의",
+      "options": [
+        {
+          "text": "03 인공지능 소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 vs. 인공지능 소프트웨어",
+          "isCorrect": true
+        },
+        {
+          "text": "주어진 명세서의 내용을 하나씩 테스트하여 원하는 결과를 생성하는지 여부로 판단",
+          "isCorrect": false
+        },
+        {
+          "text": "외적 품질 요소인 성능(Performance)의 속성을 적용한",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-059",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 투명성Transparency과 책임Accountability",
+      "options": [
+        {
+          "text": "소프트웨어는 물리적으로 존재하지 않아 품질을 눈으로 확인하기 어렵다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어가 사용하기 편리한가를 나타내는 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "어떤 프로세스 모델을 적용할 것인가",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-060",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 보안Security과 안전성Safety",
+      "options": [
+        {
+          "text": "ISOInternational Standards Organization의 정의(1999)",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어가 지닌 속성이 올바르다는 것을 안전하게 확인 가능",
+          "isCorrect": false
+        },
+        {
+          "text": "기계학습 기반 시스템은 동일한 입력에 대하여 서로 다른 결과를 제공할 수 있음",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-061",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 법적Legal·윤리적Ethical 측면",
+      "options": [
+        {
+          "text": "품질 좋은 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "새로운 소프트웨어를 개발하기 위해 기존 소프트웨어 컴포넌트를 사용하는 정도",
+          "isCorrect": false
+        },
+        {
+          "text": "AI 시스템이 인간이 해온 일들을 대행하는 에이전트Agent 역할을 수행하거나 인간이 하는 일",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-062",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ML 시스템의 구성 관점",
+      "options": [
+        {
+          "text": "사용자가 제시한 요구사항 명세에 정의하지 않은 조건이나 환경에서도 소프트웨어가",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어를 적시에 사용자 또는 시장에 제공할 수 있는 능력",
+          "isCorrect": false
+        },
+        {
+          "text": "Factors (품질요소)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-063",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 관점별 품질 요소",
+      "options": [
+        {
+          "text": "외부의 악의적인 공격이나 해커(Hacker)의 위협을 소프트웨어가 막아낼 수 있도록 구현하여",
+          "isCorrect": false
+        },
+        {
+          "text": "캡슐화 및 모듈화 같은 소프트웨어 엔지니어링의 일반적인 개발 원칙을 그대",
+          "isCorrect": false
+        },
+        {
+          "text": "F (Functionality) : “시스템이 무엇을 하는가”",
+          "isCorrect": false
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-064",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? FCM의 기본 개념",
+      "options": [
+        {
+          "text": "수정 유지보수(Corrective Maintenance)",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "AI 시스템의 응용 범위가 넓어져 개인 정보의 누출이나 프라이버시 침해 소지가 있음",
+          "isCorrect": false
+        },
+        {
+          "text": "2011, Systems and software engineering-Systems and",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-065",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? McCall의 Factor Model Tree",
+      "options": [
+        {
+          "text": "외적 품질 요소인 성능(Performance)의 속성을 적용한",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "and fix a defect",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-066",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? FURPS의 구성 요소",
+      "options": [
+        {
+          "text": "어떤 프로세스 모델을 적용할 것인가",
+          "isCorrect": false
+        },
+        {
+          "text": "HP의 FURPS 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "운영 관점: 사용자가 직접 느끼는 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "이를 정량화 방법에 의해 분석",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-067",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ISO/IEC 9126: 2001, Software Engineering – Product Quality",
+      "options": [
+        {
+          "text": "기계학습 기반 시스템은 동일한 입력에 대하여 서로 다른 결과를 제공할 수 있음",
+          "isCorrect": false
+        },
+        {
+          "text": "2001, Software Engineering – Product Quality",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자의 기대치에 대한 충족 정도",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 9126 품질 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-068",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ISO/IEC 25010: 2011, Systems and software engineering-Systems and",
+      "options": [
+        {
+          "text": "AI 시스템이 인간이 해온 일들을 대행하는 에이전트Agent 역할을 수행하거나 인간이 하는 일",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 25010 품질 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "= Compliant Product (공학)",
+          "isCorrect": false
+        },
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-069",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? User Satisfaction",
+      "options": [
+        {
+          "text": "Factors (품질요소)",
+          "isCorrect": false
+        },
+        {
+          "text": "공식화하고, 품질 관리 담당자 지정 등 팀 구성과 역할을 정의하며,",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "Quality (품질)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-070",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? cost to find",
+      "options": [
+        {
+          "text": "F (Functionality) : “시스템이 무엇을 하는가”",
+          "isCorrect": false
+        },
+        {
+          "text": "왜 소프트웨어 품질관리가 필요한가?",
+          "isCorrect": true
+        },
+        {
+          "text": "프로세스에 해당",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-071",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 개발 과정에서 적용하는 정량적 품질 관리 프로세스",
+      "options": [
+        {
+          "text": "2011, Systems and software engineering-Systems and",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-072",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로젝트 혹은 소프트웨어 개발 조직 전체 차원에서 품질 관리 활동이 이루어진다는 것을",
+      "options": [
+        {
+          "text": "and fix a defect",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-073",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 품질 측정 계획서를 바탕으로 별도의 업무 부담 없이 프로젝트 데이터를 수집하고,",
+      "options": [
+        {
+          "text": "이를 정량화 방법에 의해 분석",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-074",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 단위 프로젝트의 품질 관리 활동이라기보다 조직 차원에서 수행하는 품질 관리 및 기술 관리",
+      "options": [
+        {
+          "text": "사용자의 기대치에 대한 충족 정도",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-075",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨 품질이란",
+      "options": [
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-076",
+      "type": "short",
+      "questionText": "ISO/IEC 9126에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "2001, Software Engineering – Product Quality",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 품질",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-077",
+      "type": "answer",
+      "questionText": "ISO/IEC 25010에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "2011, Systems and software engineering-Systems and",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-078",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 품질을 결정하는 요소는 무엇이 있는지 알아본다.",
+      "options": [
+        {
+          "text": "소프트웨어 품질의 중요성",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-079",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 03 인공지능 소프트웨어 품질",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "McCall의 FCM 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "01 소프트웨어 품질의 중요성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-080",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 선택의 기준은 무엇인가?",
+      "options": [
+        {
+          "text": "소프트웨어 외적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        },
+        {
+          "text": "전통적인 소프트웨어 vs. 인공지능 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "HP의 FURPS 모델",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-081",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어는 물리적으로 존재하지 않아 품질을 눈으로 확인하기 어렵다.",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "인공지능 소프트웨어의 품질 특성",
+          "isCorrect": false
+        },
+        {
+          "text": "Quality (품질)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "quality-auto-082",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 미 국방부Department of Defense(1985)",
+      "options": [
+        {
+          "text": "소프트웨어 내적 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질",
+          "isCorrect": true
+        },
+        {
+          "text": "시스템 관점별 품질 요소",
+          "isCorrect": false
+        },
+        {
+          "text": "정량적 품질 개선",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

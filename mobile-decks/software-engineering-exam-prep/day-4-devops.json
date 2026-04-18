@@ -507,6 +507,1800 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "devops-auto-001",
+      "type": "short",
+      "questionText": "학습목표에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "01 DevOps 개요",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-002",
+      "type": "short",
+      "questionText": "01 DevOps 개요에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 소개",
+          "isCorrect": false
+        },
+        {
+          "text": "01 DevOps 개요",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-003",
+      "type": "answer",
+      "questionText": "DevOps 소개에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 적용",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 구현의 장애 요인",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 소개",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-004",
+      "type": "short",
+      "questionText": "린 사고방식과 원리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "린 사고방식과 원리",
+          "isCorrect": true
+        },
+        {
+          "text": "조직에서 DevOps로 인한 효과",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-005",
+      "type": "short",
+      "questionText": "DevOps 적용에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 적용",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-006",
+      "type": "answer",
+      "questionText": "DevOps에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 적용 동향",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 공학 방법이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-007",
+      "type": "short",
+      "questionText": "DevOps 적용 동향에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 조직의 Toolchain 활용",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "CI/CD",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 적용 동향",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-008",
+      "type": "short",
+      "questionText": "DevOps 구현의 장애 요인에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 구현의 장애 요인",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 표준 : IEEE Std 2675",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-009",
+      "type": "answer",
+      "questionText": "DevOps 조직의 Toolchain 활용에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 통합(Continuous Integration, CI):",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 조직의 Toolchain 활용",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-010",
+      "type": "short",
+      "questionText": "조직에서 DevOps로 인한 효과에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "조직에서 DevOps로 인한 효과",
+          "isCorrect": true
+        },
+        {
+          "text": "식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-011",
+      "type": "short",
+      "questionText": "DevOps 성공 전략에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Continuous monitoring",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-012",
+      "type": "answer",
+      "questionText": "DevOps 프로세스에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps Toolchain",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 마이크로 서비스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-013",
+      "type": "short",
+      "questionText": "DevOps pipeline에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 공학 방법이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": false
+        },
+        {
+          "text": "DevSecOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-014",
+      "type": "short",
+      "questionText": "지속적 통합(Continuous Integration, CI):에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "CI/CD",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 통합(Continuous Integration, CI):",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "BizDevOps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-015",
+      "type": "answer",
+      "questionText": "소프트웨어 공학 방법이다.에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps 표준 : IEEE Std 2675",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 측정 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 공학 방법이다.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-016",
+      "type": "short",
+      "questionText": "식이다.에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": false
+        },
+        {
+          "text": "식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "DevSecOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 탄생 배경과 개념을 이해한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-017",
+      "type": "short",
+      "questionText": "CI/CD에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "DevDataOps",
+          "isCorrect": false
+        },
+        {
+          "text": "사일로 기반 개발 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "CI/CD",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-018",
+      "type": "answer",
+      "questionText": "Continuous monitoring에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "Continuous monitoring",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": false
+        },
+        {
+          "text": "린(Lean) 사고방식",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-019",
+      "type": "short",
+      "questionText": "DevOps 표준 : IEEE Std 2675에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "실습 : 마이크로 서비스",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "IT 운영(ITOps):",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 표준 : IEEE Std 2675",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-020",
+      "type": "short",
+      "questionText": "DevOps Toolchain에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevSecOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps Toolchain",
+          "isCorrect": true
+        },
+        {
+          "text": "02 DevOps 프로세스와 프랙티스",
+          "isCorrect": false
+        },
+        {
+          "text": "Mindset",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-021",
+      "type": "answer",
+      "questionText": "DevOps와 클라우드에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "BizDevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "워터폴 방식의 문제점:",
+          "isCorrect": false
+        },
+        {
+          "text": "Shift-left mindset",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-022",
+      "type": "short",
+      "questionText": "DevOps와 기술들에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일 소프트웨어 개발에서 개발(Development) 팀과 운영(Operations) 팀 간의 협업과 조율",
+          "isCorrect": false
+        },
+        {
+          "text": "엔지니어의 기술부족, 기존 개발 인프라의 유지, 협업의 조율",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-023",
+      "type": "short",
+      "questionText": "DevOps 측정 척도에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "DevOps의 탄생 배경과 개념을 이해한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps (wikipedia에서 발췌)",
+          "isCorrect": false
+        },
+        {
+          "text": "긍정적 효과",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 측정 척도",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-024",
+      "type": "answer",
+      "questionText": "실습 : 마이크로 서비스에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "사일로 기반 개발 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 마이크로 서비스",
+          "isCorrect": true
+        },
+        {
+          "text": "Mindset",
+          "isCorrect": false
+        },
+        {
+          "text": "작은 시작과 점진적 확장",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-025",
+      "type": "short",
+      "questionText": "DevSecOps에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "린(Lean) 사고방식",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "애플리케이션에 대한 비즈니스 가치와 사용자 요구사항 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "DevSecOps",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-026",
+      "type": "short",
+      "questionText": "DevDataOps에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "IT 운영(ITOps):",
+          "isCorrect": false
+        },
+        {
+          "text": "DevDataOps",
+          "isCorrect": true
+        },
+        {
+          "text": "Toolchain의 역할",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 설계(알고리즘 개발)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-027",
+      "type": "answer",
+      "questionText": "BizDevOps에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Mindset",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 필요성 평가",
+          "isCorrect": false
+        },
+        {
+          "text": "배포된 애플리케이션 : 사용자 환경에 설치",
+          "isCorrect": false
+        },
+        {
+          "text": "BizDevOps",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-028",
+      "type": "short",
+      "questionText": "DevOps와 기술 부채에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Shift-left mindset",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": true
+        },
+        {
+          "text": "개인과 함께 팀 성과 검토",
+          "isCorrect": false
+        },
+        {
+          "text": "여러 개발자가 작업한 코드를 하루에도 여러 번 공용 메인라인에 병합하는 실천 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-029",
+      "type": "short",
+      "questionText": "요약 정리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "엔지니어의 기술부족, 기존 개발 인프라의 유지, 협업의 조율",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 In-House 서비스 개발 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 배포(Continuous Deployment, CD):",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-030",
+      "type": "answer",
+      "questionText": "학습목표에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "긍정적 효과",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 탄생 배경과 개념을 이해한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "테스트 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 모니터링(Continuous Monitoring) 정의:",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-031",
+      "type": "short",
+      "questionText": "01 DevOps 개요에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "작은 시작과 점진적 확장",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": false
+        },
+        {
+          "text": "Devops toolchain",
+          "isCorrect": false
+        },
+        {
+          "text": "02 DevOps 프로세스와 프랙티스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-032",
+      "type": "short",
+      "questionText": "DevOps 소개에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "애플리케이션에 대한 비즈니스 가치와 사용자 요구사항 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "사일로 기반 개발 방식",
+          "isCorrect": true
+        },
+        {
+          "text": "지속적 전달(Continuous Delivery, CD):",
+          "isCorrect": false
+        },
+        {
+          "text": "클라우드 플랫폼의 IaaS, PaaS, SaaS 지원 범위",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-033",
+      "type": "answer",
+      "questionText": "린 사고방식과 원리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 설계(알고리즘 개발)",
+          "isCorrect": false
+        },
+        {
+          "text": "CI/CD 정의:소프트웨어 공학에서 지속적 통합(CI)과 지속적 전달 또는 지속",
+          "isCorrect": false
+        },
+        {
+          "text": "Container Orchestration",
+          "isCorrect": false
+        },
+        {
+          "text": "린(Lean) 사고방식",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-034",
+      "type": "short",
+      "questionText": "DevOps 적용에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "배포된 애플리케이션 : 사용자 환경에 설치",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 소프트웨어 개발에서 개발(Development) 팀과 운영(Operations) 팀 간의 협업과 조율",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps: Building Reliable and Secure Systems Including Application Build, Package, and",
+          "isCorrect": false
+        },
+        {
+          "text": "개발 및 배포 관련지표",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-035",
+      "type": "short",
+      "questionText": "DevOps에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "여러 개발자가 작업한 코드를 하루에도 여러 번 공용 메인라인에 병합하는 실천 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "개발된 애플리케이션 서비스가 설치 운영될 플랫폼 환경과 개발 환경 간의 미",
+          "isCorrect": false
+        },
+        {
+          "text": "Shift Left",
+          "isCorrect": false
+        },
+        {
+          "text": "IT 운영(ITOps):",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-036",
+      "type": "answer",
+      "questionText": "DevOps 적용 동향에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "지속적 배포(Continuous Deployment, CD):",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "Container",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 데이터 흐름 파이프라인",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-037",
+      "type": "short",
+      "questionText": "DevOps 구현의 장애 요인에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "지속적 모니터링(Continuous Monitoring) 정의:",
+          "isCorrect": false
+        },
+        {
+          "text": "코드형 인프라(Infrastructure as Code, IaC): 머신이 읽을 수 있는 정의 파일",
+          "isCorrect": false
+        },
+        {
+          "text": "시간이 더 오래 걸리는 더 나은 접근 방식을 사용하는 대신 지금 쉬운(제한된)",
+          "isCorrect": false
+        },
+        {
+          "text": "엔지니어의 기술부족, 기존 개발 인프라의 유지, 협업의 조율",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-038",
+      "type": "short",
+      "questionText": "DevOps 조직의 Toolchain 활용에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Devops toolchain",
+          "isCorrect": false
+        },
+        {
+          "text": "Toolchain의 역할",
+          "isCorrect": true
+        },
+        {
+          "text": "1. 마이크로서비스: 애플리케이션을 작은 독립 서비스로 분리하여 개발·배포하는 아키텍처",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 출현 배경",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-039",
+      "type": "answer",
+      "questionText": "조직에서 DevOps로 인한 효과에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "클라우드 플랫폼의 IaaS, PaaS, SaaS 지원 범위",
+          "isCorrect": false
+        },
+        {
+          "text": "OWASP(Open Worldwide Application Security Project) Top 10에 익숙해야 함.",
+          "isCorrect": false
+        },
+        {
+          "text": "01 DevOps 개요",
+          "isCorrect": false
+        },
+        {
+          "text": "긍정적 효과",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-040",
+      "type": "short",
+      "questionText": "DevOps 성공 전략에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Container Orchestration",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 필요성 평가",
+          "isCorrect": true
+        },
+        {
+          "text": "BizDevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 소개",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-041",
+      "type": "short",
+      "questionText": "DevOps 프로세스에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "개발 및 배포 관련지표",
+          "isCorrect": false
+        },
+        {
+          "text": "새로운 직업군",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 적용",
+          "isCorrect": false
+        },
+        {
+          "text": "애플리케이션에 대한 비즈니스 가치와 사용자 요구사항 정의",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-042",
+      "type": "answer",
+      "questionText": "DevOps pipeline에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Shift Left",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": true
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-043",
+      "type": "short",
+      "questionText": "지속적 통합(Continuous Integration, CI):에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps의 데이터 흐름 파이프라인",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 소개",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "여러 개발자가 작업한 코드를 하루에도 여러 번 공용 메인라인에 병합하는 실천 방식이다.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-044",
+      "type": "short",
+      "questionText": "소프트웨어 공학 방법이다.에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "시간이 더 오래 걸리는 더 나은 접근 방식을 사용하는 대신 지금 쉬운(제한된)",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 전달(Continuous Delivery, CD):",
+          "isCorrect": true
+        },
+        {
+          "text": "린 사고방식과 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 적용 동향",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-045",
+      "type": "answer",
+      "questionText": "식이다.에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps의 출현 배경",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 조직의 Toolchain 활용",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 배포(Continuous Deployment, CD):",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-046",
+      "type": "short",
+      "questionText": "CI/CD에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "01 DevOps 개요",
+          "isCorrect": false
+        },
+        {
+          "text": "CI/CD 정의:소프트웨어 공학에서 지속적 통합(CI)과 지속적 전달 또는 지속",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-047",
+      "type": "short",
+      "questionText": "Continuous monitoring에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 소개",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 모니터링(Continuous Monitoring) 정의:",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-048",
+      "type": "answer",
+      "questionText": "DevOps 표준 : IEEE Std 2675에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 적용",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps: Building Reliable and Secure Systems Including Application Build, Package, and",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 구현의 장애 요인",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-049",
+      "type": "short",
+      "questionText": "DevOps Toolchain에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "조직에서 DevOps로 인한 효과",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Devops toolchain",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-050",
+      "type": "short",
+      "questionText": "DevOps와 클라우드에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "개발된 애플리케이션 서비스가 설치 운영될 플랫폼 환경과 개발 환경 간의 미",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-051",
+      "type": "answer",
+      "questionText": "DevOps와 기술들에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 적용 동향",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 공학 방법이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Container",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-052",
+      "type": "short",
+      "questionText": "DevOps 측정 척도에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 조직의 Toolchain 활용",
+          "isCorrect": false
+        },
+        {
+          "text": "개발 및 배포 관련지표",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "CI/CD",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-053",
+      "type": "short",
+      "questionText": "실습 : 마이크로 서비스에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 표준 : IEEE Std 2675",
+          "isCorrect": false
+        },
+        {
+          "text": "1. 마이크로서비스: 애플리케이션을 작은 독립 서비스로 분리하여 개발·배포하는 아키텍처",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-054",
+      "type": "answer",
+      "questionText": "DevSecOps에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "Shift Left",
+          "isCorrect": true
+        },
+        {
+          "text": "지속적 통합(Continuous Integration, CI):",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-055",
+      "type": "short",
+      "questionText": "DevDataOps에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 데이터 흐름 파이프라인",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-056",
+      "type": "short",
+      "questionText": "BizDevOps에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "BizDevOps 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "Continuous monitoring",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-057",
+      "type": "answer",
+      "questionText": "DevOps와 기술 부채에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps pipeline",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps Toolchain",
+          "isCorrect": false
+        },
+        {
+          "text": "실습 : 마이크로 서비스",
+          "isCorrect": false
+        },
+        {
+          "text": "시간이 더 오래 걸리는 더 나은 접근 방식을 사용하는 대신 지금 쉬운(제한된)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-058",
+      "type": "short",
+      "questionText": "요약 정리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 공학 방법이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 출현 배경",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": false
+        },
+        {
+          "text": "DevSecOps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-059",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps의 탄생 배경과 개념을 이해한다.",
+      "options": [
+        {
+          "text": "CI/CD",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "BizDevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-060",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 02 DevOps 프로세스와 프랙티스",
+      "options": [
+        {
+          "text": "DevOps 표준 : IEEE Std 2675",
+          "isCorrect": false
+        },
+        {
+          "text": "01 DevOps 개요",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 측정 척도",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-061",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 사일로 기반 개발 방식",
+      "options": [
+        {
+          "text": "DevOps와 클라우드",
+          "isCorrect": false
+        },
+        {
+          "text": "DevSecOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 환경의 소프트웨어 개발 절차와 Toolchain을 이해한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 소개",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-062",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 워터폴 방식의 문제점:",
+      "options": [
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 소개",
+          "isCorrect": true
+        },
+        {
+          "text": "DevDataOps",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발의 각 단계가 종료된 후",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-063",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 린(Lean) 사고방식",
+      "options": [
+        {
+          "text": "DevOps와 기술들",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": false
+        },
+        {
+          "text": "낭비 요소를 제거하고 사회에 더 많은 혜택을",
+          "isCorrect": false
+        },
+        {
+          "text": "린 사고방식과 원리",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-064",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 애자일 소프트웨어 개발에서 개발(Development) 팀과 운영(Operations) 팀 간의 협업과 조율",
+      "options": [
+        {
+          "text": "실습 : 마이크로 서비스",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 적용",
+          "isCorrect": true
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps는 하나의 문화, 운동, 또는 실천 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-065",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? IT 운영(ITOps):",
+      "options": [
+        {
+          "text": "DevSecOps",
+          "isCorrect": false
+        },
+        {
+          "text": "03 DevOps 변형들",
+          "isCorrect": false
+        },
+        {
+          "text": "CALMS model",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-066",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps (wikipedia에서 발췌)",
+      "options": [
+        {
+          "text": "BizDevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "팀 간 사일로(silo)와 잦은 업무 인수인계",
+          "isCorrect": false
+        },
+        {
+          "text": "고객 서비스를 365일 24시간 내내 제공해야 하는 IT 조직에서 도입하고 있는 소프트웨어 시",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-067",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Mindset",
+      "options": [
+        {
+          "text": "DevOps와 기술 부채",
+          "isCorrect": false
+        },
+        {
+          "text": "IT 서비스를 구현, 관리, 제공, 지원하는 활동을 포",
+          "isCorrect": false
+        },
+        {
+          "text": "산출물의 품질 향상",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-068",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Shift-left mindset",
+      "options": [
+        {
+          "text": "DevOps 환경의 소프트웨어 개발 절차와 Toolchain을 이해한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "CALMS model",
+          "isCorrect": false
+        },
+        {
+          "text": "작은 부분부터 변화 유도 -> 조직문화 개선 노력",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-069",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps",
+      "options": [
+        {
+          "text": "소프트웨어 개발의 각 단계가 종료된 후",
+          "isCorrect": false
+        },
+        {
+          "text": "시프트 레프트(Shift-left) 마인드셋:소프트웨어 개발 생명주기(SDLC)의 초기 단계부터 테스트,",
+          "isCorrect": false
+        },
+        {
+          "text": "애플리케이션의 소유자, 소프트웨어 개발자, 소프트웨어 설계자, 배포 담당자, 보안 담당자",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 적용 동향",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-070",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 엔지니어의 기술부족, 기존 개발 인프라의 유지, 협업의 조율",
+      "options": [
+        {
+          "text": "낭비 요소를 제거하고 사회에 더 많은 혜택을",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 구현의 장애 요인",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps 프로세스 실현 수단",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 제품 형상 설계·정의",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-071",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Toolchain의 역할",
+      "options": [
+        {
+          "text": "DevOps는 하나의 문화, 운동, 또는 실천 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "왜 DevOps를 IT 조직에 도입하려고 하는가?",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 환경에 설치",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 조직의 Toolchain 활용",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-072",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 긍정적 효과",
+      "options": [
+        {
+          "text": "CALMS model",
+          "isCorrect": false
+        },
+        {
+          "text": "조직에서 DevOps로 인한 효과",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자와 운영자에 대한 성과 검토 : 개발 및 배포에 대한 목표를 달성할 수 있는 팀의 능력",
+          "isCorrect": false
+        },
+        {
+          "text": "기원:이 용어는 1991년 Grady Booch가 처음 제안했다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-073",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps 필요성 평가",
+      "options": [
+        {
+          "text": "고객 서비스를 365일 24시간 내내 제공해야 하는 IT 조직에서 도입하고 있는 소프트웨어 시",
+          "isCorrect": false
+        },
+        {
+          "text": "단위 테스트",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 기능을 자동화된 배포를 통해 빈번하게 릴리스하는 소프트웨어 공학적 실천 방",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-074",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 작은 시작과 점진적 확장",
+      "options": [
+        {
+          "text": "산출물의 품질 향상",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항 만족도 테스트",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 주기와 아키텍처 전반에서 보안 및 컴플라이언스 위협을 식별.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-075",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 개인과 함께 팀 성과 검토",
+      "options": [
+        {
+          "text": "작은 부분부터 변화 유도 -> 조직문화 개선 노력",
+          "isCorrect": false
+        },
+        {
+          "text": "코드가 프로덕션 환경에 도달하기 전까지 거치는 모든 단계와 기술적 실천(practices)을 포",
+          "isCorrect": false
+        },
+        {
+          "text": "묘한 차이로 인한 설치 오류 발생 가능성을 줄이기 위한 전략",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 성공 전략",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-076",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 애플리케이션에 대한 비즈니스 가치와 사용자 요구사항 정의",
+      "options": [
+        {
+          "text": "애플리케이션의 소유자, 소프트웨어 개발자, 소프트웨어 설계자, 배포 담당자, 보안 담당자",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "언제든지 안정적으로 소프트웨어를 배포할 수 있도록, 짧은 주기로 소프트웨어를 생산하는",
+          "isCorrect": false
+        },
+        {
+          "text": "컨테이너 오케스트레이션(Container Orchestration)은 컨테이너화된 애플리케이션의 관리를",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-077",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps의 In-House 서비스 개발 단계",
+      "options": [
+        {
+          "text": "소프트웨어 제품 형상 설계·정의",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 공학에서 지속적 통합(CI)과 지속적 전달 또는 지속",
+          "isCorrect": false
+        },
+        {
+          "text": "설치주기 (Deployment Frequency)",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "devops-auto-078",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 설계(알고리즘 개발)",
+      "options": [
+        {
+          "text": "사용자 환경에 설치",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "Building Reliable and Secure Systems Including Application Build, Package, and",
+          "isCorrect": false
+        },
+        {
+          "text": "DevSecOps의 핵심",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

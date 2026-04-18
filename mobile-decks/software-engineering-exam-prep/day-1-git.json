@@ -392,6 +392,1915 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "git-auto-001",
+      "type": "answer",
+      "questionText": "Version Control이란?에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Local Version Control System",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 locality 및 integrity",
+          "isCorrect": false
+        },
+        {
+          "text": "Version Control이란?",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-002",
+      "type": "short",
+      "questionText": "Local Version Control System에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Local Version Control System",
+          "isCorrect": true
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "Merkle Tree or Hash Tree",
+          "isCorrect": false
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-003",
+      "type": "short",
+      "questionText": "Centralized Version Control System (CVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "Centralized Version Control System (CVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-004",
+      "type": "answer",
+      "questionText": "Distributed Version Control System (DVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-005",
+      "type": "short",
+      "questionText": "Snapshots vs Deltas에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "SHA(Secure Hash Algorithm)-1",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": true
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-006",
+      "type": "short",
+      "questionText": "Git 내부 동작 원리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": true
+        },
+        {
+          "text": "Git은 데이터를 지우지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-007",
+      "type": "answer",
+      "questionText": "Git의 locality 및 integrity에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 locality 및 integrity",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-008",
+      "type": "short",
+      "questionText": "SHA(Secure Hash Algorithm)-1에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "SHA(Secure Hash Algorithm)-1",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "분산 버전 관리 시스템",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-009",
+      "type": "short",
+      "questionText": "Merkle Tree or Hash Tree에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Merkle Tree or Hash Tree",
+          "isCorrect": true
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-010",
+      "type": "answer",
+      "questionText": "Git은 데이터를 지우지 않는다에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Git은 데이터를 지우지 않는다",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "Version Control System (VCS)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-011",
+      "type": "short",
+      "questionText": "Git의 3가지 상태와 영역에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-012",
+      "type": "short",
+      "questionText": "기본 Git Workflow에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        },
+        {
+          "text": "A Short History of Git",
+          "isCorrect": false
+        },
+        {
+          "text": "Git Generally Only Adds Data",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-013",
+      "type": "answer",
+      "questionText": "파일의 생명주기에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": true
+        },
+        {
+          "text": "Git GUI",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-014",
+      "type": "short",
+      "questionText": "주요 명령어에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "주요 명령어",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "로컬 버전 관리 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "Nearly Every Operation Is Local",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-015",
+      "type": "short",
+      "questionText": "Git branch에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "분산 버전 관리 시스템",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": true
+        },
+        {
+          "text": "A Merkle Tree (or hash tree) is a",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-016",
+      "type": "answer",
+      "questionText": "Github 연결에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Github 연결",
+          "isCorrect": true
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "< Storing data as changes to a base version of each file >",
+          "isCorrect": false
+        },
+        {
+          "text": "The Three States",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-017",
+      "type": "short",
+      "questionText": "Git GUI에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "Version Control System (VCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "Git GUI",
+          "isCorrect": true
+        },
+        {
+          "text": "Object의 식별",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-018",
+      "type": "short",
+      "questionText": "Version Control이란?에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Version Control System (VCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "중앙 집중형 버전 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "Hash 함수란?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-019",
+      "type": "answer",
+      "questionText": "Local Version Control System에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        },
+        {
+          "text": "A Short History of Git",
+          "isCorrect": false
+        },
+        {
+          "text": "로컬 버전 관리 방식",
+          "isCorrect": true
+        },
+        {
+          "text": "Git Generally Only Adds Data",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-020",
+      "type": "short",
+      "questionText": "Centralized Version Control System (CVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "중앙 집중형 버전 관리",
+          "isCorrect": true
+        },
+        {
+          "text": "Git GUI",
+          "isCorrect": false
+        },
+        {
+          "text": "Git is “Object Database”",
+          "isCorrect": false
+        },
+        {
+          "text": "Command Line vs GUI",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-021",
+      "type": "short",
+      "questionText": "Distributed Version Control System (DVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "로컬 버전 관리 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "Nearly Every Operation Is Local",
+          "isCorrect": false
+        },
+        {
+          "text": "분산 버전 관리 시스템",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 저장소 얻는 방법 2가지",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-022",
+      "type": "answer",
+      "questionText": "Snapshots vs Deltas에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "< Storing data as changes to a base version of each file >",
+          "isCorrect": true
+        },
+        {
+          "text": "분산 버전 관리 시스템",
+          "isCorrect": false
+        },
+        {
+          "text": "A Merkle Tree (or hash tree) is a",
+          "isCorrect": false
+        },
+        {
+          "text": "Untracked",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-023",
+      "type": "short",
+      "questionText": "Git 내부 동작 원리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "< Storing data as changes to a base version of each file >",
+          "isCorrect": false
+        },
+        {
+          "text": "The Three States",
+          "isCorrect": false
+        },
+        {
+          "text": "Git is “Object Database”",
+          "isCorrect": true
+        },
+        {
+          "text": "git status",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-024",
+      "type": "short",
+      "questionText": "Git의 locality 및 integrity에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Nearly Every Operation Is Local",
+          "isCorrect": true
+        },
+        {
+          "text": "Object의 식별",
+          "isCorrect": false
+        },
+        {
+          "text": "Git Basics",
+          "isCorrect": false
+        },
+        {
+          "text": "Staging modified files",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-025",
+      "type": "answer",
+      "questionText": "SHA(Secure Hash Algorithm)-1에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "git clone (저장소 복제)",
+          "isCorrect": false
+        },
+        {
+          "text": "변경 내용 확인",
+          "isCorrect": false
+        },
+        {
+          "text": "Hash 함수란?",
+          "isCorrect": true
+        },
+        {
+          "text": "Git remote",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-026",
+      "type": "short",
+      "questionText": "Merkle Tree or Hash Tree에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "A Merkle Tree (or hash tree) is a",
+          "isCorrect": true
+        },
+        {
+          "text": "Git Generally Only Adds Data",
+          "isCorrect": false
+        },
+        {
+          "text": "초기 상태: ”git init” or ”git clone <url>”",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 파일 이동",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-027",
+      "type": "short",
+      "questionText": "Git은 데이터를 지우지 않는다에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Command Line vs GUI",
+          "isCorrect": false
+        },
+        {
+          "text": "Staging Modified Files",
+          "isCorrect": false
+        },
+        {
+          "text": "Git Generally Only Adds Data",
+          "isCorrect": true
+        },
+        {
+          "text": "명령어 Working Directory Staging Area Repository 의미",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-028",
+      "type": "answer",
+      "questionText": "Git의 3가지 상태와 영역에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "The Three States",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 저장소 얻는 방법 2가지",
+          "isCorrect": false
+        },
+        {
+          "text": ".gitignore (버전관리 제외목록 지정)",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소 개념",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-029",
+      "type": "short",
+      "questionText": "기본 Git Workflow에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Untracked",
+          "isCorrect": false
+        },
+        {
+          "text": "Git commit",
+          "isCorrect": false
+        },
+        {
+          "text": "Command Line vs GUI",
+          "isCorrect": true
+        },
+        {
+          "text": "git fetch [<원격저장소명>[<브랜치명>]]",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-030",
+      "type": "short",
+      "questionText": "파일의 생명주기에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Untracked",
+          "isCorrect": true
+        },
+        {
+          "text": "git status",
+          "isCorrect": false
+        },
+        {
+          "text": "Git commit --amend",
+          "isCorrect": false
+        },
+        {
+          "text": "git branch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-031",
+      "type": "answer",
+      "questionText": "주요 명령어에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Staging modified files",
+          "isCorrect": false
+        },
+        {
+          "text": "구분 명령어 Repository에 미치는 영향",
+          "isCorrect": false
+        },
+        {
+          "text": "명령어 Working Directory Staging Area Repository 의미",
+          "isCorrect": true
+        },
+        {
+          "text": "Git Merge의 핵심",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-032",
+      "type": "short",
+      "questionText": "Git branch에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "git branch",
+          "isCorrect": true
+        },
+        {
+          "text": "변경 내용 확인",
+          "isCorrect": false
+        },
+        {
+          "text": "Git remote",
+          "isCorrect": false
+        },
+        {
+          "text": "SSH Key 생성 (Windows OpenSSH)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-033",
+      "type": "short",
+      "questionText": "Github 연결에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "Git 파일 이동",
+          "isCorrect": false
+        },
+        {
+          "text": "작업 내용 명령어 비고",
+          "isCorrect": false
+        },
+        {
+          "text": "SSH Key 생성 (Windows OpenSSH)",
+          "isCorrect": true
+        },
+        {
+          "text": "gitk --all : branch, merge 상태 확인",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-034",
+      "type": "answer",
+      "questionText": "Git GUI에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "gitk --all : branch, merge 상태 확인",
+          "isCorrect": true
+        },
+        {
+          "text": "명령어 Working Directory Staging Area Repository 의미",
+          "isCorrect": false
+        },
+        {
+          "text": "git merge",
+          "isCorrect": false
+        },
+        {
+          "text": "Local Version Control System",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-035",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Version Control System (VCS)",
+      "options": [
+        {
+          "text": "원격 저장소 개념",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 작성시 요구사항",
+          "isCorrect": false
+        },
+        {
+          "text": "Version Control이란?",
+          "isCorrect": true
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-036",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 로컬 버전 관리 방식",
+      "options": [
+        {
+          "text": "Local Version Control System",
+          "isCorrect": true
+        },
+        {
+          "text": "git fetch [<원격저장소명>[<브랜치명>]]",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 원격 저장소 주소변경",
+          "isCorrect": false
+        },
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-037",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 중앙 집중형 버전 관리",
+      "options": [
+        {
+          "text": "git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "Version Control이란?",
+          "isCorrect": false
+        },
+        {
+          "text": "Centralized Version Control System (CVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-038",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 분산 버전 관리 시스템",
+      "options": [
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Git Merge의 핵심",
+          "isCorrect": false
+        },
+        {
+          "text": "Centralized Version Control System (CVCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "SHA(Secure Hash Algorithm)-1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-039",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? A Short History of Git",
+      "options": [
+        {
+          "text": "SSH Key 생성 (Windows OpenSSH)",
+          "isCorrect": false
+        },
+        {
+          "text": "Git은 데이터를 지우지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-040",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? < Storing data as changes to a base version of each file >",
+      "options": [
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": true
+        },
+        {
+          "text": "gitk --all : branch, merge 상태 확인",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-041",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git is “Object Database”",
+      "options": [
+        {
+          "text": "Local Version Control System",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 locality 및 integrity",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-042",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Object의 식별",
+      "options": [
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": true
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "Merkle Tree or Hash Tree",
+          "isCorrect": false
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-043",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Nearly Every Operation Is Local",
+      "options": [
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 locality 및 integrity",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-044",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Hash 함수란?",
+      "options": [
+        {
+          "text": "SHA(Secure Hash Algorithm)-1",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-045",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? A Merkle Tree (or hash tree) is a",
+      "options": [
+        {
+          "text": "SHA(Secure Hash Algorithm)-1",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Merkle Tree or Hash Tree",
+          "isCorrect": true
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-046",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Generally Only Adds Data",
+      "options": [
+        {
+          "text": "Git은 데이터를 지우지 않는다",
+          "isCorrect": true
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-047",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? The Three States",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-048",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Command Line vs GUI",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "예: Git, Mercurial, Darcs",
+          "isCorrect": false
+        },
+        {
+          "text": "way to verify the integrity of a",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-049",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Basics",
+      "options": [
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-050",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 저장소 얻는 방법 2가지",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "파일이나 프로젝트의 변경 이력을 기록하는 시스템",
+          "isCorrect": false
+        },
+        {
+          "text": "Contents-addressable Hash",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-051",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git clone (저장소 복제)",
+      "options": [
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "예: CVS, Subversion, Perforce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-052",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Untracked",
+      "options": [
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        },
+        {
+          "text": "Linux Kernel 개발 과정에서 시작",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-053",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 초기 상태: ”git init” or ”git clone <url>”",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "파일의 생명주기",
+          "isCorrect": true
+        },
+        {
+          "text": "Git GUI",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-054",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git status",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "파일을 다른 디렉토리에 복사하는 방식",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-055",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Staging Modified Files",
+      "options": [
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "예: Git, Mercurial, Darcs",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "way to verify the integrity of a",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-056",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Staging modified files",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        },
+        {
+          "text": "< Storing data as snapshots of the project over time >",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-057",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? .gitignore (버전관리 제외목록 지정)",
+      "options": [
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "파일이나 프로젝트의 변경 이력을 기록하는 시스템",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Contents-addressable Hash",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-058",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 변경 내용 확인",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        },
+        {
+          "text": "예: CVS, Subversion, Perforce",
+          "isCorrect": false
+        },
+        {
+          "text": "임의 길이 입력 → 고정 길이 출력 (해시값)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-059",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git commit",
+      "options": [
+        {
+          "text": "Github 연결",
+          "isCorrect": false
+        },
+        {
+          "text": "Linux Kernel 개발 과정에서 시작",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "대부분의 작업은 데이터 추가",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-060",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 파일 이동",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Git GUI",
+          "isCorrect": false
+        },
+        {
+          "text": "Blob(Binary large object): 파일 내용 저장",
+          "isCorrect": false
+        },
+        {
+          "text": "GUI 도구 다수 존재 (부분 기능)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-061",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git commit --amend",
+      "options": [
+        {
+          "text": "파일을 다른 디렉토리에 복사하는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "히스토리 조회",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "기존 디렉토리를 Git 저장소로 초기화 (init)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-062",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 명령어 Working Directory Staging Area Repository 의미",
+      "options": [
+        {
+          "text": "주요 명령어",
+          "isCorrect": true
+        },
+        {
+          "text": "예: Git, Mercurial, Darcs",
+          "isCorrect": false
+        },
+        {
+          "text": "way to verify the integrity of a",
+          "isCorrect": false
+        },
+        {
+          "text": "명시적으로 해당 파일을 git add를 하기 전",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-063",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 구분 명령어 Repository에 미치는 영향",
+      "options": [
+        {
+          "text": "< Storing data as snapshots of the project over time >",
+          "isCorrect": false
+        },
+        {
+          "text": "Modified: 파일 변경됨, 아직 저장 안됨",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": true
+        },
+        {
+          "text": "현재 브랜치",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-064",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 원격 저장소 개념",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Contents-addressable Hash",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 핵심 명령어와 기본 워크플로우",
+          "isCorrect": false
+        },
+        {
+          "text": ": 여러 문자",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-065",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git remote",
+      "options": [
+        {
+          "text": "임의 길이 입력 → 고정 길이 출력 (해시값)",
+          "isCorrect": false
+        },
+        {
+          "text": "Git clone <url>",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": true
+        },
+        {
+          "text": "Git commit -m",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-066",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git fetch [<원격저장소명>[<브랜치명>]]",
+      "options": [
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": true
+        },
+        {
+          "text": "대부분의 작업은 데이터 추가",
+          "isCorrect": false
+        },
+        {
+          "text": "”git init” or ”git clone <url>”",
+          "isCorrect": false
+        },
+        {
+          "text": "마지막 커밋 (HEAD) 수정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-067",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 작업 내용 명령어 비고",
+      "options": [
+        {
+          "text": "GUI 도구 다수 존재 (부분 기능)",
+          "isCorrect": false
+        },
+        {
+          "text": "git add 시점의 내용만 스테이징됨",
+          "isCorrect": false
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": true
+        },
+        {
+          "text": "포인터 즉시 수정 git reset Branch가 가리키는 Commit을 과거로 옮겨 히스토리 구조",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-068",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git branch",
+      "options": [
+        {
+          "text": "Git branch",
+          "isCorrect": true
+        },
+        {
+          "text": "기존 디렉토리를 Git 저장소로 초기화 (init)",
+          "isCorrect": false
+        },
+        {
+          "text": "Git diff",
+          "isCorrect": false
+        },
+        {
+          "text": "git remote -v",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-069",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git merge",
+      "options": [
+        {
+          "text": "명시적으로 해당 파일을 git add를 하기 전",
+          "isCorrect": false
+        },
+        {
+          "text": "git mv",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": true
+        },
+        {
+          "text": "목록 보기 git remote -v URL까지 확인 가능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-070",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Merge의 핵심",
+      "options": [
+        {
+          "text": "Git branch",
+          "isCorrect": true
+        },
+        {
+          "text": "현재 브랜치",
+          "isCorrect": false
+        },
+        {
+          "text": "git add <file> 변경 없음 추가 Commit하면 새 버전 Commit 준비",
+          "isCorrect": false
+        },
+        {
+          "text": "Fast-Forward Merge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-071",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 코드 작성시 요구사항",
+      "options": [
+        {
+          "text": ": 여러 문자",
+          "isCorrect": false
+        },
+        {
+          "text": "Remotes",
+          "isCorrect": false
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": true
+        },
+        {
+          "text": "실무(특히 Linux, Ceph 같은 거대 프로젝트)에서는 Rebase와 함께 이 개념이 매우 중요.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-072",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? SSH Key 생성 (Windows OpenSSH)",
+      "options": [
+        {
+          "text": "Github 연결",
+          "isCorrect": true
+        },
+        {
+          "text": "Git commit -m",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소에서 내가 아직 가지지 못한 모든 데이터를 로컬로 다운로드.",
+          "isCorrect": false
+        },
+        {
+          "text": "연결 Test",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-073",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 원격 저장소 주소변경",
+      "options": [
+        {
+          "text": "마지막 커밋 (HEAD) 수정",
+          "isCorrect": false
+        },
+        {
+          "text": "git checkout –b <브랜치명> (구버전)",
+          "isCorrect": false
+        },
+        {
+          "text": "Github 연결",
+          "isCorrect": true
+        },
+        {
+          "text": "Version Control이란?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-074",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? gitk --all : branch, merge 상태 확인",
+      "options": [
+        {
+          "text": "Git GUI",
+          "isCorrect": true
+        },
+        {
+          "text": "포인터 즉시 수정 git reset Branch가 가리키는 Commit을 과거로 옮겨 히스토리 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "Git Merge는 공통 조상을 찾아 두 브랜치의 차이점을 계산하고, 이를 하나의 새로운 커밋으로",
+          "isCorrect": false
+        },
+        {
+          "text": "Centralized Version Control System (CVCS)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-075",
+      "type": "short",
+      "questionText": "초기 상태에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "git remote -v",
+          "isCorrect": false
+        },
+        {
+          "text": "생성된 SSH Key 확인 및 복사",
+          "isCorrect": false
+        },
+        {
+          "text": "”git init” or ”git clone <url>”",
+          "isCorrect": true
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-076",
+      "type": "answer",
+      "questionText": "gitk --all에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "branch, merge 상태 확인",
+          "isCorrect": true
+        },
+        {
+          "text": "목록 보기 git remote -v URL까지 확인 가능",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-077",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파일이나 프로젝트의 변경 이력을 기록하는 시스템",
+      "options": [
+        {
+          "text": "Fast-Forward Merge",
+          "isCorrect": false
+        },
+        {
+          "text": "Local Version Control System",
+          "isCorrect": false
+        },
+        {
+          "text": "Version Control이란?",
+          "isCorrect": true
+        },
+        {
+          "text": "Git의 locality 및 integrity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-078",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파일을 다른 디렉토리에 복사하는 방식",
+      "options": [
+        {
+          "text": "Local Version Control System",
+          "isCorrect": true
+        },
+        {
+          "text": "실무(특히 Linux, Ceph 같은 거대 프로젝트)에서는 Rebase와 함께 이 개념이 매우 중요.",
+          "isCorrect": false
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "Merkle Tree or Hash Tree",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-079",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 예: CVS, Subversion, Perforce",
+      "options": [
+        {
+          "text": "연결 Test",
+          "isCorrect": false
+        },
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": false
+        },
+        {
+          "text": "Centralized Version Control System (CVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Git의 3가지 상태와 영역",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-080",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 예: Git, Mercurial, Darcs",
+      "options": [
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Version Control이란?",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-081",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Linux Kernel 개발 과정에서 시작",
+      "options": [
+        {
+          "text": "Centralized Version Control System (CVCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "SHA(Secure Hash Algorithm)-1",
+          "isCorrect": false
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": true
+        },
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-082",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? < Storing data as snapshots of the project over time >",
+      "options": [
+        {
+          "text": "Snapshots vs Deltas",
+          "isCorrect": true
+        },
+        {
+          "text": "Distributed Version Control System (DVCS)",
+          "isCorrect": false
+        },
+        {
+          "text": "Git은 데이터를 지우지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "Init 하면 “.git” 폴더가 저장소로 만들어짐",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-auto-083",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Blob(Binary large object): 파일 내용 저장",
+      "options": [
+        {
+          "text": "기본 Git Workflow",
+          "isCorrect": false
+        },
+        {
+          "text": "주요 명령어",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": true
+        },
+        {
+          "text": "Git branch",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

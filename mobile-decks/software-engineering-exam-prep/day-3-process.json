@@ -414,6 +414,1892 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "process-auto-001",
+      "type": "short",
+      "questionText": "학습목표에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "01 실현 가능성 분석",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-002",
+      "type": "answer",
+      "questionText": "01 실현 가능성 분석에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "전통적인 소프트웨어 개발 과정",
+          "isCorrect": false
+        },
+        {
+          "text": "01 실현 가능성 분석",
+          "isCorrect": true
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-003",
+      "type": "short",
+      "questionText": "여행을 떠난다면?에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스 배경",
+          "isCorrect": false
+        },
+        {
+          "text": "여행을 떠난다면?",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-004",
+      "type": "short",
+      "questionText": "전통적인 소프트웨어 개발 과정에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "소프트웨어 프로세스의 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 개발 과정",
+          "isCorrect": true
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "신속한 소프트웨어 개발",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-005",
+      "type": "answer",
+      "questionText": "실현 가능성에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-006",
+      "type": "short",
+      "questionText": "실현 가능성 분석을 위해 고려할 측면에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-007",
+      "type": "short",
+      "questionText": "소프트웨어 프로세스의 필요성에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스의 필요성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-008",
+      "type": "answer",
+      "questionText": "전통적인 프로세스 모델에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "CMMI 성숙도 수준",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-009",
+      "type": "short",
+      "questionText": "애자일 개발 프로세스 배경에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스 배경",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-010",
+      "type": "short",
+      "questionText": "애자일 개발 프로세스에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "애자일 개발 프로세스 배경",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-011",
+      "type": "answer",
+      "questionText": "신속한 소프트웨어 개발에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "CMM과 CMMI",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "신속한 소프트웨어 개발",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-012",
+      "type": "short",
+      "questionText": "애자일: XP 프로세스에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-013",
+      "type": "short",
+      "questionText": "애자일: 스크럼 프로세스에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-014",
+      "type": "answer",
+      "questionText": "Chaos와 DevOps에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포수 모델의 개발 단계",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-015",
+      "type": "short",
+      "questionText": "CMM과 CMMI에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "CMMI 성숙도 수준",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "CMM과 CMMI",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-016",
+      "type": "short",
+      "questionText": "CMMI 성숙도 수준에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "CMMI 성숙도 수준",
+          "isCorrect": true
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트가 실현 가능한지를 진단하는 고려 사항으로",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-017",
+      "type": "answer",
+      "questionText": "SPICE & A-SPICE에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "식스 시그마",
+          "isCorrect": false
+        },
+        {
+          "text": "서울에서 부산까지 어떻게 갈 것인가?",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-018",
+      "type": "short",
+      "questionText": "식스 시그마에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "CMM과 CMMI",
+          "isCorrect": false
+        },
+        {
+          "text": "식스 시그마",
+          "isCorrect": true
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-019",
+      "type": "short",
+      "questionText": "기타 프로세스 표준에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "동기적 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-020",
+      "type": "answer",
+      "questionText": "요약 정리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "options": [
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        },
+        {
+          "text": "02 전통적인 소프트웨어 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포수 모델(Waterfall Model)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-021",
+      "type": "short",
+      "questionText": "학습목표에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포수 모델의 개발 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "점진적 모델의 이점",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 프로젝트가 실현 가능한지를 진단하는 고려 사항으로",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-022",
+      "type": "short",
+      "questionText": "01 실현 가능성 분석에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "02 전통적인 소프트웨어 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "경제적 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "프로토타입 모델의 특징과 이점",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-023",
+      "type": "answer",
+      "questionText": "여행을 떠난다면?에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 개발 프로젝트가 실현 가능한지를 진단하는 고려 사항으로",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스란?",
+          "isCorrect": false
+        },
+        {
+          "text": "나선형 모델의 장점",
+          "isCorrect": false
+        },
+        {
+          "text": "서울에서 부산까지 어떻게 갈 것인가?",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-024",
+      "type": "short",
+      "questionText": "전통적인 소프트웨어 개발 과정에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "서울에서 부산까지 어떻게 갈 것인가?",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포수 모델의 개발 단계",
+          "isCorrect": true
+        },
+        {
+          "text": "점진적 모델(Incremental Model)의 특징",
+          "isCorrect": false
+        },
+        {
+          "text": "V 모델의 장점",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-025",
+      "type": "short",
+      "questionText": "실현 가능성에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "프로토타입 모델(Prototype Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "변환 모델(Transformation Model) 예: Ptolemy Project, UC Berkeley",
+          "isCorrect": false
+        },
+        {
+          "text": "개발 사이클",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-026",
+      "type": "answer",
+      "questionText": "실현 가능성 분석을 위해 고려할 측면에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "동기적 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "경제적 측면",
+          "isCorrect": true
+        },
+        {
+          "text": "나선형 모델(Spiral Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "What is Agility?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-027",
+      "type": "short",
+      "questionText": "소프트웨어 프로세스의 필요성에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "폭포수 모델(Waterfall Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "V 모델(V Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일Agile 방법론",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스란?",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-028",
+      "type": "short",
+      "questionText": "전통적인 프로세스 모델에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "점진적 모델의 이점",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포수 모델(Waterfall Model)",
+          "isCorrect": true
+        },
+        {
+          "text": "변환 모델(Transformation Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "XP(eXtream Programming) 반복 개발 방법의 실천사항(Practices)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-029",
+      "type": "answer",
+      "questionText": "애자일 개발 프로세스 배경에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "프로토타입 모델의 특징과 이점",
+          "isCorrect": false
+        },
+        {
+          "text": "스크럼(Scrum) 프로세스 : 반복적 개발의 관리 관점을 강조",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 핵심 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "90년대 후반까지의 소프트웨어 개발",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-030",
+      "type": "short",
+      "questionText": "애자일 개발 프로세스에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "나선형 모델의 장점",
+          "isCorrect": false
+        },
+        {
+          "text": "What is Agility?",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일의 적용 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "스크럼 프로세스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-031",
+      "type": "short",
+      "questionText": "신속한 소프트웨어 개발에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "V 모델의 장점",
+          "isCorrect": false
+        },
+        {
+          "text": "XP(eXtream Programming) 반복 개발 방법의 실천사항(Practices)",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일의 적용 원리",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-032",
+      "type": "answer",
+      "questionText": "애자일: XP 프로세스에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "변환 모델(Transformation Model) 예: Ptolemy Project, UC Berkeley",
+          "isCorrect": false
+        },
+        {
+          "text": "XP(eXtream Programming) 반복 개발 방법의 실천사항(Practices)",
+          "isCorrect": true
+        },
+        {
+          "text": "개발 사이클",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 핵심 원리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-033",
+      "type": "short",
+      "questionText": "애자일: 스크럼 프로세스에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "What is Agility?",
+          "isCorrect": false
+        },
+        {
+          "text": "스크럼 프레임워크",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "스크럼(Scrum) 프로세스 : 반복적 개발의 관리 관점을 강조",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-034",
+      "type": "short",
+      "questionText": "Chaos와 DevOps에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "애자일Agile 방법론",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos Engineering",
+          "isCorrect": true
+        },
+        {
+          "text": "‘무엇을 하는가’라는 프로세스 기반",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 29110: Systems and Software Life Cycle Profiles and Guidelines for",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-035",
+      "type": "answer",
+      "questionText": "CMM과 CMMI에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "XP(eXtream Programming) 반복 개발 방법의 실천사항(Practices)",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps의 핵심 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "A-SPICE: Automotive SPICE 프로세스의 구성",
+          "isCorrect": false
+        },
+        {
+          "text": "CMM(Capability Maturity Model)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-036",
+      "type": "short",
+      "questionText": "CMMI 성숙도 수준에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "스크럼(Scrum) 프로세스 : 반복적 개발의 관리 관점을 강조",
+          "isCorrect": false
+        },
+        {
+          "text": "‘무엇을 하는가’라는 프로세스 기반",
+          "isCorrect": true
+        },
+        {
+          "text": "DevOps의 핵심 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 개선을 위한 공학적 기술 및 지원 도구를 제공하는 프로세스 관점의",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-037",
+      "type": "short",
+      "questionText": "SPICE & A-SPICE에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "CMM(Capability Maturity Model)",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 12207: Systems and software engineering-Software life cycle processes",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE (Software Process Improvement and Capability dEtermination)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-038",
+      "type": "answer",
+      "questionText": "식스 시그마에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps의 정의",
+          "isCorrect": false
+        },
+        {
+          "text": "프로세스 개선을 위한 공학적 기술 및 지원 도구를 제공하는 프로세스 관점의",
+          "isCorrect": true
+        },
+        {
+          "text": "SPICE (Software Process Improvement and Capability dEtermination)",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스 필요성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-039",
+      "type": "short",
+      "questionText": "기타 프로세스 표준에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps의 핵심 원리",
+          "isCorrect": false
+        },
+        {
+          "text": "A-SPICE가 제공하는 역량 수준",
+          "isCorrect": false
+        },
+        {
+          "text": "01 실현 가능성 분석",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 15288: Systems and software engineering-System life cycle processes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-040",
+      "type": "short",
+      "questionText": "요약 정리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "options": [
+        {
+          "text": "DevOps 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스 필요성",
+          "isCorrect": true
+        },
+        {
+          "text": "ISO 15288: Systems and software engineering-System life cycle processes",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 개발 과정",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-041",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 개발 프로젝트가 실현 가능한지를 진단하는 고려 사항으로",
+      "options": [
+        {
+          "text": "‘무엇을 하는가’라는 프로세스 기반",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 29110: Systems and Software Life Cycle Profiles and Guidelines for",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-042",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 02 전통적인 소프트웨어 프로세스",
+      "options": [
+        {
+          "text": "A-SPICE: Automotive SPICE 프로세스의 구성",
+          "isCorrect": false
+        },
+        {
+          "text": "01 실현 가능성 분석",
+          "isCorrect": true
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스의 필요성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-043",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 서울에서 부산까지 어떻게 갈 것인가?",
+      "options": [
+        {
+          "text": "프로세스 개선을 위한 공학적 기술 및 지원 도구를 제공하는 프로세스 관점의",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "여행을 떠난다면?",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-044",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 폭포수 모델의 개발 단계",
+      "options": [
+        {
+          "text": "ISO 12207: Systems and software engineering-Software life cycle processes",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 소프트웨어 개발 과정",
+          "isCorrect": true
+        },
+        {
+          "text": "실현 가능성",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-045",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 실현 가능성 분석",
+      "options": [
+        {
+          "text": "소프트웨어 프로세스 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-046",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 경제적 측면",
+      "options": [
+        {
+          "text": "01 실현 가능성 분석",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": true
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-047",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 동기적 측면",
+      "options": [
+        {
+          "text": "전통적인 소프트웨어 개발 과정",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-048",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 프로세스란?",
+      "options": [
+        {
+          "text": "실현 가능성 분석을 위해 고려할 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 프로세스의 필요성",
+          "isCorrect": true
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스 배경",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-049",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 폭포수 모델(Waterfall Model)",
+      "options": [
+        {
+          "text": "소프트웨어 프로세스의 필요성",
+          "isCorrect": false
+        },
+        {
+          "text": "신속한 소프트웨어 개발",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-050",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 점진적 모델(Incremental Model)의 특징",
+      "options": [
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-051",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 점진적 모델의 이점",
+      "options": [
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-052",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로토타입 모델(Prototype Model)",
+      "options": [
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-053",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로토타입 모델의 특징과 이점",
+      "options": [
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "CMMI 성숙도 수준",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-054",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 나선형 모델(Spiral Model)",
+      "options": [
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-055",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 나선형 모델의 장점",
+      "options": [
+        {
+          "text": "애자일 개발 프로세스 배경",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-056",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? V 모델(V Model)",
+      "options": [
+        {
+          "text": "신속한 소프트웨어 개발",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "CMM과 CMMI",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-057",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? V 모델의 장점",
+      "options": [
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-058",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 변환 모델(Transformation Model)",
+      "options": [
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-059",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 변환 모델(Transformation Model) 예: Ptolemy Project, UC Berkeley",
+      "options": [
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "전통적인 프로세스 모델",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-060",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 90년대 후반까지의 소프트웨어 개발",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스 배경",
+          "isCorrect": true
+        },
+        {
+          "text": "CMMI 성숙도 수준",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-061",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? What is Agility?",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "무엇이 있는지 살펴본다.",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-062",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 애자일의 적용 원리",
+      "options": [
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": false
+        },
+        {
+          "text": "신속한 소프트웨어 개발",
+          "isCorrect": true
+        },
+        {
+          "text": "식스 시그마",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자의 요구사항에 따라 소프트웨어 시스템을 개발하고자 할 때 비용, 일정, 기술적 수준",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-063",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 애자일Agile 방법론",
+      "options": [
+        {
+          "text": "CMM과 CMMI",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "개발된 소프트웨어를 실제로 사용할 사용자가 그 필요성을 인정하고 있는가?",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일 개발 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-064",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? XP(eXtream Programming) 반복 개발 방법의 실천사항(Practices)",
+      "options": [
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포의 물이 아래로 떨어지는 것처럼 순차적인 단계로 소프트웨어를 개발하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-065",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 개발 사이클",
+      "options": [
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": false
+        },
+        {
+          "text": "03 애자일 및 XP 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "새로운 제품 개발 시 사용자의 요구사항이나 변경을 반영할 시간이 주어진다.",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: XP 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-066",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 스크럼(Scrum) 프로세스 : 반복적 개발의 관리 관점을 강조",
+      "options": [
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "비용 대 효과 분석을 수행하여 프로젝트가 비용 측면에서 정당하게 평가받을 수 있는가?",
+          "isCorrect": false
+        },
+        {
+          "text": "요구 사항에 대한 피드백을 받기 위해 시스템을 실험적으로 만들어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-067",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 스크럼 프레임워크",
+      "options": [
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 과정을 체계적으로 계획· 관리할 의도 아래 서로 관련 있는 활동을 단계로",
+          "isCorrect": false
+        },
+        {
+          "text": "체계적인 위험 관리로 위험성이 큰 프로젝트를 수행하기에 적합하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-068",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 스크럼 프로세스",
+      "options": [
+        {
+          "text": "무엇이 있는지 살펴본다.",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일: 스크럼 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "개발 사이클이 짧은 환경",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 결과물에 대한 단계적인 검증과 확인 과정을 거침으로써, 개발 소프트웨어",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-069",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Chaos Engineering",
+      "options": [
+        {
+          "text": "사용자의 요구사항에 따라 소프트웨어 시스템을 개발하고자 할 때 비용, 일정, 기술적 수준",
+          "isCorrect": false
+        },
+        {
+          "text": "점진적 모델의 한 유형으로, 개발 및 배포, 사용자 만족도 측정, 조정 및 수정을 통한 시스템",
+          "isCorrect": false
+        },
+        {
+          "text": "Ptolemy Project, UC Berkeley",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-070",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps의 정의",
+      "options": [
+        {
+          "text": "개발된 소프트웨어를 실제로 사용할 사용자가 그 필요성을 인정하고 있는가?",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 시스템 개발 시 위험을 최소화하기 위해 점진적으로 전체 시스템으로 개발해나",
+          "isCorrect": false
+        },
+        {
+          "text": "⚫ Effective (rapid and adaptive) response to change.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-071",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps의 핵심 원리",
+      "options": [
+        {
+          "text": "폭포의 물이 아래로 떨어지는 것처럼 순차적인 단계로 소프트웨어를 개발하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "폭포수 모델의 확장한 Verification and Validation 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "기민한, 좋은 것을 빠르고 낭비 없게 만드는 개발을 가능하게 해주는 방법론 전체",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-072",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? DevOps 프로세스",
+      "options": [
+        {
+          "text": "새로운 제품 개발 시 사용자의 요구사항이나 변경을 반영할 시간이 주어진다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chaos와 DevOps",
+          "isCorrect": true
+        },
+        {
+          "text": "정형 명세Formal Specification를 기반으로 하는 소프트웨어 개발 프로세스",
+          "isCorrect": false
+        },
+        {
+          "text": "반복적 개발의 관리 관점을 강조",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-073",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? CMM(Capability Maturity Model)",
+      "options": [
+        {
+          "text": "요구 사항에 대한 피드백을 받기 위해 시스템을 실험적으로 만들어",
+          "isCorrect": false
+        },
+        {
+          "text": "장기간에 걸쳐 많은 인력과 충분한 비용을 투입하여 진행",
+          "isCorrect": false
+        },
+        {
+          "text": "다양한 서비스 운영 환경에 대응하고 새로운 기능을 중단 없이 제공하기 위해서, 기존 서비스",
+          "isCorrect": false
+        },
+        {
+          "text": "CMM과 CMMI",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-074",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ‘무엇을 하는가’라는 프로세스 기반",
+      "options": [
+        {
+          "text": "체계적인 위험 관리로 위험성이 큰 프로젝트를 수행하기에 적합하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "CMMI 성숙도 수준",
+          "isCorrect": true
+        },
+        {
+          "text": "고객 만족을 가능한 한 빨리 이끌어내고, 유연한 소프트웨어를 지속적으로 사용자에게 제공한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "DevOps는 개발 환경에서 나타나는 소프트웨어 동작이 배포 및 운영 환경에서도 동일하게 보장될 수",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-075",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? SPICE (Software Process Improvement and Capability dEtermination)",
+      "options": [
+        {
+          "text": "소프트웨어 개발 결과물에 대한 단계적인 검증과 확인 과정을 거침으로써, 개발 소프트웨어",
+          "isCorrect": false
+        },
+        {
+          "text": "엔지니어링 사이클",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 통합과 지속적 배포",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-076",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? A-SPICE: Automotive SPICE 프로세스의 구성",
+      "options": [
+        {
+          "text": "Ptolemy Project, UC Berkeley",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": true
+        },
+        {
+          "text": "솔루션에 포함할 기능 및 개선점에 대한 우선순위를 부여한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "1986년 미 국방부가 방산 업체의 소프트웨어 개발 활동에 대한 데이터를 수집하고 이를 체계",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-077",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? A-SPICE가 제공하는 역량 수준",
+      "options": [
+        {
+          "text": "⚫ Effective (rapid and adaptive) response to change.",
+          "isCorrect": false
+        },
+        {
+          "text": "Wikipedia의 정의 : DevOps는 소프트웨어 개발자와 운영자 간의 소통과 협업, 통합을 강조하",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 개발 프로세스 개선을 목적으로 제정된 ISO 15504 표준의 별칭",
+          "isCorrect": false
+        },
+        {
+          "text": "SPICE & A-SPICE",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-078",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 프로세스 개선을 위한 공학적 기술 및 지원 도구를 제공하는 프로세스 관점의",
+      "options": [
+        {
+          "text": "기민한, 좋은 것을 빠르고 낭비 없게 만드는 개발을 가능하게 해주는 방법론 전체",
+          "isCorrect": false
+        },
+        {
+          "text": "식스 시그마",
+          "isCorrect": true
+        },
+        {
+          "text": "지속적 개선",
+          "isCorrect": false
+        },
+        {
+          "text": "레벨 5−Innovating: 장기 전략과 조직의 변화에 따라 조직 차원의 정량적 피드백을 통해 프로세스를 개",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-079",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ISO 15288: Systems and software engineering-System life cycle processes",
+      "options": [
+        {
+          "text": "반복적 개발의 관리 관점을 강조",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 요구사항을 작은 단위의 개발 태스크로 분할하고, 이들에 대한 개발 및 배포 계획",
+          "isCorrect": false
+        },
+        {
+          "text": "Systems and software engineering-System life cycle processes",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-080",
+      "type": "answer",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ISO 12207: Systems and software engineering-Software life cycle processes",
+      "options": [
+        {
+          "text": "다양한 서비스 운영 환경에 대응하고 새로운 기능을 중단 없이 제공하기 위해서, 기존 서비스",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": true
+        },
+        {
+          "text": "활동 영역과 ‘얼마나 잘하는가’를 나",
+          "isCorrect": false
+        },
+        {
+          "text": "Systems and Software Life Cycle Profiles and Guidelines for",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-auto-081",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ISO 29110: Systems and Software Life Cycle Profiles and Guidelines for",
+      "options": [
+        {
+          "text": "DevOps는 개발 환경에서 나타나는 소프트웨어 동작이 배포 및 운영 환경에서도 동일하게 보장될 수",
+          "isCorrect": false
+        },
+        {
+          "text": "Automotive SPICE 프로세스의 구성",
+          "isCorrect": false
+        },
+        {
+          "text": "학습목표",
+          "isCorrect": false
+        },
+        {
+          "text": "기타 프로세스 표준",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "process-auto-082",
+      "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 소프트웨어 프로세스 필요성",
+      "options": [
+        {
+          "text": "지속적 통합과 지속적 배포",
+          "isCorrect": false
+        },
+        {
+          "text": "요약 정리",
+          "isCorrect": true
+        },
+        {
+          "text": "접근 방법론",
+          "isCorrect": false
+        },
+        {
+          "text": "실현 가능성",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
