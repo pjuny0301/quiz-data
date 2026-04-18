@@ -1,0 +1,1247 @@
+{
+  "title": "Day 1 Git과 버전 관리",
+  "questions": [
+    {
+      "id": "git-01",
+      "type": "short",
+      "questionText": "버전 관리 시스템(Version Control System, VCS)의 핵심 목적으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "파일과 프로젝트의 변경 이력을 시간순으로 기록하여 특정 시점으로의 복구, 버전 간 비교, 변경 책임 추적(blame)을 가능하게 하는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "소스 코드의 실행 성능을 최적화하고 런타임 속도를 개선하기 위한 컴파일러 계층 도구이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "빌드 산출물(바이너리, 로그)을 자동으로 압축·배포하는 패키징 시스템이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "다수의 개발자가 동일한 파일을 동시에 수정하지 못하도록 항상 잠금(lock)을 강제하는 시스템이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-02",
+      "type": "long",
+      "longText": "신입 개발자가 프로젝트 폴더를 project_v1, project_v2, project_final 형태로 날짜별 복사하여 관리하고 있다. 이 방식이 속하는 버전 관리 범주와 그 한계로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "로컬 버전 관리 시스템(Local VCS)에 해당하며, 협업이 불가능하고 실수로 덮어쓰면 이전 상태 복구가 어렵다는 한계가 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "중앙집중식 버전 관리 시스템(CVCS)에 해당하며, 중앙 서버 장애 시 모든 작업이 중단된다는 한계가 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "분산 버전 관리 시스템(DVCS)에 해당하며, 네트워크 연결이 필수라는 한계가 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "스냅샷 기반 시스템에 해당하며, 디스크 공간을 과도하게 사용한다는 한계만 있다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-03",
+      "type": "short",
+      "questionText": "중앙집중식 버전 관리 시스템(CVCS)의 대표 예시로 가장 알맞은 것은?",
+      "options": [
+        {
+          "text": "CVS, Subversion(SVN), Perforce와 같이 중앙 서버에 단일 저장소를 두고 클라이언트가 체크아웃·커밋하는 시스템이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Git, Mercurial, Darcs와 같이 모든 클라이언트가 전체 히스토리를 복제하는 시스템이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "RCS, SCCS와 같이 한 파일의 로컬 변경 이력만 관리하는 시스템이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "BitBucket, GitHub, GitLab과 같은 원격 호스팅 플랫폼 자체를 가리키는 용어이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-04",
+      "type": "short",
+      "questionText": "CVCS의 가장 치명적인 구조적 약점은 무엇인가?",
+      "options": [
+        {
+          "text": "중앙 서버가 단일 장애점(Single Point of Failure)이 되어 서버가 다운되면 협업과 히스토리 접근이 모두 중단되고, 디스크 손상 시 전체 이력이 유실될 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "각 개발자가 전체 히스토리 사본을 갖기 때문에 디스크 공간이 낭비된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "오프라인에서도 로컬 커밋이 가능해 서버와 불일치가 자주 발생한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "브랜치 생성과 병합이 자유로워 이력이 복잡해진다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-05",
+      "type": "short",
+      "questionText": "분산 버전 관리 시스템(Distributed VCS)의 본질적 특징으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "클라이언트가 저장소를 단순히 체크아웃하는 것이 아니라 전체 저장소(히스토리 포함)를 통째로 복제(clone)하므로 각 클라이언트가 완전한 백업이 된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "중앙 서버에만 전체 히스토리를 두고 클라이언트는 최신 파일만 받아간다.",
+          "isCorrect": false
+        },
+        {
+          "text": "변경 사항을 델타(차이)로만 저장하여 공간을 절약한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋이 반드시 온라인 상태에서만 가능하다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-06",
+      "type": "long",
+      "longText": "Git은 2005년 Linux 커널 커뮤니티와 BitKeeper 사이의 분쟁을 계기로 Linus Torvalds가 개발한 시스템이다. Git이 설계 목표로 삼은 특성으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "속도, 단순한 설계, 비선형 개발(수천 개의 병렬 브랜치) 지원, 완전한 분산성, 그리고 리눅스 커널 규모의 대형 프로젝트를 효율적으로 처리할 수 있는 능력이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "중앙 서버 기반의 강력한 접근 제어와 파일 단위 잠금(lock)을 최우선으로 하는 설계이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "GUI 중심 사용자 경험과 그래픽 기반 머지 편집 기능을 최우선으로 하는 설계이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "변경 사항을 델타로만 저장해 저장 공간을 극한으로 최소화하는 설계이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-07",
+      "type": "short",
+      "questionText": "델타 기반 VCS와 구별되는 Git의 데이터 저장 방식은?",
+      "options": [
+        {
+          "text": "커밋 시마다 프로젝트 전체의 스냅샷(snapshot)을 저장하며, 변경되지 않은 파일은 이전 객체에 대한 참조(pointer)로 유지해 공간을 절약한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "기준 파일과의 차이(diff)만을 순차적으로 기록하여 과거 버전을 재구성한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 변경된 라인 번호 목록만 저장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 파일을 매번 압축하여 중앙 서버로 전송한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-08",
+      "type": "long",
+      "longText": "Git을 흔히 '객체 데이터베이스(Object Database)'라고 부른다. Git이 내부적으로 관리하는 핵심 객체(object) 네 가지를 올바르게 묶은 것은?",
+      "options": [
+        {
+          "text": "Blob(파일 내용), Tree(디렉터리 구조·파일명 매핑), Commit(스냅샷 + 메타데이터), Tag(특정 커밋에 대한 참조)",
+          "isCorrect": true
+        },
+        {
+          "text": "File, Folder, Branch, Remote",
+          "isCorrect": false
+        },
+        {
+          "text": "Index, HEAD, ORIG_HEAD, FETCH_HEAD",
+          "isCorrect": false
+        },
+        {
+          "text": "Working Tree, Staging Area, Local Repo, Remote Repo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-09",
+      "type": "short",
+      "questionText": "Git 객체 중 Blob(Binary Large Object)이 담는 것은?",
+      "options": [
+        {
+          "text": "파일의 내용(content) 자체만을 담으며, 파일 이름이나 경로 같은 메타데이터는 포함하지 않는다.",
+          "isCorrect": true
+        },
+        {
+          "text": "파일 이름과 권한, 디렉터리 구조 정보를 담는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋 메시지와 작성자, 부모 커밋 정보를 담는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "브랜치 이름과 HEAD가 가리키는 참조를 담는다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-10",
+      "type": "short",
+      "questionText": "Git 객체 중 Tree의 역할로 가장 알맞은 것은?",
+      "options": [
+        {
+          "text": "디렉터리 구조를 표현하며, 파일 이름과 해당 Blob(또는 하위 Tree)의 해시를 매핑한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "파일의 실제 바이트 내용을 그대로 저장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "스냅샷에 작성자, 시간, 메시지 같은 메타정보를 덧붙인다.",
+          "isCorrect": false
+        },
+        {
+          "text": "릴리스 시점을 표시하기 위해 특정 커밋에 이름을 붙인다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-11",
+      "type": "short",
+      "questionText": "Git에서 Commit 객체가 담는 정보는?",
+      "options": [
+        {
+          "text": "해당 시점의 루트 Tree 해시(스냅샷 포인터), 부모 커밋 해시, 작성자/커미터, 타임스탬프, 커밋 메시지 같은 메타데이터이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "파일 내용 자체를 바이트 단위로 저장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "디렉터리 구조와 파일 이름-Blob 매핑만을 저장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소의 URL과 브랜치 목록만 저장한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-12",
+      "type": "short",
+      "questionText": "Git에서 Tag 객체의 용도는?",
+      "options": [
+        {
+          "text": "특정 커밋에 사람이 읽기 좋은 이름(예: v1.0.0)을 붙여 릴리스 지점이나 중요한 스냅샷을 가리키게 한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋 메시지를 암호화하여 저장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 브랜치의 추적(tracking) 관계를 설정한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Staging Area에 새 파일을 등록한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-13",
+      "type": "short",
+      "questionText": "Git이 객체를 식별하는 방식으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "객체 내용으로부터 계산한 SHA-1 해시(160비트, 16진수 40자)를 식별자로 사용하는 내용 주소화(content-addressable) 방식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "객체가 생성된 순서대로 1부터 증가하는 정수 ID를 부여한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "작성자 이메일과 파일 경로를 조합한 문자열을 식별자로 사용한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "운영체제에서 제공하는 파일 inode 번호를 그대로 식별자로 사용한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-14",
+      "type": "long",
+      "longText": "SHA-1(Secure Hash Algorithm-1)의 성질과 Git에서의 역할에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "임의 길이 입력을 160비트(40자리 16진수) 고정 길이 해시로 압축하는 일방향 함수로, Git은 이를 객체 ID로 사용해 무결성(integrity)을 검증한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "대칭키 기반 암호화 알고리즘이라 같은 키만 있으면 원문을 복호화할 수 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "출력 길이가 입력 길이에 비례해 늘어나는 가변 길이 함수이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "압축 알고리즘의 일종으로, 파일을 해시로 변환한 뒤 다시 원문으로 풀 수 있다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-15",
+      "type": "short",
+      "questionText": "SHA-1에 이론적 충돌(collision)이 공개된 이후, Git이 장기적으로 고려·도입하고 있는 대체 해시 알고리즘은?",
+      "options": [
+        {
+          "text": "SHA-256(256비트 해시)으로, 더 큰 출력 공간을 제공해 충돌 저항성을 강화한 차세대 해시이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "MD5(128비트 해시)로 되돌려 속도를 높이는 방향이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "CRC32 같은 체크섬으로 전환하여 성능을 개선하는 방향이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Base64 인코딩으로 대체하는 방향이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-16",
+      "type": "long",
+      "longText": "Git의 '거의 모든 연산이 로컬(Nearly Every Operation Is Local)'이라는 특성에서 비롯되는 실무적 이점으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "히스토리 조회, diff, 로그, 커밋, 브랜치 이동 같은 대부분의 작업이 .git 디렉터리만으로 수행되므로 네트워크가 끊겨도(비행기, VPN 장애 등) 개발을 계속할 수 있고 속도도 빠르다.",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 명령이 원격 서버에서 실행되므로 로컬 머신의 사양과 무관하게 일정한 성능을 보장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "로컬 디스크 공간을 전혀 사용하지 않아 저장 공간이 절약된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "로컬 커밋은 암호화되어 해커가 접근할 수 없게 된다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-17",
+      "type": "short",
+      "questionText": "Git이 말하는 '무결성(integrity)'의 기술적 의미는?",
+      "options": [
+        {
+          "text": "모든 객체의 식별자가 내용으로부터 계산한 해시이므로, 저장 후 한 바이트라도 변조되면 해시가 달라져 Git이 즉시 감지할 수 있다는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "네트워크 전송 시 TLS 암호화를 강제해 도청을 막는다는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 인증(ssh 키) 없이는 누구도 저장소를 읽을 수 없다는 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "디스크 저장 시 파일을 AES로 암호화해 저장한다는 것이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-18",
+      "type": "short",
+      "questionText": "Merkle Tree(해시 트리)의 핵심 아이디어는?",
+      "options": [
+        {
+          "text": "데이터 블록들의 해시를 노드로 하고 상위 노드가 자식 해시들의 해시가 되도록 구성해, 루트 해시만 비교하면 대규모 데이터의 무결성을 효율적으로 검증할 수 있다는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "데이터를 트리 형태로 정렬해 검색 속도를 높이는 자료구조이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파일을 압축해 저장하는 트리 기반 알고리즘이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "로그 파일을 시간순으로 이어 붙이는 링크드 리스트이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-19",
+      "type": "short",
+      "questionText": "'Git은 일반적으로 데이터를 추가만 한다(Git Generally Only Adds Data)'는 특성이 주는 실질적 이점은?",
+      "options": [
+        {
+          "text": "한 번 커밋한 내용은 객체로 보존되므로 실수로 삭제·덮어쓴 것처럼 보여도 reflog나 객체 해시를 통해 대부분 복구할 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋할 때마다 원격 서버에 자동으로 업로드되어 데이터 손실이 원천 차단된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파일을 절대 수정하지 못하게 하여 실수 자체를 방지한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "디스크 공간을 전혀 사용하지 않고 메모리에서만 작동한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-20",
+      "type": "short",
+      "questionText": "Git이 파일을 추적하는 세 가지 상태(The Three States)는?",
+      "options": [
+        {
+          "text": "Modified(수정됨) — Staged(스테이지됨) — Committed(커밋되어 Git DB에 저장됨)",
+          "isCorrect": true
+        },
+        {
+          "text": "Created — Updated — Deleted",
+          "isCorrect": false
+        },
+        {
+          "text": "Local — Remote — Origin",
+          "isCorrect": false
+        },
+        {
+          "text": "Untracked — Tracked — Ignored",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-21",
+      "type": "long",
+      "longText": "Git 프로젝트의 세 가지 영역(Working Tree, Staging Area, Git Directory)과 세 가지 상태(Modified, Staged, Committed)의 대응 관계로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "Working Tree에서 파일을 수정하면 Modified 상태가 되고, git add로 Staging Area(Index)에 올리면 Staged, git commit으로 .git 디렉터리(Git Directory)에 기록되면 Committed 상태가 된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Staging Area에서 수정하면 Modified, Working Tree로 옮기면 Staged, 원격 저장소에 푸시하면 Committed가 된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Git Directory에서 수정하면 Modified, Working Tree로 옮기면 Staged, Staging Area로 올리면 Committed가 된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "세 영역과 세 상태는 서로 관련이 없으며 독립적으로 동작한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-22",
+      "type": "short",
+      "questionText": "Git에서 Tracked 파일과 Untracked 파일의 차이는?",
+      "options": [
+        {
+          "text": "Tracked는 직전 스냅샷(마지막 커밋)에 포함되었거나 스테이지된 파일로 Git이 관리하며, Untracked는 아직 git add된 적이 없어 Git이 관리하지 않는 파일이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tracked는 원격 저장소에 있는 파일이고, Untracked는 로컬 저장소에 있는 파일이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tracked는 텍스트 파일이고, Untracked는 바이너리 파일이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tracked는 .gitignore에 등록된 파일이고, Untracked는 등록되지 않은 파일이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-23",
+      "type": "short",
+      "questionText": "새 프로젝트를 Git으로 관리하기 시작할 때 사용하는 두 가지 방법은?",
+      "options": [
+        {
+          "text": "빈 디렉터리에서 git init을 실행해 새로운 .git 저장소를 만들거나, 원격 URL에 대해 git clone <url>을 실행해 기존 저장소를 복제한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git add .과 git commit -m만 실행하면 자동으로 저장소가 생성된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git push origin main만 실행하면 자동으로 초기화된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "GitHub 웹사이트에서 New Repository를 만드는 것이 유일한 방법이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-24",
+      "type": "short",
+      "questionText": "git status 명령이 보여 주는 핵심 정보는?",
+      "options": [
+        {
+          "text": "현재 브랜치, 스테이지된 변경, 스테이지되지 않은 변경, 그리고 추적되지 않은(untracked) 파일 목록을 한눈에 보여 준다.",
+          "isCorrect": true
+        },
+        {
+          "text": "원격 저장소에 존재하는 모든 브랜치의 최신 커밋 해시만 보여 준다.",
+          "isCorrect": false
+        },
+        {
+          "text": "과거 커밋의 저자와 메시지 목록을 시간순으로 보여 준다.",
+          "isCorrect": false
+        },
+        {
+          "text": "현재 스테이지된 파일들의 실제 diff(라인 단위 변경)를 보여 준다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-25",
+      "type": "short",
+      "questionText": "git add의 본질적인 기능은?",
+      "options": [
+        {
+          "text": "지정한 파일의 현재 내용을 Blob으로 저장하고, 그 해시를 인덱스(Staging Area)에 등록해 다음 커밋의 스냅샷에 포함되도록 예약하는 것이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "파일을 원격 저장소에 즉시 업로드한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파일을 .gitignore 목록에 자동으로 추가한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파일을 삭제한 뒤 원격 브랜치에서 복원한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-26",
+      "type": "long",
+      "longText": "팀원이 bigfile.log를 실수로 커밋하려 한다. 앞으로 이 파일을 Git이 무시하게 하려면 가장 알맞은 방법은?",
+      "options": [
+        {
+          "text": ".gitignore 파일에 bigfile.log 또는 *.log 같은 패턴을 추가해 Working Tree에는 남기되 Git이 추적하지 않도록 지정한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git ignore bigfile.log 명령을 실행하면 자동으로 제외된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git commit --ignore bigfile.log 옵션을 사용한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파일 이름 앞에 점(.)을 붙이면 Git이 자동으로 무시한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-27",
+      "type": "short",
+      "questionText": ".gitignore 패턴에서 '!' 접두어의 의미는?",
+      "options": [
+        {
+          "text": "앞선 패턴에 의해 무시되는 파일 중 해당 패턴에 매칭되는 파일은 예외적으로 무시하지 않고 다시 추적하도록 지정한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "해당 패턴의 파일을 강제로 삭제하라는 지시자이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "주석(comment)을 시작한다는 표시이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "해당 패턴을 서브디렉터리에서만 적용하라는 의미이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-28",
+      "type": "short",
+      "questionText": "git diff(옵션 없이 실행)가 기본적으로 보여 주는 것은?",
+      "options": [
+        {
+          "text": "Working Tree의 현재 내용과 Staging Area(Index) 사이의 차이, 즉 '아직 스테이지되지 않은 변경'을 보여 준다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Staging Area와 마지막 커밋(HEAD) 사이의 차이를 보여 준다.",
+          "isCorrect": false
+        },
+        {
+          "text": "로컬 저장소와 원격 저장소 사이의 차이를 보여 준다.",
+          "isCorrect": false
+        },
+        {
+          "text": "두 브랜치의 전체 파일 목록 차이만 보여 준다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-29",
+      "type": "short",
+      "questionText": "스테이지된 변경만을 마지막 커밋과 비교하려면 어떤 명령을 써야 하는가?",
+      "options": [
+        {
+          "text": "git diff --staged(또는 --cached)는 Staging Area와 HEAD의 차이, 즉 '다음 커밋에 포함될 변경'을 보여 준다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git diff 옵션 없이 실행하면 스테이지된 변경만 나온다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git status -v는 스테이지된 변경의 diff를 보여 주지 않는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git log -p는 스테이지된 변경을 보여 준다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-30",
+      "type": "long",
+      "longText": "파일 이름을 old.txt에서 new.txt로 바꾸고 싶다. 'git mv old.txt new.txt'와 'mv old.txt new.txt'를 각각 실행했을 때 Git이 인식하는 결과로 가장 정확한 것은?",
+      "options": [
+        {
+          "text": "git mv는 Working Tree의 파일 이름 변경과 Staging Area에서의 rename을 한 번에 처리하지만, OS 명령 mv만 쓰면 Git은 old.txt 삭제와 new.txt 생성(untracked)으로 인식하므로 추가로 git rm/add가 필요하다.",
+          "isCorrect": true
+        },
+        {
+          "text": "둘 다 완전히 동일하게 동작하므로 어느 쪽을 써도 무방하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "mv 명령은 Git 저장소 안에서 사용할 수 없고 오류가 난다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git mv는 원격 저장소에 즉시 푸시까지 수행하지만 mv는 로컬에만 영향을 준다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-31",
+      "type": "short",
+      "questionText": "직전 커밋 메시지를 고치거나, 빠뜨린 파일을 직전 커밋에 포함시키려 할 때 적절한 명령은?",
+      "options": [
+        {
+          "text": "git commit --amend — 현재 HEAD 커밋을 새로운 커밋으로 교체하며, 스테이지된 변경과 수정된 메시지를 반영한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git commit --fix — 직전 커밋을 자동으로 수정한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git revert HEAD — 직전 커밋을 되돌리면서 메시지만 수정한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git reset --hard HEAD — 직전 커밋을 수정하지 않고 덮어쓴다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-32",
+      "type": "long",
+      "longText": "실수로 file.txt를 git add로 스테이지했다. Working Tree의 변경은 그대로 두고 Staging Area에서만 내리고 싶을 때 권장되는 최신 명령은?",
+      "options": [
+        {
+          "text": "git restore --staged file.txt — 현대 Git에서 스테이지 해제 전용으로 도입된 명령으로, 인덱스만 HEAD 기준으로 복원한다. (구버전에서는 git reset HEAD file.txt)",
+          "isCorrect": true
+        },
+        {
+          "text": "git rm --cached file.txt — 파일을 추적 대상에서 완전히 제거한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git reset --hard HEAD — Working Tree의 변경까지 모두 날린다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git checkout file.txt — Working Tree의 변경을 되돌린다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-33",
+      "type": "short",
+      "questionText": "Working Tree에서 수정한 file.txt를 마지막 커밋 상태로 되돌리고 싶다. 올바른 명령은?",
+      "options": [
+        {
+          "text": "git restore file.txt — 해당 파일을 HEAD(또는 지정한 소스)의 내용으로 덮어써 Working Tree의 수정 사항을 버린다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git reset --staged file.txt — 스테이지만 내릴 뿐 Working Tree 변경을 되돌리지 않는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git revert file.txt — 새 커밋을 만들어 파일 수정만 되돌린다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git stash pop — 이전에 stash된 변경을 되살려 덮어쓴다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-34",
+      "type": "long",
+      "longText": "git rm과 git rm --cached의 차이로 가장 정확한 것은?",
+      "options": [
+        {
+          "text": "git rm은 Working Tree에서 파일을 삭제하고 인덱스에서도 제거해 다음 커밋에서 파일 삭제로 기록되며, git rm --cached는 파일을 추적만 중단하고 Working Tree에는 그대로 남겨 둔다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git rm은 원격 저장소에서 파일을 지우고, git rm --cached는 로컬에서 지운다.",
+          "isCorrect": false
+        },
+        {
+          "text": "둘 다 완전히 동일하며, --cached는 단순한 별칭이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git rm은 커밋을 자동으로 만들지만, git rm --cached는 커밋을 만들지 않는다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-35",
+      "type": "long",
+      "longText": "git reset --soft, --mixed, --hard <커밋>의 차이로 가장 정확한 것은?",
+      "options": [
+        {
+          "text": "--soft는 HEAD만 이동(스테이지·Working Tree 유지), --mixed(기본)는 HEAD와 인덱스 이동(Working Tree 유지), --hard는 HEAD·인덱스·Working Tree 모두 해당 커밋 상태로 덮어쓴다.",
+          "isCorrect": true
+        },
+        {
+          "text": "--soft는 Working Tree를 지우고, --hard는 인덱스만 지운다.",
+          "isCorrect": false
+        },
+        {
+          "text": "세 옵션 모두 동일하게 HEAD만 이동한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "--mixed는 원격 저장소까지 되돌리고, --hard는 로컬만 되돌린다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-36",
+      "type": "long",
+      "longText": "이미 origin/main으로 푸시된 커밋에 버그가 있음이 드러났다. 히스토리를 공개 저장소에서 안전하게 유지하면서 해당 커밋을 되돌리려 할 때 적절한 방법은?",
+      "options": [
+        {
+          "text": "git revert <커밋>을 사용한다 — 원 커밋을 삭제하는 대신, 그 변경을 상쇄하는 새로운 커밋을 추가로 만들어 히스토리를 보존하면서 되돌릴 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git reset --hard <이전커밋> 후 git push --force한다 — 공개 브랜치의 히스토리를 임의로 덮어써 공유자들에게 혼란을 일으킬 수 있으므로 일반적으로 금기시된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git rm -r .을 실행해 전체 파일을 삭제한 뒤 다시 커밋한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git checkout <커밋>만 수행하면 자동으로 되돌려진다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-37",
+      "type": "short",
+      "questionText": "git reset과 git revert의 개념적 차이는?",
+      "options": [
+        {
+          "text": "reset은 브랜치 포인터를 과거로 되돌려 이후 커밋을 히스토리에서 '제거'하는 효과를 내고(이력 변경), revert는 기존 커밋을 남겨 두고 그 효과를 상쇄하는 '새 커밋'을 추가한다(이력 보존).",
+          "isCorrect": true
+        },
+        {
+          "text": "reset은 원격에만 영향을 주고, revert는 로컬에만 영향을 준다.",
+          "isCorrect": false
+        },
+        {
+          "text": "reset과 revert는 동일한 명령의 별칭이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "reset은 머지 커밋만 처리하고, revert는 일반 커밋만 처리한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-38",
+      "type": "short",
+      "questionText": "Remote(원격)의 개념으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "협업을 위해 네트워크 너머에 존재하는 저장소를 짧은 이름(origin 등)으로 등록한 참조로, push(업로드)와 pull(다운로드)의 대상이 된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "로컬 파일 시스템의 특정 브랜치를 가리키는 포인터이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Git이 내부적으로 사용하는 객체의 한 종류이다.",
+          "isCorrect": false
+        },
+        {
+          "text": ".gitignore에 등록된 파일들을 가리키는 그룹 이름이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-39",
+      "type": "short",
+      "questionText": "git clone으로 저장소를 복제했을 때 기본으로 생성되는 원격 이름(remote)은?",
+      "options": [
+        {
+          "text": "origin — 복제된 원본 저장소를 가리키는 기본 단축 이름이며, 사용자가 원하면 다른 이름으로 바꿀 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "upstream — clone 시 자동으로 생성되는 표준 이름이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "master — clone 시 자동으로 생성되는 원격 이름이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "remote — 별도로 설정하지 않으면 이 이름으로 생성된다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-40",
+      "type": "short",
+      "questionText": "등록된 원격 저장소의 이름과 URL을 함께 보여 주는 명령은?",
+      "options": [
+        {
+          "text": "git remote -v — 등록된 모든 원격의 단축 이름과 fetch/push URL을 나열한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git status -r — 원격 URL 목록을 보여 주는 기본 명령이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git log --remote — 원격 저장소의 설정 정보를 출력한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git branch -v — 원격 이름과 URL을 함께 보여 준다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-41",
+      "type": "long",
+      "longText": "git fetch와 git pull의 차이로 가장 정확한 것은?",
+      "options": [
+        {
+          "text": "git fetch는 원격의 최신 객체와 참조(origin/main 등)를 내려받기만 할 뿐 현재 브랜치에 병합하지 않는다. git pull은 git fetch 후 현재 브랜치에 merge(또는 rebase)를 자동으로 수행한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git fetch는 원격에 올리고, git pull은 원격에서 내려받는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "둘 다 자동 병합까지 수행하는 동일한 명령이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git fetch는 로컬 변경을 덮어쓰고, git pull은 안전하게 머지한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-42",
+      "type": "long",
+      "longText": "팀원 A가 먼저 origin/main에 푸시한 뒤 나도 로컬 main에 커밋을 했는데 git push origin main이 거절(rejected, non-fast-forward)되었다. 가장 올바른 대응은?",
+      "options": [
+        {
+          "text": "먼저 git fetch 또는 git pull로 원격 변경을 내려받아 로컬에서 merge 또는 rebase로 통합한 뒤, 다시 git push origin main을 수행한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "무조건 git push --force로 원격을 덮어써 내 커밋을 강제로 올린다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git reset --hard origin/main으로 원격 상태에 맞추기만 하고 푸시하지 않는다 — 내 커밋이 사라진다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git remote remove origin 후 새 원격을 등록해 푸시한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-43",
+      "type": "short",
+      "questionText": "Git에서 브랜치(branch)의 본질은 무엇인가?",
+      "options": [
+        {
+          "text": "특정 커밋을 가리키는 가벼운 이동 가능한 포인터(ref)일 뿐이며, 새 커밋이 생기면 자동으로 앞으로 이동한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "프로젝트 파일 전체를 별도 디렉터리로 복사한 실제 폴더이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소에만 존재할 수 있는 특별한 저장 공간이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋 메시지를 묶어 놓은 로그 그룹이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-44",
+      "type": "short",
+      "questionText": "새 브랜치를 만들면서 바로 그 브랜치로 이동하려 할 때 동등한 두 명령은?",
+      "options": [
+        {
+          "text": "git checkout -b <브랜치>  또는  git switch -c <브랜치>  — 둘 다 브랜치 생성과 이동(HEAD 갱신)을 한 번에 수행한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "git branch <브랜치>만 실행하면 자동으로 이동까지 된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git merge -b <브랜치>로 생성과 이동을 동시에 수행한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "git clone -b <브랜치>로 로컬에 새 브랜치를 만들어 이동한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-45",
+      "type": "short",
+      "questionText": "git checkout과 비교할 때 git switch 명령이 도입된 이유는?",
+      "options": [
+        {
+          "text": "checkout이 '브랜치 이동'과 '파일 복원' 두 역할을 겸해 혼동을 일으키자, Git은 브랜치 이동 전용 switch와 파일 복원 전용 restore로 역할을 분리하여 가독성과 안전성을 높였다.",
+          "isCorrect": true
+        },
+        {
+          "text": "switch는 checkout의 오래된 내부 별칭일 뿐 동작에 차이가 없다.",
+          "isCorrect": false
+        },
+        {
+          "text": "switch는 원격 브랜치 전용 명령이며 로컬에서는 쓸 수 없다.",
+          "isCorrect": false
+        },
+        {
+          "text": "switch는 머지 전용 명령으로 브랜치 이동에는 사용되지 않는다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-46",
+      "type": "long",
+      "longText": "feature 브랜치를 main에 병합할 때 Git이 Fast-Forward Merge를 선택할 수 있는 조건은?",
+      "options": [
+        {
+          "text": "feature가 분기된 이후 main에 새로운 커밋이 추가되지 않아, main이 feature의 직계 조상인 경우이다. 이때 Git은 새로운 머지 커밋을 만들지 않고 main 포인터만 feature의 최신 커밋으로 '앞으로 이동'시킨다.",
+          "isCorrect": true
+        },
+        {
+          "text": "feature 브랜치가 main보다 커밋이 적을 때마다 항상 가능하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "두 브랜치에 겹치는 파일 수정이 있을 때 Git이 자동으로 선택한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fast-Forward는 원격 브랜치에서만 일어나는 특수 병합이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-47",
+      "type": "long",
+      "longText": "두 브랜치가 서로 독립적으로 커밋을 쌓아 분기한 상태에서 병합할 때 Git이 수행하는 3-Way Merge의 동작은?",
+      "options": [
+        {
+          "text": "공통 조상(Common Ancestor), 대상(Target), 소스(Source) 세 스냅샷을 비교해 변경을 합치고, 그 결과로 두 개의 부모를 가진 새로운 머지 커밋(Merge Commit)을 만든다. 같은 영역이 양쪽에서 수정되었다면 충돌(conflict)이 발생한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "두 브랜치 중 최근 커밋을 선택해 다른 브랜치를 완전히 덮어쓴다.",
+          "isCorrect": false
+        },
+        {
+          "text": "공통 조상 없이도 수행 가능한 단순 라인 병합이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "머지 커밋을 만들지 않고 한쪽 브랜치를 삭제하는 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-48",
+      "type": "short",
+      "questionText": "병합 중 충돌(Merge Conflict)이 발생하는 근본 원인은?",
+      "options": [
+        {
+          "text": "두 브랜치가 같은 파일의 같은(또는 인접한) 영역을 서로 다르게 수정해, Git이 둘 중 어느 쪽을 택할지 자동으로 결정할 수 없기 때문이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "두 브랜치의 커밋 수가 크게 차이 날 때 자동으로 발생한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소와 네트워크 연결이 끊겼을 때만 발생한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파일 크기가 일정 값을 초과하면 Git이 안전을 위해 충돌을 발생시킨다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-49",
+      "type": "long",
+      "longText": "Squash Merge의 특징과 장단점으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "feature 브랜치의 여러 커밋을 하나의 커밋으로 압축해 대상 브랜치에 반영한다. 메인 히스토리가 깔끔해지는 장점이 있지만, 개별 커밋 히스토리와 머지 계보가 사라져 세밀한 추적이 어려워질 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "브랜치의 모든 커밋을 그대로 보존하면서 머지 커밋만 추가한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 브랜치를 삭제한 뒤 로컬 브랜치를 강제로 덮어쓴다.",
+          "isCorrect": false
+        },
+        {
+          "text": "충돌이 발생해도 자동으로 한쪽을 선택해 병합한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-50",
+      "type": "long",
+      "longText": "git merge와 git rebase가 히스토리에 미치는 영향의 차이로 가장 정확한 것은?",
+      "options": [
+        {
+          "text": "merge는 두 브랜치를 3-way로 합치며 '머지 커밋'이 남아 분기·병합 구조가 그대로 보존된다. rebase는 현재 브랜치의 커밋을 대상 브랜치의 최신 위에 '하나씩 다시 적용'해 선형 히스토리를 만들며, 이후 Fast-Forward 머지가 가능해진다.",
+          "isCorrect": true
+        },
+        {
+          "text": "merge와 rebase는 동일한 결과를 만들며 차이는 속도뿐이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "rebase는 커밋을 삭제하고 merge는 커밋을 복제한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "merge는 로컬에서만, rebase는 원격에서만 동작한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-51",
+      "type": "long",
+      "longText": "이미 원격(origin/feature)에 푸시해 다른 개발자도 받아 간 브랜치에 대해 git rebase를 수행하는 것이 일반적으로 권장되지 않는 이유는?",
+      "options": [
+        {
+          "text": "rebase는 기존 커밋의 해시를 바꿔 '새 커밋'을 만들어 내는 이력 재작성 연산이므로, 이미 공유된 커밋을 rebase하면 다른 개발자의 히스토리와 불일치가 발생해 협업이 깨질 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "rebase는 원격 저장소에서 실행 권한이 없기 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "rebase는 커밋을 자동으로 삭제하기 때문에 데이터가 영구히 유실되기 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "rebase는 머지 충돌을 절대 해결할 수 없어 병합이 불가능해지기 때문이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-52",
+      "type": "short",
+      "questionText": "git tag는 무엇을 하기 위한 명령인가?",
+      "options": [
+        {
+          "text": "특정 커밋에 v1.0.0 같은 의미 있는 이름을 붙여, 릴리스 지점이나 중요한 마일스톤을 고정된 참조로 표시한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "파일에 메타데이터 라벨을 붙여 Git이 특수하게 취급하도록 한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "브랜치를 색상으로 구분해 GUI에 표시한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소에 접근 권한 태그를 부여한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-53",
+      "type": "short",
+      "questionText": "GitHub에 SSH Key로 접속하기 위해 공개 키(public key)를 등록할 때 전체 흐름은?",
+      "options": [
+        {
+          "text": "로컬에서 ssh-keygen(예: ed25519)으로 키 쌍을 만들고, 공개 키(.pub)의 'ssh-ed25519 ...' 문자열을 GitHub Settings → SSH and GPG keys → New SSH key에 등록한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "비밀 키(private key)의 내용을 GitHub 웹 UI에 그대로 붙여 넣는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "GitHub 비밀번호를 .ssh/config에 평문으로 저장한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "별도 절차 없이 git push만 하면 GitHub가 자동으로 키를 등록해 준다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-54",
+      "type": "short",
+      "questionText": "gitk --all 명령의 용도로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "Git에 내장된 간단한 GUI 뷰어로, 모든 브랜치의 커밋·머지 그래프와 각 커밋의 변경 내용을 시각적으로 탐색하게 해 준다.",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋 메시지를 자동으로 정리해 재작성하는 CLI 유틸리티이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소의 CI 빌드 로그를 출력하는 명령이다.",
+          "isCorrect": false
+        },
+        {
+          "text": ".git 디렉터리의 용량을 분석해 정리하는 명령이다.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

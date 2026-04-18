@@ -1,0 +1,971 @@
+{
+  "title": "Day 4 DevOps와 운영 자동화",
+  "questions": [
+    {
+      "id": "devops-01",
+      "type": "short",
+      "questionText": "DevOps를 가장 정확히 설명하는 문장은 무엇인가?",
+      "options": [
+        {
+          "text": "개발(Development)·운영(Operations)·품질 보증(QA) 조직이 협력하여 소프트웨어를 개발·배포하고, 시장 기회 포착과 고객 피드백을 신속하게 반영하도록 하는 린(Lean)·애자일(Agile) 원칙 기반의 소프트웨어 개발 접근 방식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개발팀과 운영팀을 명확히 분리하여 각 단계가 끝난 뒤에만 다음 단계로 넘어가도록 통제하는, 사일로 기반의 체계적인 소프트웨어 공학 방법론이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 기능을 사전에 완벽히 계획한 뒤 한 번에 빌드·테스트·릴리스하는 대규모 일괄 배포(Big-Bang Release) 중심의 운영 전략이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 품질 보증(QA) 팀이 독점적으로 테스트와 릴리스 권한을 갖고, 개발자의 참여를 최소화하도록 강제하는 품질 중심 프로세스 표준이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-02",
+      "type": "long",
+      "longText": "팀 A는 요구사항 정의부터 배포까지 각 단계가 끝날 때마다 결과물을 다음 부서로 넘기는 구조로 운영되고 있다. 고객은 제품을 몇 달이 지난 뒤에야 보게 되며, 단계 사이에 업무 인수인계가 잦고 부서 간 정보 단절이 심하다. 이 상황을 DevOps 관점에서 가장 정확히 진단한 것은?",
+      "options": [
+        {
+          "text": "팀 간 사일로(silo)와 잦은 인수인계, 모든 것을 처음부터 끝까지 미리 계획하는 구조, 그리고 고객 피드백이 수개월 뒤에 도달하는 워터폴 특성이 결합된 전형적인 반(反)-DevOps 환경이다. 이는 미니 워터폴 구조로 이어지기 쉽다.",
+          "isCorrect": true
+        },
+        {
+          "text": "지속적 통합(CI)과 지속적 배포(CD)가 과도하게 적용되어 오히려 고객 피드백이 너무 빨리 들어오는 문제가 누적된 전형적인 과잉 자동화 상태이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "애자일을 채택했지만 배포 빈도가 지나치게 높아져 품질 보증 절차가 무너진, 이른바 '애자일 붕괴(Agile Decay)' 상태로 볼 수 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Shift-left 원칙이 과도하게 적용되어 테스트·품질·성능 평가가 요구사항 단계 이전으로 밀려난 결과, 고객 접점이 사라진 상태에 해당한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-03",
+      "type": "short",
+      "questionText": "DevOps의 마인드셋을 설명하는 CALMS 모델에서 각 글자가 뜻하는 것은?",
+      "options": [
+        {
+          "text": "Culture(문화)·Automation(자동화)·Lean(린)·Measurement(측정)·Sharing(공유)로, 협업 문화, 반복 작업 자동화, 낭비 제거, 데이터 기반 개선, 사일로 해소를 포괄하는 개념이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Coding(코딩)·Analysis(분석)·Logging(로깅)·Monitoring(모니터링)·Security(보안)로, 파이프라인의 각 기술 단계를 영문 앞글자로 나열한 체크리스트이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Continuous(지속적)·Agile(애자일)·Lean(린)·Modular(모듈)·Scrum(스크럼)으로, 방법론 이름을 합친 복합 애자일 프레임워크이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cloud(클라우드)·API·Lean(린)·Microservice(마이크로서비스)·Serverless(서버리스)로, DevOps 실현 기술 스택을 의미한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-04",
+      "type": "long",
+      "longText": "한 팀이 DevOps 도입 후 자동화 도구는 잘 갖추었으나, 장애 발생 시 개발자와 운영자가 서로를 비난하고 실패 보고가 은폐되는 일이 반복된다. CALMS 모델 관점에서 이 팀이 가장 보강해야 할 요소는?",
+      "options": [
+        {
+          "text": "문화(Culture)와 공유(Sharing) 요소이다. DevOps는 단순한 프로세스 변경이 아니라 협업을 중시하고 실패를 수용하는 문화적 변화이며, 투명성·소통·사일로 해소가 공유 원칙의 핵심이기 때문이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "자동화(Automation) 요소이다. 자동화가 더 정교해지면 사람 간 갈등이 발생할 여지 자체가 사라지므로 자동화 범위를 배포·프로비저닝까지 확장해야 한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "측정(Measurement) 요소이다. 장애 발생 빈도를 수치화해 성과 평가에 반영하면 비난 문화가 자연스럽게 사라지기 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "린(Lean) 요소이다. 장애는 대부분 낭비에서 비롯되므로, 낭비 제거 원칙만 엄격히 적용하면 문화 문제도 함께 해소된다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-05",
+      "type": "short",
+      "questionText": "Shift-left 마인드셋(Shift-left mindset)의 정의로 가장 올바른 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 개발 생명주기(SDLC)의 초기 단계부터 테스트·품질·성능 평가를 통합하여, 결함을 프로덕션 이전에 조기 발견하고 비용을 절감하도록 하는 사고방식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개발이 끝난 뒤 운영 단계에서 집중적으로 테스트와 성능 평가를 수행해, 실제 사용 환경의 결함만 선별하여 수정하는 후기 집중형 검증 전략이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "배포 이후 발생한 장애 대응을 왼쪽(개발)으로 다시 떠넘겨, 운영팀의 부담을 개발팀으로 이전하는 책임 재분배 전략이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "파이프라인의 좌측 도구들(IDE, 빌드 서버)을 우측 도구들(모니터링, 로깅)로 점진적으로 대체하여 통합하는 도구 마이그레이션 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-06",
+      "type": "long",
+      "longText": "DevSecOps에서도 핵심이 되는 Shift-left 개념을 DevOps에 적용했을 때 얻을 수 있는 가장 직접적인 실무적 이점은 무엇인가?",
+      "options": [
+        {
+          "text": "프로덕션 이전 단계에서 결함을 조기에 발견함으로써 후속 단계로의 결함 전파를 막아 수정 비용과 복구 시간을 줄이고, 더 빠르고 더 자주 고품질 소프트웨어를 전달할 수 있게 된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 테스트를 릴리스 직전에 일괄 수행해 테스트 환경의 자원을 한시적으로 집중 사용함으로써 인프라 비용을 대폭 절감할 수 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자가 요구사항 명세 이전 단계까지 배제되므로, 개발 초기의 의사결정 부담이 줄어들어 빠른 스프린트 운영이 가능해진다.",
+          "isCorrect": false
+        },
+        {
+          "text": "릴리스 이후 보안 점검을 집중적으로 수행할 수 있는 여유가 생겨, 운영 중인 애플리케이션의 런타임 취약점을 더 많이 잡아낸다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-07",
+      "type": "short",
+      "questionText": "린(Lean) 소프트웨어 개발의 슬로건으로 가장 잘 알려진 것은?",
+      "options": [
+        {
+          "text": "\"크게 생각하고, 작게 행동하고, 빨리 실패하고, 빠르게 배워라\" — 낭비 제거, 학습 확대, 팀에 권한 위임 등 7원칙과 맞닿아 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "\"모든 것을 처음부터 끝까지 계획하라\" — 단계별 완결성을 보장하기 위한 워터폴식 접근을 요약한 말이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "\"결정은 최대한 이르게, 배포는 최대한 늦게\" — 사전 계획과 후기 배포를 강조하는 린 원칙의 대표 구호이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "\"자동화된 것만 신뢰하라\" — 사람이 관여한 모든 수작업을 배제하라는 린의 공식 모토이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-08",
+      "type": "short",
+      "questionText": "IT 운영(ITOps, IT Operations)의 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "IT 서비스를 구현·관리·제공·지원하는 활동을 포괄하며, 하드웨어와 소프트웨어를 모두 지원하는 관리적 프로세스이다. 기술 관리, 품질 보증(QA), 인프라 관리가 주요 역할로 식별된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어 요구사항을 분석·설계·구현하는 개발자 중심 활동으로, 애플리케이션의 로직을 구현하는 핵심 단계이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "비즈니스 이해관계자와 직접 협상해 계약을 체결하고 수익 모델을 설계하는 상업적 운영 활동을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "코드를 병합하고 빌드·테스트를 자동화하여 프로덕션까지 배포하는 파이프라인 자동화의 총칭이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-09",
+      "type": "short",
+      "questionText": "지속적 통합(Continuous Integration, CI)의 핵심 정의는?",
+      "options": [
+        {
+          "text": "여러 개발자가 작업한 코드를 하루에도 여러 번 공용 메인라인(main branch)에 병합하고, 자동 빌드·테스트로 병합 결과의 건전성을 지속적으로 검증하는 실천 방식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "릴리스 직전에 모든 개발자의 코드를 한꺼번에 통합하여, 릴리스 주기 동안 충돌을 한 번에 해결하는 일괄 병합 전략이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 통합은 수동으로 처리하되, 배포 단계만을 자동화해 릴리스 속도를 극대화하는 운영 중심 실천 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "각 개발자가 자신의 브랜치에서만 코드를 유지하고, 공용 메인라인과의 병합을 최대한 지연시켜 브랜치 독립성을 보장하는 버전 관리 기법이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-10",
+      "type": "long",
+      "longText": "지속적 통합(CI)이라는 용어는 1991년 Grady Booch가 처음 제안했으나, 현재의 '하루에도 수십 번 통합' 방식으로 발전하는 데 큰 영향을 준 방법론이 있다. 이에 대한 설명으로 가장 옳은 것은?",
+      "options": [
+        {
+          "text": "익스트림 프로그래밍(Extreme Programming, XP)이 CI 원칙을 채택하면서 하루에도 여러 번, 경우에 따라 수십 번까지 통합할 것을 권장했고, 이로 인해 오늘날의 고빈도 통합 문화가 자리 잡았다. Booch가 처음 제안했을 당시에는 하루에 여러 번의 통합을 권장하지는 않았다.",
+          "isCorrect": true
+        },
+        {
+          "text": "스크럼(Scrum)이 스프린트 종료 시점마다 코드를 통합하도록 공식 규정함으로써 현재의 CI 관행이 확립되었으며, Booch의 초기 제안 역시 스프린트 단위 통합이 핵심이었다.",
+          "isCorrect": false
+        },
+        {
+          "text": "워터폴 모델의 검증(Verification) 단계에서 통합 테스트를 의무화하면서, 오늘날 CI가 일 단위로 수행되는 방향으로 발전하였다.",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 배포(Continuous Deployment)가 먼저 등장한 뒤 역으로 파생된 개념이 CI이며, Booch의 1991년 제안은 배포 자동화와 직접 연결된 개념이었다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-11",
+      "type": "short",
+      "questionText": "지속적 전달(Continuous Delivery, CD)의 핵심 목표와 특징을 가장 정확히 기술한 것은?",
+      "options": [
+        {
+          "text": "언제든지 안정적으로 소프트웨어를 배포할 수 있도록 짧은 주기로 소프트웨어를 생산·테스트하며, 배포 준비 상태까지는 자동화되지만 실제 프로덕션 배포는 수동으로 수행된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "코드 병합에서부터 프로덕션 반영까지 모든 과정을 사람의 개입 없이 완전히 자동화하여, 배포 빈도를 극대화하는 것이 핵심이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "릴리스 시점에만 대규모 테스트를 수행하여 배포 전 품질을 확보하는 일괄 릴리스 전략이며, 주로 분기별 릴리스에 적용된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "프로덕션 환경에서만 실제 배포를 수행하고, 스테이징 단계는 생략하여 피드백 루프를 최단 시간으로 줄이는 기법이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-12",
+      "type": "long",
+      "longText": "모바일 앱(iOS/Android)은 지속적 전달(Continuous Delivery) 방식으로, 백엔드 API는 지속적 배포(Continuous Deployment) 방식으로 운영하는 팀이 있다. 이 선택을 가장 잘 설명하는 근거는?",
+      "options": [
+        {
+          "text": "지속적 전달은 배포 준비까지만 자동화하고 최종 배포는 PM·운영책임자의 수동 결정(사업적 승인)이 필요하다. 앱 스토어 심사·버전 관리가 필요한 모바일 앱에는 이 방식이 적합하고, 서버 코드처럼 즉시 반영이 가능한 백엔드/웹 서비스에는 배포까지 자동화하는 지속적 배포가 적합하기 때문이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "지속적 전달은 빌드·테스트를 생략하고 배포만 자동화하는 방식이므로, 스토어 심사 과정이 있는 모바일 앱에는 오히려 지속적 배포가 더 적합하며, 반대로 API는 지속적 전달이 더 안전하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "두 용어는 사실상 동일하며, 실무에서 어느 쪽을 쓰든 동작이 달라지지 않기 때문에 팀 규칙에 따라 임의로 선택한 것일 뿐이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 배포는 모든 기능을 수동으로 테스트한 뒤에만 릴리스되므로, 변경이 잦은 백엔드 API에만 한정적으로 사용 가능하기 때문이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-13",
+      "type": "short",
+      "questionText": "지속적 전달(Continuous Delivery)과 지속적 배포(Continuous Deployment)의 가장 본질적 차이는?",
+      "options": [
+        {
+          "text": "지속적 전달은 배포 준비 상태까지만 자동화되고 실제 프로덕션 배포는 수동 승인으로 이루어지는 반면, 지속적 배포는 테스트 통과 후 프로덕션 반영까지 자동으로 진행된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "지속적 전달은 테스트가 포함되지만 지속적 배포는 테스트가 빠져 있어, 둘 사이에는 테스트 유무라는 결정적 차이가 존재한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 배포는 오직 오픈소스 프로젝트에만 적용되며, 지속적 전달은 상용 소프트웨어에만 적용 가능하다는 법적·라이선스적 차이가 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 전달은 하루 한 번만, 지속적 배포는 하루 세 번만 릴리스해야 한다는 빈도 제한의 차이가 있다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-14",
+      "type": "short",
+      "questionText": "DevOps 관점에서 CI/CD 파이프라인이 갖는 의의로 가장 올바른 것은?",
+      "options": [
+        {
+          "text": "빌드·테스트·배포를 자동화함으로써 개발과 운영 사이의 간극을 연결하고, 현대적인 DevOps 워크플로의 핵심 실천 기반을 형성한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자 개개인의 수작업 배포 권한을 확대하여 운영 개입 없이도 릴리스가 가능한 프리랜서형 릴리스 체계를 구축한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트 환경과 프로덕션 환경을 통합·일원화하여, 하나의 환경에서 모든 검증과 운영을 동시에 수행하도록 강제한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 정의와 설계 산출물을 자동으로 코드로 변환하는 모델 기반 엔지니어링(MDE) 도구 체인을 의미한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-15",
+      "type": "short",
+      "questionText": "지속적 모니터링(Continuous Monitoring)의 정의로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 개발 주기와 아키텍처 전반에서 보안 및 컴플라이언스 위협을 식별하고, 프로덕션의 오류를 담당 팀에 즉시 전달해 이슈 해결을 지원하는 실천 방식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "배포 직후 24시간 동안에만 서비스 상태를 집중 관찰하고, 이후에는 월간 점검으로 전환하는 단기 모니터링 체계이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자가 로컬 IDE에서 자신의 코드만 대상으로 런타임 성능을 관측하는 개인 수준의 디버깅 활동을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "QA 조직이 릴리스 전 테스트 서버에서만 수행하는 회귀 테스트의 변형 개념으로, 프로덕션과는 무관한 사전 활동이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-16",
+      "type": "short",
+      "questionText": "지속적 모니터링에서 흔히 함께 거론되는 대표 도구 조합으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "Prometheus, Datadog, Nagios — 이들은 DevOps 환경에서 메트릭·로그·가용성 등을 지속적으로 감시하여 이슈를 탐지·알림한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Jira, Confluence, Trello — 주로 모니터링 데이터의 실시간 수집과 시계열 분석에 특화된 도구이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Git, Subversion, Mercurial — 프로덕션 오류를 자동으로 수집해 담당자에게 경고를 보내는 모니터링 플랫폼이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "Eclipse, IntelliJ, Visual Studio — 에이전트를 탑재해 프로덕션 서버의 상태를 원격으로 추적하는 모니터링 IDE이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-17",
+      "type": "short",
+      "questionText": "IEEE Std 2675는 DevOps와 관련해 어떤 내용을 다루는 표준인가?",
+      "options": [
+        {
+          "text": "DevOps: Building Reliable and Secure Systems Including Application Build, Package, and Deployment — 애플리케이션의 빌드·패키징·배포를 포함한 신뢰성 있고 안전한 시스템 구축을 다룬다.",
+          "isCorrect": true
+        },
+        {
+          "text": "애자일 프로젝트의 스프린트 길이와 팀 구성을 규정하는 표준으로, DevOps 도입과는 간접적으로만 관련된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 요구사항 명세서(SRS) 작성 양식을 규정하는 문서 표준이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "컨테이너 런타임의 포맷과 이미지 구조를 정의한 오픈소스 커뮤니티 표준이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-18",
+      "type": "short",
+      "questionText": "DevOps Toolchain이 수행하는 역할로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "DevOps 프로세스를 실현하는 수단으로서 개발 결과물을 공유·활용하고, App 배포 및 운영 환경과 개발·테스트 환경 간의 격차를 줄이는 도구 집합이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자가 사용하는 IDE만을 통합해 개인 생산성을 높이는 단일 벤더 플랫폼을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 조직이 단독으로 사용하는 사고(incident) 관리 도구의 모음으로, 개발 환경과는 연결되지 않는다.",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 명세서 자동 생성 도구로만 구성되며, 빌드·테스트·배포에는 관여하지 않는다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-19",
+      "type": "long",
+      "longText": "DevOps 성공 전략에 관한 설명 중, '가능한 모든 곳의 자동화' 원칙이 강조되는 가장 본질적인 이유는 무엇인가?",
+      "options": [
+        {
+          "text": "코드 개발, 통합을 위한 미들웨어, 형상 구성 및 배포, 회귀·부하 테스트 등 소프트웨어 수명주기 단계 전반에서 단절 없는 자동화가 이루어져야 신속한 릴리스와 일관된 품질이 보장되기 때문이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "자동화는 인건비를 낮추기 위한 수단일 뿐이며, 자동화 범위가 넓을수록 단순히 인력을 대체할 수 있어서 전략적으로 권장된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "수동 작업은 DevOps 표준에서 금지되어 있으므로, 규정 준수를 위해 모든 절차를 자동화해야 하기 때문이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "자동화된 결과물은 감사 대상이 아니므로, 감사 부담을 줄이기 위해 가능한 한 많은 작업을 자동화하는 것이 유리하기 때문이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-20",
+      "type": "short",
+      "questionText": "DevOps의 In-House 서비스 개발 파이프라인에서 코드 커밋 이후 일반적으로 이어지는 단계의 순서로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "코딩 및 단위 테스트 → 커밋 → 빌드 및 통합 테스트 → 인수 테스트 및 성능 테스트 → 배포 및 설치.",
+          "isCorrect": true
+        },
+        {
+          "text": "코딩 → 배포 → 통합 테스트 → 단위 테스트 → 인수 테스트 → 모니터링.",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 정의 → 배포 → 빌드 → 단위 테스트 → 통합 테스트 → 코딩.",
+          "isCorrect": false
+        },
+        {
+          "text": "코딩 → 인수 테스트 → 단위 테스트 → 통합 테스트 → 빌드 → 배포.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-21",
+      "type": "short",
+      "questionText": "DevOps 프로세스의 '테스트 단계'에서 수행되는 활동으로 가장 적절한 묶음은?",
+      "options": [
+        {
+          "text": "요구사항 만족도 테스트, 변경·개선이 포함된 경우의 회귀 테스트, 보안 및 취약성 분석, 성능 테스트, 그리고 소프트웨어 형상 테스트가 수행된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "비즈니스 가치 재정의, 요구사항 명세 수정, 애플리케이션 소유자 재선정, 배포 계획 철회 등 계획 단계 활동이 다시 이루어진다.",
+          "isCorrect": false
+        },
+        {
+          "text": "스토리지·데이터베이스·네트워크 등 인프라 구축, 사용자 환경 설치, 설치 오류 복구가 주된 작업이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "인프라 구성요소 성능 모니터링, 사용자 반응 추적, 개발 척도 달성 여부 확인이 핵심이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-22",
+      "type": "short",
+      "questionText": "DevOps 프로세스의 '릴리즈 단계'에서 수행되는 핵심 작업은?",
+      "options": [
+        {
+          "text": "배포 승인, 명세된 형상에 따른 패키징, 그리고 애플리케이션 배포가 수행된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "알고리즘 개발, 제품 형상 설계·정의, 단위 테스트 수행이 핵심 작업이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "비즈니스 가치 정의, 배포 시기 결정, 보안 요구사항 정의가 주된 활동이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 반응 추적, 모니터링 결과 개발팀 제공, 개발 척도 달성 여부 확인이 포함된다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-23",
+      "type": "short",
+      "questionText": "컨테이너(Container)에 대한 설명으로 가장 올바른 것은?",
+      "options": [
+        {
+          "text": "운영체제 수준의 가상화를 제공하며, 소규모 마이크로서비스부터 대규모 애플리케이션까지 실행 가능하고, 실행에 필요한 실행 파일·바이너리·라이브러리·설정 파일을 내부에 포함한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "하드웨어를 직접 에뮬레이션하며 각 인스턴스가 독립된 커널과 전체 운영체제를 탑재하는, 하이퍼바이저 기반의 가상 머신 기술이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "애플리케이션을 실행하는 과정에서 필요한 라이브러리를 항상 원격 호스트에서 실시간으로 내려받아 사용하는 스트리밍 실행 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "컨테이너는 실행 바이너리를 포함하지 않으며, 코드 저장소에 대한 참조만 들고 있어 런타임 중 저장소 접근이 필수이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-24",
+      "type": "long",
+      "longText": "한 팀이 수백 개의 컨테이너 인스턴스를 운영하면서 배포, 확장(스케일링), 네트워킹, 로드 밸런싱, 헬스 체크를 수동으로 관리하다 보니 운영 부담이 급격히 증가했다. 이 문제를 해결하기 위해 도입해야 할 개념은?",
+      "options": [
+        {
+          "text": "컨테이너 오케스트레이션(Container Orchestration)으로, 컨테이너화된 애플리케이션의 프로비저닝·배포·확장·네트워킹·로드 밸런싱·보안·헬스 체크 작업을 자동화하여 대규모 컨테이너 운영 부담을 크게 낮춰 준다.",
+          "isCorrect": true
+        },
+        {
+          "text": "하이퍼바이저(Hypervisor) 기반 VM 분리로, 컨테이너를 각기 다른 물리 서버에 배치해 컨테이너 간 간섭을 제거하는 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "코드형 인프라(IaC) 도구만으로 컨테이너의 배포·스케일링·헬스 체크를 실시간으로 대체하는 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "지속적 모니터링 도구를 다수 추가 설치하여, 운영자가 컨테이너 상태를 더 자주 확인하게 함으로써 부담을 분산시키는 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-25",
+      "type": "short",
+      "questionText": "코드형 인프라(Infrastructure as Code, IaC)의 정의로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "머신이 읽을 수 있는 정의 파일을 사용해 데이터 센터를 관리·프로비저닝하는 방식으로, 수작업 하드웨어 설정이나 대화형 도구를 자동화된 코드 기반 프로세스로 대체한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "애플리케이션 코드를 인프라 장비의 펌웨어에 직접 탑재해 실행하는, 하드웨어-소프트웨어 융합 기술이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "인프라 관리자에게 전달할 운영 매뉴얼을 코드 주석 형태로 남기는 문서화 실천이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 서버의 상태를 수동으로 캡처해 이미지 파일로 보관하는 스냅샷 기반 백업 전략을 의미한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-26",
+      "type": "long",
+      "longText": "어떤 팀이 IaC(Infrastructure as Code)를 도입하면서 기대하는 대표적인 이점으로 가장 적절한 묶음은 무엇인가?",
+      "options": [
+        {
+          "text": "재현 가능성, 일관성, 자동화, 버전 관리, 협업성의 다섯 가지이다. 이는 DevOps가 지향하는 '환경 표준화'와 '자동화'를 실질적으로 가능케 한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "하드웨어 성능 향상, 전력 소비 감소, 물리 서버 무상 제공, 데이터센터 면적 축소, 냉각 장비 불필요화이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "수동 대응 가속화, 개별 서버의 고유 설정 강화, 서버별 차별화된 튜닝 유지, 장비 단위 수작업 보장이 주된 이점이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "컨테이너 런타임 의존 제거, 네트워크 장비 간소화, 사용자 UI 자동 생성, 애플리케이션 코드 자동 리팩터링이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-27",
+      "type": "long",
+      "longText": "클라우드 환경에서 DevOps를 실현할 때 '풀 스택 배포(Full-Stack Deployment)'와 '분리 배포'의 차이를 가장 올바르게 설명한 것은?",
+      "options": [
+        {
+          "text": "풀 스택 배포는 클라우드 환경에서 애플리케이션 서비스 배포와 실행 환경 구성을 함께 진행하는 방식인 반면, 분리 배포는 오케스트레이션이 가능하지 않을 때 클라우드 프로비저닝을 애플리케이션 서비스 배포와 분리하여 수행하는 방식이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "풀 스택 배포는 애플리케이션만을 대상으로 하고, 분리 배포는 프런트엔드만을 대상으로 하는 UI 중심 배포를 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "풀 스택 배포는 온프레미스 환경 전용이고, 분리 배포는 클라우드 전용으로만 사용할 수 있는 배타적 개념이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "풀 스택 배포는 배포 주기가 길고, 분리 배포는 실시간 무중단 배포만을 가리킨다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-28",
+      "type": "short",
+      "questionText": "DevOps 측정 척도 중 '개발 및 배포 관련 지표'에 해당하는 것은?",
+      "options": [
+        {
+          "text": "설치주기(Deployment Frequency), 설치규모(Deployment Size), 설치시간(Deployment Time), 소요시간(Lead Time)이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "고객 티켓, 자동 테스트 성공률, 결함 제거율처럼 품질·운영 성과를 나타내는 지표이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "가용성(Availability), SLA, 서비스 활용도, 서비스 성능처럼 서비스 운영 지표에 해당한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "MTTD(결함 감지 평균시간), MTTR(결함 복구 평균시간), MTBF처럼 장애 관리 지표이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-29",
+      "type": "short",
+      "questionText": "DevOps의 '장애 관리 지표'에 해당하는 용어로 가장 적절한 조합은?",
+      "options": [
+        {
+          "text": "MTTD(Mean Time To Detect, 결함 감지 평균시간)와 MTTR(Mean Time To Recover, 결함 복구 평균시간)이며, MTBF(Mean Time Between Failures)도 참고 지표로 함께 언급된다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lead Time, Deployment Frequency, Deployment Size처럼 배포 속도·규모를 나타내는 지표들이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "고객 만족도(NPS), 매출 전환율, 페이지뷰(PV)처럼 비즈니스 영향 지표이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 커버리지, 정적 분석 경고 수, 코드 중복률처럼 정적 품질 지표만을 포함한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-30",
+      "type": "long",
+      "longText": "운영팀이 장애 대응 능력을 평가하고자 한다. '장애 발생 시점부터 탐지까지 걸린 평균 시간'과 '탐지 이후 복구까지 걸린 평균 시간'을 각각 어떤 지표로 측정해야 하는가?",
+      "options": [
+        {
+          "text": "전자는 MTTD(Mean Time To Detect, 결함 감지 평균시간), 후자는 MTTR(Mean Time To Recover, 결함 복구 평균시간)이다. 둘을 함께 보면 조기 탐지 능력과 복구 민첩성을 각각 구분해 평가할 수 있다.",
+          "isCorrect": true
+        },
+        {
+          "text": "전자는 MTBF(Mean Time Between Failures), 후자는 MTTD이며, MTBF가 짧을수록 복구가 빠른 것으로 해석한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "두 값 모두 SLA 하나로 측정하며, SLA가 높으면 탐지와 복구 모두 빠른 것을 의미한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "전자는 Lead Time, 후자는 Deployment Frequency로 측정해야 하며, 두 값 모두 배포 관련 지표로 분류된다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-31",
+      "type": "short",
+      "questionText": "마이크로서비스 아키텍처의 일반적 장점으로 가장 적절하게 정리된 것은?",
+      "options": [
+        {
+          "text": "독립 배포, 확장성 향상, 개발 생산성 증가, 장애 격리, 기술 선택의 유연성을 얻을 수 있다. 애플리케이션을 작은 독립 서비스로 분리해 개발·배포하기 때문이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "전역 트랜잭션 처리가 간단해지고, 서비스 간 통신 비용이 사라지며, 단일 기술 스택만 사용하도록 강제된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "단일 배포 파이프라인에서 모든 서비스를 일괄 릴리스할 수 있어, 배포 단위를 최대한 크게 유지할 수 있다.",
+          "isCorrect": false
+        },
+        {
+          "text": "UI 계층과 데이터 계층을 한 서비스에 묶을 수 있어, 계층 간 경계가 사라져 장애 격리가 자동으로 이루어진다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-32",
+      "type": "short",
+      "questionText": "DevSecOps의 핵심 개념 중 'Shift Left'가 DevOps에서 갖는 의미는?",
+      "options": [
+        {
+          "text": "소프트웨어 엔지니어가 DevOps 프로세스의 오른쪽(끝)에서 왼쪽(시작) 방향으로 이동하며 보안 관련 이슈를 처리하도록 권장하는, 보안의 전단계 통합 원칙이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "운영팀이 릴리스 이후에 보안 점검을 집중 수행하여, 보안 책임을 프로세스의 오른쪽 끝으로 밀어내는 전략이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "CI/CD 파이프라인의 좌측 도구(IDE·빌드)를 우측 도구(모니터링)로 점진 교체하는 도구 마이그레이션 방식이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "보안 전담 인력을 개발 프로세스에서 제외하고, 운영 환경 점검만을 맡기는 조직 분리 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-33",
+      "type": "long",
+      "longText": "DevSecOps를 도입할 때, 개발자들이 필수적으로 익혀야 한다고 언급되는 대표적인 보안 지식과 관련 자원은?",
+      "options": [
+        {
+          "text": "OWASP(Open Worldwide Application Security Project) Top 10에 익숙해져야 하며, 이를 통해 주요 보안 리스크와 애플리케이션 보안 테스트, 보안 엔지니어링 관행을 이해해야 한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "IEEE Std 2675의 부록 A만 숙지하면 되며, OWASP와 같은 커뮤니티 자료는 DevSecOps에서는 참고 대상이 아니다.",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO/IEC 25010의 유지보수성 지표를 암기하는 것이 가장 중요하며, 이는 애플리케이션 보안 전반을 대체한다.",
+          "isCorrect": false
+        },
+        {
+          "text": "SLA 문서 작성법과 티켓 관리 도구 사용법을 숙지하는 것이 DevSecOps에서 요구되는 보안 역량의 핵심이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-34",
+      "type": "short",
+      "questionText": "DevSecOps에서 강조되는 '추적 가능성·감사 가능성·가시성'의 의미로 가장 올바른 것은?",
+      "options": [
+        {
+          "text": "추적 가능성은 개발 주기 전반에 걸쳐 요구사항이 구현되는 형상 항목을 추적하는 능력, 감사 가능성은 보안 제어 준수 보장, 가시성은 프로젝트 수명 주기 동안 작업 역할과 책임을 제공하는 모니터링 시스템 역할을 의미한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "세 용어 모두 결국 모니터링 도구의 별칭이며, 본질적으로 같은 개념을 다르게 표기한 것일 뿐이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "추적 가능성은 네트워크 패킷 캡처, 감사 가능성은 디스크 쓰기 로그, 가시성은 UI 디자인 표준을 가리킨다.",
+          "isCorrect": false
+        },
+        {
+          "text": "추적 가능성은 코드 리뷰 속도, 감사 가능성은 컴파일 경고 수, 가시성은 빌드 서버의 대시보드 접근 권한만을 의미한다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-35",
+      "type": "short",
+      "questionText": "DevDataOps의 목적과 특징으로 가장 올바른 설명은?",
+      "options": [
+        {
+          "text": "데이터 분석 수명주기의 품질과 정보 제공의 적시성 향상을 목표로 하는 접근 방식으로, DevOps의 데이터 흐름 파이프라인(생성·수집·필터링·스트림 처리·집적·정렬 및 그룹화·저장·처리·분석·전달)을 체계화한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자가 운영 환경의 데이터베이스 스키마를 수동으로 수정할 수 있도록 허용해, 긴급 데이터 변경 속도를 극대화하는 운영 관행이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 품질 저하를 감수하더라도 분석 결과 전달 시점을 최대한 늦춰, 분석의 정밀도를 확보하는 전략이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 과학자와 개발자의 역할을 엄격히 분리하여, 두 직군이 서로의 산출물을 공유하지 않도록 통제하는 조직 방식이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-36",
+      "type": "short",
+      "questionText": "BizDevOps의 기본 아이디어로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "비즈니스·개발·운영 팀 간 협업을 통해 소프트웨어를 더 빠르게 개발하고 사용자 요구에 더 잘 대응함으로써 수익을 극대화하려는 개발 접근 방식이다. 비즈니스 문제 정의→코드 개발→테스트·배포→모니터링·피드백 루프로 이어지며, 비즈니스 목표·KPI를 공유·보고한다.",
+          "isCorrect": true
+        },
+        {
+          "text": "비즈니스 조직이 개발·운영 조직으로부터 완전히 독립적으로 행동하도록 분리하여, 각자의 지표만으로 성과를 측정하는 조직 모델이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "재무 부서가 릴리스 승인권을 단독으로 가지며, 개발팀은 승인된 기능만을 구현하도록 제한하는 의사결정 구조이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "영업 조직이 직접 배포 파이프라인을 운영하며, 개발자는 장애 대응에만 관여하도록 역할을 재편하는 전략이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-37",
+      "type": "short",
+      "questionText": "DevOps에서 말하는 기술 부채(Technical Debt)에 가장 가까운 설명은?",
+      "options": [
+        {
+          "text": "시간이 더 오래 걸리더라도 더 나은 접근 방식을 쓰는 대신, 지금 쉬운(제한된) 솔루션을 선택함으로써 발생하게 되는 추가 재작업의 내재된 비용이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "오픈소스 라이선스 비용을 회피하기 위해 사내 자체 개발을 택했을 때 발생하는 외부 라이선스 부채이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "릴리스 지연으로 인해 발생하는 매출 손실만을 의미하며, 코드·설계 품질과는 무관한 회계적 개념이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "운영팀이 보유한 하드웨어의 감가상각비를 뜻하는 인프라 운용 비용이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-38",
+      "type": "long",
+      "longText": "DevOps 팀이 기술 부채를 줄이기 위해 채택할 수 있는 전략으로 가장 포괄적으로 정리한 것은?",
+      "options": [
+        {
+          "text": "동기부여, DevOps 자동화 활용, 마이크로서비스 모델 채택, 컨테이너화된 배포, API 중심 모델 구축 등으로 요약된다. 이는 차선책 결정을 줄이고 변경 비용을 장기적으로 낮추기 위한 접근이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 단위 테스트를 제거하여 빌드 속도를 높이고, 운영 환경에서 직접 디버깅하도록 장려하는 방향이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "대형 모놀리스로 다시 통합해 배포 단위를 단일화하고, 외부 API 노출을 금지해 종속성을 줄이는 방향이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자 개인에게 동시에 두 가지 이상의 작업을 상시 할당해, 기술 부채의 원인 자체를 상쇄하도록 하는 정책이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-39",
+      "type": "short",
+      "questionText": "DevOps 도입으로 등장한 새로운 직업군으로 가장 알맞게 나열된 것은?",
+      "options": [
+        {
+          "text": "Site Reliability Engineer(SRE), Platform Engineer, Cloud Engineer, DevOps Engineer 등이며, 기존 직업군도 계속 필요하다.",
+          "isCorrect": true
+        },
+        {
+          "text": "Database Administrator, Network Administrator, Help-desk Operator와 같이, DevOps와 무관하게 기존에 존재하던 역할만을 재명명한 것이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "UX 디자이너, 기획자, 마케팅 매니저처럼 제품 외부 영역에만 국한된 직무로 한정된다.",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리자(PM)와 품질 보증(QA) 매니저 두 직무만을 가리키며, 엔지니어링 직무는 포함되지 않는다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-40",
+      "type": "long",
+      "longText": "한 팀이 프로덕션에서 장애 빈도를 크게 줄이고 복구 속도를 높이기 위해 '서비스 수준 목표(SLO)를 정의하고, 에러 예산(error budget)을 기반으로 신규 기능 릴리스 속도를 조정하며, 운영 업무를 코드로 자동화'하려고 한다. 이 팀이 도입하려는 새로운 직무에 가장 가까운 것은?",
+      "options": [
+        {
+          "text": "Site Reliability Engineer(SRE)이다. SRE는 소프트웨어 공학적 접근으로 운영 문제를 자동화하고, 신뢰성(MTTD·MTTR·가용성 등) 지표에 기반해 개발·운영의 균형을 관리하는 직무이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "전통적인 시스템 관리자(System Administrator)로, 주로 수작업 운영과 장비 교체에만 집중하는 역할이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리자(PM)로, 일정과 자원 할당만을 담당하며 장애 지표와는 무관하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "UX 리서처로, 사용자 인터뷰와 설문을 통해 신뢰성 문제를 간접적으로 해결하는 직무이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-41",
+      "type": "long",
+      "longText": "CI와 CD를 혼동하는 팀원에게 두 개념의 역할을 가장 명확히 구분해 설명하려 한다. 가장 적절한 설명은?",
+      "options": [
+        {
+          "text": "CI(Continuous Integration)는 여러 개발자의 코드를 공용 메인라인에 자주 병합하고 자동 빌드·테스트로 건전성을 검증하는 실천이고, CD(Continuous Delivery/Deployment)는 그 결과물을 짧은 주기로 안정적으로 배포 가능한 상태로 만들거나(Delivery, 수동 승인) 자동으로 프로덕션에 반영(Deployment)하는 실천이다.",
+          "isCorrect": true
+        },
+        {
+          "text": "CI는 배포 자동화만을 의미하고, CD는 코드 병합과 단위 테스트만을 의미하므로 두 개념은 서로 반대 방향의 작업이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "CI는 한 달 주기의 대규모 통합을, CD는 분기 단위의 릴리스를 의미하는 시간 주기 개념일 뿐 자동화와는 무관하다.",
+          "isCorrect": false
+        },
+        {
+          "text": "CI와 CD는 동일 개념이며, 단지 팀에 따라 CI 또는 CD 중 하나만 선택해 부르는 관습의 차이일 뿐이다.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-42",
+      "type": "short",
+      "questionText": "DevOps의 요약적 프로세스 사이클로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "코딩 → 빌드 → 테스트 → 릴리즈 → 운영 → 모니터링 → 분석 → 다시 코딩으로 이어지는 순환이며, 이 과정에서 기술 부채가 누적되지 않도록 Toolchain을 활용한 자동화 개발 환경 구축이 중요하다.",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항 정의 → 일괄 구현 → 일괄 테스트 → 한 번의 릴리스로 끝나는 선형 워터폴 사이클이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "모니터링 → 요구사항 철회 → 개발 중단으로 이어지며, 피드백이 없을 때만 재시작되는 단방향 흐름이다.",
+          "isCorrect": false
+        },
+        {
+          "text": "릴리즈 → 설치 → 모니터링 단 3단계만을 반복하며, 코딩과 테스트는 DevOps 사이클에 포함되지 않는다.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

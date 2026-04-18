@@ -1,0 +1,357 @@
+{
+  "title": "Day 6 소프트웨어 비용 산정",
+  "questions": [
+    {
+      "id": "cost-01",
+      "type": "short",
+      "questionText": "LOC(Lines Of Codes) 기반 소프트웨어 규모 산정 방식이 가진 근본적인 한계로 가장 적절한 것은?",
+      "options": [
+        { "text": "동일한 기능을 구현하더라도 사용하는 프로그래밍 언어에 따라 코드 라인 수가 달라져, 규모가 언어 의존적으로 왜곡된다.", "isCorrect": true },
+        { "text": "요구사항 단계에서는 전혀 측정할 수 없고 오직 출시 후에만 측정이 가능하다는 시기적 한계가 존재한다.", "isCorrect": false },
+        { "text": "사용자의 업무 복잡도를 지나치게 과대평가하여 개발 비용을 실제보다 크게 산정하는 경향이 있다.", "isCorrect": false },
+        { "text": "외부 인터페이스 파일을 측정 대상에서 제외하기 때문에 분산 시스템에 적용할 수 없다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-02",
+      "type": "short",
+      "questionText": "기능 점수(Function Point)의 정의로 가장 적절한 것은?",
+      "options": [
+        { "text": "소프트웨어의 기능의 양과 복잡한 정도를 기준으로 소프트웨어의 규모(사이즈)를 산정하는 기법이다.", "isCorrect": true },
+        { "text": "프로그래머가 하루에 작성하는 평균 코드 라인 수를 기반으로 개발 기간을 추정하는 단위이다.", "isCorrect": false },
+        { "text": "소프트웨어 결함 밀도를 측정하기 위한 품질 지표로, 결함 수를 LOC로 나눈 값이다.", "isCorrect": false },
+        { "text": "하드웨어 자원 사용량을 기준으로 소프트웨어의 운영 비용을 예측하는 규모 산정 기법이다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-03",
+      "type": "short",
+      "questionText": "기능 점수(FP)가 설계 단계나 요구사항 단계에서도 산정 가능한 이유로 가장 적절한 것은?",
+      "options": [
+        { "text": "요구사항에서 식별되는 기능의 양과 복잡도를 측정 기준으로 삼기 때문에, 구현 이전에도 요구사항 기반으로 산정할 수 있다.", "isCorrect": true },
+        { "text": "산정 과정에서 실제 소스 코드의 제어 흐름을 정적 분석하여 복잡도를 계산하기 때문이다.", "isCorrect": false },
+        { "text": "프로그래밍 언어별 LOC 매핑 테이블을 이용해 예상 라인 수를 역산하기 때문이다.", "isCorrect": false },
+        { "text": "테스트 케이스의 개수를 기반으로 기능의 복잡도를 추정하기 때문이다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-04",
+      "type": "short",
+      "questionText": "기능 점수의 구성 요소는 크게 '데이터 기능'과 '처리 기능'으로 나뉜다. 이 중 데이터 기능에 해당하는 것은?",
+      "options": [
+        { "text": "내부 논리 파일(ILF)과 외부 인터페이스 파일(EIF)", "isCorrect": true },
+        { "text": "외부 입력(EI), 외부 출력(EO), 외부 조회(EQ)", "isCorrect": false },
+        { "text": "Record Element Type(RET)과 File Type Reference(FTR)", "isCorrect": false },
+        { "text": "Value Adjustment Factor(VAF)와 Total Degree of Influence(TDI)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-05",
+      "type": "short",
+      "questionText": "내부 논리 파일(ILF, Internal Logical File)과 외부 인터페이스 파일(EIF, External Interface File)의 차이를 가장 정확히 설명한 것은?",
+      "options": [
+        { "text": "ILF는 응용 소프트웨어 범위 내에서 직접 유지·관리되는 파일이고, EIF는 응용 소프트웨어 밖에 존재하며 단순히 참조만 하는 파일이다.", "isCorrect": true },
+        { "text": "ILF는 트랜잭션 처리에 사용되는 파일이고, EIF는 보고서 출력에만 사용되는 파일이다.", "isCorrect": false },
+        { "text": "ILF는 사용자가 입력하는 데이터 파일이고, EIF는 시스템이 자동 생성하는 로그 파일이다.", "isCorrect": false },
+        { "text": "ILF는 관계형 데이터베이스 테이블만을 의미하고, EIF는 플랫 파일이나 XML만을 의미한다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-06",
+      "type": "short",
+      "questionText": "처리 기능(Transaction Function)을 구성하는 세 가지 유형으로 올바른 것은?",
+      "options": [
+        { "text": "외부 입력(EI), 외부 출력(EO), 외부 조회(EQ)", "isCorrect": true },
+        { "text": "내부 입력(II), 내부 출력(IO), 내부 조회(IQ)", "isCorrect": false },
+        { "text": "내부 논리 파일(ILF), 외부 인터페이스 파일(EIF), 외부 입력(EI)", "isCorrect": false },
+        { "text": "Create, Read, Update, Delete (CRUD)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-07",
+      "type": "short",
+      "questionText": "기능 점수 산정 유형(Type) 결정 단계에서 '개선 프로젝트'에 해당하는 설명은?",
+      "options": [
+        { "text": "기존 시스템에 새로운 기능을 추가하여 기능을 향상하는 프로젝트이다.", "isCorrect": true },
+        { "text": "스크래치부터 시작하여 소프트웨어를 새로 개발하는 프로젝트이다.", "isCorrect": false },
+        { "text": "기존 기능에서 수정만 수행하고 새로운 기능은 추가하지 않는 프로젝트이다.", "isCorrect": false },
+        { "text": "이미 개발된 패키지 소프트웨어를 구매하여 설치만 수행하는 프로젝트이다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-08",
+      "type": "short",
+      "questionText": "단계 2 '범위 및 경계(Boundary) 선정'에서 '획득 방법' 항목의 선택지에 해당하지 않는 것은?",
+      "options": [
+        { "text": "E-R 다이어그램(Entity-Relationship Diagram)", "isCorrect": true },
+        { "text": "자체 개발(In-house Development)", "isCorrect": false },
+        { "text": "외주 개발(Outsourced Part)", "isCorrect": false },
+        { "text": "패키지 구매(Package Purchase)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-09",
+      "type": "short",
+      "questionText": "데이터 기능의 복잡도를 결정할 때 사용되는 두 가지 지표 RET과 DET의 정의로 올바른 것은?",
+      "options": [
+        { "text": "RET(Record Element Type)는 레코드(서브그룹) 유형 수, DET(Data Element Type)는 데이터 항목(필드) 수를 의미한다.", "isCorrect": true },
+        { "text": "RET는 참조 파일 수, DET는 처리 태스크의 수를 의미한다.", "isCorrect": false },
+        { "text": "RET는 데이터 항목 수, DET는 레코드 유형 수를 의미한다(RET과 DET의 의미는 상호 교환 가능).", "isCorrect": false },
+        { "text": "RET는 운영 환경 특성 인자 수, DET는 복잡도 가중치 값을 의미한다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-10",
+      "type": "short",
+      "questionText": "처리 기능(Transaction) 복잡도 결정 시 사용하는 'FTR(File Type Reference)'의 의미로 가장 적절한 것은?",
+      "options": [
+        { "text": "해당 처리 기능이 참조하거나 갱신하는 파일(ILF 또는 EIF)의 개수를 뜻한다.", "isCorrect": true },
+        { "text": "트랜잭션이 입출력하는 데이터 필드의 총 개수를 뜻한다.", "isCorrect": false },
+        { "text": "파일 안에 존재하는 레코드 서브그룹의 유형 수를 뜻한다.", "isCorrect": false },
+        { "text": "14개의 시스템 특성 중 파일 관련 인자의 영향도 합을 뜻한다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-11",
+      "type": "short",
+      "questionText": "ILF/EIF의 복잡도를 결정할 때 RET과 DET을 함께 사용하지만, 처리 기능(EI/EO/EQ)의 복잡도를 결정할 때는 DET과 함께 다른 지표를 사용한다. 처리 기능 복잡도 결정에 사용되는 지표는?",
+      "options": [
+        { "text": "FTR(File Type Reference, 참조 파일 수)", "isCorrect": true },
+        { "text": "RET(Record Element Type, 레코드 항목 유형 수)", "isCorrect": false },
+        { "text": "TDI(Total Degree of Influence, 총 영향도)", "isCorrect": false },
+        { "text": "VAF(Value Adjustment Factor, 조정 인자)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-12",
+      "type": "short",
+      "questionText": "처리 기능에서 '외부 조회(EQ)'와 '외부 출력(EO)'의 차이에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        { "text": "EO는 계산·통계·그래프 등 가공 처리가 포함된 보고서 출력이고, EQ는 저장된 데이터를 단순히 보여주는 조회성 출력이다.", "isCorrect": true },
+        { "text": "EO는 사용자 인터페이스에서 발생하는 출력이고, EQ는 외부 시스템으로 전송되는 출력이다.", "isCorrect": false },
+        { "text": "EO는 입력 함수에 속하고, EQ는 출력 함수에 속한다.", "isCorrect": false },
+        { "text": "EO는 ILF만을 참조할 수 있고, EQ는 EIF만을 참조할 수 있다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-13",
+      "type": "short",
+      "questionText": "각 파일에 대해 일반적으로 고려되는 다섯 가지 처리 함수(Create, Update, Delete, Report, Inquiry) 중에서 '외부 출력(EO)'으로 분류되는 것은?",
+      "options": [
+        { "text": "Report() — 사용자에게 전달되는 데이터 항목과 보고서 출력을 위한 부가적인 형식 및 계산 처리를 포함하는 함수", "isCorrect": true },
+        { "text": "Create() — 사용자가 입력해야 하는 데이터 항목 수를 산정하는 입력 처리 함수", "isCorrect": false },
+        { "text": "Update() — 사용자 요청에 의해 변경되는 데이터 항목을 처리하는 입력 함수", "isCorrect": false },
+        { "text": "Inquiry() — 사용자에게 정보를 제공할 목적으로 접근하는 데이터 항목 수를 계산하는 질의 함수", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-14",
+      "type": "short",
+      "questionText": "어떤 ILF가 DET 13개, RET 2개로 식별되었을 때 이 파일의 복잡도는 어떻게 결정되는가? (ILF/EIF 복잡도 매트릭스에서 DET 1~19, RET 2~5 → Low, 단 DET 20~50 이상일 때 Average)",
+      "options": [
+        { "text": "Low 복잡도 (DET이 1~19 범위이고 RET이 2~5이므로 매트릭스상 Low)", "isCorrect": true },
+        { "text": "Average 복잡도 (RET이 2개 이상이면 무조건 Average 이상)", "isCorrect": false },
+        { "text": "High 복잡도 (DET이 10을 넘으면 자동적으로 High)", "isCorrect": false },
+        { "text": "복잡도가 결정되지 않음 (DET/RET 매트릭스는 처리 기능에만 적용됨)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-15",
+      "type": "short",
+      "questionText": "예비 기능 점수 산정 단계에서 ILF와 EIF의 Low 복잡도에 적용되는 가중치로 올바른 것은?",
+      "options": [
+        { "text": "ILF Low = 7, EIF Low = 5", "isCorrect": true },
+        { "text": "ILF Low = 3, EIF Low = 4", "isCorrect": false },
+        { "text": "ILF Low = 10, EIF Low = 7", "isCorrect": false },
+        { "text": "ILF Low = 5, EIF Low = 7", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-16",
+      "type": "short",
+      "questionText": "처리 기능의 복잡도 가중치 매트릭스에서 EI/EQ(Low) 가중치는 3인 반면, EO(Low)의 가중치는 4이다. 그 이유로 가장 타당한 설명은?",
+      "options": [
+        { "text": "EO는 단순 조회가 아닌 계산·통계·보고서 형식 처리 등 추가 가공 로직을 포함하기 때문에 EI/EQ보다 복잡도가 높게 평가된다.", "isCorrect": true },
+        { "text": "EO는 외부 시스템과의 통신을 반드시 포함하기 때문에 네트워크 가중치가 추가된다.", "isCorrect": false },
+        { "text": "EO는 반드시 EIF를 참조해야 하므로 참조 파일 수가 고정적으로 커서 가중치가 높다.", "isCorrect": false },
+        { "text": "EO는 데이터베이스 갱신을 수행하는 반면 EI/EQ는 읽기만 하기 때문이다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-17",
+      "type": "short",
+      "questionText": "데이터 기능이 ILF 3개(모두 Low)와 EIF 1개(Low)로 구성된 시스템의 데이터 기능점수 합계는 얼마인가?",
+      "options": [
+        { "text": "26점 (7×3 + 5×1 = 26)", "isCorrect": true },
+        { "text": "28점 (7×4 = 28)", "isCorrect": false },
+        { "text": "20점 (5×4 = 20)", "isCorrect": false },
+        { "text": "15점 (3+4+5+3 = 15)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-18",
+      "type": "short",
+      "questionText": "조정 인자 값(VAF) 산출에 사용되는 14개 시스템 특성에 '포함되지 않는' 것은?",
+      "options": [
+        { "text": "테스트 자동화 수준", "isCorrect": true },
+        { "text": "데이터 통신, 분산 데이터 처리, 성능", "isCorrect": false },
+        { "text": "온라인 갱신, 복잡한 처리, 재사용성", "isCorrect": false },
+        { "text": "설치 용이성, 운영 용이성, 다수의 사이트, 변경 지원", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-19",
+      "type": "short",
+      "questionText": "조정 인자 값 VAF(Value Adjustment Factor)를 계산하는 공식은? (여기서 TDI는 14개 시스템 특성의 영향도 합)",
+      "options": [
+        { "text": "VAF = (TDI × 0.01) + 0.65, 따라서 VAF 값의 범위는 0.65 ~ 1.35이다.", "isCorrect": true },
+        { "text": "VAF = (TDI × 0.05) + 0.5, 따라서 VAF 값의 범위는 0.5 ~ 4.0이다.", "isCorrect": false },
+        { "text": "VAF = TDI / 70, 따라서 VAF 값의 범위는 0 ~ 1.0이다.", "isCorrect": false },
+        { "text": "VAF = (TDI × 0.1) + 1.0, 따라서 VAF 값의 범위는 1.0 ~ 8.0이다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-20",
+      "type": "short",
+      "questionText": "어떤 시스템의 예비 기능 점수가 101점이고, 14개 시스템 특성 영향도의 합(TDI)이 29로 산정되었다. 이때 최종 기능 점수는 얼마인가? (VAF = TDI × 0.01 + 0.65)",
+      "options": [
+        { "text": "약 95점 (VAF = 0.29 + 0.65 = 0.94, 101 × 0.94 ≈ 95)", "isCorrect": true },
+        { "text": "약 110점 (VAF = 1.09, 101 × 1.09 ≈ 110)", "isCorrect": false },
+        { "text": "약 130점 (VAF = 1.29, 101 × 1.29 ≈ 130)", "isCorrect": false },
+        { "text": "약 66점 (VAF = 0.65, 101 × 0.65 ≈ 66)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-21",
+      "type": "short",
+      "questionText": "단순한 배치 처리(batch) 응용 소프트웨어와 실시간 제어 시스템의 VAF 값 비교로 가장 적절한 것은?",
+      "options": [
+        { "text": "단순 배치 응용은 TDI가 15 미만이므로 VAF ≈ 0.8 수준, 실시간 제어 시스템은 TDI 30~60이므로 VAF ≈ 1.25 수준이 된다.", "isCorrect": true },
+        { "text": "단순 배치 응용의 VAF가 실시간 제어 시스템보다 항상 높게 산출된다.", "isCorrect": false },
+        { "text": "두 경우 모두 VAF는 1.0으로 동일하게 결정된다.", "isCorrect": false },
+        { "text": "실시간 제어 시스템은 TDI가 0에 수렴하므로 VAF가 0.65에 가깝게 나타난다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-22",
+      "type": "short",
+      "questionText": "기능 점수 산정의 '정규법'과 '간이법'을 비교한 설명으로 가장 적절한 것은?",
+      "options": [
+        { "text": "정규법은 기능별·단위 파일별 복잡도를 일일이 적용해 정확도가 높지만 사업 초기에는 적용이 어렵고, 간이법은 평균 복잡도 가중치를 사용해 신속하지만 정확성이 상대적으로 낮다.", "isCorrect": true },
+        { "text": "정규법은 데이터 기능만 측정하고, 간이법은 처리 기능만 측정한다.", "isCorrect": false },
+        { "text": "간이법이 정규법보다 측정 정확도가 항상 높으며, 상세 설계 단계에서만 사용된다.", "isCorrect": false },
+        { "text": "정규법은 IFPUG 표준이 아니며, 간이법만이 공식 국제 표준이다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-23",
+      "type": "short",
+      "questionText": "간이법에 의한 기능 점수 산정 절차의 특징으로 '옳지 않은' 것은?",
+      "options": [
+        { "text": "간이법에서도 14개 시스템 특성의 영향도(TDI)를 합산하여 조정 인자(VAF)를 반드시 곱해 최종 기능 점수를 산정한다.", "isCorrect": true },
+        { "text": "간이법은 사업 준비 단계나 제안서 작성 단계에서 개략적 예측용으로 활용된다.", "isCorrect": false },
+        { "text": "간이법은 기능별 개별 복잡도 대신 평균 복잡도 가중치를 사용한다.", "isCorrect": false },
+        { "text": "단위 업무 프로세스 식별이 어려우면 기능 단위 화면을 하나의 단위 업무로 간주할 수 있다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-24",
+      "type": "short",
+      "questionText": "교재에서 제시한 간이법 평균 복잡도 가중치가 ILF=7.5, EIF=5.4, EI=4.0, EO=5.2, EQ=3.9일 때, ILF 4개, EIF 1개, EI 9개(입력3+수정3+삭제3), EO 4개, EQ 4개로 카운트된 시스템의 최종 기능 점수는?",
+      "options": [
+        { "text": "107.8점 ((4×7.5)+(1×5.4)+(9×4.0)+(4×5.2)+(4×3.9) = 30+5.4+36+20.8+15.6 = 107.8)", "isCorrect": true },
+        { "text": "132.6점 ((5×7.5)+(1×5.4)+(13×4.0)+(2×5.2)+(7×3.9))", "isCorrect": false },
+        { "text": "95점 (예비 기능 점수 101에 VAF 0.94를 곱한 값)", "isCorrect": false },
+        { "text": "75점 (데이터 기능 26 + 처리 기능 49)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-25",
+      "type": "short",
+      "questionText": "IFPUG가 제공하는 기능 점수↔LOC 매핑 테이블에서 프로그래밍 언어별 1 FP당 LOC에 대한 설명으로 올바른 것은?",
+      "options": [
+        { "text": "객체지향 언어(C++, JAVA)는 약 53 LOC/FP이고, 절차적 언어인 C는 약 128 LOC/FP로, 객체지향 언어가 동일 기능을 더 적은 코드로 구현한다고 본다.", "isCorrect": true },
+        { "text": "C++와 JAVA는 약 320 LOC/FP로 어셈블리보다도 코드가 많이 필요하다.", "isCorrect": false },
+        { "text": "SQL이 약 128 LOC/FP로 절차적 언어와 유사하고, HTML은 약 107 LOC/FP이다.", "isCorrect": false },
+        { "text": "모든 프로그래밍 언어는 1 FP당 동일하게 100 LOC로 표준화되어 있다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-26",
+      "type": "short",
+      "questionText": "2024년 한국소프트웨어산업협회가 공시한 기능 점수당 표준 단가가 605,784원일 때, 기능 점수 95점짜리 시스템의 기본 개발비는 얼마인가? (보정계수·직접경비·이윤 등 제외)",
+      "options": [
+        { "text": "약 57,549,480원 (95 × 605,784)", "isCorrect": true },
+        { "text": "약 6,057,840원 (10 × 605,784)", "isCorrect": false },
+        { "text": "약 575,494,800원 (950 × 605,784)", "isCorrect": false },
+        { "text": "약 95,000,000원 (FP × 1,000,000)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-27",
+      "type": "short",
+      "questionText": "기능 점수를 이용한 품질 척도 중 '생산성(Productivity)'의 계산식으로 올바른 것은?",
+      "options": [
+        { "text": "생산성 = 기능점수(FP) / 개발노력(PM, Person-Month)", "isCorrect": true },
+        { "text": "생산성 = 개발노력(PM) × 기능점수(FP)", "isCorrect": false },
+        { "text": "생산성 = 전체 결함 수 / 총 기능점수 값", "isCorrect": false },
+        { "text": "생산성 = 총 기능점수 값 / 소프트웨어 고장 횟수", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-28",
+      "type": "short",
+      "questionText": "기능 점수를 이용한 품질 척도에서 '결함 밀도(Defect Density)'의 정의로 올바른 것은?",
+      "options": [
+        { "text": "결함 밀도 = 전체 소프트웨어 결함의 수 / 총 기능 점수 값", "isCorrect": true },
+        { "text": "결함 밀도 = 총 기능 점수 값 / 전체 소프트웨어 결함의 수", "isCorrect": false },
+        { "text": "결함 밀도 = 소프트웨어 고장의 횟수 × 총 기능 점수 값", "isCorrect": false },
+        { "text": "결함 밀도 = 개발 노력(PM) / 총 결함 수", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-29",
+      "type": "short",
+      "questionText": "기능 점수를 기반으로 계산되는 '신뢰성(Reliability)' 지표의 정의는?",
+      "options": [
+        { "text": "신뢰성 = 소프트웨어 고장의 횟수 / 총 기능 점수 값", "isCorrect": true },
+        { "text": "신뢰성 = 총 기능 점수 값 / 개발 노력(PM)", "isCorrect": false },
+        { "text": "신뢰성 = MTBF × 총 기능 점수 값", "isCorrect": false },
+        { "text": "신뢰성 = 전체 소프트웨어 결함 수 / 프로젝트 투입 기간", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-30",
+      "type": "short",
+      "questionText": "한 은행 시스템에서 다음과 같이 식별되었다 — ILF: Customer(Low), Account(Low), Product(Low); EIF: Credit(Low); 처리 기능: Create_Customer(EI High), Update_Customer(EI High), Delete_Customer(EI Low), Customer_Report(EO High), Customer_Inquiry(EQ Low). 정규법 가중치(ILF Low=7, EIF Low=5, EI Low=3/High=6, EO High=7, EQ Low=3)를 적용했을 때 예비 기능 점수는?",
+      "options": [
+        { "text": "101점 (데이터 26 + 입력 6+6+3=15 + 출력 7 + 질의 3 에서 각 Task 개수 반영 시 42+21+12=75, 합계 26+75=101)", "isCorrect": true },
+        { "text": "95점 (TDI 29를 반영해 VAF 0.94를 곱한 값이며, 예비 기능 점수로 부적절)", "isCorrect": false },
+        { "text": "75점 (처리 기능만을 합산한 값)", "isCorrect": false },
+        { "text": "26점 (데이터 기능만을 합산한 값)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-31",
+      "type": "short",
+      "questionText": "기능 점수 분석 기법을 적용했을 때 얻을 수 있는 이점으로 '가장 거리가 먼' 것은?",
+      "options": [
+        { "text": "프로그래밍 언어 선택에 따라 달라지는 코드 라인 수를 직접적으로 최적화해 준다.", "isCorrect": true },
+        { "text": "기능 점수 분석 과정을 통해 요구사항을 더 명확하게 이해할 수 있고, 이 값을 이용해 일정·비용을 보다 적절히 산출할 수 있다.", "isCorrect": false },
+        { "text": "프로젝트에 설정된 베이스라인마다 품질 관리를 위한 정량적 수치로 활용할 수 있다.", "isCorrect": false },
+        { "text": "기능 점수를 이용한 유지보수성 척도를 기반으로 유지보수 담당 팀 운영 여부를 결정할 수 있다.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "cost-32",
+      "type": "short",
+      "questionText": "기능 점수 산정 절차에서 단계의 순서로 올바르게 나열된 것은?",
+      "options": [
+        { "text": "산정 유형 결정 → 범위 및 경계 선정 → 데이터 기능 산출 및 복잡도 식별 → 처리 기능 산출 및 복잡도 식별 → 예비 기능 점수 산정 → 조정 인자 값 산정 → 최종 기능 점수 산정", "isCorrect": true },
+        { "text": "최종 기능 점수 산정 → 예비 기능 점수 산정 → 조정 인자 값 산정 → 범위 및 경계 선정 → 산정 유형 결정", "isCorrect": false },
+        { "text": "범위 및 경계 선정 → 산정 유형 결정 → 조정 인자 값 산정 → 예비 기능 점수 산정 → 처리 기능 산출 → 데이터 기능 산출", "isCorrect": false },
+        { "text": "조정 인자 값 산정 → 데이터 기능 산출 → 처리 기능 산출 → 산정 유형 결정 → 최종 기능 점수 산정", "isCorrect": false }
+      ]
+    }
+  ]
+}
