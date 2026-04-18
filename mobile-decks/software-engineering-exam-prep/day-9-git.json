@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "bulk-quiz-manager",
-  "exportedAt": "2026-04-18T08:31:21.767Z",
-  "total": 5,
+  "exportedAt": "2026-04-18T08:37:00.790Z",
+  "total": 0,
   "decks": [
     {
       "id": "deck-새-퀴즈-덱",
@@ -11,123 +11,7 @@
         {
           "id": "day-day-1-1",
           "title": "Day 1",
-          "questions": [
-            {
-              "id": "q-1",
-              "type": "short",
-              "questionText": "수정 요지보수란?",
-              "options": [
-                {
-                  "text": "버그수정",
-                  "isCorrect": true
-                },
-                {
-                  "text": "환경변화",
-                  "isCorrect": false
-                },
-                {
-                  "text": "성능향상",
-                  "isCorrect": false
-                },
-                {
-                  "text": "결함예방",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "q-2",
-              "type": "short",
-              "questionText": "적응유지보수란?",
-              "options": [
-                {
-                  "text": "버그수정",
-                  "isCorrect": false
-                },
-                {
-                  "text": "환경변화",
-                  "isCorrect": true
-                },
-                {
-                  "text": "성능향상",
-                  "isCorrect": false
-                },
-                {
-                  "text": "결함예방",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "q-3",
-              "type": "short",
-              "questionText": "완전유지보수란?",
-              "options": [
-                {
-                  "text": "버그수정",
-                  "isCorrect": false
-                },
-                {
-                  "text": "환경변화",
-                  "isCorrect": false
-                },
-                {
-                  "text": "성능향상",
-                  "isCorrect": true
-                },
-                {
-                  "text": "결함예방",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "q-4",
-              "type": "short",
-              "questionText": "예방유지보수란?",
-              "options": [
-                {
-                  "text": "버그수정",
-                  "isCorrect": false
-                },
-                {
-                  "text": "환경변화",
-                  "isCorrect": false
-                },
-                {
-                  "text": "성능향상",
-                  "isCorrect": false
-                },
-                {
-                  "text": "결함예방",
-                  "isCorrect": true
-                }
-              ]
-            },
-            {
-              "id": "q-5",
-              "type": "short",
-              "questionText": "IEEE란?",
-              "options": [
-                {
-                  "text": "표준화단체",
-                  "isCorrect": true
-                },
-                {
-                  "text": "버그수정",
-                  "isCorrect": false
-                },
-                {
-                  "text": "환경변화",
-                  "isCorrect": false
-                },
-                {
-                  "text": "성능향상",
-                  "isCorrect": false
-                }
-              ]
-            }
-          ]
+          "questions": []
         }
       ]
     }
