@@ -1,0 +1,54 @@
+너는 한국 소프트웨어공학 시험 대비용 고품질 퀴즈를 생성하는 전담 에이전트다. 아래 스펙을 엄격히 따라 단 하나의 JSON 파일을 생성하고, 끝에 3줄 이내 보고만 하라. 부가 설명·마크다운·임시 파일 금지.
+
+Read 툴로 PDF를 직접 읽어라. 큰 PDF는 `pages` 파라미터로 나눠 처음부터 끝까지 모두 읽어라. Write 툴로 결과 JSON을 저장한다.
+
+## 3-1. 입력·도구·출력 규약
+
+**입력 PDF**: `C:\pdf\ch06c_소프트웨어 비용 산정 (1).pdf`
+**출력 JSON**: `C:\aa\quiz\quiz-data\mobile-decks\software-engineering-exam-prep-v2\day-6-cost-estimation.json`
+**참고(반면교사)**: `C:\aa\quiz\quiz-data\mobile-decks\software-engineering-exam-prep\day-6-cost-estimation.json` — 허술한 선지, 기본/심화 쌍 부재 개선.
+
+**JSON 스키마**
+```json
+{
+  "title": "Day 6 소프트웨어 비용 산정",
+  "questions": [
+    {
+      "id": "cost-01",
+      "type": "short" | "long" | "answer",
+      "questionText": "…",
+      "longText":      "…",
+      "imageUrl":      "…",
+      "options": [
+        { "text": "정답 …", "isCorrect": true  },
+        { "text": "오답 …", "isCorrect": false },
+        { "text": "오답 …", "isCorrect": false },
+        { "text": "오답 …", "isCorrect": false }
+      ]
+    }
+  ]
+}
+```
+
+**규칙**
+- `id`: `cost-01`, `cost-02`, … 연속.
+- 나머지(type/options/텍스트 배타/정답 자가완결/분량 30~60 + 기본/심화 쌍) 동일.
+
+## 3-2. 품질·스타일 가이드
+
+1. **PDF 전체 커버.** 비용 산정 챕터 예상 주제: Top-down vs Bottom-up 산정, 전문가 판단(Expert Judgment), 델파이(Delphi)·광역 델파이(Wideband Delphi), 유추(Analogy/Estimation by Analogy), SLOC(Source Lines of Code) 기반 산정, Function Point(FP)와 조정계수(VAF: 14개 기술 요인), Use Case Points(UCP), COCOMO(I·II), COCOMO I의 세 모드(Organic/Semi-detached/Embedded)와 세 수준(Basic/Intermediate/Detailed), Effort·Duration·Staffing 공식, Planning Poker(Fibonacci), 산정 오차와 콘(cone of uncertainty), 산정 도구 등. PDF가 실제 다루는 부분 전부 커버.
+2. "[기본]/[심화]" 접두어 금지.
+3. 선지는 비슷한 길이·문체. 오답은 혼동 가능한 산정 기법(예: FP vs UCP, 델파이 vs 전문가 판단, COCOMO 모드 간) 특성으로 구성. **계산형 문제**도 1~3개 포함 가능(예: 주어진 FP·VAF에서 조정 FP 계산, COCOMO Basic 공식 적용).
+4. 메타 질문 금지. 시나리오(프로젝트 특성 제시 후 적합 산정법 선택) 활용.
+5. 1문제 1개념.
+
+## 3-3. 고정 원칙
+
+단순히 슬라이드의 제목이나 파편화된 단어를 묻는 퀴즈(예: "슬라이드의 핵심은?" -> "DevOps")는 절대 생성하면 안 돼. 다음 원칙을 반드시 지켜:
+1. **가치 있는 개념 필터링:** 강의 자료에서 불필요하게 여러 문장으로 풀어쓴 특징이나 단순 수식어는 무시해. 명확한 정의, 핵심 원리, 장단점, 아키텍처, 개념 간의 비교 등 '독립적으로 가치 있는 개념'만 추출해.
+2. **자가 완결성 (Self-contained):** 나는 강의 자료를 다시 보지 않고 '오직 네가 만든 퀴즈'만으로 공부할 거야. 따라서 질문은 구체적이어야 하고, 정답(또는 해설)란에는 해당 개념에 대한 풍부하고 완벽한 설명이 포함되어야 해.
+3. **난이도 배분 (기본~심화):** 추출한 핵심 개념 하나당 다음 두 가지 수준의 문제를 모두 만들어.
+   - [기본 개념]: 해당 용어/개념에 대한 직접적인 정의를 묻는 문제.
+   - [심화 적용]: 해당 개념의 작동 원리나, 다른 개념과의 차이점, 실무적 장단점을 묻는 문제.
+
+실행: 위 규약에 따라 JSON 저장 후, 3줄 이내로 (1) 문제 수, (2) 커버 주요 개념 5~8개, (3) 특이사항 보고.

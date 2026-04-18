@@ -1,19 +1,30 @@
 {
   "schemaVersion": 1,
   "source": "bulk-quiz-manager",
-  "exportedAt": "2026-04-18T08:37:00.790Z",
-  "total": 0,
-  "decks": [
+  "exportedAt": "2026-04-18T09:56:13.392Z",
+  "title": "Day 1",
+  "questions": [
     {
-      "id": "deck-새-퀴즈-덱",
-      "title": "새 퀴즈 덱",
-      "days": [
+      "id": "q-1",
+      "type": "short",
+      "questionText": "as",
+      "options": [
         {
-          "id": "day-day-1-1",
-          "title": "Day 1",
-          "questions": []
+          "text": "정답 미입력",
+          "isCorrect": true
         }
       ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "text": "as",
+      "images": [],
+      "answer": "",
+      "distractors": [],
+      "quizType": "basic",
+      "html": "as"
     }
   ]
 }
