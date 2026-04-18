@@ -1,0 +1,142 @@
+{
+  "title": "Day 7 요구사항 도출",
+  "questions": [
+    {
+      "id": "req-q1",
+      "type": "answer",
+      "text": "요구사항(requirement)의 의미에 가장 가까운 것은?",
+      "answer": "시스템이 수행해야 할 일과 가져야 할 특성을 기술한 것",
+      "distractors": [
+        "배포 후 광고 문구",
+        "코드 스타일 가이드",
+        "운영체제 이름"
+      ]
+    },
+    {
+      "id": "req-q2",
+      "type": "select",
+      "text": "기능적 요구사항에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "시스템이 반드시 수행해야 하는 업무 처리 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "메모리 크기나 응답 시간만을 의미한다",
+          "isCorrect": false
+        },
+        {
+          "text": "디자인 색상만을 정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "서버의 브랜드를 고른다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "req-q3",
+      "type": "select",
+      "text": "비기능적 요구사항에 해당하는 예로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "응답 시간 1초 이내, 암호화, 접근 권한 제한",
+          "isCorrect": true
+        },
+        {
+          "text": "성적을 계산하는 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "교과목을 등록하는 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "출석을 입력하는 기능",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "req-q4",
+      "type": "select",
+      "text": "인터뷰를 통한 요구사항 수집의 준비 단계에 해당하는 것은?",
+      "options": [
+        {
+          "text": "대상자 선정, 질문 주제 정리, 사전 학습",
+          "isCorrect": true
+        },
+        {
+          "text": "배포 승인 처리",
+          "isCorrect": false
+        },
+        {
+          "text": "모델 학습",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 병합",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "req-q5",
+      "type": "select",
+      "text": "설문지 활용 시 주의사항으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "질문을 구조화하고 편향된 표현이나 답 유도 문항을 피한다",
+          "isCorrect": true
+        },
+        {
+          "text": "어려운 약어를 최대한 많이 넣는다",
+          "isCorrect": false
+        },
+        {
+          "text": "중요한 질문을 맨 마지막에 몰아넣는다",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 응답자를 익명으로 처리하지 않는다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "req-q6",
+      "type": "answer",
+      "text": "요구사항 정의서의 품질 요소로 슬라이드에 나온 핵심 표현은?",
+      "answer": "정확성, 완전성, 모호성 없음",
+      "distractors": [
+        "색감, 반짝임, 애니메이션",
+        "파일 크기, 해상도, 프레임률",
+        "속도, 소음, 전력"
+      ]
+    },
+    {
+      "id": "req-q7",
+      "type": "select",
+      "text": "요구사항이 늦게 발견될수록 비용이 커지는 이유로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "설계와 구현이 이미 진행된 뒤라 수정 범위가 커지기 때문",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항은 언제 발견하든 비용이 같다",
+          "isCorrect": false
+        },
+        {
+          "text": "나중에 발견하면 자동으로 사라지기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 생략할 수 있기 때문",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

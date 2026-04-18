@@ -1,0 +1,142 @@
+{
+  "title": "Day 3 소프트웨어 개발 프로세스",
+  "questions": [
+    {
+      "id": "process-q1",
+      "type": "answer",
+      "text": "실현 가능성 분석(feasibility analysis)은 무엇을 점검하는 과정인가?",
+      "answer": "비용, 일정, 기술 수준으로 요구사항 실현이 가능한지 검토하는 과정",
+      "distractors": [
+        "배포 후 사용자 만족도만 조사하는 과정",
+        "코드를 자동으로 난독화하는 과정",
+        "버그를 전부 삭제하는 과정"
+      ]
+    },
+    {
+      "id": "process-q2",
+      "type": "select",
+      "text": "폭포수 모델(waterfall model)의 특징으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "단계가 순차적으로 진행되고 이전 단계 결과가 다음 단계의 입력이 된다",
+          "isCorrect": true
+        },
+        {
+          "text": "매일 수십 번씩 통합하는 방식이다",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 피드백 없이 한 번에 끝내는 방식이다",
+          "isCorrect": false
+        },
+        {
+          "text": "위험 분석만 반복하고 구현은 하지 않는다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-q3",
+      "type": "select",
+      "text": "프로토타입 모델의 목적에 가장 가까운 것은?",
+      "options": [
+        {
+          "text": "요구사항을 빠르게 검증하기 위해 원형을 먼저 보여주는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "실제 개발을 절대 하지 않고 모형만 남기는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "빌드 서버를 영구적으로 끄는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "완성 후에야 사용자 의견을 받는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-q4",
+      "type": "select",
+      "text": "나선형 모델(Spiral model)의 장점으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "위험 관리가 체계적이고 변경 요구를 반영하기 쉽다",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 프로젝트를 가장 짧은 일정으로 끝낼 수 있다",
+          "isCorrect": false
+        },
+        {
+          "text": "문서 작성을 전혀 하지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "한 번도 반복하지 않고 완료한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-q5",
+      "type": "select",
+      "text": "애자일 개발이 등장한 배경으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "요구사항 변화가 빠르고 짧은 개발 주기가 필요해졌기 때문",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 시스템이 같은 방식으로만 개발되기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "서버 저장소가 사라졌기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트가 필요 없어졌기 때문",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-q6",
+      "type": "answer",
+      "text": "CMMI는 무엇을 개선하기 위한 성숙도 모델인가?",
+      "answer": "소프트웨어 개발 프로세스",
+      "distractors": [
+        "디자인 색상",
+        "하드웨어 무게",
+        "네트워크 이름"
+      ]
+    },
+    {
+      "id": "process-q7",
+      "type": "select",
+      "text": "SPICE에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "ISO 15504 계열의 소프트웨어 프로세스 개선 및 능력 평가 표준",
+          "isCorrect": true
+        },
+        {
+          "text": "버전 관리용 명령 모음",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수 계산 공식",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 인터뷰 기법의 이름",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

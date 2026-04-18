@@ -1,0 +1,143 @@
+{
+  "title": "Day 1 Git 핵심 개념",
+  "questions": [
+    {
+      "id": "git-q1",
+      "type": "answer",
+      "text": "Version Control System(VCS)의 핵심 목적은?",
+      "answer": "변경 이력을 기록하고 과거 상태로 되돌릴 수 있게 하는 것",
+      "distractors": [
+        "실행 속도를 높이기 위해 코드를 압축하는 것",
+        "컴파일러 오류를 자동으로 없애는 것",
+        "배포 서버를 자동으로 생성하는 것"
+      ]
+    },
+    {
+      "id": "git-q2",
+      "type": "select",
+      "text": "분산 버전 관리 시스템(DVCS)의 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "중앙 서버 하나만 전체 히스토리를 보관한다",
+          "isCorrect": false
+        },
+        {
+          "text": "각 개발자가 저장소의 전체 히스토리를 로컬에 복제해 보유한다",
+          "isCorrect": true
+        },
+        {
+          "text": "오직 파일 이름만 기록하고 내용 변경은 기록하지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "서버가 없으면 기록을 전혀 남길 수 없다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-q3",
+      "type": "select",
+      "text": "Git에서 스테이징 영역(Staging Area)의 역할로 가장 알맞은 것은?",
+      "options": [
+        {
+          "text": "원격 저장소의 복사본을 자동으로 최신화하는 곳",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋할 변경 내용을 미리 모아두는 준비 영역",
+          "isCorrect": true
+        },
+        {
+          "text": "빌드 산출물만 저장하는 전용 폴더",
+          "isCorrect": false
+        },
+        {
+          "text": "충돌이 해결된 파일만 보관하는 아카이브",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-q4",
+      "type": "answer",
+      "text": "원격 저장소를 통째로 복제해 로컬 저장소를 만드는 Git 명령은?",
+      "answer": "clone",
+      "distractors": [
+        "commit",
+        "push",
+        "status"
+      ]
+    },
+    {
+      "id": "git-q5",
+      "type": "select",
+      "text": "Git merge conflict가 발생하는 상황으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "서로 다른 브랜치에서 같은 파일의 같은 부분을 다르게 수정했을 때",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋 메시지를 한 글자 틀렸을 때",
+          "isCorrect": false
+        },
+        {
+          "text": "새 파일을 추가했을 때",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소가 비어 있을 때",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-q6",
+      "type": "select",
+      "text": "브랜치(branch)를 사용하는 가장 큰 이유는 무엇인가?",
+      "options": [
+        {
+          "text": "동시에 여러 기능 개발이나 실험을 분리해 진행하기 위해서",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 커밋을 자동으로 삭제하기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "저장소 크기를 0으로 만들기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "오직 배포 직전에만 파일을 열 수 있게 하기 위해서",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-q7",
+      "type": "long",
+      "longText": "다음 그림은 Git의 기본 작업 흐름을 나타낸다. 변경 내용을 임시로 모아 커밋하기 전에 거치는 영역은 무엇인가?",
+      "imageUrl": "../../assets/exam-prep/git-flow.svg",
+      "options": [
+        {
+          "text": "Working Tree",
+          "isCorrect": false
+        },
+        {
+          "text": "Staging Area",
+          "isCorrect": true
+        },
+        {
+          "text": "Remote Repo",
+          "isCorrect": false
+        },
+        {
+          "text": "Merge Queue",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

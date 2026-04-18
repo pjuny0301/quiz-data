@@ -1,0 +1,142 @@
+{
+  "title": "Day 6 소프트웨어 비용 산정",
+  "questions": [
+    {
+      "id": "fp-q1",
+      "type": "answer",
+      "text": "기능 점수(Function Point)는 무엇을 기준으로 소프트웨어 규모를 산정하는가?",
+      "answer": "기능의 양과 복잡도",
+      "distractors": [
+        "코드 줄 수만",
+        "화면 색상 수만",
+        "서버 개수만"
+      ]
+    },
+    {
+      "id": "fp-q2",
+      "type": "select",
+      "text": "LOC 기반 산정보다 기능 점수가 유리한 이유로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "프로그래밍 언어에 덜 의존하고 요구사항 단계에서도 활용하기 쉽기 때문",
+          "isCorrect": true
+        },
+        {
+          "text": "무조건 더 작은 숫자가 나오기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "코드를 작성하지 않아도 되기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트가 필요 없기 때문",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-q3",
+      "type": "select",
+      "text": "ILF와 EIF의 구분으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "ILF는 시스템 내부에서 유지되는 파일, EIF는 외부에서 참조만 하는 파일",
+          "isCorrect": true
+        },
+        {
+          "text": "ILF는 화면 파일, EIF는 소리 파일",
+          "isCorrect": false
+        },
+        {
+          "text": "둘 다 프로그램 코드 파일만 의미한다",
+          "isCorrect": false
+        },
+        {
+          "text": "EIF가 내부 파일, ILF가 외부 파일이다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-q4",
+      "type": "select",
+      "text": "EI, EO, EQ는 무엇을 가리키는가?",
+      "options": [
+        {
+          "text": "처리 기능(Transaction Function)의 유형",
+          "isCorrect": true
+        },
+        {
+          "text": "데이터베이스 정규화 단계",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 조직의 직책",
+          "isCorrect": false
+        },
+        {
+          "text": "품질 모델의 레벨",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-q5",
+      "type": "select",
+      "text": "기능 점수 산정 절차에서 경계(Boundary) 설정이 중요한 이유는?",
+      "options": [
+        {
+          "text": "무엇을 포함하고 제외할지 범위를 정해야 정확한 카운트가 가능하기 때문",
+          "isCorrect": true
+        },
+        {
+          "text": "디자인 테마를 정하기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "브랜치 이름을 자동 생성하기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "비밀번호를 저장하기 위해서",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-q6",
+      "type": "answer",
+      "text": "정규법과 간이법의 공통 목표는?",
+      "answer": "기능 점수를 산정해 비용과 일정, 인력, 생산성을 예측하는 것",
+      "distractors": [
+        "파일 이름을 정하는 것",
+        "버그를 자동 제거하는 것",
+        "UI를 번역하는 것"
+      ]
+    },
+    {
+      "id": "fp-q7",
+      "type": "select",
+      "text": "기능 점수의 활용으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "개발 비용, 기간, 인력, 생산성을 예측하는 데 사용",
+          "isCorrect": true
+        },
+        {
+          "text": "배포 서버의 OS를 자동 선택하는 데 사용",
+          "isCorrect": false
+        },
+        {
+          "text": "프론트엔드 색상을 정하는 데 사용",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 비밀번호를 암호화하는 데 사용",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

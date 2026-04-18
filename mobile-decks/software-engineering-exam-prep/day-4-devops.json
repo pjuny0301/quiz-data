@@ -1,0 +1,155 @@
+{
+  "title": "Day 4 DevOps",
+  "questions": [
+    {
+      "id": "devops-q1",
+      "type": "answer",
+      "text": "DevOps의 핵심 의미는?",
+      "answer": "개발과 운영의 협업을 통해 빠르고 안정적으로 배포하는 접근 방식",
+      "distractors": [
+        "개발자와 운영을 완전히 분리하는 방식",
+        "배포를 금지하는 정책",
+        "문서만 작성하고 실행하지 않는 방식"
+      ]
+    },
+    {
+      "id": "devops-q2",
+      "type": "select",
+      "text": "CI(Continuous Integration)의 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "여러 개발자의 코드를 하루에도 여러 번 메인라인에 통합하는 실천 방식",
+          "isCorrect": true
+        },
+        {
+          "text": "배포를 절대 하지 않는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 생략하고 바로 운영에 넣는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 점수를 자동 계산하는 도구",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-q3",
+      "type": "select",
+      "text": "CD에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "지속적 전달 또는 지속적 배포를 통해 릴리즈 과정을 자동화하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "오직 코드 삭제만 하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "실행 환경을 항상 수동으로만 맞추는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 문서를 적는 기술",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-q4",
+      "type": "select",
+      "text": "DevOps toolchain에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "개발, 빌드, 테스트, 배포, 운영을 연결하는 자동화 도구들의 흐름",
+          "isCorrect": true
+        },
+        {
+          "text": "하나의 IDE만 사용하는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "코드를 텍스트 편집기로만 작성하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소를 복제하지 않는 정책",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-q5",
+      "type": "select",
+      "text": "기술 부채(technical debt)에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "빠른 개발을 위해 임시 선택한 기술적 타협이 나중의 비용을 키우는 현상",
+          "isCorrect": true
+        },
+        {
+          "text": "서버에 돈을 입금하는 행위",
+          "isCorrect": false
+        },
+        {
+          "text": "코드를 압축해서 저장 공간을 줄이는 기능",
+          "isCorrect": false
+        },
+        {
+          "text": "UI 색상 선택의 문제",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-q6",
+      "type": "long",
+      "longText": "다음 그림은 DevOps의 연속적인 개발과 운영 흐름을 나타낸다. 이 흐름이 강조하는 가장 중요한 실천은 무엇인가?",
+      "imageUrl": "../../assets/exam-prep/devops-loop.svg",
+      "options": [
+        {
+          "text": "개발과 운영의 분리",
+          "isCorrect": false
+        },
+        {
+          "text": "짧은 주기의 자동화된 피드백",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 점수 우선 산정",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 설문만 반복",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-q7",
+      "type": "select",
+      "text": "DevOps가 추구하는 가치로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "신속한 전달과 지속적인 개선",
+          "isCorrect": true
+        },
+        {
+          "text": "오류를 늦게 발견할수록 좋다는 생각",
+          "isCorrect": false
+        },
+        {
+          "text": "배포를 최대한 늦추는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 정보를 개발과 공유하지 않는 것",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

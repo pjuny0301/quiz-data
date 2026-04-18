@@ -1,0 +1,142 @@
+{
+  "title": "Day 2 소프트웨어 품질",
+  "questions": [
+    {
+      "id": "quality-q1",
+      "type": "answer",
+      "text": "소프트웨어 품질의 기본 정의로 가장 가까운 것은?",
+      "answer": "요구사항을 만족하는 소프트웨어 제품의 능력",
+      "distractors": [
+        "코드 줄 수가 많은 소프트웨어",
+        "항상 가장 빠르게 실행되는 소프트웨어",
+        "오직 예쁜 화면만 가진 소프트웨어"
+      ]
+    },
+    {
+      "id": "quality-q2",
+      "type": "select",
+      "text": "품질 요소를 정할 때 가장 먼저 고려해야 하는 것은?",
+      "options": [
+        {
+          "text": "대상 소프트웨어의 특성과 stakeholder 기대치",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 품질 요소를 무조건 동일한 비중으로 적용하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 길이를 최대한 짧게 만드는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "배포 횟수만 늘리는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-q3",
+      "type": "select",
+      "text": "프로세스 품질에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "개발 프로세스 모델, 도구 적합성, 표준 준수성 등을 함께 본다",
+          "isCorrect": true
+        },
+        {
+          "text": "화면 색상과 폰트만 평가한다",
+          "isCorrect": false
+        },
+        {
+          "text": "오직 실행 속도만 본다",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 파일 개수만 세면 된다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-q4",
+      "type": "select",
+      "text": "인공지능 소프트웨어 품질 특성으로 보기 어려운 것은?",
+      "options": [
+        {
+          "text": "투명성, 공정성, 견고성, 안전성",
+          "isCorrect": false
+        },
+        {
+          "text": "보안, 법적·윤리적 측면",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 입력에 대해 동일한 결과를 반드시 내는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "설명 가능성과 책임성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-q5",
+      "type": "answer",
+      "text": "슬라이드에서 소개한 소프트웨어 품질 모델/표준의 예로 많이 다룬 것은?",
+      "answer": "ISO/IEC 9126",
+      "distractors": [
+        "ISO/IEC 13485",
+        "IEEE 802.11",
+        "HTML 5"
+      ]
+    },
+    {
+      "id": "quality-q6",
+      "type": "select",
+      "text": "품질 관리의 목적에 가장 가까운 것은?",
+      "options": [
+        {
+          "text": "품질 목표를 정하고 이를 만족하도록 계획, 점검, 개선하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "문제가 생긴 뒤에만 사후 처리하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 전혀 하지 않는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자 감으로만 판단하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-q7",
+      "type": "select",
+      "text": "AI 소프트웨어에서 데이터 품질이 중요한 이유로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "학습 데이터의 오류나 편향이 결과 품질과 공정성에 직접 영향을 주기 때문",
+          "isCorrect": true
+        },
+        {
+          "text": "데이터 품질은 저장 속도와만 관련 있기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "모델이 좋으면 데이터는 아무 영향이 없기 때문",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터 품질은 화면 디자인에만 영향을 주기 때문",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "title": "Day 5 프로젝트 관리",
+  "questions": [
+    {
+      "id": "pm-q1",
+      "type": "answer",
+      "text": "소프트웨어 프로젝트 관리가 필요한 가장 큰 이유는?",
+      "answer": "규모와 복잡성이 커진 프로젝트를 일정과 자원 안에서 성공적으로 수행하기 위해",
+      "distractors": [
+        "개발자를 감시하기 위해",
+        "코드 스타일만 통일하기 위해",
+        "배포 서버를 숨기기 위해"
+      ]
+    },
+    {
+      "id": "pm-q2",
+      "type": "select",
+      "text": "WBS(Work Breakdown Structure)의 설명으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "프로젝트 전체 목표를 세부 작업으로 분해한 작업 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "테스트 케이스만 모아둔 문서",
+          "isCorrect": false
+        },
+        {
+          "text": "서버 접근 권한 목록",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 실행 결과 로그",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-q3",
+      "type": "select",
+      "text": "간트 차트(Gantt chart)는 주로 무엇을 보여 주는가?",
+      "options": [
+        {
+          "text": "작업과 기간의 일정 배치",
+          "isCorrect": true
+        },
+        {
+          "text": "객체 간 상속 관계",
+          "isCorrect": false
+        },
+        {
+          "text": "프로그램 실행 속도 그래프",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터베이스 정규화 결과",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-q4",
+      "type": "select",
+      "text": "PERT/CPM 계열의 도구가 주로 다루는 것은?",
+      "options": [
+        {
+          "text": "작업 간 의존성과 일정, 특히 중요 경로",
+          "isCorrect": true
+        },
+        {
+          "text": "문자열 인코딩 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "디자인 색상 팔레트",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소의 이름",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-q5",
+      "type": "select",
+      "text": "프로젝트 관리 계획서에 포함되는 항목으로 보기 어려운 것은?",
+      "options": [
+        {
+          "text": "일정, 조직, 품질, 위험, 지원 도구",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 목표와 범위",
+          "isCorrect": false
+        },
+        {
+          "text": "버전 관리 시스템의 내부 구현 코드",
+          "isCorrect": true
+        },
+        {
+          "text": "리소스와 책임 분담",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-q6",
+      "type": "answer",
+      "text": "프로젝트 관리에서 많이 쓰는 지원 도구의 예로 슬라이드에 나온 것은?",
+      "answer": "Excel 또는 MS Project",
+      "distractors": [
+        "Paint",
+        "Notepad only",
+        "Calculator only"
+      ]
+    },
+    {
+      "id": "pm-q7",
+      "type": "select",
+      "text": "프로젝트 실패 원인으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "부족한 관리 기술과 불명확한 소프트웨어 관점",
+          "isCorrect": true
+        },
+        {
+          "text": "항상 너무 많은 테스트",
+          "isCorrect": false
+        },
+        {
+          "text": "너무 강한 형상 관리",
+          "isCorrect": false
+        },
+        {
+          "text": "문서가 너무 체계적임",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
