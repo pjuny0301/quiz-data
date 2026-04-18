@@ -2,138 +2,416 @@
   "title": "Day 2 소프트웨어 품질",
   "questions": [
     {
-      "id": "quality-q1",
+      "id": "quality-01",
+      "type": "short",
+      "questionText": "소프트웨어 품질을 이해할 때 가장 중요한 관점은?",
+      "options": [
+        {
+          "text": "스테이크홀더가 수락할 수 있는 요구와 기대를 충족하는 정도",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자가 원하는 기능 수만 많은 정도",
+          "isCorrect": false
+        },
+        {
+          "text": "화면 색상이 화려한 정도",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 라인이 긴 정도",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-02",
+      "type": "short",
+      "questionText": "소프트웨어 품질 평가가 어려운 이유로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "물리적으로 보이지 않고 요구와 기대가 시간에 따라 변하는 다차원적 특성이기 때문이다",
+          "isCorrect": true
+        },
+        {
+          "text": "소프트웨어는 항상 같은 하드웨어에서만 실행되기 때문이다",
+          "isCorrect": false
+        },
+        {
+          "text": "품질은 오직 실행 파일 크기로만 결정되기 때문이다",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항이 개발 후에는 절대 바뀌지 않기 때문이다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-03",
       "type": "answer",
-      "text": "소프트웨어 품질의 기본 정의로 가장 가까운 것은?",
-      "answer": "요구사항을 만족하는 소프트웨어 제품의 능력",
-      "distractors": [
-        "코드 줄 수가 많은 소프트웨어",
-        "항상 가장 빠르게 실행되는 소프트웨어",
-        "오직 예쁜 화면만 가진 소프트웨어"
-      ]
-    },
-    {
-      "id": "quality-q2",
-      "type": "select",
-      "text": "품질 요소를 정할 때 가장 먼저 고려해야 하는 것은?",
+      "questionText": "정확성 Correctness(P) 공식은?",
       "options": [
         {
-          "text": "대상 소프트웨어의 특성과 stakeholder 기대치",
+          "text": "1 - (A/B)",
           "isCorrect": true
         },
         {
-          "text": "모든 품질 요소를 무조건 동일한 비중으로 적용하는 것",
+          "text": "A/B",
           "isCorrect": false
         },
         {
-          "text": "코드 길이를 최대한 짧게 만드는 것",
+          "text": "B - A",
           "isCorrect": false
         },
         {
-          "text": "배포 횟수만 늘리는 것",
+          "text": "A + B",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "quality-q3",
-      "type": "select",
-      "text": "프로세스 품질에 대한 설명으로 가장 적절한 것은?",
+      "id": "quality-04",
+      "type": "short",
+      "questionText": "신뢰성(Reliability)을 설명하는 예로 가장 적절한 것은?",
       "options": [
         {
-          "text": "개발 프로세스 모델, 도구 적합성, 표준 준수성 등을 함께 본다",
+          "text": "고장 발생 빈도와 치명도, MTBF 같은 지표로 판단한다",
           "isCorrect": true
         },
         {
-          "text": "화면 색상과 폰트만 평가한다",
+          "text": "사용자 인터페이스 색상 수로 판단한다",
           "isCorrect": false
         },
         {
-          "text": "오직 실행 속도만 본다",
+          "text": "개발자 수만으로 판단한다",
           "isCorrect": false
         },
         {
-          "text": "데이터 파일 개수만 세면 된다",
+          "text": "소스 파일 개수로 판단한다",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "quality-q4",
-      "type": "select",
-      "text": "인공지능 소프트웨어 품질 특성으로 보기 어려운 것은?",
+      "id": "quality-05",
+      "type": "short",
+      "questionText": "견고성(Robustness)이 특히 중요한 시스템은?",
       "options": [
         {
-          "text": "투명성, 공정성, 견고성, 안전성",
-          "isCorrect": false
-        },
-        {
-          "text": "보안, 법적·윤리적 측면",
-          "isCorrect": false
-        },
-        {
-          "text": "모든 입력에 대해 동일한 결과를 반드시 내는 것",
+          "text": "명세되지 않은 조건에서도 안전하게 동작해야 하는 항공기나 원자력 제어 시스템",
           "isCorrect": true
         },
         {
-          "text": "설명 가능성과 책임성",
+          "text": "색상 테마만 바꾸는 개인 메모장",
+          "isCorrect": false
+        },
+        {
+          "text": "한 번 쓰고 삭제하는 임시 파일",
+          "isCorrect": false
+        },
+        {
+          "text": "외부 입력이 전혀 없는 정적 이미지",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "quality-q5",
+      "id": "quality-06",
+      "type": "short",
+      "questionText": "가용성(Availability)의 의미로 맞는 것은?",
+      "options": [
+        {
+          "text": "전체 운영 시간 중 사용자가 정상적으로 사용할 수 있는 시간의 비율",
+          "isCorrect": true
+        },
+        {
+          "text": "소스 코드 중 주석의 비율",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트 케이스의 이름 길이",
+          "isCorrect": false
+        },
+        {
+          "text": "컴파일러가 지원하는 언어 수",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-07",
+      "type": "short",
+      "questionText": "보안성, 안전성, 무결성을 가장 잘 구분한 것은?",
+      "options": [
+        {
+          "text": "보안성은 공격 대응, 안전성은 위험으로부터의 자유, 무결성은 불법 접근과 의도치 않은 변경 방지에 가깝다",
+          "isCorrect": true
+        },
+        {
+          "text": "세 용어는 항상 완전히 같은 뜻이다",
+          "isCorrect": false
+        },
+        {
+          "text": "안전성은 로그인 화면의 미관만 뜻한다",
+          "isCorrect": false
+        },
+        {
+          "text": "무결성은 실행 속도만 뜻한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-08",
+      "type": "short",
+      "questionText": "유지보수성에서 적응 유지보수(Adaptive Maintenance)는 무엇인가?",
+      "options": [
+        {
+          "text": "운영 조건이나 환경 변화에 맞추어 소프트웨어를 수정하는 활동",
+          "isCorrect": true
+        },
+        {
+          "text": "오류 발생 시 결함을 고치는 활동",
+          "isCorrect": false
+        },
+        {
+          "text": "가독성 향상을 위해 재구조화하는 활동",
+          "isCorrect": false
+        },
+        {
+          "text": "정확 동작을 사전에 점검하는 활동",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-09",
       "type": "answer",
-      "text": "슬라이드에서 소개한 소프트웨어 품질 모델/표준의 예로 많이 다룬 것은?",
-      "answer": "ISO/IEC 9126",
-      "distractors": [
-        "ISO/IEC 13485",
-        "IEEE 802.11",
-        "HTML 5"
-      ]
-    },
-    {
-      "id": "quality-q6",
-      "type": "select",
-      "text": "품질 관리의 목적에 가장 가까운 것은?",
+      "questionText": "재사용성 Reusability(P)의 식은?",
       "options": [
         {
-          "text": "품질 목표를 정하고 이를 만족하도록 계획, 점검, 개선하는 것",
+          "text": "LOC(R)/LOC(S)",
           "isCorrect": true
         },
         {
-          "text": "문제가 생긴 뒤에만 사후 처리하는 것",
+          "text": "LOC(S)/LOC(R)",
           "isCorrect": false
         },
         {
-          "text": "테스트를 전혀 하지 않는 것",
+          "text": "1 - A/B",
           "isCorrect": false
         },
         {
-          "text": "개발자 감으로만 판단하는 것",
+          "text": "FP/PM",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "quality-q7",
-      "type": "select",
-      "text": "AI 소프트웨어에서 데이터 품질이 중요한 이유로 가장 적절한 것은?",
+      "id": "quality-10",
+      "type": "short",
+      "questionText": "프로세스 품질에서 확인해야 할 항목으로 적절하지 않은 것은?",
       "options": [
         {
-          "text": "학습 데이터의 오류나 편향이 결과 품질과 공정성에 직접 영향을 주기 때문",
+          "text": "개발자 개인 취향의 배경화면 색상",
           "isCorrect": true
         },
         {
-          "text": "데이터 품질은 저장 속도와만 관련 있기 때문",
+          "text": "프로세스 모델 적합성",
           "isCorrect": false
         },
         {
-          "text": "모델이 좋으면 데이터는 아무 영향이 없기 때문",
+          "text": "개발 방법론 적합성",
           "isCorrect": false
         },
         {
-          "text": "데이터 품질은 화면 디자인에만 영향을 주기 때문",
+          "text": "표준 준수성",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-11",
+      "type": "short",
+      "questionText": "AI 소프트웨어에서 투명성과 책임성이 중요한 이유는?",
+      "options": [
+        {
+          "text": "동일 입력에도 다른 결과가 나올 수 있고 출력 해석 가능성과 설명 가능성이 필요하기 때문이다",
+          "isCorrect": true
+        },
+        {
+          "text": "AI는 요구사항이 필요 없기 때문이다",
+          "isCorrect": false
+        },
+        {
+          "text": "학습 데이터 품질은 결과와 무관하기 때문이다",
+          "isCorrect": false
+        },
+        {
+          "text": "AI 시스템은 법적 책임을 전혀 갖지 않기 때문이다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-12",
+      "type": "short",
+      "questionText": "ML 시스템 품질을 구성 관점에서 볼 때 포함되지 않는 것은?",
+      "options": [
+        {
+          "text": "프린터 토너 색상 품질",
+          "isCorrect": true
+        },
+        {
+          "text": "데이터 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "모델 품질",
+          "isCorrect": false
+        },
+        {
+          "text": "ML 통제 컴포넌트 품질",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-13",
+      "type": "answer",
+      "questionText": "McCall의 FCM 모델에서 F, C, M은 각각 무엇인가?",
+      "options": [
+        {
+          "text": "Factors, Criteria, Metrics",
+          "isCorrect": true
+        },
+        {
+          "text": "Functionality, Cost, Maintenance",
+          "isCorrect": false
+        },
+        {
+          "text": "Failure, Control, Model",
+          "isCorrect": false
+        },
+        {
+          "text": "Feature, Code, Module",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-14",
+      "type": "answer",
+      "questionText": "FURPS의 다섯 품질 요소는?",
+      "options": [
+        {
+          "text": "Functionality, Usability, Reliability, Performance, Supportability",
+          "isCorrect": true
+        },
+        {
+          "text": "Feasibility, Usability, Risk, Process, Security",
+          "isCorrect": false
+        },
+        {
+          "text": "Function Point, User, Report, Product, Sprint",
+          "isCorrect": false
+        },
+        {
+          "text": "Fast, Useful, Reliable, Portable, Safe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-15",
+      "type": "long",
+      "longText": "그림의 핵심 메시지처럼 결함 발견과 수정 비용이 뒤 단계로 갈수록 커지는 이유는?",
+      "imageUrl": "../../assets/exam-prep/quality-cost.svg",
+      "options": [
+        {
+          "text": "요구사항과 설계 단계의 결함이 뒤늦게 발견되면 코드, 테스트, 배포 산출물을 함께 고쳐야 하기 때문이다",
+          "isCorrect": true
+        },
+        {
+          "text": "뒤 단계에서는 결함이 자동으로 사라지기 때문이다",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트 단계 이후에는 수정 비용이 0이 되기 때문이다",
+          "isCorrect": false
+        },
+        {
+          "text": "품질 관리는 배포 후에만 시작해야 하기 때문이다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-16",
+      "type": "short",
+      "questionText": "정량적 품질 개선 프로세스의 흐름으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "준비, 척도 조정, 측정, 평가",
+          "isCorrect": true
+        },
+        {
+          "text": "코딩, 배포, 삭제, 종료",
+          "isCorrect": false
+        },
+        {
+          "text": "회의, 디자인, 광고, 판매",
+          "isCorrect": false
+        },
+        {
+          "text": "압축, 백업, 복사, 인쇄",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-17",
+      "type": "short",
+      "questionText": "ISO/IEC 25010이 다루는 핵심 주제는?",
+      "options": [
+        {
+          "text": "시스템 및 소프트웨어 품질 요구사항과 평가를 위한 품질 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 원격 저장소 인증 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 팀 좌석 배치 표준",
+          "isCorrect": false
+        },
+        {
+          "text": "기능점수의 간이법 평균 가중치만 정한 표준",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "quality-18",
+      "type": "short",
+      "questionText": "강의의 품질 관점에서 사용자 만족을 이루는 조합으로 가장 가까운 것은?",
+      "options": [
+        {
+          "text": "공학적으로 요구를 만족하는 제품, 좋은 품질, 예산과 일정 내 전달",
+          "isCorrect": true
+        },
+        {
+          "text": "화려한 UI, 긴 코드, 큰 실행 파일",
+          "isCorrect": false
+        },
+        {
+          "text": "많은 회의, 늦은 배포, 문서 생략",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트 생략, 빠른 삭제, 낮은 추적성",
           "isCorrect": false
         }
       ]

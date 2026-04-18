@@ -1,139 +1,440 @@
 {
-  "title": "Day 6 소프트웨어 비용 산정",
+  "title": "Day 6 기능점수와 비용 산정",
   "questions": [
     {
-      "id": "fp-q1",
+      "id": "fp-01",
+      "type": "short",
+      "questionText": "LOC 기반 비용 산정의 한계는?",
+      "options": [
+        {
+          "text": "프로그래밍 언어마다 같은 기능 구현에 필요한 코드 라인 수가 다르다",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항 단계에서도 항상 정확히 계산된다",
+          "isCorrect": false
+        },
+        {
+          "text": "언어 차이와 무관하게 항상 같은 값이다",
+          "isCorrect": false
+        },
+        {
+          "text": "기능 복잡도를 직접 반영한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-02",
+      "type": "short",
+      "questionText": "기능점수(Function Point)의 의미로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "소프트웨어 기능의 양과 복잡도를 기준으로 규모를 산정하는 방법",
+          "isCorrect": true
+        },
+        {
+          "text": "소스 코드 줄 수만 세는 방법",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자 근무 시간을 기록하는 방법",
+          "isCorrect": false
+        },
+        {
+          "text": "서버 CPU 사용률만 측정하는 방법",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-03",
+      "type": "long",
+      "longText": "그림의 기능점수 산정 흐름에서 예비 기능점수 이후 운영·환경 특성을 반영해 계산하는 값은?",
+      "imageUrl": "../../assets/exam-prep/function-point-flow.svg",
+      "options": [
+        {
+          "text": "조정 인자 값 VAF",
+          "isCorrect": true
+        },
+        {
+          "text": "스프린트 백로그",
+          "isCorrect": false
+        },
+        {
+          "text": "Git commit hash",
+          "isCorrect": false
+        },
+        {
+          "text": "번다운 차트",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-04",
       "type": "answer",
-      "text": "기능 점수(Function Point)는 무엇을 기준으로 소프트웨어 규모를 산정하는가?",
-      "answer": "기능의 양과 복잡도",
-      "distractors": [
-        "코드 줄 수만",
-        "화면 색상 수만",
-        "서버 개수만"
-      ]
-    },
-    {
-      "id": "fp-q2",
-      "type": "select",
-      "text": "LOC 기반 산정보다 기능 점수가 유리한 이유로 가장 적절한 것은?",
+      "questionText": "기능점수의 두 큰 구성 요소는?",
       "options": [
         {
-          "text": "프로그래밍 언어에 덜 의존하고 요구사항 단계에서도 활용하기 쉽기 때문",
+          "text": "데이터 기능과 처리 기능",
           "isCorrect": true
         },
         {
-          "text": "무조건 더 작은 숫자가 나오기 때문",
+          "text": "문화와 자동화",
           "isCorrect": false
         },
         {
-          "text": "코드를 작성하지 않아도 되기 때문",
+          "text": "설계와 광고",
           "isCorrect": false
         },
         {
-          "text": "테스트가 필요 없기 때문",
+          "text": "커밋과 푸시",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "fp-q3",
-      "type": "select",
-      "text": "ILF와 EIF의 구분으로 가장 적절한 것은?",
-      "options": [
-        {
-          "text": "ILF는 시스템 내부에서 유지되는 파일, EIF는 외부에서 참조만 하는 파일",
-          "isCorrect": true
-        },
-        {
-          "text": "ILF는 화면 파일, EIF는 소리 파일",
-          "isCorrect": false
-        },
-        {
-          "text": "둘 다 프로그램 코드 파일만 의미한다",
-          "isCorrect": false
-        },
-        {
-          "text": "EIF가 내부 파일, ILF가 외부 파일이다",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "fp-q4",
-      "type": "select",
-      "text": "EI, EO, EQ는 무엇을 가리키는가?",
-      "options": [
-        {
-          "text": "처리 기능(Transaction Function)의 유형",
-          "isCorrect": true
-        },
-        {
-          "text": "데이터베이스 정규화 단계",
-          "isCorrect": false
-        },
-        {
-          "text": "프로젝트 조직의 직책",
-          "isCorrect": false
-        },
-        {
-          "text": "품질 모델의 레벨",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "fp-q5",
-      "type": "select",
-      "text": "기능 점수 산정 절차에서 경계(Boundary) 설정이 중요한 이유는?",
-      "options": [
-        {
-          "text": "무엇을 포함하고 제외할지 범위를 정해야 정확한 카운트가 가능하기 때문",
-          "isCorrect": true
-        },
-        {
-          "text": "디자인 테마를 정하기 위해서",
-          "isCorrect": false
-        },
-        {
-          "text": "브랜치 이름을 자동 생성하기 위해서",
-          "isCorrect": false
-        },
-        {
-          "text": "비밀번호를 저장하기 위해서",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "fp-q6",
+      "id": "fp-05",
       "type": "answer",
-      "text": "정규법과 간이법의 공통 목표는?",
-      "answer": "기능 점수를 산정해 비용과 일정, 인력, 생산성을 예측하는 것",
-      "distractors": [
-        "파일 이름을 정하는 것",
-        "버그를 자동 제거하는 것",
-        "UI를 번역하는 것"
-      ]
-    },
-    {
-      "id": "fp-q7",
-      "type": "select",
-      "text": "기능 점수의 활용으로 가장 적절한 것은?",
+      "questionText": "데이터 기능의 두 유형은?",
       "options": [
         {
-          "text": "개발 비용, 기간, 인력, 생산성을 예측하는 데 사용",
+          "text": "ILF와 EIF",
           "isCorrect": true
         },
         {
-          "text": "배포 서버의 OS를 자동 선택하는 데 사용",
+          "text": "EI와 EO",
           "isCorrect": false
         },
         {
-          "text": "프론트엔드 색상을 정하는 데 사용",
+          "text": "CI와 CD",
           "isCorrect": false
         },
         {
-          "text": "사용자 비밀번호를 암호화하는 데 사용",
+          "text": "WBS와 PERT",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-06",
+      "type": "answer",
+      "questionText": "처리 기능의 세 유형은?",
+      "options": [
+        {
+          "text": "EI, EO, EQ",
+          "isCorrect": true
+        },
+        {
+          "text": "ILF, EIF, RET",
+          "isCorrect": false
+        },
+        {
+          "text": "PM, PL, TL",
+          "isCorrect": false
+        },
+        {
+          "text": "MTTD, MTTR, MTBF",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-07",
+      "type": "short",
+      "questionText": "ILF와 EIF의 차이를 가장 잘 설명한 것은?",
+      "options": [
+        {
+          "text": "ILF는 응용 범위 내에서 유지되는 논리 파일이고 EIF는 응용 밖에 존재해 참조하는 파일이다",
+          "isCorrect": true
+        },
+        {
+          "text": "ILF는 출력이고 EIF는 입력이다",
+          "isCorrect": false
+        },
+        {
+          "text": "ILF는 테스트이고 EIF는 배포이다",
+          "isCorrect": false
+        },
+        {
+          "text": "두 용어는 항상 같은 파일을 뜻한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-08",
+      "type": "answer",
+      "questionText": "DET, RET, FTR은 각각 무엇의 약자인가?",
+      "options": [
+        {
+          "text": "Data Element Type, Record Element Type, File Type Reference",
+          "isCorrect": true
+        },
+        {
+          "text": "Development Effort Time, Release Effort Time, Feature Test Result",
+          "isCorrect": false
+        },
+        {
+          "text": "Data Entry Tool, Remote Error Table, Function Tag Rule",
+          "isCorrect": false
+        },
+        {
+          "text": "Defect Estimate Type, Review Execution Time, Formal Test Report",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-09",
+      "type": "short",
+      "questionText": "처리 기능에서 Create, Update, Delete는 주로 어떤 유형으로 산정되는가?",
+      "options": [
+        {
+          "text": "외부입력(EI)",
+          "isCorrect": true
+        },
+        {
+          "text": "외부출력(EO)",
+          "isCorrect": false
+        },
+        {
+          "text": "외부조회(EQ)",
+          "isCorrect": false
+        },
+        {
+          "text": "외부인터페이스파일(EIF)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-10",
+      "type": "answer",
+      "questionText": "강의 예제의 예비 기능점수 합계는?",
+      "options": [
+        {
+          "text": "101점",
+          "isCorrect": true
+        },
+        {
+          "text": "26점",
+          "isCorrect": false
+        },
+        {
+          "text": "75점",
+          "isCorrect": false
+        },
+        {
+          "text": "95점",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-11",
+      "type": "answer",
+      "questionText": "VAF 공식은?",
+      "options": [
+        {
+          "text": "(TDI x 0.01) + 0.65",
+          "isCorrect": true
+        },
+        {
+          "text": "FP / PM",
+          "isCorrect": false
+        },
+        {
+          "text": "1 - (A/B)",
+          "isCorrect": false
+        },
+        {
+          "text": "LOC(R)/LOC(S)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-12",
+      "type": "short",
+      "questionText": "TDI와 VAF에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "14개 시스템 특성 영향도의 합이 TDI이며 VAF는 0.65에서 1.35 범위가 된다",
+          "isCorrect": true
+        },
+        {
+          "text": "TDI는 코드 라인 수이며 VAF는 항상 1이다",
+          "isCorrect": false
+        },
+        {
+          "text": "TDI는 스프린트 수이며 VAF는 요구사항 개수다",
+          "isCorrect": false
+        },
+        {
+          "text": "TDI는 원격 브랜치 수이며 VAF는 커밋 수다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-13",
+      "type": "answer",
+      "questionText": "예비 기능점수 101점, TDI 29일 때 최종 기능점수는 약 몇 점인가?",
+      "options": [
+        {
+          "text": "95점",
+          "isCorrect": true
+        },
+        {
+          "text": "29점",
+          "isCorrect": false
+        },
+        {
+          "text": "101점",
+          "isCorrect": false
+        },
+        {
+          "text": "130점",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-14",
+      "type": "short",
+      "questionText": "간이법 기능점수 산정의 특징은?",
+      "options": [
+        {
+          "text": "사용자 업무 중심으로 단위 업무를 식별하고 평균 복잡도 가중치를 쓰며 조정인자를 사용하지 않는다",
+          "isCorrect": true
+        },
+        {
+          "text": "14개 조정인자를 반드시 모두 계산한다",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 라인 수만으로 산정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 정의서를 절대 보지 않는다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-15",
+      "type": "short",
+      "questionText": "기능점수 1점당 LOC 매핑 예로 맞는 것은?",
+      "options": [
+        {
+          "text": "C++/Java는 약 53 LOC, C는 약 128 LOC",
+          "isCorrect": true
+        },
+        {
+          "text": "C++/Java는 1 LOC, C는 2 LOC",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 언어는 항상 100 LOC",
+          "isCorrect": false
+        },
+        {
+          "text": "언어별 LOC는 기능점수와 전혀 연결할 수 없다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-16",
+      "type": "answer",
+      "questionText": "기능점수 기반 생산성 척도 공식은?",
+      "options": [
+        {
+          "text": "기능점수(FP) / 개발노력(PM)",
+          "isCorrect": true
+        },
+        {
+          "text": "개발노력(PM) / 기능점수(FP)",
+          "isCorrect": false
+        },
+        {
+          "text": "TDI x 0.01",
+          "isCorrect": false
+        },
+        {
+          "text": "A/B",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-17",
+      "type": "short",
+      "questionText": "기능점수 분석의 이점으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "요구사항을 명확히 이해하고 일정·비용·품질 관리를 위한 정량 수치로 활용할 수 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항 분석을 생략할 수 있다",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 결함을 자동 제거한다",
+          "isCorrect": false
+        },
+        {
+          "text": "배포 후 유지보수 판단에 전혀 쓰이지 않는다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-18",
+      "type": "answer",
+      "questionText": "기능점수 산정 유형 세 가지는?",
+      "options": [
+        {
+          "text": "개발 프로젝트, 개선 프로젝트, 유지보수 프로젝트",
+          "isCorrect": true
+        },
+        {
+          "text": "폭포수, 나선형, V 모델",
+          "isCorrect": false
+        },
+        {
+          "text": "중앙집중형, 분산형, 하이브리드",
+          "isCorrect": false
+        },
+        {
+          "text": "인터뷰, JAD, 설문지",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "fp-19",
+      "type": "short",
+      "questionText": "범위 및 경계 선정 단계에서 결정해야 하는 것으로 맞는 것은?",
+      "options": [
+        {
+          "text": "산출 범위, 소프트웨어 획득 방식, 대상 시스템 범주",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋 메시지 길이, 브랜치 색상, GitHub 프로필",
+          "isCorrect": false
+        },
+        {
+          "text": "회의실 크기, 좌석 배치, 로고 색상",
+          "isCorrect": false
+        },
+        {
+          "text": "응답자 익명 여부만",
           "isCorrect": false
         }
       ]

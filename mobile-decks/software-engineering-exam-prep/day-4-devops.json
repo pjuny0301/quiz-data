@@ -1,152 +1,509 @@
 {
-  "title": "Day 4 DevOps",
+  "title": "Day 4 DevOps와 운영 자동화",
   "questions": [
     {
-      "id": "devops-q1",
+      "id": "devops-01",
+      "type": "short",
+      "questionText": "DevOps의 핵심 정의로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "개발, 운영, 품질 보증 등 관련자가 협력해 빠른 배포와 피드백을 달성하는 린·애자일 기반 접근 방식",
+          "isCorrect": true
+        },
+        {
+          "text": "개발과 운영을 완전히 분리하는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "배포 후 피드백을 받지 않는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 운영팀에게만 맡기는 방식",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-02",
+      "type": "short",
+      "questionText": "워터폴 방식에서 DevOps가 해결하려는 대표 문제는?",
+      "options": [
+        {
+          "text": "팀 간 사일로, 잦은 인수인계, 늦은 고객 피드백",
+          "isCorrect": true
+        },
+        {
+          "text": "매일 배포가 너무 잦은 문제",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트 자동화가 지나치게 많은 문제",
+          "isCorrect": false
+        },
+        {
+          "text": "고객이 제품을 너무 빨리 보는 문제",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-03",
       "type": "answer",
-      "text": "DevOps의 핵심 의미는?",
-      "answer": "개발과 운영의 협업을 통해 빠르고 안정적으로 배포하는 접근 방식",
-      "distractors": [
-        "개발자와 운영을 완전히 분리하는 방식",
-        "배포를 금지하는 정책",
-        "문서만 작성하고 실행하지 않는 방식"
-      ]
-    },
-    {
-      "id": "devops-q2",
-      "type": "select",
-      "text": "CI(Continuous Integration)의 설명으로 가장 적절한 것은?",
+      "questionText": "CALMS 모델의 다섯 요소는?",
       "options": [
         {
-          "text": "여러 개발자의 코드를 하루에도 여러 번 메인라인에 통합하는 실천 방식",
+          "text": "Culture, Automation, Lean, Measurement, Sharing",
           "isCorrect": true
         },
         {
-          "text": "배포를 절대 하지 않는 방식",
+          "text": "Code, Analyze, Launch, Monitor, Stop",
           "isCorrect": false
         },
         {
-          "text": "테스트를 생략하고 바로 운영에 넣는 방식",
+          "text": "Cost, Agile, Log, Merge, Security",
           "isCorrect": false
         },
         {
-          "text": "기능 점수를 자동 계산하는 도구",
+          "text": "Cloud, API, Linux, Metric, Sprint",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "devops-q3",
-      "type": "select",
-      "text": "CD에 대한 설명으로 가장 적절한 것은?",
+      "id": "devops-04",
+      "type": "short",
+      "questionText": "Shift-left mindset의 의미는?",
       "options": [
         {
-          "text": "지속적 전달 또는 지속적 배포를 통해 릴리즈 과정을 자동화하는 것",
+          "text": "SDLC 초기 단계부터 테스트, 품질, 성능, 보안 평가를 통합하는 사고방식",
           "isCorrect": true
         },
         {
-          "text": "오직 코드 삭제만 하는 것",
+          "text": "배포 후에만 품질을 확인하는 방식",
           "isCorrect": false
         },
         {
-          "text": "실행 환경을 항상 수동으로만 맞추는 것",
+          "text": "운영팀을 프로젝트에서 제외하는 방식",
           "isCorrect": false
         },
         {
-          "text": "요구사항 문서를 적는 기술",
+          "text": "오른쪽 단계로 보안 검토를 미루는 방식",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "devops-q4",
-      "type": "select",
-      "text": "DevOps toolchain에 대한 설명으로 가장 적절한 것은?",
-      "options": [
-        {
-          "text": "개발, 빌드, 테스트, 배포, 운영을 연결하는 자동화 도구들의 흐름",
-          "isCorrect": true
-        },
-        {
-          "text": "하나의 IDE만 사용하는 방식",
-          "isCorrect": false
-        },
-        {
-          "text": "코드를 텍스트 편집기로만 작성하는 것",
-          "isCorrect": false
-        },
-        {
-          "text": "원격 저장소를 복제하지 않는 정책",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "devops-q5",
-      "type": "select",
-      "text": "기술 부채(technical debt)에 대한 설명으로 가장 적절한 것은?",
-      "options": [
-        {
-          "text": "빠른 개발을 위해 임시 선택한 기술적 타협이 나중의 비용을 키우는 현상",
-          "isCorrect": true
-        },
-        {
-          "text": "서버에 돈을 입금하는 행위",
-          "isCorrect": false
-        },
-        {
-          "text": "코드를 압축해서 저장 공간을 줄이는 기능",
-          "isCorrect": false
-        },
-        {
-          "text": "UI 색상 선택의 문제",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "devops-q6",
+      "id": "devops-05",
       "type": "long",
-      "longText": "다음 그림은 DevOps의 연속적인 개발과 운영 흐름을 나타낸다. 이 흐름이 강조하는 가장 중요한 실천은 무엇인가?",
+      "longText": "그림의 DevOps 흐름에서 운영 후 모니터링 결과가 다시 계획으로 돌아가는 이유는?",
       "imageUrl": "../../assets/exam-prep/devops-loop.svg",
       "options": [
         {
-          "text": "개발과 운영의 분리",
-          "isCorrect": false
-        },
-        {
-          "text": "짧은 주기의 자동화된 피드백",
+          "text": "사용자 피드백과 운영 데이터를 다음 개발 요구와 개선 근거로 반영하기 위해서",
           "isCorrect": true
         },
         {
-          "text": "기능 점수 우선 산정",
+          "text": "배포가 끝나면 프로젝트가 완전히 종료되기 때문에",
           "isCorrect": false
         },
         {
-          "text": "요구사항 설문만 반복",
+          "text": "코딩 전에는 요구사항을 볼 수 없기 때문에",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 생략해도 되기 때문에",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "devops-q7",
-      "type": "select",
-      "text": "DevOps가 추구하는 가치로 가장 적절한 것은?",
+      "id": "devops-06",
+      "type": "short",
+      "questionText": "DevOps toolchain의 역할로 적절하지 않은 것은?",
       "options": [
         {
-          "text": "신속한 전달과 지속적인 개선",
+          "text": "개발과 운영 간 격차를 더 크게 만드는 것",
           "isCorrect": true
         },
         {
-          "text": "오류를 늦게 발견할수록 좋다는 생각",
+          "text": "DevOps 프로세스 실현 수단",
           "isCorrect": false
         },
         {
-          "text": "배포를 최대한 늦추는 것",
+          "text": "개발 결과물 공유와 활용",
           "isCorrect": false
         },
         {
-          "text": "운영 정보를 개발과 공유하지 않는 것",
+          "text": "개발·테스트 환경과 배포·운영 환경 차이 축소",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-07",
+      "type": "short",
+      "questionText": "DevOps 성공 전략에 포함되는 내용으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "사일로 타파, 고객 중심, 작은 시작과 확장, 자동화, 호환 도구, CI/CD, 모니터링과 피드백",
+          "isCorrect": true
+        },
+        {
+          "text": "부서 간 소통 차단과 수동 배포 확대",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 문서 폐기와 테스트 금지",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 환경을 개발자가 절대 볼 수 없게 하기",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-08",
+      "type": "short",
+      "questionText": "DevOps 프로세스에서 빌드 단계의 주요 활동은?",
+      "options": [
+        {
+          "text": "작성된 코드 통합, 통합 테스트, 제품 형상 구성, 배포 준비와 버전 관리",
+          "isCorrect": true
+        },
+        {
+          "text": "비즈니스 가치 정의와 보안 정책 수립",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 인프라 성능 모니터링",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 환경에 애플리케이션 설치",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-09",
+      "type": "answer",
+      "questionText": "CI는 무엇의 약자인가?",
+      "options": [
+        {
+          "text": "Continuous Integration",
+          "isCorrect": true
+        },
+        {
+          "text": "Continuous Installation",
+          "isCorrect": false
+        },
+        {
+          "text": "Container Infrastructure",
+          "isCorrect": false
+        },
+        {
+          "text": "Customer Interview",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-10",
+      "type": "short",
+      "questionText": "Continuous Delivery와 Continuous Deployment의 차이는?",
+      "options": [
+        {
+          "text": "Delivery는 배포 준비까지 자동화하고 실제 배포는 수동일 수 있으며, Deployment는 배포까지 자동화한다",
+          "isCorrect": true
+        },
+        {
+          "text": "Delivery는 테스트를 하지 않고 Deployment는 코딩을 하지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "두 용어는 항상 완전히 같은 뜻이다",
+          "isCorrect": false
+        },
+        {
+          "text": "Delivery는 모바일 앱에서만 쓰고 Deployment는 문서에서만 쓴다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-11",
+      "type": "short",
+      "questionText": "지속적 모니터링의 핵심 기능은?",
+      "options": [
+        {
+          "text": "보안·컴플라이언스 위협과 운영 오류를 식별하고 관련 팀에 즉시 알리는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "개발자 PC 배경화면을 통일하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 로그를 삭제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "빌드 도구를 수동으로 설치하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-12",
+      "type": "short",
+      "questionText": "클라우드에서 풀 스택 배포의 의미는?",
+      "options": [
+        {
+          "text": "애플리케이션 서비스 배포와 실행 인프라 프로비저닝을 함께 진행하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "앱만 배포하고 인프라는 고려하지 않는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "데이터베이스만 수동 복사하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 서비스를 하나의 물리 서버에 고정하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-13",
+      "type": "short",
+      "questionText": "컨테이너의 특징으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "실행 파일, 바이너리, 라이브러리, 설정을 포함해 OS 수준 가상화로 애플리케이션을 실행한다",
+          "isCorrect": true
+        },
+        {
+          "text": "하드웨어 전체를 반드시 가상화한다",
+          "isCorrect": false
+        },
+        {
+          "text": "소스 코드만 저장하고 실행 환경은 포함하지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "운영체제 커널을 매번 새로 컴파일한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-14",
+      "type": "short",
+      "questionText": "컨테이너 오케스트레이션이 자동화하는 작업으로 적절하지 않은 것은?",
+      "options": [
+        {
+          "text": "교수 시험 문제 출제",
+          "isCorrect": true
+        },
+        {
+          "text": "프로비저닝",
+          "isCorrect": false
+        },
+        {
+          "text": "배포와 확장",
+          "isCorrect": false
+        },
+        {
+          "text": "로드 밸런싱과 헬스 체크",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-15",
+      "type": "answer",
+      "questionText": "IaC는 무엇의 약자인가?",
+      "options": [
+        {
+          "text": "Infrastructure as Code",
+          "isCorrect": true
+        },
+        {
+          "text": "Integration as Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Information and Compliance",
+          "isCorrect": false
+        },
+        {
+          "text": "Interface after Coding",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-16",
+      "type": "short",
+      "questionText": "DevOps 측정 척도 중 장애 관리 지표에 해당하는 것은?",
+      "options": [
+        {
+          "text": "MTTD와 MTTR",
+          "isCorrect": true
+        },
+        {
+          "text": "WBS와 PERT",
+          "isCorrect": false
+        },
+        {
+          "text": "DET와 RET",
+          "isCorrect": false
+        },
+        {
+          "text": "FCM과 FURPS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-17",
+      "type": "short",
+      "questionText": "DevSecOps의 핵심 방향은?",
+      "options": [
+        {
+          "text": "보안 이슈를 개발 초기 단계로 당겨와 처리하는 Shift Left",
+          "isCorrect": true
+        },
+        {
+          "text": "보안을 운영 종료 후에만 검사하는 Shift Right",
+          "isCorrect": false
+        },
+        {
+          "text": "보안 교육을 전면 금지하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "OWASP 지식을 개발팀과 분리하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-18",
+      "type": "short",
+      "questionText": "DevOps에서 기술 부채를 줄이는 전략으로 적절한 것은?",
+      "options": [
+        {
+          "text": "자동화 활용, 마이크로서비스 모델, 컨테이너화 배포, API 중심 모델 구축",
+          "isCorrect": true
+        },
+        {
+          "text": "차선책 결정을 반복하고 문서화하지 않는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자에게 무관한 작업을 동시에 계속 주는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 피드백을 받지 않는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-19",
+      "type": "short",
+      "questionText": "마이크로서비스 아키텍처의 장점으로 적절하지 않은 것은?",
+      "options": [
+        {
+          "text": "전체 시스템을 항상 하나의 거대한 배포 단위로 묶어 장애 격리를 어렵게 한다",
+          "isCorrect": true
+        },
+        {
+          "text": "독립 배포",
+          "isCorrect": false
+        },
+        {
+          "text": "확장성 향상",
+          "isCorrect": false
+        },
+        {
+          "text": "장애 격리",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-20",
+      "type": "short",
+      "questionText": "DevDataOps의 목표로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "데이터 흐름 파이프라인을 통해 데이터 분석 수명주기의 품질과 정보 제공의 적시성을 높이는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "보안 활동을 개발 초기에만 제한하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 배포를 수동 승인으로 되돌리는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 수집을 인터뷰로만 제한하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-21",
+      "type": "short",
+      "questionText": "BizDevOps의 핵심 목적은?",
+      "options": [
+        {
+          "text": "비즈니스, 개발, 운영 협업으로 더 빠른 개발과 사용자 요구 대응을 통해 수익 극대화를 유도하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "코드 품질과 비즈니스 지표를 완전히 분리하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 모니터링을 금지하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "소프트웨어 배포 후 피드백 루프를 끊는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "devops-22",
+      "type": "answer",
+      "questionText": "DevOps 확산과 함께 언급된 새로운 직업군 예시는?",
+      "options": [
+        {
+          "text": "SRE, Platform Engineer, Cloud Engineer, DevOps Engineer",
+          "isCorrect": true
+        },
+        {
+          "text": "Product Backlog, Sprint Backlog, Increment, Burndown",
+          "isCorrect": false
+        },
+        {
+          "text": "PM, PL, TL, PE만",
+          "isCorrect": false
+        },
+        {
+          "text": "ILF, EIF, EI, EO",
           "isCorrect": false
         }
       ]

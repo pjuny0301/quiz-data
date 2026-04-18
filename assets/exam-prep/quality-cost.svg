@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" fill="none">
+  <rect width="1200" height="520" rx="24" fill="#F8FAFC"/>
+  <text x="72" y="64" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">결함 발견 시점과 수정 비용</text>
+  <line x1="130" y1="420" x2="1080" y2="420" stroke="#334155" stroke-width="4"/>
+  <line x1="130" y1="420" x2="130" y2="110" stroke="#334155" stroke-width="4"/>
+  <polyline points="150,390 300,360 450,320 600,250 750,165 920,105 1060,80" fill="none" stroke="#EF4444" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#EF4444">
+    <circle cx="150" cy="390" r="9"/><circle cx="300" cy="360" r="9"/><circle cx="450" cy="320" r="9"/><circle cx="600" cy="250" r="9"/><circle cx="750" cy="165" r="9"/><circle cx="920" cy="105" r="9"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#475569" text-anchor="middle">
+    <text x="150" y="460">Req</text><text x="300" y="460">Design</text><text x="450" y="460">Code</text><text x="600" y="460">Test</text><text x="750" y="460">System</text><text x="920" y="460">Field</text>
+  </g>
+  <text x="60" y="118" fill="#475569" font-family="Arial, sans-serif" font-size="20" transform="rotate(-90 60 118)">Cost to fix</text>
+  <text x="702" y="132" fill="#B91C1C" font-family="Arial, sans-serif" font-size="24" font-weight="700">늦게 찾을수록 수정 비용 증가</text>
+</svg>

@@ -1,139 +1,416 @@
 {
-  "title": "Day 3 소프트웨어 개발 프로세스",
+  "title": "Day 3 개발 프로세스와 개선",
   "questions": [
     {
-      "id": "process-q1",
+      "id": "process-01",
+      "type": "short",
+      "questionText": "실현 가능성 분석의 핵심은?",
+      "options": [
+        {
+          "text": "비용, 이득, 대안을 평가해 프로젝트 수행 가능성을 판단하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "코딩 스타일을 정하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "최종 배포 파일 이름을 정하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 전부 생략하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-02",
       "type": "answer",
-      "text": "실현 가능성 분석(feasibility analysis)은 무엇을 점검하는 과정인가?",
-      "answer": "비용, 일정, 기술 수준으로 요구사항 실현이 가능한지 검토하는 과정",
-      "distractors": [
-        "배포 후 사용자 만족도만 조사하는 과정",
-        "코드를 자동으로 난독화하는 과정",
-        "버그를 전부 삭제하는 과정"
-      ]
-    },
-    {
-      "id": "process-q2",
-      "type": "select",
-      "text": "폭포수 모델(waterfall model)의 특징으로 가장 적절한 것은?",
+      "questionText": "실현 가능성 분석의 주요 측면 여섯 가지는?",
       "options": [
         {
-          "text": "단계가 순차적으로 진행되고 이전 단계 결과가 다음 단계의 입력이 된다",
+          "text": "경제적, 기술적, 스케줄, 운영적, 동기적, 법적·윤리적 측면",
           "isCorrect": true
         },
         {
-          "text": "매일 수십 번씩 통합하는 방식이다",
+          "text": "코딩, 빌드, 압축, 삭제, 백업, 인쇄",
           "isCorrect": false
         },
         {
-          "text": "사용자 피드백 없이 한 번에 끝내는 방식이다",
+          "text": "색상, 글꼴, 여백, 아이콘, 배경, 모션",
           "isCorrect": false
         },
         {
-          "text": "위험 분석만 반복하고 구현은 하지 않는다",
+          "text": "입력, 출력, 조회, 수정, 삭제, 보고서",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "process-q3",
-      "type": "select",
-      "text": "프로토타입 모델의 목적에 가장 가까운 것은?",
+      "id": "process-03",
+      "type": "short",
+      "questionText": "소프트웨어 프로세스가 필요한 이유로 가장 적절한 것은?",
       "options": [
         {
-          "text": "요구사항을 빠르게 검증하기 위해 원형을 먼저 보여주는 것",
+          "text": "개발 활동을 단계로 정의해 요구사항 만족, 비용 절감, 품질 관리, 프로젝트 성공 가능성을 높이기 위해서",
           "isCorrect": true
         },
         {
-          "text": "실제 개발을 절대 하지 않고 모형만 남기는 것",
+          "text": "개발자가 문서를 전혀 쓰지 않기 위해서",
           "isCorrect": false
         },
         {
-          "text": "빌드 서버를 영구적으로 끄는 것",
+          "text": "사용자와의 의사소통을 막기 위해서",
           "isCorrect": false
         },
         {
-          "text": "완성 후에야 사용자 의견을 받는 것",
+          "text": "모든 프로젝트를 동일한 코드로 만들기 위해서",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "process-q4",
-      "type": "select",
-      "text": "나선형 모델(Spiral model)의 장점으로 가장 적절한 것은?",
+      "id": "process-04",
+      "type": "short",
+      "questionText": "폭포수 모델의 대표적인 단점은?",
       "options": [
         {
-          "text": "위험 관리가 체계적이고 변경 요구를 반영하기 쉽다",
+          "text": "개발 중 요구 변경을 수용하기 어렵고 이전 단계 오류가 다음 단계에 영향을 준다",
           "isCorrect": true
         },
         {
-          "text": "모든 프로젝트를 가장 짧은 일정으로 끝낼 수 있다",
+          "text": "문서를 작성할 수 없다",
           "isCorrect": false
         },
         {
-          "text": "문서 작성을 전혀 하지 않는다",
+          "text": "순차적 단계를 전혀 쓰지 않는다",
           "isCorrect": false
         },
         {
-          "text": "한 번도 반복하지 않고 완료한다",
+          "text": "테스트 단계를 반드시 생략한다",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "process-q5",
-      "type": "select",
-      "text": "애자일 개발이 등장한 배경으로 가장 적절한 것은?",
+      "id": "process-05",
+      "type": "short",
+      "questionText": "점진적 모델의 장점과 문제를 함께 설명한 것은?",
       "options": [
         {
-          "text": "요구사항 변화가 빠르고 짧은 개발 주기가 필요해졌기 때문",
+          "text": "빠른 전달과 변경 수용이 가능하지만 반복 테스트·통합 오버헤드와 구조 붕괴 위험이 있다",
           "isCorrect": true
         },
         {
-          "text": "모든 시스템이 같은 방식으로만 개발되기 때문",
+          "text": "위험 분석 비용이 전혀 없고 항상 최종 구조가 완벽하다",
           "isCorrect": false
         },
         {
-          "text": "서버 저장소가 사라졌기 때문",
+          "text": "사용자 피드백을 받을 수 없고 배포도 불가능하다",
           "isCorrect": false
         },
         {
-          "text": "테스트가 필요 없어졌기 때문",
+          "text": "정형 명세만 있으면 자동 코드 변환만 수행한다",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "process-q6",
+      "id": "process-06",
+      "type": "short",
+      "questionText": "프로토타입 모델의 주된 목적은?",
+      "options": [
+        {
+          "text": "원형을 통해 요구사항을 검증하고 사용자와 개발자 간 개념을 맞추는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "최종 제품을 테스트 없이 바로 배포하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 피드백을 금지하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 분석을 생략하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-07",
+      "type": "short",
+      "questionText": "나선형 모델의 반복 활동 순서로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "목표 설정, 위험 분석, 구현 및 테스트, 평가 및 다음 단계 수립",
+          "isCorrect": true
+        },
+        {
+          "text": "코딩, 광고, 판매, 폐기",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 삭제, 설계 삭제, 테스트 삭제, 배포 삭제",
+          "isCorrect": false
+        },
+        {
+          "text": "회의, 휴식, 인쇄, 종료",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-08",
+      "type": "short",
+      "questionText": "V 모델이 적합한 상황은?",
+      "options": [
+        {
+          "text": "요구사항이 비교적 정확히 이해되고 높은 신뢰성이 필요한 작은 시스템",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항이 매일 크게 바뀌는 대규모 실험 프로젝트",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트가 필요 없는 임시 스크립트",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 확인을 전혀 하지 않는 프로젝트",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-09",
+      "type": "short",
+      "questionText": "변환 모델(Transformation Model)의 특징은?",
+      "options": [
+        {
+          "text": "정형 명세를 기반으로 자동화 도구를 사용해 코드로 변환하는 개발 프로세스",
+          "isCorrect": true
+        },
+        {
+          "text": "회의록을 코드로 직접 복사하는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 기능을 수동 테스트만으로 만드는 방식",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항 없이 화면부터 만드는 방식",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-10",
+      "type": "short",
+      "questionText": "애자일의 핵심 특성으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "변화에 빠르게 적응하고 이해관계자와 효과적으로 소통하며 실행 가능한 소프트웨어를 점진적으로 전달한다",
+          "isCorrect": true
+        },
+        {
+          "text": "변경을 늦은 시점에는 절대 수용하지 않는다",
+          "isCorrect": false
+        },
+        {
+          "text": "고객을 팀에서 분리한다",
+          "isCorrect": false
+        },
+        {
+          "text": "문서만으로 진척률을 판단한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-11",
+      "type": "short",
+      "questionText": "애자일 원리 중 진척률 판단 기준으로 강조되는 것은?",
+      "options": [
+        {
+          "text": "실행 가능한 소프트웨어",
+          "isCorrect": true
+        },
+        {
+          "text": "회의 횟수",
+          "isCorrect": false
+        },
+        {
+          "text": "문서 페이지 수",
+          "isCorrect": false
+        },
+        {
+          "text": "개발자 자리 배치",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-12",
       "type": "answer",
-      "text": "CMMI는 무엇을 개선하기 위한 성숙도 모델인가?",
-      "answer": "소프트웨어 개발 프로세스",
-      "distractors": [
-        "디자인 색상",
-        "하드웨어 무게",
-        "네트워크 이름"
-      ]
-    },
-    {
-      "id": "process-q7",
-      "type": "select",
-      "text": "SPICE에 대한 설명으로 가장 적절한 것은?",
+      "questionText": "스크럼에서 스프린트 결과로 나오는 실행 가능한 제품을 무엇이라 하는가?",
       "options": [
         {
-          "text": "ISO 15504 계열의 소프트웨어 프로세스 개선 및 능력 평가 표준",
+          "text": "제품 증분",
           "isCorrect": true
         },
         {
-          "text": "버전 관리용 명령 모음",
+          "text": "제품 백로그",
           "isCorrect": false
         },
         {
-          "text": "기능 점수 계산 공식",
+          "text": "스프린트 백로그",
           "isCorrect": false
         },
         {
-          "text": "요구사항 인터뷰 기법의 이름",
+          "text": "번다운 차트",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-13",
+      "type": "short",
+      "questionText": "스크럼 마스터의 역할로 가장 가까운 것은?",
+      "options": [
+        {
+          "text": "스크럼 진행을 돕고 프로젝트 관리 역할을 수행한다",
+          "isCorrect": true
+        },
+        {
+          "text": "제품 백로그 우선순위를 사업 책임자로서 독점 결정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "코드를 하루에 수십 번 자동 병합한다",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 요구사항을 삭제한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-14",
+      "type": "short",
+      "questionText": "카오스 엔지니어링의 핵심 질문은?",
+      "options": [
+        {
+          "text": "장애가 나도 시스템이 잘 버티는가",
+          "isCorrect": true
+        },
+        {
+          "text": "기능 이름이 충분히 긴가",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 줄 수가 많은가",
+          "isCorrect": false
+        },
+        {
+          "text": "로고 색상이 맞는가",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-15",
+      "type": "short",
+      "questionText": "CMMI가 등장한 이유는?",
+      "options": [
+        {
+          "text": "여러 CMM 모델의 형식, 용어, 측정 방법 차이로 인한 통합 적용 어려움을 해결하기 위해서",
+          "isCorrect": true
+        },
+        {
+          "text": "Git 브랜치를 자동 삭제하기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "기능점수 계산을 없애기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "테스트를 전부 수동으로 바꾸기 위해서",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-16",
+      "type": "answer",
+      "questionText": "SPICE의 0부터 5까지 성숙도 수준을 낮은 순서로 쓰면?",
+      "options": [
+        {
+          "text": "Incomplete, Performed, Managed, Established, Predictable, Innovating",
+          "isCorrect": true
+        },
+        {
+          "text": "Initial, Repeatable, Defined, Managed, Optimizing",
+          "isCorrect": false
+        },
+        {
+          "text": "Plan, Code, Build, Test, Release, Run",
+          "isCorrect": false
+        },
+        {
+          "text": "Low, Medium, High, Critical, Blocker, Done",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-17",
+      "type": "short",
+      "questionText": "대표적인 애자일 방법론에 포함되지 않는 것은?",
+      "options": [
+        {
+          "text": "COCOMO 비용 산정 모델",
+          "isCorrect": true
+        },
+        {
+          "text": "스크럼",
+          "isCorrect": false
+        },
+        {
+          "text": "익스트림 프로그래밍 XP",
+          "isCorrect": false
+        },
+        {
+          "text": "린 소프트웨어 개발",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "process-18",
+      "type": "answer",
+      "questionText": "DevOps의 핵심 원리로 강의에서 제시된 항목을 쓰면?",
+      "options": [
+        {
+          "text": "자동화, 반복, 자기 서비스, 지속적 개선, 협업, 지속적 테스트, 지속적 통합과 배포",
+          "isCorrect": true
+        },
+        {
+          "text": "정확성, 신뢰성, 견고성, 성능, 가용성",
+          "isCorrect": false
+        },
+        {
+          "text": "ILF, EIF, EI, EO, EQ",
+          "isCorrect": false
+        },
+        {
+          "text": "준비, 척도 조정, 측정, 평가",
           "isCorrect": false
         }
       ]

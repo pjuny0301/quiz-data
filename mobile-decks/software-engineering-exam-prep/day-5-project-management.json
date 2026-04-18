@@ -2,138 +2,438 @@
   "title": "Day 5 프로젝트 관리",
   "questions": [
     {
-      "id": "pm-q1",
+      "id": "pm-01",
+      "type": "short",
+      "questionText": "소프트웨어 개발 프로젝트 실패 원인으로 강의에서 강조한 것은?",
+      "options": [
+        {
+          "text": "부족한 소프트웨어 마인드, 공학기술 활용 미흡, 프로젝트 관리 기술 부족",
+          "isCorrect": true
+        },
+        {
+          "text": "컴파일러가 너무 빠른 것",
+          "isCorrect": false
+        },
+        {
+          "text": "형상관리를 너무 잘하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항이 명확한 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-02",
+      "type": "short",
+      "questionText": "프로젝트 관리의 정의로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "팀이 목표를 효율적이고 효과적으로 달성하도록 필요한 내적 환경 요소를 준비하고 유지하는 활동",
+          "isCorrect": true
+        },
+        {
+          "text": "코드 파일을 무작위로 늘리는 활동",
+          "isCorrect": false
+        },
+        {
+          "text": "요구사항을 숨기는 활동",
+          "isCorrect": false
+        },
+        {
+          "text": "배포 후 모든 산출물을 폐기하는 활동",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-03",
       "type": "answer",
-      "text": "소프트웨어 프로젝트 관리가 필요한 가장 큰 이유는?",
-      "answer": "규모와 복잡성이 커진 프로젝트를 일정과 자원 안에서 성공적으로 수행하기 위해",
-      "distractors": [
-        "개발자를 감시하기 위해",
-        "코드 스타일만 통일하기 위해",
-        "배포 서버를 숨기기 위해"
-      ]
-    },
-    {
-      "id": "pm-q2",
-      "type": "select",
-      "text": "WBS(Work Breakdown Structure)의 설명으로 가장 적절한 것은?",
+      "questionText": "프로젝트 관리 네 단계는?",
       "options": [
         {
-          "text": "프로젝트 전체 목표를 세부 작업으로 분해한 작업 구조",
+          "text": "계획 수립, 자원 획득, 실행, 모니터링",
           "isCorrect": true
         },
         {
-          "text": "테스트 케이스만 모아둔 문서",
+          "text": "요구사항 삭제, 설계 삭제, 구현 삭제, 테스트 삭제",
           "isCorrect": false
         },
         {
-          "text": "서버 접근 권한 목록",
+          "text": "Fetch, Pull, Push, Merge",
           "isCorrect": false
         },
         {
-          "text": "코드 실행 결과 로그",
+          "text": "입력, 출력, 조회, 수정",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "pm-q3",
-      "type": "select",
-      "text": "간트 차트(Gantt chart)는 주로 무엇을 보여 주는가?",
+      "id": "pm-04",
+      "type": "short",
+      "questionText": "베이스라인의 의미는?",
       "options": [
         {
-          "text": "작업과 기간의 일정 배치",
+          "text": "변경 발생 시 합의된 기준 변경사항을 확정하고 후속 작업을 수행하기 위한 출발점",
           "isCorrect": true
         },
         {
-          "text": "객체 간 상속 관계",
+          "text": "아직 아무도 동의하지 않은 임시 아이디어",
           "isCorrect": false
         },
         {
-          "text": "프로그램 실행 속도 그래프",
+          "text": "개발자가 개인 PC에만 저장한 파일",
           "isCorrect": false
         },
         {
-          "text": "데이터베이스 정규화 결과",
+          "text": "일정과 무관한 색상 팔레트",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "pm-q4",
-      "type": "select",
-      "text": "PERT/CPM 계열의 도구가 주로 다루는 것은?",
-      "options": [
-        {
-          "text": "작업 간 의존성과 일정, 특히 중요 경로",
-          "isCorrect": true
-        },
-        {
-          "text": "문자열 인코딩 방식",
-          "isCorrect": false
-        },
-        {
-          "text": "디자인 색상 팔레트",
-          "isCorrect": false
-        },
-        {
-          "text": "원격 저장소의 이름",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "pm-q5",
-      "type": "select",
-      "text": "프로젝트 관리 계획서에 포함되는 항목으로 보기 어려운 것은?",
-      "options": [
-        {
-          "text": "일정, 조직, 품질, 위험, 지원 도구",
-          "isCorrect": false
-        },
-        {
-          "text": "프로젝트 목표와 범위",
-          "isCorrect": false
-        },
-        {
-          "text": "버전 관리 시스템의 내부 구현 코드",
-          "isCorrect": true
-        },
-        {
-          "text": "리소스와 책임 분담",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": "pm-q6",
+      "id": "pm-05",
       "type": "answer",
-      "text": "프로젝트 관리에서 많이 쓰는 지원 도구의 예로 슬라이드에 나온 것은?",
-      "answer": "Excel 또는 MS Project",
-      "distractors": [
-        "Paint",
-        "Notepad only",
-        "Calculator only"
-      ]
-    },
-    {
-      "id": "pm-q7",
-      "type": "select",
-      "text": "프로젝트 실패 원인으로 가장 적절한 것은?",
+      "questionText": "프로젝트에서 다루는 주요 베이스라인을 순서대로 쓰면?",
       "options": [
         {
-          "text": "부족한 관리 기술과 불명확한 소프트웨어 관점",
+          "text": "요구사항, 계획, 기능, 제품, 배포 베이스라인",
           "isCorrect": true
         },
         {
-          "text": "항상 너무 많은 테스트",
+          "text": "코딩, 빌드, 테스트, 삭제, 백업",
           "isCorrect": false
         },
         {
-          "text": "너무 강한 형상 관리",
+          "text": "입력, 출력, 질의, 수정, 보고",
           "isCorrect": false
         },
         {
-          "text": "문서가 너무 체계적임",
+          "text": "문화, 자동화, 린, 측정, 공유",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-06",
+      "type": "short",
+      "questionText": "WBS의 핵심 목적은?",
+      "options": [
+        {
+          "text": "프로젝트 전체 목표를 추정 가능한 독립 태스크가 될 때까지 트리 형태로 분할하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "완료된 파일만 압축하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 커밋 해시를 계산하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "서버 트래픽만 측정하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-07",
+      "type": "short",
+      "questionText": "Gantt Chart의 특징은?",
+      "options": [
+        {
+          "text": "바 차트 형태로 작업 기간과 일정을 표현한다",
+          "isCorrect": true
+        },
+        {
+          "text": "원과 화살표로 의존성을 표현한다",
+          "isCorrect": false
+        },
+        {
+          "text": "코드 복잡도만 계산한다",
+          "isCorrect": false
+        },
+        {
+          "text": "품질 속성을 FURPS로 분류한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-08",
+      "type": "short",
+      "questionText": "PERT/CPM 차트에서 임계 경로(Critical Path)는?",
+      "options": [
+        {
+          "text": "각 경로의 태스크 수행 일수 합이 가장 큰 경로",
+          "isCorrect": true
+        },
+        {
+          "text": "가장 많은 개발자가 선호하는 UI 경로",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소까지의 네트워크 경로",
+          "isCorrect": false
+        },
+        {
+          "text": "가장 짧은 파일명 목록",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-09",
+      "type": "short",
+      "questionText": "COCOMO/COCOMO II가 비용 산정에 사용하는 기본 규모 개념은?",
+      "options": [
+        {
+          "text": "KDSI와 소프트웨어 복잡도, PM, TDEV",
+          "isCorrect": true
+        },
+        {
+          "text": "CALMS와 Shift Left",
+          "isCorrect": false
+        },
+        {
+          "text": "DET와 RET만",
+          "isCorrect": false
+        },
+        {
+          "text": "JAD와 인터뷰만",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-10",
+      "type": "short",
+      "questionText": "Wide Band Delphi의 특징은?",
+      "options": [
+        {
+          "text": "다수 전문가가 요구사항을 바탕으로 규모를 추정하고 익명 결과를 공유하며 합의한다",
+          "isCorrect": true
+        },
+        {
+          "text": "한 명의 개발자가 즉시 감으로 결정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 산정을 코드 라인 수로만 한다",
+          "isCorrect": false
+        },
+        {
+          "text": "사용자 의견을 절대 받지 않는다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-11",
+      "type": "short",
+      "questionText": "파킨슨의 법칙이 비용·일정 산정에서 시사하는 것은?",
+      "options": [
+        {
+          "text": "일이 할당된 시간만큼 늘어나며 실제 규모보다 가용 예산과 인력에 일정이 맞춰질 수 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "일정은 항상 기능 수와 정확히 비례한다",
+          "isCorrect": false
+        },
+        {
+          "text": "인력이 많으면 의사소통 비용이 0이 된다",
+          "isCorrect": false
+        },
+        {
+          "text": "예산은 품질과 무관하다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-12",
+      "type": "short",
+      "questionText": "프로젝트 위험 관리가 필요한 대표 상황은?",
+      "options": [
+        {
+          "text": "요구사항의 빈번한 변경과 팀원 부적절성으로 재작업과 의사소통 증가가 생길 때",
+          "isCorrect": true
+        },
+        {
+          "text": "요구사항이 완전히 고정된 작은 프로젝트",
+          "isCorrect": false
+        },
+        {
+          "text": "팀원이 모두 같은 일을 정확히 이해하는 경우",
+          "isCorrect": false
+        },
+        {
+          "text": "변경이 전혀 없는 문서 작업",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-13",
+      "type": "answer",
+      "questionText": "형상 관리자(CM)의 역할은?",
+      "options": [
+        {
+          "text": "베이스라인 산출물 관리와 변경 요청 처리",
+          "isCorrect": true
+        },
+        {
+          "text": "제품 백로그 우선순위 결정",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 서버 장애 자동 복구만 담당",
+          "isCorrect": false
+        },
+        {
+          "text": "고객 인터뷰 질문지 작성만 담당",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-14",
+      "type": "short",
+      "questionText": "중앙집중형 팀 구조가 적합한 경우는?",
+      "options": [
+        {
+          "text": "작업 목록이 단순하거나 충분히 이해되어 있고 유능한 리더가 문제 해결을 신속히 할 수 있는 경우",
+          "isCorrect": true
+        },
+        {
+          "text": "문제가 매우 복잡하고 모든 의사결정을 구성원 합의로 해야 하는 경우",
+          "isCorrect": false
+        },
+        {
+          "text": "대규모 장기 프로젝트에서 의사소통 패턴이 복잡한 경우",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 팀원이 독립적으로만 일해야 하는 경우",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-15",
+      "type": "short",
+      "questionText": "PMO의 역할로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "전사 차원에서 프로젝트 포트폴리오, 모니터링, 리스크 해결 지원, 단위 PM 지원과 통제를 수행한다",
+          "isCorrect": true
+        },
+        {
+          "text": "개별 개발자의 코드 스타일만 감시한다",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 원격 저장소 이름을 바꾼다",
+          "isCorrect": false
+        },
+        {
+          "text": "모든 요구사항을 코드로 자동 변환한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-16",
+      "type": "short",
+      "questionText": "프로젝트 지원 도구의 기능으로 적절하지 않은 것은?",
+      "options": [
+        {
+          "text": "요구사항을 몰래 삭제하는 기능",
+          "isCorrect": true
+        },
+        {
+          "text": "WBS 생성과 태스크 할당",
+          "isCorrect": false
+        },
+        {
+          "text": "진도 관리와 이슈 제기",
+          "isCorrect": false
+        },
+        {
+          "text": "협업 공간과 자료 공유",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-17",
+      "type": "answer",
+      "questionText": "품질 관리자(QE)의 역할은?",
+      "options": [
+        {
+          "text": "리뷰와 테스트 활동을 계획하고 추진해 산출물 오류 확인과 결함 검출을 지원한다",
+          "isCorrect": true
+        },
+        {
+          "text": "원격 저장소 URL만 관리한다",
+          "isCorrect": false
+        },
+        {
+          "text": "제품 백로그 우선순위만 결정한다",
+          "isCorrect": false
+        },
+        {
+          "text": "클라우드 비용 청구서만 작성한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-18",
+      "type": "short",
+      "questionText": "하이브리드 팀 구조의 특징은?",
+      "options": [
+        {
+          "text": "중요 의사결정은 중앙집중형으로, 팀 내부 운영은 분산형으로 가져가는 계층형 구조",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 의사결정을 한 명의 개발자에게만 맡기는 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "팀 간 의사소통을 금지하는 구조",
+          "isCorrect": false
+        },
+        {
+          "text": "프로젝트 관리자가 없는 완전 무작위 구조",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pm-19",
+      "type": "short",
+      "questionText": "프로젝트 관리 계획서 작성 시 포함해야 할 내용으로 적절하지 않은 것은?",
+      "options": [
+        {
+          "text": "변경 추적을 어렵게 하려고 관련 문서와 표준을 숨긴다",
+          "isCorrect": true
+        },
+        {
+          "text": "문서의 목적",
+          "isCorrect": false
+        },
+        {
+          "text": "관련 문서와 공식 베이스라인 산출물",
+          "isCorrect": false
+        },
+        {
+          "text": "팀 구조와 품질 관리 적용 기법",
           "isCorrect": false
         }
       ]

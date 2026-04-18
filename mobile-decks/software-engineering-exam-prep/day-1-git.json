@@ -2,139 +2,393 @@
   "title": "Day 1 Git 핵심 개념",
   "questions": [
     {
-      "id": "git-q1",
+      "id": "git-01",
       "type": "answer",
-      "text": "Version Control System(VCS)의 핵심 목적은?",
-      "answer": "변경 이력을 기록하고 과거 상태로 되돌릴 수 있게 하는 것",
-      "distractors": [
-        "실행 속도를 높이기 위해 코드를 압축하는 것",
-        "컴파일러 오류를 자동으로 없애는 것",
-        "배포 서버를 자동으로 생성하는 것"
-      ]
-    },
-    {
-      "id": "git-q2",
-      "type": "select",
-      "text": "분산 버전 관리 시스템(DVCS)의 설명으로 가장 적절한 것은?",
+      "questionText": "Version Control System(VCS)의 핵심 목적은?",
       "options": [
         {
-          "text": "중앙 서버 하나만 전체 히스토리를 보관한다",
-          "isCorrect": false
-        },
-        {
-          "text": "각 개발자가 저장소의 전체 히스토리를 로컬에 복제해 보유한다",
+          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
           "isCorrect": true
         },
         {
-          "text": "오직 파일 이름만 기록하고 내용 변경은 기록하지 않는다",
+          "text": "빌드 산출물을 자동 압축하는 것",
           "isCorrect": false
         },
         {
-          "text": "서버가 없으면 기록을 전혀 남길 수 없다",
+          "text": "코드 실행 속도를 높이는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "운영 서버를 대신 관리하는 것",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "git-q3",
-      "type": "select",
-      "text": "Git에서 스테이징 영역(Staging Area)의 역할로 가장 알맞은 것은?",
+      "id": "git-02",
+      "type": "short",
+      "questionText": "CVCS의 대표적인 약점으로 가장 적절한 것은?",
       "options": [
         {
-          "text": "원격 저장소의 복사본을 자동으로 최신화하는 곳",
-          "isCorrect": false
-        },
-        {
-          "text": "커밋할 변경 내용을 미리 모아두는 준비 영역",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": true
         },
         {
-          "text": "빌드 산출물만 저장하는 전용 폴더",
+          "text": "각 개발자가 전체 히스토리를 로컬에 가진다",
           "isCorrect": false
         },
         {
-          "text": "충돌이 해결된 파일만 보관하는 아카이브",
+          "text": "오프라인 커밋이 항상 가능하다",
+          "isCorrect": false
+        },
+        {
+          "text": "브랜치를 만들 수 없다",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "git-q4",
+      "id": "git-03",
+      "type": "short",
+      "questionText": "DVCS에서 clone의 의미로 가장 알맞은 것은?",
+      "options": [
+        {
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": true
+        },
+        {
+          "text": "현재 파일 하나만 내려받는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 브랜치 이름만 복사하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋 메시지만 동기화하는 것",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-04",
+      "type": "short",
+      "questionText": "Git이 delta 기반 VCS와 구별되는 저장 방식은?",
+      "options": [
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 커밋에서 파일 차이만 문자열로 저장한다",
+          "isCorrect": false
+        },
+        {
+          "text": "오직 마지막 버전의 파일만 저장한다",
+          "isCorrect": false
+        },
+        {
+          "text": "파일 이름만 저장하고 내용은 저장하지 않는다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-05",
       "type": "answer",
-      "text": "원격 저장소를 통째로 복제해 로컬 저장소를 만드는 Git 명령은?",
-      "answer": "clone",
-      "distractors": [
-        "commit",
-        "push",
-        "status"
-      ]
-    },
-    {
-      "id": "git-q5",
-      "type": "select",
-      "text": "Git merge conflict가 발생하는 상황으로 가장 적절한 것은?",
+      "questionText": "Git object database의 네 가지 기본 객체는?",
       "options": [
         {
-          "text": "서로 다른 브랜치에서 같은 파일의 같은 부분을 다르게 수정했을 때",
+          "text": "Blob, Tree, Commit, Tag",
           "isCorrect": true
         },
         {
-          "text": "커밋 메시지를 한 글자 틀렸을 때",
+          "text": "Working Tree, Index, Remote, Branch",
           "isCorrect": false
         },
         {
-          "text": "새 파일을 추가했을 때",
+          "text": "Fetch, Pull, Push, Merge",
           "isCorrect": false
         },
         {
-          "text": "원격 저장소가 비어 있을 때",
+          "text": "Modified, Staged, Committed, Untracked",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "git-q6",
-      "type": "select",
-      "text": "브랜치(branch)를 사용하는 가장 큰 이유는 무엇인가?",
+      "id": "git-06",
+      "type": "short",
+      "questionText": "Git에서 content-addressable hash를 쓰는 가장 중요한 이유는?",
       "options": [
         {
-          "text": "동시에 여러 기능 개발이나 실험을 분리해 진행하기 위해서",
+          "text": "내용에 기반한 ID로 위변조와 손상을 감지할 수 있기 때문이다",
           "isCorrect": true
         },
         {
-          "text": "모든 커밋을 자동으로 삭제하기 위해서",
+          "text": "커밋 메시지를 자동 번역하기 위해서",
           "isCorrect": false
         },
         {
-          "text": "저장소 크기를 0으로 만들기 위해서",
+          "text": "네트워크 없이 push하기 위해서",
           "isCorrect": false
         },
         {
-          "text": "오직 배포 직전에만 파일을 열 수 있게 하기 위해서",
+          "text": "파일 이름 충돌을 막기 위해서만",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "git-q7",
+      "id": "git-07",
+      "type": "answer",
+      "questionText": "SHA-1 해시의 길이는 몇 비트인가?",
+      "options": [
+        {
+          "text": "160비트",
+          "isCorrect": true
+        },
+        {
+          "text": "64비트",
+          "isCorrect": false
+        },
+        {
+          "text": "128비트",
+          "isCorrect": false
+        },
+        {
+          "text": "256비트만 사용한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-08",
+      "type": "short",
+      "questionText": "Git의 세 가지 상태를 올바르게 나열한 것은?",
+      "options": [
+        {
+          "text": "Modified, Staged, Committed",
+          "isCorrect": true
+        },
+        {
+          "text": "Fetched, Pulled, Pushed",
+          "isCorrect": false
+        },
+        {
+          "text": "Local, Central, Remote",
+          "isCorrect": false
+        },
+        {
+          "text": "Opened, Closed, Deleted",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-09",
       "type": "long",
-      "longText": "다음 그림은 Git의 기본 작업 흐름을 나타낸다. 변경 내용을 임시로 모아 커밋하기 전에 거치는 영역은 무엇인가?",
+      "longText": "그림의 Git 기본 흐름에서 커밋 전에 변경 내용을 선택적으로 모아두는 영역은 어디인가?",
       "imageUrl": "../../assets/exam-prep/git-flow.svg",
       "options": [
-        {
-          "text": "Working Tree",
-          "isCorrect": false
-        },
         {
           "text": "Staging Area",
           "isCorrect": true
         },
         {
-          "text": "Remote Repo",
+          "text": "Working Tree",
           "isCorrect": false
         },
         {
-          "text": "Merge Queue",
+          "text": "Local Repo",
+          "isCorrect": false
+        },
+        {
+          "text": "Remote Repo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-10",
+      "type": "short",
+      "questionText": "`git add`에 대한 설명으로 맞는 것은?",
+      "options": [
+        {
+          "text": "add한 시점의 내용만 스테이징되며 이후 수정하면 다시 add해야 한다",
+          "isCorrect": true
+        },
+        {
+          "text": "파일을 원격 저장소로 즉시 push한다",
+          "isCorrect": false
+        },
+        {
+          "text": "마지막 커밋을 삭제한다",
+          "isCorrect": false
+        },
+        {
+          "text": "브랜치를 자동으로 병합한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-11",
+      "type": "answer",
+      "questionText": "파일은 작업 디렉토리에 남기고 Git 추적만 중단할 때 쓰는 명령은?",
+      "options": [
+        {
+          "text": "git rm --cached <file>",
+          "isCorrect": true
+        },
+        {
+          "text": "git rm <file>",
+          "isCorrect": false
+        },
+        {
+          "text": "git restore <file>",
+          "isCorrect": false
+        },
+        {
+          "text": "git push --cached",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-12",
+      "type": "short",
+      "questionText": "`git reset --hard <commit>`의 위험으로 가장 적절한 것은?",
+      "options": [
+        {
+          "text": "작업 디렉토리와 스테이징 영역까지 지정 커밋 상태로 되돌려 미커밋 변경을 잃을 수 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "취소용 새 커밋을 만들어 히스토리를 보존한다",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소에서 데이터만 가져온다",
+          "isCorrect": false
+        },
+        {
+          "text": "스테이징만 취소하고 파일 수정은 유지한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-13",
+      "type": "short",
+      "questionText": "`git fetch`와 `git pull`의 차이는?",
+      "options": [
+        {
+          "text": "fetch는 데이터만 가져오고 pull은 일반적으로 fetch 후 현재 브랜치에 merge한다",
+          "isCorrect": true
+        },
+        {
+          "text": "fetch는 push이고 pull은 commit이다",
+          "isCorrect": false
+        },
+        {
+          "text": "fetch는 브랜치를 삭제하고 pull은 복구한다",
+          "isCorrect": false
+        },
+        {
+          "text": "둘 다 원격 저장소를 삭제한다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-14",
+      "type": "short",
+      "questionText": "3-way merge에서 충돌이 발생하는 대표 상황은?",
+      "options": [
+        {
+          "text": "공통 조상 이후 양쪽 브랜치가 같은 파일의 같은 부분을 다르게 수정한 경우",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋 메시지가 너무 짧은 경우",
+          "isCorrect": false
+        },
+        {
+          "text": "새 파일을 한쪽 브랜치에만 추가한 경우",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소 이름이 origin인 경우",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-15",
+      "type": "short",
+      "questionText": "메인 히스토리를 한 줄처럼 깔끔하게 만들기 위해 rebase를 요구하는 이유는?",
+      "options": [
+        {
+          "text": "작업 커밋을 메인 끝에 다시 붙여 fast-forward 가능한 상태를 만들 수 있기 때문이다",
+          "isCorrect": true
+        },
+        {
+          "text": "커밋 내용을 모두 삭제하기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "충돌 해결을 GitHub에 전부 맡기기 위해서",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소 URL을 자동 변경하기 위해서",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-16",
+      "type": "short",
+      "questionText": "Squash merge의 장점과 단점을 함께 설명한 것은?",
+      "options": [
+        {
+          "text": "여러 작은 커밋을 하나로 합쳐 메인 히스토리는 깔끔해지지만 상세 맥락과 브랜치 연결은 약해질 수 있다",
+          "isCorrect": true
+        },
+        {
+          "text": "모든 커밋을 그대로 보존하면서 충돌도 자동 해결한다",
+          "isCorrect": false
+        },
+        {
+          "text": "원격 저장소 권한 문제를 해결하는 인증 방식이다",
+          "isCorrect": false
+        },
+        {
+          "text": "스테이징 영역의 파일만 삭제하는 명령이다",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "git-17",
+      "type": "answer",
+      "questionText": "clone 시 Git이 원래 서버에 자동으로 붙이는 기본 원격 저장소 이름은?",
+      "options": [
+        {
+          "text": "origin",
+          "isCorrect": true
+        },
+        {
+          "text": "main",
+          "isCorrect": false
+        },
+        {
+          "text": "HEAD",
+          "isCorrect": false
+        },
+        {
+          "text": "index",
           "isCorrect": false
         }
       ]
