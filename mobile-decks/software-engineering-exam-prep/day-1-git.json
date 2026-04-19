@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "source": "bulk-quiz-manager",
-  "exportedAt": "2026-04-19T02:02:32.744Z",
+  "exportedAt": "2026-04-19T02:03:56.130Z",
   "title": "Day 1 Git 핵심 개념",
   "questions": [
     {
       "id": "q-2",
       "type": "blank",
-      "questionText": "Version Control System(VCS)의 ___\n핵심 목적은?",
+      "questionText": "Version Control System(VCS)의 ___핵심 목적은?",
       "options": [
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
@@ -1848,7 +1848,7 @@
     {
       "id": "q-82",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 원격 저장소 개념",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? ��격 저장소 개념",
       "options": [
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -2309,13 +2309,13 @@
   "quizzes": [
     {
       "id": 2,
-      "text": "Version Control System(VCS)의 ___\n핵심 목적은?",
+      "text": "Version Control System(VCS)의 ___핵심 목적은?",
       "images": [],
       "answer": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
       "distractors": [],
       "quizType": "blank",
       "type": "blank",
-      "html": "<div><br></div><div>Version Control System(VCS)의 ___</div><div>핵심 목적은? </div>"
+      "html": "<div><br></div><div>Version Control System(VCS)의 ___핵심 목적은? </div>"
     },
     {
       "id": 3,
