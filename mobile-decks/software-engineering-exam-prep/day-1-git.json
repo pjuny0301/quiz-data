@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "source": "bulk-quiz-manager",
-  "exportedAt": "2026-04-19T02:00:40.897Z",
+  "exportedAt": "2026-04-19T02:01:07.257Z",
   "title": "Day 1 Git 핵심 개념",
   "questions": [
     {
       "id": "q-1",
       "type": "short",
-      "questionText": "Version Control System(VCS)의 핵심 목적은? ___",
+      "questionText": "Version Control System(VCS)의 ___ 핵심 목적은?",
       "options": [
         {
           "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구",
@@ -2309,12 +2309,12 @@
   "quizzes": [
     {
       "id": 1,
-      "text": "Version Control System(VCS)의 핵심 목적은? ___",
+      "text": "Version Control System(VCS)의 ___ 핵심 목적은?",
       "images": [],
       "answer": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
       "distractors": [],
       "quizType": "basic",
-      "html": "<div>Version Control System(VCS)의 핵심 목적은? ___</div>"
+      "html": "<div>Version Control System(VCS)의 ___ 핵심 목적은? </div>"
     },
     {
       "id": 2,
