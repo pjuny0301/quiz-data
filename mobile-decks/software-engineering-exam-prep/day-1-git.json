@@ -1,51 +1,28 @@
 {
   "schemaVersion": 1,
   "source": "bulk-quiz-manager",
-  "exportedAt": "2026-04-19T02:01:07.257Z",
+  "exportedAt": "2026-04-19T02:02:32.744Z",
   "title": "Day 1 Git 핵심 개념",
   "questions": [
     {
-      "id": "q-1",
-      "type": "short",
-      "questionText": "Version Control System(VCS)의 ___ 핵심 목적은?",
-      "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구",
-          "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
-        {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
-          "isCorrect": false
-        },
-        {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "id": "q-2",
-      "type": "short",
-      "questionText": "CVCS의 대표적인 약점으로 가장 적절한 것은?",
+      "type": "blank",
+      "questionText": "Version Control System(VCS)의 ___\n핵심 목적은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": true
-        },
-        {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
-          "isCorrect": false
         },
         {
           "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+          "isCorrect": false
+        },
+        {
+          "text": "Blob, Tree, Commit, Tag",
           "isCorrect": false
         }
       ]
@@ -53,14 +30,14 @@
     {
       "id": "q-3",
       "type": "short",
-      "questionText": "DVCS에서 clone의 의미로 가장 알맞은 것은?",
+      "questionText": "CVCS의 대표적인 약점으로 가장 적절한 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -68,7 +45,7 @@
           "isCorrect": true
         },
         {
-          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+          "text": "Blob, Tree, Commit, Tag",
           "isCorrect": false
         }
       ]
@@ -76,18 +53,18 @@
     {
       "id": "q-4",
       "type": "short",
-      "questionText": "Git이 delta 기반 VCS와 구별되는 저장 방식은?",
+      "questionText": "DVCS에서 clone의 의미로 가장 알맞은 것은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "Blob, Tree, Commit, Tag",
           "isCorrect": false
         },
         {
@@ -99,15 +76,11 @@
     {
       "id": "q-5",
       "type": "short",
-      "questionText": "Git object database의 네 가지 기본 객체는?",
+      "questionText": "Git이 delta 기반 VCS와 구별되는 저장 방식은?",
       "options": [
         {
           "text": "Blob",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -115,6 +88,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -122,10 +99,10 @@
     {
       "id": "q-6",
       "type": "short",
-      "questionText": "Git에서 content-addressable hash를 쓰는 가장 중요한 이유는?",
+      "questionText": "Git object database의 네 가지 기본 객체는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -133,11 +110,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -145,14 +122,14 @@
     {
       "id": "q-7",
       "type": "short",
-      "questionText": "SHA-1 해시의 길이는 몇 비트인가?",
+      "questionText": "Git에서 content-addressable hash를 쓰는 가장 중요한 이유는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -160,7 +137,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -168,18 +145,18 @@
     {
       "id": "q-8",
       "type": "short",
-      "questionText": "Git의 세 가지 상태를 올바르게 나열한 것은?",
+      "questionText": "SHA-1 해시의 길이는 몇 비트인가?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -190,17 +167,12 @@
     },
     {
       "id": "q-9",
-      "type": "long",
-      "longText": "그림의 Git 기본 흐름에서 커밋 전에 변경 내용을 선택적으로 모아두는 영역은 어디인가?",
-      "imageUrl": "../../assets/exam-prep/git-flow.svg",
+      "type": "short",
+      "questionText": "Git의 세 가지 상태를 올바르게 나열한 것은?",
       "options": [
         {
           "text": "Staging Area",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -209,16 +181,21 @@
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+          "isCorrect": false
         }
       ]
     },
     {
       "id": "q-10",
-      "type": "short",
-      "questionText": "`git add`에 대한 설명으로 맞는 것은?",
+      "type": "long",
+      "longText": "그림의 Git 기본 흐름에서 커밋 전에 변경 내용을 선택적으로 모아두는 영역은 어디인가?",
+      "imageUrl": "../../assets/exam-prep/git-flow.svg",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -226,11 +203,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -238,14 +215,14 @@
     {
       "id": "q-11",
       "type": "short",
-      "questionText": "파일은 작업 디렉토리에 남기고 Git 추적만 중단할 때 쓰는 명령은?",
+      "questionText": "`git add`에 대한 설명으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -253,7 +230,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -261,18 +238,18 @@
     {
       "id": "q-12",
       "type": "short",
-      "questionText": "`git reset --hard <commit>`의 위험으로 가장 적절한 것은?",
+      "questionText": "파일은 작업 디렉토리에 남기고 Git 추적만 중단할 때 쓰는 명령은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -284,15 +261,11 @@
     {
       "id": "q-13",
       "type": "short",
-      "questionText": "`git fetch`와 `git pull`의 차이는?",
+      "questionText": "`git reset --hard <commit>`의 위험으로 가장 적절한 것은?",
       "options": [
         {
           "text": "fetch는 데이터만 가져오고 pull은 일반적으로 fetch 후 현재 브랜치에 merge한다",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -300,6 +273,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -307,10 +284,10 @@
     {
       "id": "q-14",
       "type": "short",
-      "questionText": "3-way merge에서 충돌이 발생하는 대표 상황은?",
+      "questionText": "`git fetch`와 `git pull`의 차이는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -318,11 +295,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -330,14 +307,14 @@
     {
       "id": "q-15",
       "type": "short",
-      "questionText": "메인 히스토리를 한 줄처럼 깔끔하게 만들기 위해 rebase를 요구하는 이유는?",
+      "questionText": "3-way merge에서 충돌이 발생하는 대표 상황은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -345,7 +322,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -353,18 +330,18 @@
     {
       "id": "q-16",
       "type": "short",
-      "questionText": "Squash merge의 장점과 단점을 함께 설명한 것은?",
+      "questionText": "메인 히스토리를 한 줄처럼 깔끔하게 만들기 위해 rebase를 요구하는 이유는?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -376,15 +353,11 @@
     {
       "id": "q-17",
       "type": "short",
-      "questionText": "clone 시 Git이 원래 서버에 자동으로 붙이는 기본 원격 저장소 이름은?",
+      "questionText": "Squash merge의 장점과 단점을 함께 설명한 것은?",
       "options": [
         {
           "text": "origin",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -392,6 +365,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -399,10 +376,10 @@
     {
       "id": "q-18",
       "type": "short",
-      "questionText": "Version Control이란?에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "clone 시 Git이 원래 서버에 자동으로 붙이는 기본 원격 저장소 이름은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -410,11 +387,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -422,14 +399,14 @@
     {
       "id": "q-19",
       "type": "short",
-      "questionText": "Local Version Control System에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Version Control이란?에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -437,7 +414,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -445,18 +422,18 @@
     {
       "id": "q-20",
       "type": "short",
-      "questionText": "Centralized Version Control System (CVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Local Version Control System에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -468,15 +445,11 @@
     {
       "id": "q-21",
       "type": "short",
-      "questionText": "Distributed Version Control System (DVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Centralized Version Control System (CVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
           "text": "Distributed Version Control System (DVCS)",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -484,6 +457,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -491,10 +468,10 @@
     {
       "id": "q-22",
       "type": "short",
-      "questionText": "Snapshots vs Deltas에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Distributed Version Control System (DVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -502,11 +479,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -514,14 +491,14 @@
     {
       "id": "q-23",
       "type": "short",
-      "questionText": "Git 내부 동작 원리에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Snapshots vs Deltas에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -529,7 +506,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -537,18 +514,18 @@
     {
       "id": "q-24",
       "type": "short",
-      "questionText": "Git의 locality 및 integrity에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Git 내부 동작 원리에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -560,15 +537,11 @@
     {
       "id": "q-25",
       "type": "short",
-      "questionText": "SHA(Secure Hash Algorithm)-1에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Git의 locality 및 integrity에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
           "text": "SHA(Secure Hash Algorithm)-1",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -576,6 +549,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -583,10 +560,10 @@
     {
       "id": "q-26",
       "type": "short",
-      "questionText": "Merkle Tree or Hash Tree에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "SHA(Secure Hash Algorithm)-1에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -594,11 +571,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -606,14 +583,14 @@
     {
       "id": "q-27",
       "type": "short",
-      "questionText": "Git은 데이터를 지우지 않는다에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Merkle Tree or Hash Tree에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -621,7 +598,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -629,18 +606,18 @@
     {
       "id": "q-28",
       "type": "short",
-      "questionText": "Git의 3가지 상태와 영역에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Git은 데이터를 지우지 않는다에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -652,15 +629,11 @@
     {
       "id": "q-29",
       "type": "short",
-      "questionText": "기본 Git Workflow에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Git의 3가지 상태와 영역에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
           "text": "기본 Git Workflow",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -668,6 +641,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -675,10 +652,10 @@
     {
       "id": "q-30",
       "type": "short",
-      "questionText": "파일의 생명주기에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "기본 Git Workflow에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -686,11 +663,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -698,14 +675,14 @@
     {
       "id": "q-31",
       "type": "short",
-      "questionText": "주요 명령어에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "파일의 생명주기에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -713,7 +690,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -721,18 +698,18 @@
     {
       "id": "q-32",
       "type": "short",
-      "questionText": "Git branch에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "주요 명령어에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -744,15 +721,11 @@
     {
       "id": "q-33",
       "type": "short",
-      "questionText": "Github 연결에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Git branch에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
           "text": "Github 연결",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -760,6 +733,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -767,10 +744,10 @@
     {
       "id": "q-34",
       "type": "short",
-      "questionText": "Git GUI에서 가장 먼저 잡아야 할 핵심 주제는?",
+      "questionText": "Github 연결에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -778,11 +755,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -790,14 +767,14 @@
     {
       "id": "q-35",
       "type": "short",
-      "questionText": "Version Control이란?에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Git GUI에서 가장 먼저 잡아야 할 핵심 주제는?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -805,7 +782,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -813,18 +790,18 @@
     {
       "id": "q-36",
       "type": "short",
-      "questionText": "Local Version Control System에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Version Control이란?에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -836,15 +813,11 @@
     {
       "id": "q-37",
       "type": "short",
-      "questionText": "Centralized Version Control System (CVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Local Version Control System에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
           "text": "중앙 집중형 버전 관리",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -852,6 +825,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -859,10 +836,10 @@
     {
       "id": "q-38",
       "type": "short",
-      "questionText": "Distributed Version Control System (DVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Centralized Version Control System (CVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -870,11 +847,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -882,14 +859,14 @@
     {
       "id": "q-39",
       "type": "short",
-      "questionText": "Snapshots vs Deltas에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Distributed Version Control System (DVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -897,7 +874,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -905,18 +882,18 @@
     {
       "id": "q-40",
       "type": "short",
-      "questionText": "Git 내부 동작 원리에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Snapshots vs Deltas에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -928,15 +905,11 @@
     {
       "id": "q-41",
       "type": "short",
-      "questionText": "Git의 locality 및 integrity에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Git 내부 동작 원리에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
           "text": "Nearly Every Operation Is Local",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -944,6 +917,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -951,10 +928,10 @@
     {
       "id": "q-42",
       "type": "short",
-      "questionText": "SHA(Secure Hash Algorithm)-1에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Git의 locality 및 integrity에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -962,11 +939,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -974,14 +951,14 @@
     {
       "id": "q-43",
       "type": "short",
-      "questionText": "Merkle Tree or Hash Tree에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "SHA(Secure Hash Algorithm)-1에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -989,7 +966,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -997,18 +974,18 @@
     {
       "id": "q-44",
       "type": "short",
-      "questionText": "Git은 데이터를 지우지 않는다에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Merkle Tree or Hash Tree에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1020,15 +997,11 @@
     {
       "id": "q-45",
       "type": "short",
-      "questionText": "Git의 3가지 상태와 영역에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Git은 데이터를 지우지 않는다에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
           "text": "The Three States",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1036,6 +1009,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1043,10 +1020,10 @@
     {
       "id": "q-46",
       "type": "short",
-      "questionText": "기본 Git Workflow에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Git의 3가지 상태와 영역에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1054,11 +1031,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1066,14 +1043,14 @@
     {
       "id": "q-47",
       "type": "short",
-      "questionText": "파일의 생명주기에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "기본 Git Workflow에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1081,7 +1058,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1089,18 +1066,18 @@
     {
       "id": "q-48",
       "type": "short",
-      "questionText": "주요 명령어에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "파일의 생명주기에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1112,15 +1089,11 @@
     {
       "id": "q-49",
       "type": "short",
-      "questionText": "Git branch에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "주요 명령어에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
           "text": "git branch",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1128,6 +1101,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1135,10 +1112,10 @@
     {
       "id": "q-50",
       "type": "short",
-      "questionText": "Github 연결에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Git branch에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1146,11 +1123,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1158,14 +1135,14 @@
     {
       "id": "q-51",
       "type": "short",
-      "questionText": "Git GUI에서 기억해야 할 기본 개념으로 맞는 것은?",
+      "questionText": "Github 연결에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1173,7 +1150,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1181,18 +1158,18 @@
     {
       "id": "q-52",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Version Control System (VCS)",
+      "questionText": "Git GUI에서 기억해야 할 기본 개념으로 맞는 것은?",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1204,15 +1181,11 @@
     {
       "id": "q-53",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 로컬 버전 관리 방식",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Version Control System (VCS)",
       "options": [
         {
           "text": "Local Version Control System",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1220,6 +1193,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1227,10 +1204,10 @@
     {
       "id": "q-54",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 중앙 집중형 버전 관리",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 로컬 버전 관리 방식",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1238,11 +1215,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1250,14 +1227,14 @@
     {
       "id": "q-55",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 분산 버전 관리 시스템",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 중앙 집중형 버전 관리",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1265,7 +1242,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1273,18 +1250,18 @@
     {
       "id": "q-56",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? A Short History of Git",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 분산 버전 관리 시스템",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1296,15 +1273,11 @@
     {
       "id": "q-57",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? < Storing data as changes to a base version of each file >",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? A Short History of Git",
       "options": [
         {
           "text": "Snapshots vs Deltas",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1312,6 +1285,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1319,10 +1296,10 @@
     {
       "id": "q-58",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git is “Object Database”",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? < Storing data as changes to a base version of each file >",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1330,11 +1307,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1342,14 +1319,14 @@
     {
       "id": "q-59",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Object의 식별",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git is “Object Database”",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1357,7 +1334,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1365,18 +1342,18 @@
     {
       "id": "q-60",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Nearly Every Operation Is Local",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Object의 식별",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1388,15 +1365,11 @@
     {
       "id": "q-61",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Hash 함수란?",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Nearly Every Operation Is Local",
       "options": [
         {
           "text": "SHA(Secure Hash Algorithm)-1",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1404,6 +1377,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1411,10 +1388,10 @@
     {
       "id": "q-62",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? A Merkle Tree (or hash tree) is a",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Hash 함수란?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1422,11 +1399,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1434,14 +1411,14 @@
     {
       "id": "q-63",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Generally Only Adds Data",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? A Merkle Tree (or hash tree) is a",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1449,7 +1426,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1457,18 +1434,18 @@
     {
       "id": "q-64",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? The Three States",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Generally Only Adds Data",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1480,15 +1457,11 @@
     {
       "id": "q-65",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Command Line vs GUI",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? The Three States",
       "options": [
         {
           "text": "기본 Git Workflow",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1496,6 +1469,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1503,10 +1480,10 @@
     {
       "id": "q-66",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Basics",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Command Line vs GUI",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1514,11 +1491,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1526,14 +1503,14 @@
     {
       "id": "q-67",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 저장소 얻는 방법 2가지",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Basics",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1541,7 +1518,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1549,18 +1526,18 @@
     {
       "id": "q-68",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? git clone (저장소 복제)",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 저장소 얻는 방법 2가지",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1572,15 +1549,11 @@
     {
       "id": "q-69",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Untracked",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git clone (저장소 복제)",
       "options": [
         {
           "text": "파일의 생명주기",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1588,6 +1561,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1595,10 +1572,10 @@
     {
       "id": "q-70",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 초기 상태: ”git init” or ”git clone <url>”",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Untracked",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1606,11 +1583,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1618,14 +1595,14 @@
     {
       "id": "q-71",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? git status",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 초기 상태: ”git init” or ”git clone <url>”",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1633,7 +1610,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1641,18 +1618,18 @@
     {
       "id": "q-72",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Staging Modified Files",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git status",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1664,15 +1641,11 @@
     {
       "id": "q-73",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Staging modified files",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Staging Modified Files",
       "options": [
         {
           "text": "기본 Git Workflow",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1680,6 +1653,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1687,10 +1664,10 @@
     {
       "id": "q-74",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? .gitignore (버전관리 제외목록 지정)",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Staging modified files",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1698,11 +1675,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1710,14 +1687,14 @@
     {
       "id": "q-75",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 변경 내용 확인",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? .gitignore (버전관리 제외목록 지정)",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1725,7 +1702,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1733,18 +1710,18 @@
     {
       "id": "q-76",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git commit",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 변경 내용 확인",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1756,15 +1733,11 @@
     {
       "id": "q-77",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 파일 이동",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git commit",
       "options": [
         {
           "text": "기본 Git Workflow",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1772,6 +1745,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1779,10 +1756,10 @@
     {
       "id": "q-78",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git commit --amend",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 파일 이동",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1790,11 +1767,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1802,14 +1779,14 @@
     {
       "id": "q-79",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 명령어 Working Directory Staging Area Repository ��미",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git commit --amend",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1817,7 +1794,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1825,18 +1802,18 @@
     {
       "id": "q-80",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 구분 명령어 Repository에 미치는 영향",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 명령어 Working Directory Staging Area Repository 의미",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1848,15 +1825,11 @@
     {
       "id": "q-81",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 원격 저장소 개념",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 구분 명령어 Repository에 미치는 영향",
       "options": [
         {
           "text": "기본 Git Workflow",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1864,6 +1837,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1871,10 +1848,10 @@
     {
       "id": "q-82",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git remote",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 원격 저장소 개념",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1882,11 +1859,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1894,14 +1871,14 @@
     {
       "id": "q-83",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? git fetch [<원격저장소명>[<브랜치명>]]",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git remote",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -1909,7 +1886,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1917,18 +1894,18 @@
     {
       "id": "q-84",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 작업 내용 명령어 비고",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git fetch [<원격저장소명>[<브랜치명>]]",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -1940,15 +1917,11 @@
     {
       "id": "q-85",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? git branch",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 작업 내용 명령어 비고",
       "options": [
         {
           "text": "Git branch",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -1956,6 +1929,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1963,10 +1940,10 @@
     {
       "id": "q-86",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? git merge",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git branch",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -1974,11 +1951,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -1986,14 +1963,14 @@
     {
       "id": "q-87",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Merge의 핵심",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? git merge",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -2001,7 +1978,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2009,18 +1986,18 @@
     {
       "id": "q-88",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 코드 작성시 요구사항",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git Merge의 핵심",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -2032,15 +2009,11 @@
     {
       "id": "q-89",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? SSH Key 생성 (Windows OpenSSH)",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 코드 작성시 요구사항",
       "options": [
         {
           "text": "Github 연결",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -2048,6 +2021,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2055,10 +2032,10 @@
     {
       "id": "q-90",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 원격 저장소 주소변경",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? SSH Key 생성 (Windows OpenSSH)",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -2066,11 +2043,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2078,14 +2055,14 @@
     {
       "id": "q-91",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? gitk --all : branch, merge 상태 확인",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Git 원격 저장소 주소변경",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -2093,7 +2070,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2101,18 +2078,18 @@
     {
       "id": "q-92",
       "type": "short",
-      "questionText": "초기 상태에 대한 설명으로 맞는 것은?",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? gitk --all : branch, merge 상태 확인",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -2124,15 +2101,11 @@
     {
       "id": "q-93",
       "type": "short",
-      "questionText": "gitk --all에 대한 설명으로 맞는 것은?",
+      "questionText": "초기 상태에 대한 설명으로 맞는 것은?",
       "options": [
         {
           "text": "branch",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -2140,6 +2113,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2147,10 +2124,10 @@
     {
       "id": "q-94",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파일이나 프로젝트의 변경 이력을 기록하는 시스템",
+      "questionText": "gitk --all에 대한 설명으로 맞는 것은?",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -2158,11 +2135,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2170,14 +2147,14 @@
     {
       "id": "q-95",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파일을 다른 디렉토리에 복사하는 방식",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파일이나 프로젝트의 변경 이력을 기록하는 시스템",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -2185,7 +2162,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2193,18 +2170,18 @@
     {
       "id": "q-96",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 예: CVS, Subversion, Perforce",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 파일을 다른 디렉토리에 복사하는 방식",
       "options": [
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
-        },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         },
         {
@@ -2216,15 +2193,11 @@
     {
       "id": "q-97",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? 예: Git, Mercurial, Darcs",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 예: CVS, Subversion, Perforce",
       "options": [
         {
           "text": "Distributed Version Control System (DVCS)",
           "isCorrect": true
-        },
-        {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -2232,6 +2205,10 @@
         },
         {
           "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2239,10 +2216,10 @@
     {
       "id": "q-98",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? Linux Kernel 개발 과정에서 시작",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? 예: Git, Mercurial, Darcs",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
@@ -2250,11 +2227,11 @@
           "isCorrect": true
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2262,14 +2239,14 @@
     {
       "id": "q-99",
       "type": "short",
-      "questionText": "다음 설명과 가장 관련 깊은 주제는? < Storing data as snapshots of the project over time >",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? Linux Kernel 개발 과정에서 시작",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
           "isCorrect": false
         },
         {
-          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
           "isCorrect": false
         },
         {
@@ -2277,7 +2254,7 @@
           "isCorrect": true
         },
         {
-          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
           "isCorrect": false
         }
       ]
@@ -2285,11 +2262,34 @@
     {
       "id": "q-100",
       "type": "short",
+      "questionText": "다음 설명과 가장 관련 깊은 주제는? < Storing data as snapshots of the project over time >",
+      "options": [
+        {
+          "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+          "isCorrect": false
+        },
+        {
+          "text": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+          "isCorrect": false
+        },
+        {
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+          "isCorrect": false
+        },
+        {
+          "text": "Git 내부 동작 원리",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-101",
+      "type": "blank",
       "questionText": "다음 설명과 가장 관련 깊은 주제는? Blob(Binary large object): 파일 내용 저장",
       "options": [
         {
-          "text": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-          "isCorrect": false
+          "text": "정답 미입력",
+          "isCorrect": true
         },
         {
           "text": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
@@ -2300,503 +2300,504 @@
           "isCorrect": false
         },
         {
-          "text": "Git 내부 동작 원리",
-          "isCorrect": true
+          "text": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+          "isCorrect": false
         }
       ]
     }
   ],
   "quizzes": [
     {
-      "id": 1,
-      "text": "Version Control System(VCS)의 ___ 핵심 목적은?",
-      "images": [],
-      "answer": "파일이나 프로젝트의 변경 이력을 기록하고 복구, 비교, 책임 추적을 가능하게 하는 것",
-      "distractors": [],
-      "quizType": "basic",
-      "html": "<div>Version Control System(VCS)의 ___ 핵심 목적은? </div>"
-    },
-    {
       "id": 2,
-      "text": "CVCS의 대표적인 약점으로 가장 적절한 것은?",
+      "text": "Version Control System(VCS)의 ___\n핵심 목적은?",
       "images": [],
       "answer": "중앙 서버 장애 시 전체 작업이 막히고 히스토리 유실 위험이 생긴다",
+      "distractors": [],
+      "quizType": "blank",
+      "type": "blank",
+      "html": "<div><br></div><div>Version Control System(VCS)의 ___</div><div>핵심 목적은? </div>"
+    },
+    {
+      "id": 3,
+      "text": "CVCS의 대표적인 약점으로 가장 적절한 것은?",
+      "images": [],
+      "answer": "저장소의 전체 히스토리를 로컬에 복제하는 것",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>CVCS의 대표적인 약점으로 가장 적절한 것은?</div>"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "DVCS에서 clone의 의미로 가장 알맞은 것은?",
       "images": [],
-      "answer": "저장소의 전체 히스토리를 로컬에 복제하는 것",
+      "answer": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>DVCS에서 clone의 의미로 가장 알맞은 것은?</div>"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Git이 delta 기반 VCS와 구별되는 저장 방식은?",
       "images": [],
-      "answer": "커밋마다 프로젝트 스냅샷을 기록하고 변경 없는 파일은 참조로 유지한다",
+      "answer": "Blob, Tree, Commit, Tag",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git이 delta 기반 VCS와 구별되는 저장 방식은?</div>"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Git object database의 네 가지 기본 객체는?",
       "images": [],
-      "answer": "Blob, Tree, Commit, Tag",
+      "answer": "내용에 기반한 ID로 위변조와 손상을 감지할 수 있기 때문이다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git object database의 네 가지 기본 객체는?</div>"
     },
     {
-      "id": 6,
+      "id": 7,
       "text": "Git에서 content-addressable hash를 쓰는 가장 중요한 이유는?",
       "images": [],
-      "answer": "내용에 기반한 ID로 위변조와 손상을 감지할 수 있기 때문이다",
+      "answer": "160비트",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git에서 content-addressable hash를 쓰는 가장 중요한 이유는?</div>"
     },
     {
-      "id": 7,
+      "id": 8,
       "text": "SHA-1 해시의 길이는 몇 비트인가?",
       "images": [],
-      "answer": "160비트",
+      "answer": "Modified, Staged, Committed",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>SHA-1 해시의 길이는 몇 비트인가?</div>"
     },
     {
-      "id": 8,
+      "id": 9,
       "text": "Git의 세 가지 상태를 올바르게 나열한 것은?",
       "images": [],
-      "answer": "Modified, Staged, Committed",
+      "answer": "Staging Area",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git의 세 가지 상태를 올바르게 나열한 것은?</div>"
     },
     {
-      "id": 9,
+      "id": 10,
       "text": "그림의 Git 기본 흐름에서 커밋 전에 변경 내용을 선택적으로 모아두는 영역은 어디인가?",
       "images": [
         "../../assets/exam-prep/git-flow.svg"
       ],
-      "answer": "Staging Area",
+      "answer": "add한 시점의 내용만 스테이징되며 이후 수정하면 다시 add해야 한다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>그림의 Git 기본 흐름에서 커밋 전에 변경 내용을 선택적으로 모아두는 영역은 어디인가?</div><div><img src=\"../../assets/exam-prep/git-flow.svg\" class=\"max-w-md max-h-64 object-contain my-2 rounded-md border border-gray-200 inline-block shadow-sm\" alt=\"Quiz image\"></div>"
     },
     {
-      "id": 10,
+      "id": 11,
       "text": "`git add`에 대한 설명으로 맞는 것은?",
       "images": [],
-      "answer": "add한 시점의 내용만 스테이징되며 이후 수정하면 다시 add해야 한다",
+      "answer": "git rm --cached <file>",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>`git add`에 대한 설명으로 맞는 것은?</div>"
     },
     {
-      "id": 11,
+      "id": 12,
       "text": "파일은 작업 디렉토리에 남기고 Git 추적만 중단할 때 쓰는 명령은?",
       "images": [],
-      "answer": "git rm --cached <file>",
+      "answer": "작업 디렉토리와 스테이징 영역까지 지정 커밋 상태로 되돌려 미커밋 변경을 잃을 수 있다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>파일은 작업 디렉토리에 남기고 Git 추적만 중단할 때 쓰는 명령은?</div>"
     },
     {
-      "id": 12,
+      "id": 13,
       "text": "`git reset --hard <commit>`의 위험으로 가장 적절한 것은?",
       "images": [],
-      "answer": "작업 디렉토리와 스테이징 영역까지 지정 커밋 상태로 되돌려 미커밋 변경을 잃을 수 있다",
+      "answer": "fetch는 데이터만 가져오고 pull은 일반적으로 fetch 후 현재 브랜치에 merge한다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>`git reset --hard &lt;commit&gt;`의 위험으로 가장 적절한 것은?</div>"
     },
     {
-      "id": 13,
+      "id": 14,
       "text": "`git fetch`와 `git pull`의 차이는?",
       "images": [],
-      "answer": "fetch는 데이터만 가져오고 pull은 일반적으로 fetch 후 현재 브랜치에 merge한다",
+      "answer": "공통 조상 이후 양쪽 브랜치가 같은 파일의 같은 부분을 다르게 수정한 경우",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>`git fetch`와 `git pull`의 차이는?</div>"
     },
     {
-      "id": 14,
+      "id": 15,
       "text": "3-way merge에서 충돌이 발생하는 대표 상황은?",
       "images": [],
-      "answer": "공통 조상 이후 양쪽 브랜치가 같은 파일의 같은 부분을 다르게 수정한 경우",
+      "answer": "작업 커밋을 메인 끝에 다시 붙여 fast-forward 가능한 상태를 만들 수 있기 때문이다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>3-way merge에서 충돌이 발생하는 대표 상황은?</div>"
     },
     {
-      "id": 15,
+      "id": 16,
       "text": "메인 히스토리를 한 줄처럼 깔끔하게 만들기 위해 rebase를 요구하는 이유는?",
       "images": [],
-      "answer": "작업 커밋을 메인 끝에 다시 붙여 fast-forward 가능한 상태를 만들 수 있기 때문이다",
+      "answer": "여러 작은 커밋을 하나로 합쳐 메인 히스토리는 깔끔해지지만 상세 맥락과 브랜치 연결은 약해질 수 있다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>메인 히스토리를 한 줄처럼 깔끔하게 만들기 위해 rebase를 요구하는 이유는?</div>"
     },
     {
-      "id": 16,
+      "id": 17,
       "text": "Squash merge의 장점과 단점을 함께 설명한 것은?",
       "images": [],
-      "answer": "여러 작은 커밋을 하나로 합쳐 메인 히스토리는 깔끔해지지만 상세 맥락과 브랜치 연결은 약해질 수 있다",
+      "answer": "origin",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Squash merge의 장점과 단점을 함께 설명한 것은?</div>"
     },
     {
-      "id": 17,
+      "id": 18,
       "text": "clone 시 Git이 원래 서버에 자동으로 붙이는 기본 원격 저장소 이름은?",
       "images": [],
-      "answer": "origin",
+      "answer": "Version Control이란?",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>clone 시 Git이 원래 서버에 자동으로 붙이는 기본 원격 저장소 이름은?</div>"
     },
     {
-      "id": 18,
+      "id": 19,
       "text": "Version Control이란?에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Version Control이란?",
+      "answer": "Local Version Control System",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Version Control이란?에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 19,
+      "id": 20,
       "text": "Local Version Control System에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Local Version Control System",
+      "answer": "Centralized Version Control System (CVCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Local Version Control System에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 20,
+      "id": 21,
       "text": "Centralized Version Control System (CVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Centralized Version Control System (CVCS)",
+      "answer": "Distributed Version Control System (DVCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Centralized Version Control System (CVCS)에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 21,
+      "id": 22,
       "text": "Distributed Version Control System (DVCS)에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Distributed Version Control System (DVCS)",
+      "answer": "Snapshots vs Deltas",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Distributed Version Control System (DVCS)에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 22,
+      "id": 23,
       "text": "Snapshots vs Deltas에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Snapshots vs Deltas",
+      "answer": "Git 내부 동작 원리",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Snapshots vs Deltas에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 23,
+      "id": 24,
       "text": "Git 내부 동작 원리에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Git 내부 동작 원리",
+      "answer": "Git의 locality 및 integrity",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git 내부 동작 원리에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 24,
+      "id": 25,
       "text": "Git의 locality 및 integrity에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Git의 locality 및 integrity",
+      "answer": "SHA(Secure Hash Algorithm)-1",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git의 locality 및 integrity에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 25,
+      "id": 26,
       "text": "SHA(Secure Hash Algorithm)-1에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "SHA(Secure Hash Algorithm)-1",
+      "answer": "Merkle Tree or Hash Tree",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>SHA(Secure Hash Algorithm)-1에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 26,
+      "id": 27,
       "text": "Merkle Tree or Hash Tree에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Merkle Tree or Hash Tree",
+      "answer": "Git은 데이터를 지우지 않는다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Merkle Tree or Hash Tree에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 27,
+      "id": 28,
       "text": "Git은 데이터를 지우지 않는다에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Git은 데이터를 지우지 않는다",
+      "answer": "Git의 3가지 상태와 영역",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git은 데이터를 지우지 않는다에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 28,
+      "id": 29,
       "text": "Git의 3가지 상태와 영역에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Git의 3가지 상태와 영역",
+      "answer": "기본 Git Workflow",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git의 3가지 상태와 영역에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 29,
+      "id": 30,
       "text": "기본 Git Workflow에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "기본 Git Workflow",
+      "answer": "파일의 생명주기",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>기본 Git Workflow에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 30,
+      "id": 31,
       "text": "파일의 생명주기에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "파일의 생명주기",
+      "answer": "주요 명령어",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>파일의 생명주기에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 31,
+      "id": 32,
       "text": "주요 명령어에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "주요 명령어",
+      "answer": "Git branch",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>주요 명령어에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 32,
+      "id": 33,
       "text": "Git branch에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Git branch",
+      "answer": "Github 연결",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git branch에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 33,
+      "id": 34,
       "text": "Github 연결에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Github 연결",
+      "answer": "Git GUI",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Github 연결에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 34,
+      "id": 35,
       "text": "Git GUI에서 가장 먼저 잡아야 할 핵심 주제는?",
       "images": [],
-      "answer": "Git GUI",
+      "answer": "Version Control System (VCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git GUI에서 가장 먼저 잡아야 할 핵심 주제는?</div>"
     },
     {
-      "id": 35,
+      "id": 36,
       "text": "Version Control이란?에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Version Control System (VCS)",
+      "answer": "로컬 버전 관리 방식",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Version Control이란?에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 36,
+      "id": 37,
       "text": "Local Version Control System에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "로컬 버전 관리 방식",
+      "answer": "중앙 집중형 버전 관리",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Local Version Control System에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 37,
+      "id": 38,
       "text": "Centralized Version Control System (CVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "중앙 집중형 버전 관리",
+      "answer": "분산 버전 관리 시스템",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Centralized Version Control System (CVCS)에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 38,
+      "id": 39,
       "text": "Distributed Version Control System (DVCS)에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "분산 버전 관리 시스템",
+      "answer": "< Storing data as changes to a base version of each file >",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Distributed Version Control System (DVCS)에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 39,
+      "id": 40,
       "text": "Snapshots vs Deltas에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "< Storing data as changes to a base version of each file >",
+      "answer": "Git is “Object Database”",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Snapshots vs Deltas에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 40,
+      "id": 41,
       "text": "Git 내부 동작 원리에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Git is “Object Database”",
+      "answer": "Nearly Every Operation Is Local",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git 내부 동작 원리에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 41,
+      "id": 42,
       "text": "Git의 locality 및 integrity에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Nearly Every Operation Is Local",
+      "answer": "Hash 함수란?",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git의 locality 및 integrity에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 42,
+      "id": 43,
       "text": "SHA(Secure Hash Algorithm)-1에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Hash 함수란?",
+      "answer": "A Merkle Tree (or hash tree) is a",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>SHA(Secure Hash Algorithm)-1에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 43,
+      "id": 44,
       "text": "Merkle Tree or Hash Tree에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "A Merkle Tree (or hash tree) is a",
+      "answer": "Git Generally Only Adds Data",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Merkle Tree or Hash Tree에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 44,
+      "id": 45,
       "text": "Git은 데이터를 지우지 않는다에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Git Generally Only Adds Data",
+      "answer": "The Three States",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git은 데이터를 지우지 않는다에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 45,
+      "id": 46,
       "text": "Git의 3가지 상태와 영역에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "The Three States",
+      "answer": "Command Line vs GUI",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git의 3가지 상태와 영역에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 46,
+      "id": 47,
       "text": "기본 Git Workflow에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Command Line vs GUI",
+      "answer": "Untracked",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>기본 Git Workflow에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 47,
+      "id": 48,
       "text": "파일의 생명주기에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "Untracked",
+      "answer": "명령어 Working Directory Staging Area Repository 의미",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>파일의 생명주기에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 48,
+      "id": 49,
       "text": "주요 명령어에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "명령어 Working Directory Staging Area Repository 의미",
+      "answer": "git branch",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>주요 명령어에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 49,
+      "id": 50,
       "text": "Git branch에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "git branch",
+      "answer": "SSH Key 생성 (Windows OpenSSH)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git branch에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 50,
+      "id": 51,
       "text": "Github 연결에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "SSH Key 생성 (Windows OpenSSH)",
+      "answer": "gitk --all : branch, merge 상태 확인",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Github 연결에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 51,
+      "id": 52,
       "text": "Git GUI에서 기억해야 할 기본 개념으로 맞는 것은?",
       "images": [],
-      "answer": "gitk --all : branch, merge 상태 확인",
+      "answer": "Version Control이란?",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>Git GUI에서 기억해야 할 기본 개념으로 맞는 것은?</div>"
     },
     {
-      "id": 52,
+      "id": 53,
       "text": "다음 설명과 가장 관련 깊은 주제는? Version Control System (VCS)",
       "images": [],
-      "answer": "Version Control이란?",
+      "answer": "Local Version Control System",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Version Control System (VCS)</div>"
     },
     {
-      "id": 53,
+      "id": 54,
       "text": "다음 설명과 가장 관련 깊은 주제는? 로컬 버전 관리 방식",
       "images": [],
-      "answer": "Local Version Control System",
+      "answer": "Centralized Version Control System (CVCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 로컬 버전 관리 방식</div>"
     },
     {
-      "id": 54,
+      "id": 55,
       "text": "다음 설명과 가장 관련 깊은 주제는? 중앙 집중형 버전 관리",
       "images": [],
-      "answer": "Centralized Version Control System (CVCS)",
+      "answer": "Distributed Version Control System (DVCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 중앙 집중형 버전 관리</div>"
     },
     {
-      "id": 55,
+      "id": 56,
       "text": "다음 설명과 가장 관련 깊은 주제는? 분산 버전 관리 시스템",
       "images": [],
       "answer": "Distributed Version Control System (DVCS)",
@@ -2805,25 +2806,25 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 분산 버전 관리 시스템</div>"
     },
     {
-      "id": 56,
+      "id": 57,
       "text": "다음 설명과 가장 관련 깊은 주제는? A Short History of Git",
       "images": [],
-      "answer": "Distributed Version Control System (DVCS)",
+      "answer": "Snapshots vs Deltas",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? A Short History of Git</div>"
     },
     {
-      "id": 57,
+      "id": 58,
       "text": "다음 설명과 가장 관련 깊은 주제는? < Storing data as changes to a base version of each file >",
       "images": [],
-      "answer": "Snapshots vs Deltas",
+      "answer": "Git 내부 동작 원리",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? &lt; Storing data as changes to a base version of each file &gt;</div>"
     },
     {
-      "id": 58,
+      "id": 59,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git is “Object Database”",
       "images": [],
       "answer": "Git 내부 동작 원리",
@@ -2832,61 +2833,61 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git is “Object Database”</div>"
     },
     {
-      "id": 59,
+      "id": 60,
       "text": "다음 설명과 가장 관련 깊은 주제는? Object의 식별",
       "images": [],
-      "answer": "Git 내부 동작 원리",
+      "answer": "Git의 locality 및 integrity",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Object의 식별</div>"
     },
     {
-      "id": 60,
+      "id": 61,
       "text": "다음 설명과 가장 관련 깊은 주제는? Nearly Every Operation Is Local",
       "images": [],
-      "answer": "Git의 locality 및 integrity",
+      "answer": "SHA(Secure Hash Algorithm)-1",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Nearly Every Operation Is Local</div>"
     },
     {
-      "id": 61,
+      "id": 62,
       "text": "다음 설명과 가장 관련 깊은 주제는? Hash 함수란?",
       "images": [],
-      "answer": "SHA(Secure Hash Algorithm)-1",
+      "answer": "Merkle Tree or Hash Tree",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Hash 함수란?</div>"
     },
     {
-      "id": 62,
+      "id": 63,
       "text": "다음 설명과 가장 관련 깊은 주제는? A Merkle Tree (or hash tree) is a",
       "images": [],
-      "answer": "Merkle Tree or Hash Tree",
+      "answer": "Git은 데이터를 지우지 않는다",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? A Merkle Tree (or hash tree) is a</div>"
     },
     {
-      "id": 63,
+      "id": 64,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git Generally Only Adds Data",
       "images": [],
-      "answer": "Git은 데이터를 지우지 않는다",
+      "answer": "Git의 3가지 상태와 영역",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git Generally Only Adds Data</div>"
     },
     {
-      "id": 64,
+      "id": 65,
       "text": "다음 설명과 가장 관련 깊은 주제는? The Three States",
       "images": [],
-      "answer": "Git의 3가지 상태와 영역",
+      "answer": "기본 Git Workflow",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? The Three States</div>"
     },
     {
-      "id": 65,
+      "id": 66,
       "text": "다음 설명과 가장 관련 깊은 주제는? Command Line vs GUI",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2895,7 +2896,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Command Line vs GUI</div>"
     },
     {
-      "id": 66,
+      "id": 67,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git Basics",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2904,7 +2905,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git Basics</div>"
     },
     {
-      "id": 67,
+      "id": 68,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git 저장소 얻는 방법 2가지",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2913,16 +2914,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git 저장소 얻는 방법 2가지</div>"
     },
     {
-      "id": 68,
+      "id": 69,
       "text": "다음 설명과 가장 관련 깊은 주제는? git clone (저장소 복제)",
       "images": [],
-      "answer": "기본 Git Workflow",
+      "answer": "파일의 생명주기",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? git clone (저장소 복제)</div>"
     },
     {
-      "id": 69,
+      "id": 70,
       "text": "다음 설명과 가장 관련 깊은 주제는? Untracked",
       "images": [],
       "answer": "파일의 생명주기",
@@ -2931,16 +2932,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Untracked</div>"
     },
     {
-      "id": 70,
+      "id": 71,
       "text": "다음 설명과 가장 관련 깊은 주제는? 초기 상태: ”git init” or ”git clone <url>”",
       "images": [],
-      "answer": "파일의 생명주기",
+      "answer": "기본 Git Workflow",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 초기 상태: ”git init” or ”git clone &lt;url&gt;”</div>"
     },
     {
-      "id": 71,
+      "id": 72,
       "text": "다음 설명과 가장 관련 깊은 주제는? git status",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2949,7 +2950,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? git status</div>"
     },
     {
-      "id": 72,
+      "id": 73,
       "text": "다음 설명과 가장 관련 깊은 주제는? Staging Modified Files",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2958,7 +2959,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Staging Modified Files</div>"
     },
     {
-      "id": 73,
+      "id": 74,
       "text": "다음 설명과 가장 관련 깊은 주제는? Staging modified files",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2967,7 +2968,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Staging modified files</div>"
     },
     {
-      "id": 74,
+      "id": 75,
       "text": "다음 설명과 가장 관련 깊은 주제는? .gitignore (버전관리 제외목록 지정)",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2976,7 +2977,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? .gitignore (버전관리 제외목록 지정)</div>"
     },
     {
-      "id": 75,
+      "id": 76,
       "text": "다음 설명과 가장 관련 깊은 주제는? 변경 내용 확인",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2985,7 +2986,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 변경 내용 확인</div>"
     },
     {
-      "id": 76,
+      "id": 77,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git commit",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -2994,7 +2995,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git commit</div>"
     },
     {
-      "id": 77,
+      "id": 78,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git 파일 이동",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -3003,16 +3004,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git 파일 이동</div>"
     },
     {
-      "id": 78,
+      "id": 79,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git commit --amend",
       "images": [],
-      "answer": "기본 Git Workflow",
+      "answer": "주요 명령어",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git commit --amend</div>"
     },
     {
-      "id": 79,
+      "id": 80,
       "text": "다음 설명과 가장 관련 깊은 주제는? 명령어 Working Directory Staging Area Repository 의미",
       "images": [],
       "answer": "주요 명령어",
@@ -3021,16 +3022,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 명령어 Working Directory Staging Area Repository 의미</div>"
     },
     {
-      "id": 80,
+      "id": 81,
       "text": "다음 설명과 가장 관련 깊은 주제는? 구분 명령어 Repository에 미치는 영향",
       "images": [],
-      "answer": "주요 명령어",
+      "answer": "기본 Git Workflow",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 구분 명령어 Repository에 미치는 영향</div>"
     },
     {
-      "id": 81,
+      "id": 82,
       "text": "다음 설명과 가장 관련 깊은 주제는? 원격 저장소 개념",
       "images": [],
       "answer": "기본 Git Workflow",
@@ -3039,16 +3040,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 원격 저장소 개념</div>"
     },
     {
-      "id": 82,
+      "id": 83,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git remote",
       "images": [],
-      "answer": "기본 Git Workflow",
+      "answer": "Git의 3가지 상태와 영역",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git remote</div>"
     },
     {
-      "id": 83,
+      "id": 84,
       "text": "다음 설명과 가장 관련 깊은 주제는? git fetch [<원격저장소명>[<브랜치명>]]",
       "images": [],
       "answer": "Git의 3가지 상태와 영역",
@@ -3057,16 +3058,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? git fetch [&lt;원격저장소명&gt;[&lt;브랜치명&gt;]]</div>"
     },
     {
-      "id": 84,
+      "id": 85,
       "text": "다음 설명과 가장 관련 깊은 주제는? 작업 내용 명령어 비고",
       "images": [],
-      "answer": "Git의 3가지 상태와 영역",
+      "answer": "Git branch",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 작업 내용 명령어 비고</div>"
     },
     {
-      "id": 85,
+      "id": 86,
       "text": "다음 설명과 가장 관련 깊은 주제는? git branch",
       "images": [],
       "answer": "Git branch",
@@ -3075,7 +3076,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? git branch</div>"
     },
     {
-      "id": 86,
+      "id": 87,
       "text": "다음 설명과 가장 관련 깊은 주제는? git merge",
       "images": [],
       "answer": "Git branch",
@@ -3084,7 +3085,7 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? git merge</div>"
     },
     {
-      "id": 87,
+      "id": 88,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git Merge의 핵심",
       "images": [],
       "answer": "Git branch",
@@ -3093,16 +3094,16 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git Merge의 핵심</div>"
     },
     {
-      "id": 88,
+      "id": 89,
       "text": "다음 설명과 가장 관련 깊은 주제는? 코드 작성시 요구사항",
       "images": [],
-      "answer": "Git branch",
+      "answer": "Github 연결",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 코드 작성시 요구사항</div>"
     },
     {
-      "id": 89,
+      "id": 90,
       "text": "다음 설명과 가장 관련 깊은 주제는? SSH Key 생성 (Windows OpenSSH)",
       "images": [],
       "answer": "Github 연결",
@@ -3111,70 +3112,70 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? SSH Key 생성 (Windows OpenSSH)</div>"
     },
     {
-      "id": 90,
+      "id": 91,
       "text": "다음 설명과 가장 관련 깊은 주제는? Git 원격 저장소 주소변경",
       "images": [],
-      "answer": "Github 연결",
+      "answer": "Git GUI",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Git 원격 저장소 주소변경</div>"
     },
     {
-      "id": 91,
+      "id": 92,
       "text": "다음 설명과 가장 관련 깊은 주제는? gitk --all : branch, merge 상태 확인",
       "images": [],
-      "answer": "Git GUI",
+      "answer": "”git init” or ”git clone <url>”",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? gitk --all : branch, merge 상태 확인</div>"
     },
     {
-      "id": 92,
+      "id": 93,
       "text": "초기 상태에 대한 설명으로 맞는 것은?",
       "images": [],
-      "answer": "”git init” or ”git clone <url>”",
+      "answer": "branch, merge 상태 확인",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>초기 상태에 대한 설명으로 맞는 것은?</div>"
     },
     {
-      "id": 93,
+      "id": 94,
       "text": "gitk --all에 대한 설명으로 맞는 것은?",
       "images": [],
-      "answer": "branch, merge 상태 확인",
+      "answer": "Version Control이란?",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>gitk --all에 대한 설명으로 맞는 것은?</div>"
     },
     {
-      "id": 94,
+      "id": 95,
       "text": "다음 설명과 가장 관련 깊은 주제는? 파일이나 프로젝트의 변경 이력을 기록하는 시스템",
       "images": [],
-      "answer": "Version Control이란?",
+      "answer": "Local Version Control System",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 파일이나 프로젝트의 변경 이력을 기록하는 시스템</div>"
     },
     {
-      "id": 95,
+      "id": 96,
       "text": "다음 설명과 가장 관련 깊은 주제는? 파일을 다른 디렉토리에 복사하는 방식",
       "images": [],
-      "answer": "Local Version Control System",
+      "answer": "Centralized Version Control System (CVCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 파일을 다른 디렉토리에 복사하는 방식</div>"
     },
     {
-      "id": 96,
+      "id": 97,
       "text": "다음 설명과 가장 관련 깊은 주제는? 예: CVS, Subversion, Perforce",
       "images": [],
-      "answer": "Centralized Version Control System (CVCS)",
+      "answer": "Distributed Version Control System (DVCS)",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 예: CVS, Subversion, Perforce</div>"
     },
     {
-      "id": 97,
+      "id": 98,
       "text": "다음 설명과 가장 관련 깊은 주제는? 예: Git, Mercurial, Darcs",
       "images": [],
       "answer": "Distributed Version Control System (DVCS)",
@@ -3183,30 +3184,31 @@
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? 예: Git, Mercurial, Darcs</div>"
     },
     {
-      "id": 98,
+      "id": 99,
       "text": "다음 설명과 가장 관련 깊은 주제는? Linux Kernel 개발 과정에서 시작",
       "images": [],
-      "answer": "Distributed Version Control System (DVCS)",
+      "answer": "Snapshots vs Deltas",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Linux Kernel 개발 과정에서 시작</div>"
     },
     {
-      "id": 99,
+      "id": 100,
       "text": "다음 설명과 가장 관련 깊은 주제는? < Storing data as snapshots of the project over time >",
       "images": [],
-      "answer": "Snapshots vs Deltas",
+      "answer": "Git 내부 동작 원리",
       "distractors": [],
       "quizType": "basic",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? &lt; Storing data as snapshots of the project over time &gt;</div>"
     },
     {
-      "id": 100,
+      "id": 101,
       "text": "다음 설명과 가장 관련 깊은 주제는? Blob(Binary large object): 파일 내용 저장",
       "images": [],
-      "answer": "Git 내부 동작 원리",
+      "answer": "",
       "distractors": [],
-      "quizType": "basic",
+      "quizType": "blank",
+      "type": "blank",
       "html": "<div>다음 설명과 가장 관련 깊은 주제는? Blob(Binary large object): 파일 내용 저장</div>"
     }
   ]
